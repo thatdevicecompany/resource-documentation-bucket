@@ -1,0 +1,60 @@
+|===
+|Path|Type|Description
+
+|`[].id`
+|`String`
+|The user identifier
+
+|`[].username`
+|`String`
+|The user username
+
+|`[].roles`
+|`Array`
+|the user roles
+
+|`[].scope`
+|`Object`
+|Scope object holding the access control for the user
+
+|`[].sponsees`
+|`Array`
+|user ID list of people who this user is sponsoring
+
+|`[].sponsors`
+|`Array`
+|user ID list of people who sponsors this user 
+
+|`[].scope.scopeOrganizationId`
+|`String`
+|ID of the organization that the user belongs to
+
+|`[].scope.scopeRegionId`
+|`String`
+|ID of the region that the user belongs to
+
+|`[].scope.scopeCampusId`
+|`String`
+|ID of the campus that the user belongs to
+
+|`[].scope.scopeFacilityId`
+|`String`
+|ID of the facility that the user belongs to
+
+|`[].createdBy`
+|`String`
+|The one who created the user
+
+|`[].createdTime`
+|`Long`
+|The time the user was created
+
+|`[].lastUpdatedTime`
+|`Long`
+|The time the user was updated
+
+|`[].updatedBy`
+|`String`
+|The one who updated the user
+
+|===
