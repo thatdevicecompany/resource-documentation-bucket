@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /users HTTP/1.1
+Authorization: Bearer: 00000000000000000000000000000000000000000
+Host: breezie.com
+
+----

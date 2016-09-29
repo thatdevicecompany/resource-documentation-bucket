@@ -1,0 +1,6 @@
+[source,bash]
+----
+$ echo '{
+  "username" : "new_name@breezie.com"
+}' | http PATCH 'https://breezie.com/users/049a13b2-4756-4f26-9312-8f932849d332' 'Authorization: Bearer:00000000000000000000000000000000000000000' 'Content-Type:application/json'
+----
