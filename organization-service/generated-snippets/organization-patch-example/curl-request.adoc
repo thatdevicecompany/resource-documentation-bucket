@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/organizations/78b219fb-0099-4171-b4c5-4fbfa1bd88dd' -i -X PATCH -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+  "name" : "Audi",
+  "country" : "Austria",
+  "demo" : false
+}'
+----

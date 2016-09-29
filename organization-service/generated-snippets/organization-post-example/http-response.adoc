@@ -1,0 +1,35 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 984
+
+{
+  "id" : "c9952de1-01fb-4881-853c-80ab6726a571",
+  "name" : "Breezie",
+  "country" : "UK",
+  "addressLine1" : "3 Loughborough Street",
+  "addressLine2" : "Nr. 15",
+  "zipCode" : "TW71AB",
+  "resourceScope" : {
+    "scopeOrganizationId" : "c9952de1-01fb-4881-853c-80ab6726a571",
+    "scopeRegionId" : null,
+    "scopeCampusId" : null,
+    "scopeFacilityId" : null,
+    "scopeUserId" : null
+  },
+  "demo" : false,
+  "disabled" : false,
+  "createdTime" : 1475167886008,
+  "lastUpdatedTime" : 1475167886008,
+  "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
+  "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
+}
+----

@@ -1,0 +1,442 @@
+[[resources-organization-list-retrieve]]
+=== Retrieve the list of all organizations
+
+A `GET` request will retrieve the details of all organizations
+
+==== Response structure
+
+include::{organizations-snippets}/organization-list-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/organization-list-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/organization-list-get-example/http-response.adoc[]
+
+
+
+[[resources-organization-retrieve]]
+=== Retrieve a single organization
+
+A `GET` request will retrieve the details of a single organization
+
+==== Response structure
+
+include::{organizations-snippets}/organization-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/organization-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/organization-get-example/http-response.adoc[]
+
+
+
+[[resources-organization-create]]
+=== Create an organization
+
+A `POST` will create a new organization
+
+==== Response structure
+
+include::{organizations-snippets}/organization-post-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/organization-post-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/organization-post-example/http-response.adoc[]
+
+
+
+[[resources-organization-update]]
+=== Update a organization
+
+A `PUT` request is used to update a organization
+
+==== Request structure
+
+===== Request body
+
+include::{organizations-snippets}/organization-update-example/request-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/organization-update-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/organization-update-example/http-response.adoc[]
+
+
+
+[[resources-organization-patch]]
+=== Patch a organization
+
+A `PATCH` will update some fields of a organization
+
+==== Response structure
+
+include::{organizations-snippets}/organization-patch-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/organization-patch-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/organization-patch-example/http-response.adoc[]
+
+[[resources-region-list-retrieve]]
+=== Retrieve the list of all regions
+
+A `GET` request will retrieve the details of all regions
+
+==== Response structure
+
+include::{organizations-snippets}/region-list-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/region-list-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-list-get-example/http-response.adoc[]
+
+
+
+[[resources-region-retrieve]]
+=== Retrieve a single region
+
+A `GET` request will retrieve the details of a single region
+
+==== Response structure
+
+include::{organizations-snippets}/region-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/region-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-get-example/http-response.adoc[]
+
+
+
+[[resources-region-create]]
+=== Create a region
+
+A `POST` will create a new region
+
+==== Request structure
+
+===== Request body
+
+include::{organizations-snippets}/region-post-example/request-fields.adoc[]
+
+==== Response structure
+
+include::{organizations-snippets}/region-post-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/region-post-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-post-example/http-response.adoc[]
+
+
+
+[[resources-region-update]]
+=== Update a region
+
+A `PUT` request is used to update a region
+
+==== Request structure
+
+===== Request body
+
+include::{organizations-snippets}/region-update-example/request-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/region-update-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-update-example/http-response.adoc[]
+
+
+
+[[resources-region-patch]]
+=== Patch a region
+
+A `PATCH` will update some fields of a region
+
+==== Response structure
+
+include::{organizations-snippets}/region-patch-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/region-patch-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-patch-example/http-response.adoc[]
+
+
+
+[[resources-region-delete]]
+=== Delete a region
+
+A `DELETE` will set the region state to deleted
+
+==== Example request
+
+include::{organizations-snippets}/region-delete-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/region-delete-example/http-response.adoc[]
+
+
+
+
+[[resources-campus-list-retrieve]]
+=== Retrieve the list of all campuses
+
+A `GET` request will retrieve the details of all campuses
+
+==== Response structure
+
+include::{organizations-snippets}/campus-list-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/campus-list-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-list-get-example/http-response.adoc[]
+
+
+
+
+[[resources-campus-retrieve]]
+=== Retrieve a single campus
+
+A `GET` request will retrieve the details of a single campus
+
+==== Response structure
+
+include::{organizations-snippets}/campus-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/campus-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-get-example/http-response.adoc[]
+
+
+
+[[resources-campus-create]]
+=== Create a campus
+
+A `POST` will create a new campus
+
+==== Response structure
+
+include::{organizations-snippets}/campus-post-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/campus-post-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-post-example/http-response.adoc[]
+
+
+
+
+[[resources-campus-update]]
+=== Update a campus
+
+A `PUT` request is used to update a campus
+
+==== Request structure
+
+===== Request body
+
+include::{organizations-snippets}/campus-update-example/request-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/campus-update-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-update-example/http-response.adoc[]
+
+
+
+[[resources-campus-patch]]
+=== Patch a campus
+
+A `PATCH` will update some fields of a campus
+
+==== Response structure
+
+include::{organizations-snippets}/campus-patch-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/campus-patch-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-patch-example/http-response.adoc[]
+
+
+
+[[resources-campus-delete]]
+=== Delete a campus
+
+A `DELETE` will set the campus state to deleted
+
+==== Example request
+
+include::{organizations-snippets}/campus-delete-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/campus-delete-example/http-response.adoc[]
+
+
+
+
+[[resources-facility-list-retrieve]]
+=== Retrieve the list of all facilities
+
+A `GET` request will retrieve the details of all facilities
+
+==== Response structure
+
+include::{organizations-snippets}/facility-list-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/facility-list-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-list-get-example/http-response.adoc[]
+
+
+
+
+[[resources-facility-retrieve]]
+=== Retrieve a single facility
+
+A `GET` request will retrieve the details of a single facility
+
+==== Response structure
+
+include::{organizations-snippets}/facility-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/facility-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-get-example/http-response.adoc[]
+
+
+
+[[resources-facility-create]]
+=== Create a facility
+
+A `POST` will create a new facility
+
+==== Response structure
+
+include::{organizations-snippets}/facility-post-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/facility-post-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-post-example/http-response.adoc[]
+
+
+
+
+[[resources-facility-update]]
+=== Update a facility
+
+A `PUT` request is used to update a facility
+
+==== Request structure
+
+===== Request body
+
+include::{organizations-snippets}/facility-update-example/request-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/facility-update-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-update-example/http-response.adoc[]
+
+
+
+
+[[resources-facility-patch]]
+=== Patch a facility
+
+A `PATCH` will update some fields of a facility
+
+==== Response structure
+
+include::{organizations-snippets}/facility-patch-example/response-fields.adoc[]
+
+==== Example request
+
+include::{organizations-snippets}/facility-patch-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-patch-example/http-response.adoc[]
+
+
+
+
+[[resources-facility-delete]]
+=== Delete a facility
+
+A `DELETE` will set the facility state to deleted
+
+==== Example request
+
+include::{organizations-snippets}/facility-delete-example/curl-request.adoc[]
+
+==== Example response
+
+include::{organizations-snippets}/facility-delete-example/http-response.adoc[]

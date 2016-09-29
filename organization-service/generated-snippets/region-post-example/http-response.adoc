@@ -1,0 +1,31 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 900
+
+{
+  "id" : "a39d8dab-f0e5-4472-b9eb-d44e8abb1266",
+  "name" : "Ohio",
+  "country" : "USA",
+  "resourceScope" : {
+    "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "scopeRegionId" : "a39d8dab-f0e5-4472-b9eb-d44e8abb1266",
+    "scopeCampusId" : null,
+    "scopeFacilityId" : null,
+    "scopeUserId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1475167892025,
+  "lastUpdatedTime" : 1475167892025,
+  "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
+  "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
+}
+----
