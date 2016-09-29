@@ -1,4 +1,3 @@
-[TEST III]
 The Users API is used for handling users in the Breezie system. A 'user' is a representation of authentication and authorization information of anyone who authenticates with the Breezie Platform. Creating, updating and deleting are the operations available from this API
 
 [[resources-users-list]]
