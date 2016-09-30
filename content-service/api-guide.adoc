@@ -1,0 +1,217 @@
+The Bookmarks api is used to create and list bookmarks. A Bookmark is a representation of a
+hyperlink to a resource or a web page, they are represented with a name, url, image and a description.
+A Bookmark is always assigned to a group.
+
+In the context of the Breezie client application, bookmarks appear on the StartScreen and within Interests application.
+They act as shortcuts to links on the web and are grouped within Categories in the interests by their category.
+
+[[resources-bookmarks-list]]
+=== Listing bookmarks
+
+A `GET` request will list all of the service's bookmarks.
+
+==== Response structure
+
+include::{content-snippets}/bookmarks-get-list/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/bookmarks-get-list/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-get-list/http-response.adoc[]
+
+[[resources-bookmarks-get]]
+=== Retrieve a Bookmark
+
+A `GET` request will retrieve a bookmark
+
+==== Response structure
+
+include::{content-snippets}/bookmarks-get/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/bookmarks-get/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-get/http-response.adoc[]
+
+
+[[resources-bookmarks-create]]
+=== Creating a bookmark
+
+A `POST` request is used to create a bookmark
+
+==== Request structure
+
+include::{content-snippets}/bookmarks-create/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/bookmarks-create/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-create/http-response.adoc[]
+
+[[resources-bookmarks-update]]
+=== Replace a bookmark
+
+A `PUT` request is used to update a bookmark
+
+==== Request structure
+
+include::{content-snippets}/bookmarks-update/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/bookmarks-update/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-update/http-response.adoc[]
+
+[[resources-bookmarks-patch]]
+=== Update a bookmark
+
+A `PATCH` request is used to update a bookmark
+
+==== Request structure
+
+include::{content-snippets}/bookmarks-patch/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/bookmarks-patch/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-patch/http-response.adoc[]
+
+[[resources-bookmarks-delete]]
+=== Delete a bookmark
+
+A `DELETE` request is used to update a bookmark
+
+==== Example request
+
+include::{content-snippets}/bookmarks-delete/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-delete/http-response.adoc[]
+
+[[groups-micro-service]]
+
+== Groups
+
+The Groups API is used to create and list groups. A group is a representation of a collection of
+items, be it a Bookmark, Application, Feed, Contact etc. One of the aforementioned resources will always belong to a group,
+therefore you can receive the content of a group once you know the groups information. Think of the Groups API as a collection of
+specific resources. The group itself also holds all of the access control for resources within it.
+
+In the context of a Breezie client application, groups will appear as categories within the Interests application, with their content
+appearing within each category.
+
+
+[[resources-groups-list]]
+=== Listing groups
+
+A `GET` request will list all of the service's groups.
+
+==== Response structure
+
+include::{content-snippets}/groups-get-list/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/groups-get-list/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-get-list/http-response.adoc[]
+
+[[resources-groups-get]]
+=== Retrieve a Group
+
+A `GET` request will retrieve a group
+
+==== Response structure
+
+include::{content-snippets}/groups-get/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/groups-get/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-get/http-response.adoc[]
+
+
+[[resources-groups-create]]
+=== Creating a group
+
+A `POST` request is used to create a group
+
+==== Request structure
+
+include::{content-snippets}/groups-create/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/groups-create/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-create/http-response.adoc[]
+
+[[resources-groups-update]]
+=== Replace a group
+
+A `PUT` request is used to update a group
+
+==== Request structure
+
+include::{content-snippets}/groups-update/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/groups-update/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-update/http-response.adoc[]
+
+[[resources-groups-patch]]
+=== Update a group
+
+A `PATCH` request is used to update a group
+
+==== Request structure
+
+include::{content-snippets}/groups-patch/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/groups-patch/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-patch/http-response.adoc[]
+
+[[resources-groups-delete]]
+=== Delete a group
+
+A `DELETE` request is used to update a group
+
+==== Example request
+
+include::{content-snippets}/groups-delete/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/groups-delete/http-response.adoc[]

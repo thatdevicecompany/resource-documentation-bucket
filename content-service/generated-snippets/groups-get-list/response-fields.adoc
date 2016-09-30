@@ -1,0 +1,64 @@
+|===
+|Path|Type|Description
+
+|`[].id`
+|`String`
+|Group identifier
+
+|`[].name`
+|`String`
+|Name of the group
+
+|`[].description`
+|`String`
+|A descriptive note related to the group
+
+|`[].imageUrl`
+|`String`
+|Image url or the group
+
+|`[].createdTime`
+|`Number`
+|Unix timestamp when the resource was created
+
+|`[].createdBy`
+|`String`
+|User who created the resource
+
+|`[].lastUpdatedTime`
+|`Number`
+|Unix timestamp when the resource was last updated
+
+|`[].updatedBy`
+|`String`
+|User who created the last updated the resource
+
+|`[].visible`
+|`Boolean`
+|Whether this group is visible to those in a more granular scope
+
+|`[].scope`
+|`Object`
+|Scope object holding the access control for the resource
+
+|`[].scope.scopeOrganizationId`
+|`String`
+|ID of the organization owning the group
+
+|`[].scope.scopeRegionId`
+|`String`
+|ID of the region owning the group
+
+|`[].scope.scopeFacilityId`
+|`String`
+|ID of the facility owning the group
+
+|`[].scope.scopeCampusId`
+|`String`
+|ID of the campus owning the group
+
+|`[].scope.scopeUserId`
+|`String`
+|ID of the user owning the group
+
+|===
