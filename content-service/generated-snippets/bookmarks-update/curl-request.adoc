@@ -1,9 +1,9 @@
 [source,bash]
 ----
 $ curl 'https://breezie.com/bookmarks/21210e6f-0457-4bff-aa74-74f9662d0d7d' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "createdTime" : 1475231832256,
+  "createdTime" : 1475504509913,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1475231834256,
+  "lastUpdatedTime" : 1475504511913,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
