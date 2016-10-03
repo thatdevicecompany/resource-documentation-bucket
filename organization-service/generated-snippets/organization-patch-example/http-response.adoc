@@ -28,7 +28,7 @@ Content-Length: 756
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1475167888124,
+  "lastUpdatedTime" : 1475512683548,
   "createdBy" : null,
   "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
 }

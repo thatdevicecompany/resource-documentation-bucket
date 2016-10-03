@@ -12,14 +12,14 @@ X-Frame-Options: DENY
 Content-Length: 984
 
 {
-  "id" : "c9952de1-01fb-4881-853c-80ab6726a571",
+  "id" : "bd76c3d1-2dfc-4025-9a06-d87b2eb5b2b6",
   "name" : "Breezie",
   "country" : "UK",
   "addressLine1" : "3 Loughborough Street",
   "addressLine2" : "Nr. 15",
   "zipCode" : "TW71AB",
   "resourceScope" : {
-    "scopeOrganizationId" : "c9952de1-01fb-4881-853c-80ab6726a571",
+    "scopeOrganizationId" : "bd76c3d1-2dfc-4025-9a06-d87b2eb5b2b6",
     "scopeRegionId" : null,
     "scopeCampusId" : null,
     "scopeFacilityId" : null,
@@ -27,8 +27,8 @@ Content-Length: 984
   },
   "demo" : false,
   "disabled" : false,
-  "createdTime" : 1475167886008,
-  "lastUpdatedTime" : 1475167886008,
+  "createdTime" : 1475512682471,
+  "lastUpdatedTime" : 1475512682471,
   "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
   "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
 }
