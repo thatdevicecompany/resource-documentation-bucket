@@ -1,0 +1,20 @@
+[source,bash]
+----
+$ echo '{
+  "firstName" : "James",
+  "lastName" : null,
+  "age" : null,
+  "phoneNumber" : null,
+  "gender" : null,
+  "religion" : null,
+  "username" : null,
+  "roles" : null,
+  "scope" : null,
+  "createdTime" : null,
+  "createdBy" : null,
+  "lastUpdatedTime" : null,
+  "updatedBy" : null,
+  "sponsors" : [ ],
+  "sponsees" : [ ]
+}' | http GET 'https://breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----
