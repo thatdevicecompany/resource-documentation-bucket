@@ -25,10 +25,6 @@
 |`String`
 |The organization zip code
 
-|`[].disabled`
-|`Boolean`
-|Flag indicating if the organization has been disabled or not
-
 |`[].demo`
 |`String`
 |Flag indicating if the organization is a demo one or not

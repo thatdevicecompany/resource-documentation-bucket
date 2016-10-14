@@ -29,13 +29,13 @@
 |`String`
 |Flag indicating if the organization is a demo one or not
 
-|`disabled`
-|`Boolean`
-|Flag indicating if the organization has been disabled or not
-
 |`createdBy`
 |`String`
 |The one who created the organization
+
+|`createdTime`
+|`Long`
+|The time the organization was created
 
 |`createdTime`
 |`Long`

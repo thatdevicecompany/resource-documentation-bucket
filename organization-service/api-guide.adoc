@@ -35,26 +35,6 @@ include::{organizations-snippets}/organization-get-example/curl-request.adoc[]
 include::{organizations-snippets}/organization-get-example/http-response.adoc[]
 
 
-
-[[resources-organization-create]]
-=== Create an organization
-
-A `POST` will create a new organization
-
-==== Response structure
-
-include::{organizations-snippets}/organization-post-example/response-fields.adoc[]
-
-==== Example request
-
-include::{organizations-snippets}/organization-post-example/curl-request.adoc[]
-
-==== Example response
-
-include::{organizations-snippets}/organization-post-example/http-response.adoc[]
-
-
-
 [[resources-organization-update]]
 === Update a organization
 
