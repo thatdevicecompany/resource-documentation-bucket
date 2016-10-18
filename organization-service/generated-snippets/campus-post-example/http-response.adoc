@@ -12,18 +12,18 @@ X-Frame-Options: DENY
 Content-Length: 919
 
 {
-  "id" : "70c94ff7-4af8-4f86-98be-a19ad8f70b72",
+  "id" : "2e53bb67-20de-4ddb-bed4-648a19148bf1",
   "name" : "Wellington",
   "resourceScope" : {
     "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "scopeRegionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "scopeCampusId" : "70c94ff7-4af8-4f86-98be-a19ad8f70b72",
+    "scopeCampusId" : "2e53bb67-20de-4ddb-bed4-648a19148bf1",
     "scopeFacilityId" : null,
     "scopeUserId" : null
   },
   "deleted" : false,
-  "createdTime" : 1476723686285,
-  "lastUpdatedTime" : 1476723686285,
+  "createdTime" : 1476778615626,
+  "lastUpdatedTime" : 1476778615626,
   "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
   "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
 }
