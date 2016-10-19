@@ -12,19 +12,19 @@ X-Frame-Options: DENY
 Content-Length: 900
 
 {
-  "id" : "006c400d-f6b7-4a08-8adf-114e9f57e59d",
+  "id" : "37ddb25a-9282-449b-964d-498a10f656e1",
   "name" : "Ohio",
   "country" : "USA",
   "resourceScope" : {
     "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "scopeRegionId" : "006c400d-f6b7-4a08-8adf-114e9f57e59d",
+    "scopeRegionId" : "37ddb25a-9282-449b-964d-498a10f656e1",
     "scopeCampusId" : null,
     "scopeFacilityId" : null,
     "scopeUserId" : null
   },
   "deleted" : false,
-  "createdTime" : 1476778617068,
-  "lastUpdatedTime" : 1476778617068,
+  "createdTime" : 1476883183197,
+  "lastUpdatedTime" : 1476883183197,
   "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
   "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
 }
