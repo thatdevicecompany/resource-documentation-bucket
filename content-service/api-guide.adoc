@@ -104,6 +104,111 @@ include::{content-snippets}/bookmarks-delete/curl-request.adoc[]
 
 include::{content-snippets}/bookmarks-delete/http-response.adoc[]
 
+The Applications api is used to create and list applications. A Application is a representation of a
+Android Play Store application, they are represented with a title, description, image and a package name.
+A Application is always assigned to a group.
+
+In the context of the Breezie client application, applications appear on the StartScreen and within Interests application.
+
+[[resources-applications-list]]
+=== Listing applications
+
+A `GET` request will list all of the service's applications.
+
+==== Response structure
+
+include::{content-snippets}/applications-get-list/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/applications-get-list/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-get-list/http-response.adoc[]
+
+[[resources-applications-get]]
+=== Retrieve a Application
+
+A `GET` request will retrieve a application
+
+==== Response structure
+
+include::{content-snippets}/applications-get/response-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/applications-get/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-get/http-response.adoc[]
+
+
+[[resources-applications-create]]
+=== Creating a application
+
+A `POST` request is used to create a application
+
+==== Request structure
+
+include::{content-snippets}/applications-create/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/applications-create/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-create/http-response.adoc[]
+
+[[resources-applications-update]]
+=== Replace a application
+
+A `PUT` request is used to update a application
+
+==== Request structure
+
+include::{content-snippets}/applications-update/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/applications-update/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-update/http-response.adoc[]
+
+[[resources-applications-patch]]
+=== Update a application
+
+A `PATCH` request is used to update a application
+
+==== Request structure
+
+include::{content-snippets}/applications-patch/request-fields.adoc[]
+
+==== Example request
+
+include::{content-snippets}/applications-patch/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-patch/http-response.adoc[]
+
+[[resources-applications-delete]]
+=== Delete a application
+
+A `DELETE` request is used to update a application
+
+==== Example request
+
+include::{content-snippets}/applications-delete/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/applications-delete/http-response.adoc[]
+
 [[groups-micro-service]]
 
 == Groups

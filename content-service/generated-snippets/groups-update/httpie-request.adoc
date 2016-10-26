@@ -11,12 +11,12 @@ $ echo '{
     "scopeFacilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "scopeUserId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1476804292515,
+  "createdTime" : 1477497463817,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1476804293515,
+  "lastUpdatedTime" : 1477497464817,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
   "default" : true
-}' | http PUT 'https://breezie.com/groups/5c265c34-7a63-49e9-afa6-4a93c31574d8' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://breezie.com/groups/ba2ac7e1-1cab-4f8c-9874-5c0a3c0127bc' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

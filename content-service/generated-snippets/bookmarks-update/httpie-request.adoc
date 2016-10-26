@@ -1,9 +1,9 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1476804280329,
+  "createdTime" : 1477497473999,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1476804282329,
+  "lastUpdatedTime" : 1477497475999,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",

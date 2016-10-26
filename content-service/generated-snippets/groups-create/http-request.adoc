@@ -17,9 +17,9 @@ Content-Length: 669
     "scopeFacilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "scopeUserId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1476804288969,
+  "createdTime" : 1477497461000,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1476804289969,
+  "lastUpdatedTime" : 1477497462000,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
