@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1100
 
 {
-  "id" : "58fd9f0a-4768-46ac-9e1d-51f47450d43a",
+  "id" : "e0960744-1b44-4185-8b4e-a660a44c1e60",
   "name" : "Robertson",
   "addressLine1" : "Dowson Lake street nr 5",
   "addressLine2" : "Floor nr. 4",
@@ -23,12 +23,12 @@ Content-Length: 1100
     "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "scopeRegionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "scopeCampusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "scopeFacilityId" : "58fd9f0a-4768-46ac-9e1d-51f47450d43a",
+    "scopeFacilityId" : "e0960744-1b44-4185-8b4e-a660a44c1e60",
     "scopeUserId" : null
   },
   "deleted" : false,
-  "createdTime" : 1477992929434,
-  "lastUpdatedTime" : 1477992929434,
+  "createdTime" : 1477997179706,
+  "lastUpdatedTime" : 1477997179706,
   "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
   "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
 }
