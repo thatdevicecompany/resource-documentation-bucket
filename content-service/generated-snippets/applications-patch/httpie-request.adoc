@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ echo '{
-  "title" : "Summer Gardening",
-  "description" : "Helpful app, informing you when best to water those flowers"
-}' | http PATCH 'https://breezie.com/applications/21210e6f-0457-4bff-aa74-74f9662d0d7d' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
-----
