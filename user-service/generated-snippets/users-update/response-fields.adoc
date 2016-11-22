@@ -21,9 +21,17 @@
 |`String`
 |Phone number of the user
 
-|`age`
+|`dob`
 |`Number`
-|Age of the user
+|Date of birth of the user
+
+|`familiarity`
+|`String`
+|Familiarity of the user
+
+|`welcomeNote`
+|`String`
+|Welcome note of the user
 
 |`gender`
 |`String`
@@ -33,24 +41,24 @@
 |`String`
 |Religion of the user
 
-|`scope.scopeOrganizationId`
+|`scope.organizationId`
 |`String`
 |ID of the organization that the user belongs to
 
-|`scope.scopeRegionId`
+|`scope.regionId`
 |`String`
 |ID of the region that the user belongs to
 
-|`scope.scopeCampusId`
+|`scope.campusId`
 |`String`
 |ID of the campus that the user belongs to
 
-|`scope.scopeFacilityId`
+|`scope.facilityId`
 |`String`
 |ID of the facility that the user belongs to
 
-|`scope.scopeUserId`
-|`String`
+|`scope.userId`
+|`Null`
 |ID of the user who created the user
 
 |`roles`
