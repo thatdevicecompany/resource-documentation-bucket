@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`title`
+|`String`
+|Title of the application
+
+|`description`
+|`String`
+|Description or the application
+
+|`productId`
+|`String`
+|Package Name of the application
+
+|`iconUrl`
+|`String`
+|Image for the icon of the application
+
+|`smallIconUrl`
+|`String`
+|Small image for the icon of the application (128 * 128)
+
+|`groupId`
+|`String`
+|ID of the group in which this application belongs
+
+|===

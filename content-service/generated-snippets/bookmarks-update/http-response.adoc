@@ -1,0 +1,26 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 388
+
+{
+  "createdTime" : 1479990720789,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1479990722789,
+  "updatedBy" : "James Mitchell",
+  "id" : "503af9c2-d7e5-4656-802b-6671a26fc3ee",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "a9ba2878-fd38-462d-a456-f09126ce727b"
+}
+----
