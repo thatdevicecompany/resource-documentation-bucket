@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 690
+Content-Length: 475
 
 {
   "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
@@ -24,8 +24,8 @@ Content-Length: 690
   },
   "deleted" : false,
   "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1479827528507,
+  "lastUpdatedTime" : 1480615241626,
   "createdBy" : "user",
-  "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
+  "updatedBy" : "user"
 }
 ----

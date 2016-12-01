@@ -9,22 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 919
+Content-Length: 489
 
 {
-  "id" : "daa24ebc-9652-41ce-bf8c-b86bf834b852",
+  "id" : "86757661-1156-4258-84aa-ca4a8c7e516a",
   "name" : "Wellington",
   "resourceScope" : {
     "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "scopeRegionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "scopeCampusId" : "daa24ebc-9652-41ce-bf8c-b86bf834b852",
+    "scopeCampusId" : "86757661-1156-4258-84aa-ca4a8c7e516a",
     "scopeFacilityId" : null,
     "scopeUserId" : null
   },
   "deleted" : false,
-  "createdTime" : 1479827526298,
-  "lastUpdatedTime" : 1479827526298,
-  "createdBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW",
-  "updatedBy" : "org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_BW"
+  "createdTime" : 1480615240461,
+  "lastUpdatedTime" : 1480615240461,
+  "createdBy" : "user",
+  "updatedBy" : "user"
 }
 ----
