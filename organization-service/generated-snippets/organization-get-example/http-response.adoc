@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 553
+Content-Length: 582
 
 {
   "id" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
@@ -30,6 +30,7 @@ Content-Length: 553
   "createdTime" : null,
   "lastUpdatedTime" : 1468920608549,
   "createdBy" : null,
-  "updatedBy" : "user"
+  "updatedBy" : "user",
+  "validCredentials" : true
 }
 ----
