@@ -1,0 +1,6 @@
+[source,http,options="nowrap"]
+----
+DELETE /organizations/aaaaaaaa-703a-49b3-8670-b91c67f48e1e HTTP/1.1
+Host: breezie.com
+
+----

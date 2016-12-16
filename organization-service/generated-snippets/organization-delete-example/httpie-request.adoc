@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http DELETE 'https://breezie.com/organizations/aaaaaaaa-703a-49b3-8670-b91c67f48e1e'
+----

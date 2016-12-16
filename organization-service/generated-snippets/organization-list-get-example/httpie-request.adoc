@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'https://breezie.com/organizations' 'Accept:application/json'
+----

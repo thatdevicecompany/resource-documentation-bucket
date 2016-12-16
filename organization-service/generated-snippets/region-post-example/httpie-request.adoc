@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Ohio",
+  "country" : "USA",
+  "resourceScope" : {
+    "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f"
+  },
+  "deleted" : false
+}' | http --form POST 'https://breezie.com/regions' 'Accept:application/json' 'Content-Type:application/json'
+----

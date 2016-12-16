@@ -1,0 +1,56 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|The campus id
+
+|`name`
+|`String`
+|The name of the campus
+
+|`deleted`
+|`String`
+|Flag indicating if the campus was deleted or not
+
+|`createdBy`
+|`String`
+|The one who created the campus
+
+|`createdTime`
+|`Long`
+|The time the campus was created
+
+|`lastUpdatedTime`
+|`Long`
+|The time the campus was updated
+
+|`updatedBy`
+|`String`
+|The one who updated the campus
+
+|`resourceScope`
+|`Object`
+|The scope object for this campus
+
+|`resourceScope.scopeOrganizationId`
+|`String`
+|The organization scope id
+
+|`resourceScope.scopeRegionId`
+|`String`
+|The region scope id
+
+|`resourceScope.scopeCampusId`
+|`String`
+|The campus scope id
+
+|`resourceScope.scopeFacilityId`
+|`String`
+|The facility scope id
+
+|`resourceScope.scopeUserId`
+|`String`
+|The user scope id
+
+|===
