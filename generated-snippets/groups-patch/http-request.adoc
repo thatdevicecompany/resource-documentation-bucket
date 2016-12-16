@@ -1,0 +1,13 @@
+[source,http,options="nowrap"]
+----
+PATCH /groups/89113657-59c3-4ff6-b2a6-011aea4d024f HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json
+Host: breezie.com
+Content-Length: 102
+
+{
+  "name" : "Summer Gardening",
+  "description" : "A group for those intersted in summer gardening"
+}
+----

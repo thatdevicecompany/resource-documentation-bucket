@@ -1,0 +1,14 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/bookmarks/a192d17b-e45c-4f0a-8e76-c5069cea4848' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+  "createdTime" : 1481892011085,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1481892013085,
+  "updatedBy" : "James Mitchell",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "b77b229c-d7bf-41f8-beac-af6e122aa415"
+}'
+----

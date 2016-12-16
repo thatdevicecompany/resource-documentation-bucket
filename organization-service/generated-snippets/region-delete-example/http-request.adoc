@@ -1,6 +1,0 @@
-[source,http,options="nowrap"]
-----
-DELETE /regions/dd6662eb-111b-40b2-8480-aab7fdb1c80f HTTP/1.1
-Host: breezie.com
-
-----

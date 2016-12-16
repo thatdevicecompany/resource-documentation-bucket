@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET /users/eb35abd1-a7bd-443c-8dca-ef28887cea93 HTTP/1.1
-Authorization: Bearer: 00000000000000000000000000000000000000000
-Host: breezie.com
-
-----
