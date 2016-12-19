@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'https://breezie.com/users/eb35abd1-a7bd-443c-8dca-ef28887cea93' 'Authorization: Bearer:00000000000000000000000000000000000000000'
-----
