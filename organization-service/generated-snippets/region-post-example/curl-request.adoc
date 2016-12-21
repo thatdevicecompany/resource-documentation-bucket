@@ -4,7 +4,7 @@ $ curl 'https://breezie.com/regions' -i -X POST -H 'Accept: application/json' -H
   "name" : "Ohio",
   "country" : "USA",
   "resourceScope" : {
-    "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f"
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f"
   },
   "deleted" : false
 }'

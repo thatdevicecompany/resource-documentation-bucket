@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 662
+Content-Length: 637
 
 {
   "id" : "6uw8i21-b535-49e1-b565-78eec7154e25",
@@ -20,15 +20,15 @@ Content-Length: 662
   "country" : "UK",
   "zipCode" : "SW2 1QW",
   "resourceScope" : {
-    "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "scopeRegionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "scopeCampusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "scopeFacilityId" : "6uw8i21-b535-49e1-b565-78eec7154e25",
-    "scopeUserId" : null
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "facilityId" : "6uw8i21-b535-49e1-b565-78eec7154e25",
+    "userId" : null
   },
   "deleted" : false,
   "createdTime" : 1468919272789,
-  "lastUpdatedTime" : 1481900818109,
+  "lastUpdatedTime" : 1482328284832,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

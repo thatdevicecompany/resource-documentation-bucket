@@ -53,23 +53,23 @@
 |`Object`
 |The scope object for this facility
 
-|`resourceScope.scopeOrganizationId`
+|`resourceScope.organizationId`
 |`String`
 |The organization scope id
 
-|`resourceScope.scopeRegionId`
+|`resourceScope.regionId`
 |`String`
 |The region scope id
 
-|`resourceScope.scopeCampusId`
+|`resourceScope.campusId`
 |`String`
 |The campus scope id
 
-|`resourceScope.scopeFacilityId`
+|`resourceScope.facilityId`
 |`String`
 |The facility scope id
 
-|`resourceScope.scopeUserId`
+|`resourceScope.userId`
 |`String`
 |The user scope id
 

@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 570
+Content-Length: 545
 
 {
   "id" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
@@ -19,16 +19,16 @@ Content-Length: 570
   "addressLine2" : "Floor 3",
   "zipCode" : "9AS 7U1",
   "resourceScope" : {
-    "scopeOrganizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "scopeRegionId" : null,
-    "scopeCampusId" : null,
-    "scopeFacilityId" : null,
-    "scopeUserId" : null
+    "regionId" : null,
+    "campusId" : null,
+    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
+    "facilityId" : null,
+    "userId" : null
   },
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1481900835922,
+  "lastUpdatedTime" : 1482328292315,
   "createdBy" : null,
   "updatedBy" : "user",
   "validCredentials" : true

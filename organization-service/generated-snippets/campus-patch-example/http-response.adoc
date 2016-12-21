@@ -9,21 +9,21 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 493
+Content-Length: 468
 
 {
   "id" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
   "name" : "Lindton Center",
   "resourceScope" : {
-    "scopeOrganizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "scopeRegionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "scopeCampusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "scopeFacilityId" : null,
-    "scopeUserId" : null
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "facilityId" : null,
+    "userId" : null
   },
   "deleted" : false,
   "createdTime" : 1468934616500,
-  "lastUpdatedTime" : 1481900824433,
+  "lastUpdatedTime" : 1482328289335,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
