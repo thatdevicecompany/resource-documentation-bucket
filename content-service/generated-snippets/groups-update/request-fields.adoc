@@ -17,23 +17,23 @@
 |`Object`
 |Scope object holding the access control for the resource
 
-|`scope.scopeOrganizationId`
+|`scope.organizationId`
 |`String`
 |ID of the organization owning the group
 
-|`scope.scopeRegionId`
+|`scope.regionId`
 |`String`
 |ID of the region owning the group
 
-|`scope.scopeFacilityId`
+|`scope.facilityId`
 |`String`
 |ID of the facility owning the group
 
-|`scope.scopeCampusId`
+|`scope.campusId`
 |`String`
 |ID of the campus owning the group
 
-|`scope.scopeUserId`
+|`scope.userId`
 |`String`
 |ID of the user owning the group
 
