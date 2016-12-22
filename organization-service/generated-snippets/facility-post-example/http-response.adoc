@@ -1,0 +1,35 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 645
+
+{
+  "id" : "9c7a5b5c-2483-46fd-b82a-932623c56855",
+  "name" : "Robertson",
+  "addressLine1" : "Dowson Lake street nr 5",
+  "addressLine2" : "Floor nr. 4",
+  "city" : "Detroit",
+  "country" : "USA",
+  "zipCode" : "Z16 I9Q",
+  "resourceScope" : {
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "facilityId" : "9c7a5b5c-2483-46fd-b82a-932623c56855",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1482411206637,
+  "lastUpdatedTime" : 1482411206637,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}
+----

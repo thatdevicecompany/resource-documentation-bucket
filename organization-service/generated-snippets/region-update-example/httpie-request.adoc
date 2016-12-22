@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Maramures",
+  "country" : "Romania"
+}' | http PUT 'https://breezie.com/regions/ee99aed2-acb8-4559-a1c3-e605ea3a653b' 'Accept:application/json' 'Content-Type:application/json'
+----
