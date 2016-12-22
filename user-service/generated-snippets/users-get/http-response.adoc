@@ -16,7 +16,7 @@ Content-Length: 785
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1482164269799,
+  "dob" : 1482430969305,
   "phoneNumber" : "071234567",
   "gender" : "Male",
   "religion" : "Atheist",
