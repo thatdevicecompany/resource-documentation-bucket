@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-DELETE /users/4809459f-3d27-46fd-8a59-b6b8204d2838 HTTP/1.1
-Authorization: Bearer: 00000000000000000000000000000000000000000
-Host: breezie.com
-
-----

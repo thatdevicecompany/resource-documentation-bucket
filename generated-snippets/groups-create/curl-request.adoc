@@ -5,15 +5,15 @@ $ curl 'https://breezie.com/groups' -i -X POST -H 'Authorization: Bearer: 0b79ba
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
-    "scopeOrganizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "scopeRegionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "scopeCampusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "scopeFacilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "scopeUserId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1481892014017,
+  "createdTime" : 1482364621248,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1481892015017,
+  "lastUpdatedTime" : 1482364622248,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
