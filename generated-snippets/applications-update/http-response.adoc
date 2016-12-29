@@ -12,16 +12,16 @@ X-Frame-Options: DENY
 Content-Length: 493
 
 {
-  "createdTime" : 1482420045976,
+  "createdTime" : 1483005017095,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1482420047976,
+  "lastUpdatedTime" : 1483005019095,
   "updatedBy" : "James Mitchell",
-  "id" : "aab62ef4-344a-401b-b039-caa15da2ad84",
+  "id" : "60dd5680-0822-48af-a479-84bdd8fb3ac1",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "772a0139-b9c1-42e4-af15-be70f136dec2"
+  "groupId" : "1e4d04ad-f443-4fef-b273-aba8a81d0c02"
 }
 ----

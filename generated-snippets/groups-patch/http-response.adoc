@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 706
 
 {
-  "id" : "92df98f4-b909-48cc-b91a-4f720bbcb007",
+  "id" : "47a3bb52-141c-4dc5-9f4e-db634b4a805a",
   "name" : "Summer Gardening",
   "description" : "A group for those intersted in summer gardening",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -23,9 +23,9 @@ Content-Length: 706
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1482420061165,
+  "createdTime" : 1483005031229,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1482420062165,
+  "lastUpdatedTime" : 1483005032229,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
