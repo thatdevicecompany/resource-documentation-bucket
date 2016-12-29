@@ -28,7 +28,7 @@ Content-Length: 547
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1482363647399,
+  "lastUpdatedTime" : 1483015920242,
   "createdBy" : null,
   "updatedBy" : "user",
   "validCredentials" : true
