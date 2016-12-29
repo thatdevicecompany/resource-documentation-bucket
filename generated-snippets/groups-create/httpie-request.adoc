@@ -11,9 +11,9 @@ $ echo '{
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1483005030545,
+  "createdTime" : 1483008110758,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1483005031545,
+  "lastUpdatedTime" : 1483008111758,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
