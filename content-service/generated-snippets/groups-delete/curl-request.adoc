@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/groups/a930349b-1266-4864-bb60-fc1836ed6512' -i -X DELETE -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+$ curl 'https://breezie.com/groups/4c3dfd87-3392-4408-a285-b51937d98a53' -i -X DELETE -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
