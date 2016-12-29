@@ -1,14 +1,14 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1483008108226,
+  "createdTime" : 1483016737150,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1483008110226,
+  "lastUpdatedTime" : 1483016739150,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "6a43daf3-463c-4cdb-b18b-daadf8b18c49"
-}' | http PUT 'https://breezie.com/bookmarks/813ff879-de61-4d1b-99cc-ed9ce1efeb9b' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+  "groupId" : "5dc65c3d-bd3d-447b-941b-5bb82015a952"
+}' | http PUT 'https://breezie.com/bookmarks/e9222aca-e39e-4185-a5ba-c2ed1e15b689' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----
