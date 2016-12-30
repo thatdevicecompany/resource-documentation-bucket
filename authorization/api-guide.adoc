@@ -1,0 +1,87 @@
+The Users API is used for handling users in the Breezie system. A 'user' is a representation of authentication and authorization information of anyone who authenticates with the Breezie Platform. Creating, updating and deleting are the operations available from this API
+
+[[resources-users-list]]
+=== Listing users
+
+A `GET` request will list all of the service's users.
+
+==== Response structure
+
+include::{auth-snippets}/users-get-list/response-fields.adoc[]
+
+==== Example request
+
+include::{auth-snippets}/users-get-list/curl-request.adoc[]
+
+==== Example response
+
+include::{auth-snippets}/users-get-list/http-response.adoc[]
+
+[[resources-users-get]]
+=== Retrieve a User
+
+A `GET` request will retrieve a user
+
+==== Response structure
+
+include::{auth-snippets}/users-get/response-fields.adoc[]
+
+==== Example request
+
+include::{auth-snippets}/users-get/curl-request.adoc[]
+
+==== Example response
+
+include::{auth-snippets}/users-get/http-response.adoc[]
+
+
+[[resources-users-create]]
+=== Creating a user
+
+A `POST` request is used to create a user
+
+==== Request structure
+
+include::{auth-snippets}/users-post/request-fields.adoc[]
+
+==== Example request
+
+include::{auth-snippets}/users-post/curl-request.adoc[]
+
+==== Example response
+
+include::{auth-snippets}/users-post/http-response.adoc[]
+
+[[resources-users-update]]
+=== Replace a user
+
+A `PUT` request is used to update a user
+
+==== Request structure
+
+include::{auth-snippets}/users-update/request-fields.adoc[]
+
+==== Example request
+
+include::{auth-snippets}/users-update/curl-request.adoc[]
+
+==== Example response
+
+include::{auth-snippets}/users-update/http-response.adoc[]
+
+[[resources-users-patch]]
+=== Update a user
+
+A `PATCH` request is used to update a user
+
+==== Request structure
+
+include::{auth-snippets}/users-patch/request-fields.adoc[]
+
+==== Example request
+
+include::{auth-snippets}/users-patch/curl-request.adoc[]
+
+==== Example response
+
+include::{auth-snippets}/users-patch/http-response.adoc[]
