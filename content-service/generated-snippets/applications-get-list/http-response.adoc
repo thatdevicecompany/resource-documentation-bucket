@@ -12,21 +12,9 @@ X-Frame-Options: DENY
 Content-Length: 1017
 
 [ {
-  "createdTime" : 1483021786903,
+  "createdTime" : 1483942672475,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1483021788903,
-  "updatedBy" : "James Mitchell",
-  "id" : "d61e7448-33af-4ce8-aa62-8128d7618656",
-  "title" : "Gardening",
-  "description" : "Helpful app, informing you when best to water those flowers",
-  "productId" : "co.uk.demo.gardening",
-  "iconUrl" : "https://www.gardening.com/image",
-  "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "91b0b266-f66a-4b9d-b52b-65cc115a5a6e"
-}, {
-  "createdTime" : 1483021786998,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1483021788998,
+  "lastUpdatedTime" : 1483942674475,
   "updatedBy" : "James Mitchell",
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "title" : "Winter Gardening",
@@ -34,6 +22,18 @@ Content-Length: 1017
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "91b0b266-f66a-4b9d-b52b-65cc115a5a6e"
+  "groupId" : "4baf0453-b118-45e0-bf4e-814b756cdf72"
+}, {
+  "createdTime" : 1483942672343,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1483942674343,
+  "updatedBy" : "James Mitchell",
+  "id" : "9733b28a-6808-4fdc-a716-72d253692564",
+  "title" : "Gardening",
+  "description" : "Helpful app, informing you when best to water those flowers",
+  "productId" : "co.uk.demo.gardening",
+  "iconUrl" : "https://www.gardening.com/image",
+  "smallIconUrl" : "https://www.gardening.com/image/small",
+  "groupId" : "4baf0453-b118-45e0-bf4e-814b756cdf72"
 } ]
 ----
