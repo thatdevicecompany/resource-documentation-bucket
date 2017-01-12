@@ -12,19 +12,19 @@ X-Frame-Options: DENY
 Content-Length: 445
 
 {
-  "id" : "d39a0645-f837-4f41-8cbc-088d7bf0554d",
+  "id" : "e3e7da4a-ffc0-4a31-8133-0350b787c68b",
   "name" : "Ohio",
   "country" : "USA",
   "resourceScope" : {
-    "regionId" : "d39a0645-f837-4f41-8cbc-088d7bf0554d",
+    "regionId" : "e3e7da4a-ffc0-4a31-8133-0350b787c68b",
     "campusId" : null,
-    "facilityId" : null,
     "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "facilityId" : null,
     "userId" : null
   },
   "deleted" : false,
-  "createdTime" : 1483944441476,
-  "lastUpdatedTime" : 1483944441476,
+  "createdTime" : 1484220555421,
+  "lastUpdatedTime" : 1484220555421,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
