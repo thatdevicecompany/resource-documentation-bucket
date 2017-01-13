@@ -15,15 +15,15 @@ Content-Length: 471
   "id" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
   "name" : "John Kresse Court",
   "resourceScope" : {
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "facilityId" : null,
     "userId" : null
   },
   "deleted" : false,
   "createdTime" : 1468934616500,
-  "lastUpdatedTime" : 1484220551817,
+  "lastUpdatedTime" : 1484315470235,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
