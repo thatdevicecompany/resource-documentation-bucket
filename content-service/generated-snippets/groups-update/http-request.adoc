@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /groups/d7886dd0-d25a-4f18-bee5-931e1da55bbb HTTP/1.1
+PUT /groups/64f4b8c6-f93a-4c50-bbaf-531916f2a307 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: breezie.com
@@ -17,9 +17,9 @@ Content-Length: 644
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1485165528332,
+  "createdTime" : 1485170746237,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1485165529332,
+  "lastUpdatedTime" : 1485170747237,
   "updatedBy" : "James Mitchel",
   "promote" : false,
   "visible" : true,
