@@ -1,21 +1,22 @@
 [source,http,options="nowrap"]
 ----
-PUT /applications/04607344-b0fe-4714-a568-21d373cfffdc HTTP/1.1
+PUT /applications/9059ef4a-e01f-447e-85ee-ebb9fa0c58f0 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: breezie.com
-Content-Length: 444
+Content-Length: 465
 
 {
-  "createdTime" : 1485170723462,
+  "createdTime" : 1485442813858,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1485170725462,
+  "lastUpdatedTime" : 1485442815858,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "1b99bc70-5265-4a62-bd98-568a7dfa470a"
+  "groupId" : "fa467bcf-2562-4afa-9052-68ac49c32bb8",
+  "promote" : false
 }
 ----

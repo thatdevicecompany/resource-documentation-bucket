@@ -21,6 +21,10 @@
 |`String`
 |ID of the group in which this bookmark belongs
 
+|`promote`
+|`String`
+|Whether this bookmark should be promoted on StartScreen
+
 |`createdTime`
 |`Long`
 |Unix timestamp when the resource was created

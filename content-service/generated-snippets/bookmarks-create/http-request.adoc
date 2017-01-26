@@ -4,17 +4,18 @@ POST /bookmarks HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: breezie.com
-Content-Length: 339
+Content-Length: 360
 
 {
-  "createdTime" : 1485170733706,
+  "createdTime" : 1485442826150,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1485170735706,
+  "lastUpdatedTime" : 1485442828150,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "c9afaad7-ca6d-4a70-bd7f-6e670c51bc0e"
+  "groupId" : "05fee593-8679-43a5-9509-6d81c8b6fca2",
+  "promote" : false
 }
 ----

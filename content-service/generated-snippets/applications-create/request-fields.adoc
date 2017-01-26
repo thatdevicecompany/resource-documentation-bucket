@@ -25,4 +25,8 @@
 |`String`
 |ID of the group in which this application belongs
 
+|`promote`
+|`Boolean`
+|Whether this application should be promoted on StartScreen
+
 |===
