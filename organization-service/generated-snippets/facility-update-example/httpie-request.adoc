@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Carltons Court",
+  "addressLine1" : "Park Hill road",
+  "addressLine2" : "Floor nr. 6",
+  "city" : "London",
+  "country" : "UK",
+  "zipCode" : "SW2 1QW"
+}' | http PUT 'https://breezie.com/facilities/6uw8i21-b535-49e1-b565-78eec7154e25' 'Accept:application/json' 'Content-Type:application/json'
+----

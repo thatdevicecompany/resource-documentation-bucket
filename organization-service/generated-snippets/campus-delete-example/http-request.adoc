@@ -1,0 +1,6 @@
+[source,http,options="nowrap"]
+----
+DELETE /campuses/a994decc-1609-44af-b438-623c7224f4de HTTP/1.1
+Host: breezie.com
+
+----
