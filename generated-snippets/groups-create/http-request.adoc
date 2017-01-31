@@ -4,7 +4,7 @@ POST /groups HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: breezie.com
-Content-Length: 644
+Content-Length: 646
 
 {
   "name" : "Gardening",
@@ -17,12 +17,12 @@ Content-Length: 644
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1484223736920,
+  "createdTime" : 1485876362066,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1484223737920,
+  "lastUpdatedTime" : 1485876363066,
   "updatedBy" : "James Mitchel",
+  "isDefault" : true,
   "promote" : false,
-  "visible" : true,
-  "default" : true
+  "visible" : true
 }
 ----
