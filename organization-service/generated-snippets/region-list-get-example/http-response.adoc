@@ -16,9 +16,9 @@ Content-Length: 925
   "name" : "Baden-Wurttenberg",
   "country" : "Germany",
   "resourceScope" : {
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "regionId" : "dd6662eb-111b-40b2-8480-aab7fdb1c80f",
     "campusId" : null,
+    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "facilityId" : null,
     "userId" : null
   },
@@ -32,9 +32,9 @@ Content-Length: 925
   "name" : "Auckland",
   "country" : "New Zealand",
   "resourceScope" : {
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : null,
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "facilityId" : null,
     "userId" : null
   },
