@@ -22,12 +22,12 @@ X-Frame-Options: DENY
     "timeFormat" : "YYYY-MM-DD"
   },
   "region" : "UK",
-  "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
   "volume" : 50,
+  "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
   "screenBrightness" : 7,
   "allowMicrophone" : true,
-  "screenTimeout" : 60,
   "enableCamera" : true,
+  "screenTimeout" : 60,
   "deviceId" : "9a67fb73-f44c-4ac7-a7e2-186bf6569711",
   "version" : "1.0"
 }

@@ -12,14 +12,14 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 {
-  "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
   "volume" : 50,
+  "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
   "screenBrightness" : 7,
-  "schemaUri" : "/schemas/actual_schema_breezie",
   "allowMicrophone" : true,
-  "screenTimeout" : 60,
+  "schemaUri" : "/schemas/actual_schema_breezie",
   "enableCamera" : true,
-  "version" : "1.0",
-  "userId" : "067e6162-3b6f-4ae2-a171-2470b63dff00"
+  "screenTimeout" : 60,
+  "userId" : "067e6162-3b6f-4ae2-a171-2470b63dff00",
+  "version" : "1.0"
 }
 ----
