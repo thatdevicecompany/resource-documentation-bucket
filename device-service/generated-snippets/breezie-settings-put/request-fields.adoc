@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`usbDebugging`
+|`Boolean`
+|boolean property example
+
+|`allowFactoryReset`
+|`Boolean`
+|boolean property example
+
+|`allowDeviceAdminRemoval`
+|`Boolean`
+|boolean property example
+
+|`allowBreezieAppRemoval`
+|`Array`
+|Array property example
+
+|`disableApps`
+|`Array`
+|Array property example
+
+|`manualTime`
+|`Object`
+|property example
+
+|===
