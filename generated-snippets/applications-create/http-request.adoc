@@ -7,16 +7,16 @@ Host: breezie.com
 Content-Length: 485
 
 {
-  "createdTime" : 1486635410997,
+  "createdTime" : 1486643991844,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486635412997,
+  "lastUpdatedTime" : 1486643993844,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "7f4d7ecb-24fb-4549-9c51-2d71b9dc27d7",
+  "groupId" : "bc28c056-3402-42dc-97b6-463071f4d945",
   "promote" : false,
   "hidden" : false
 }
