@@ -12,28 +12,28 @@ X-Frame-Options: DENY
 Content-Length: 837
 
 [ {
-  "createdTime" : 1486573093753,
+  "createdTime" : 1486635430915,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486573095753,
-  "updatedBy" : "James Mitchell",
-  "id" : "97b727e3-9b57-45e5-8835-4dc304bb179a",
-  "url" : "www.gardening.com",
-  "name" : "Gardening",
-  "imageUrl" : "www.gardening.com/image.jpg",
-  "note" : "This is a bookmark about gardening",
-  "groupId" : "c4de82f4-3652-43ec-86a6-6b68ec075fd9",
-  "promote" : false
-}, {
-  "createdTime" : 1486573093905,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486573095905,
+  "lastUpdatedTime" : 1486635432915,
   "updatedBy" : "James Mitchell",
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "url" : "www.wintergardening.com",
   "name" : "Winter Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "c4de82f4-3652-43ec-86a6-6b68ec075fd9",
+  "groupId" : "06db63f8-22fe-41bb-94ff-ab0a9f424056",
+  "promote" : false
+}, {
+  "createdTime" : 1486635430817,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1486635432817,
+  "updatedBy" : "James Mitchell",
+  "id" : "1eb883e0-073d-45c5-b819-ac39eecfae6d",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "06db63f8-22fe-41bb-94ff-ab0a9f424056",
   "promote" : false
 } ]
 ----
