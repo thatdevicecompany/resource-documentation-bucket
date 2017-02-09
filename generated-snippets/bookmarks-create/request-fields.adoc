@@ -25,4 +25,8 @@
 |`Boolean`
 |Whether this bookmark should be promoted on StartScreen
 
+|`hidden`
+|`Boolean`
+|Whether this bookmark should be hidden in Interests
+
 |===

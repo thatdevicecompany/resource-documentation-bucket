@@ -22,8 +22,12 @@
 |ID of the group in which this bookmark belongs
 
 |`promote`
-|`String`
+|`Boolean`
 |Whether this bookmark should be promoted on StartScreen
+
+|`hidden`
+|`Boolean`
+|Whether this bookmark should be hidden in Interests
 
 |`createdTime`
 |`Long`
