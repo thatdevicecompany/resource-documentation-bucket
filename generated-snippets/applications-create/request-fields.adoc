@@ -33,4 +33,8 @@
 |`Boolean`
 |Whether this application should be hidden in Interests
 
+|`blockUninstall`
+|`Boolean`
+|Whether to block this application being uninstalled
+
 |===

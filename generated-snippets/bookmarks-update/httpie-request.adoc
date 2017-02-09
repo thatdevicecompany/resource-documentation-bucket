@@ -1,15 +1,15 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1486643999265,
+  "createdTime" : 1486649069792,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486644001265,
+  "lastUpdatedTime" : 1486649071792,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "f36fc3e1-92ba-4600-9e68-9bb464c7e046",
+  "groupId" : "9f8a2c49-eecd-4687-8c4f-f12e99f7059d",
   "promote" : false
-}' | http PUT 'https://breezie.com/bookmarks/bdffbf87-ceeb-44b7-8e1f-2c361d5cdd42' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://breezie.com/bookmarks/770b5995-75e0-4271-a881-63dc6ca5f5dd' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ http GET 'https://breezie.com/applications/4fa1187f-5246-4882-831c-3ca621f7fbd8' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+$ http GET 'https://breezie.com/applications/0605056d-18ce-4555-a234-09448b09eddf' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
