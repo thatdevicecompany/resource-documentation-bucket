@@ -37,4 +37,8 @@
 |`Boolean`
 |Whether to block this application being uninstalled
 
+|`blockNotification`
+|`Boolean`
+|Whether to block this application from showing notifications
+
 |===

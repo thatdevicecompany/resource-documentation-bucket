@@ -12,16 +12,16 @@ X-Frame-Options: DENY
 Content-Length: 443
 
 {
-  "createdTime" : 1486655528568,
+  "createdTime" : 1486737064497,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486655530568,
+  "lastUpdatedTime" : 1486737066497,
   "updatedBy" : "James Mitchell",
-  "id" : "15e1b187-582a-4957-8c80-89f5467d700e",
+  "id" : "117d8895-3eef-448e-990f-16be4619a107",
   "url" : "www.gardening.com/summer",
   "name" : "Summer Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "57ffe52d-24e1-46f0-b1a7-f39c337e2558",
+  "groupId" : "c23f61cd-9b42-49b8-85af-bf402bd77dfd",
   "promote" : false,
   "hidden" : false
 }
