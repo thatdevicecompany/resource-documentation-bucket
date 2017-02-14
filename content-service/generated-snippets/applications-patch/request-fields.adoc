@@ -33,6 +33,14 @@
 |`Boolean`
 |Whether this application should be hidden in Interests
 
+|`blockUninstall`
+|`Boolean`
+|Whether to block this application being uninstalled
+
+|`blockNotification`
+|`Boolean`
+|Whether to block this application from showing notifications
+
 |`createdTime`
 |`Long`
 |Unix timestamp when the resource was created

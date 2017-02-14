@@ -9,12 +9,12 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1099
+Content-Length: 1217
 
 [ {
-  "createdTime" : 1486572840222,
+  "createdTime" : 1487069109207,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486572842222,
+  "lastUpdatedTime" : 1487069111207,
   "updatedBy" : "James Mitchell",
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "title" : "Winter Gardening",
@@ -22,22 +22,26 @@ Content-Length: 1099
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "79751b3a-3917-4501-9864-19486c98e5c6",
+  "groupId" : "657664f7-2f85-407a-b1a4-54206d99b5e6",
   "promote" : false,
-  "hidden" : false
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
 }, {
-  "createdTime" : 1486572840083,
+  "createdTime" : 1487069109168,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1486572842083,
+  "lastUpdatedTime" : 1487069111168,
   "updatedBy" : "James Mitchell",
-  "id" : "58996e3e-d37f-4360-aca7-088882a2d4e8",
+  "id" : "a2bcaa07-76b1-496d-836c-73591daef9d1",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "79751b3a-3917-4501-9864-19486c98e5c6",
+  "groupId" : "657664f7-2f85-407a-b1a4-54206d99b5e6",
   "promote" : false,
-  "hidden" : false
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
 } ]
 ----
