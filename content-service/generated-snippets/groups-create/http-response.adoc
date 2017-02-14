@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 717
 
 {
-  "id" : "453108ad-8b6c-4620-9f6c-7be33570867c",
+  "id" : "aa8b83a5-faba-4908-9c90-7549309dfdb0",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -23,9 +23,9 @@ Content-Length: 717
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1487069744972,
+  "createdTime" : 1487072548727,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487069745972,
+  "lastUpdatedTime" : 1487072549727,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
