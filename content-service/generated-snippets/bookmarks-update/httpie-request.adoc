@@ -1,16 +1,16 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1487069112862,
+  "createdTime" : 1487069741813,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487069114862,
+  "lastUpdatedTime" : 1487069743813,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "a2b0373e-f907-41ed-ac2d-d6f55a3a8bcf",
+  "groupId" : "d3a8eb27-408d-46dd-8533-14037107dd5f",
   "promote" : false,
   "hidden" : false
-}' | http PUT 'https://breezie.com/bookmarks/7fc2a1f8-979a-49f4-9722-436e3f9f4f66' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://breezie.com/bookmarks/4ef7dfb8-dda5-46c8-95b3-38107c076a37' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

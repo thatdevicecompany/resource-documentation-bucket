@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /applications/bf783a92-5f10-473e-aba0-c496ab6abaf5 HTTP/1.1
+DELETE /applications/35324cef-4ce2-4a6f-84f7-84fcda9f207c HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
