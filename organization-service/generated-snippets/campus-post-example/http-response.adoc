@@ -12,18 +12,18 @@ X-Frame-Options: DENY
 Content-Length: 464
 
 {
-  "id" : "36725e81-992c-4093-abc5-e1a5a8c417bc",
+  "id" : "731a99df-9d25-473d-a43e-5b25a864fb23",
   "name" : "Wellington",
   "resourceScope" : {
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "36725e81-992c-4093-abc5-e1a5a8c417bc",
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "campusId" : "731a99df-9d25-473d-a43e-5b25a864fb23",
     "facilityId" : null,
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "userId" : null
   },
   "deleted" : false,
-  "createdTime" : 1486999546641,
-  "lastUpdatedTime" : 1486999546641,
+  "createdTime" : 1487259521734,
+  "lastUpdatedTime" : 1487259521734,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

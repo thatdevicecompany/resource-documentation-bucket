@@ -21,14 +21,14 @@ Content-Length: 545
   "resourceScope" : {
     "regionId" : null,
     "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "facilityId" : null,
+    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "userId" : null
   },
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1486999547089,
+  "lastUpdatedTime" : 1487259523175,
   "createdBy" : null,
   "updatedBy" : "user",
   "validCredentials" : true
