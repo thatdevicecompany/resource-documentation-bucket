@@ -33,9 +33,9 @@
 |`String`
 |User who created the last updated the resource
 
-|`[].visible`
+|`[].hidden`
 |`Boolean`
-|Whether this group is visible to those in a more granular scope
+|Whether this group is hidden to those in a more granular scope
 
 |`[].scope`
 |`Object`
