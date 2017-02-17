@@ -10,9 +10,9 @@ $ curl 'https://breezie.com/groups' -i -X POST -H 'Authorization: Bearer: 0b79ba
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1487324026072,
+  "createdTime" : 1487350660887,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487324027072,
+  "lastUpdatedTime" : 1487350661887,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
