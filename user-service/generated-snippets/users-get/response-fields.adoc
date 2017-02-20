@@ -18,11 +18,11 @@
 |Last name of the user
 
 |`phoneNumber`
-|`String`
+|`Null`
 |Phone number of the user
 
 |`dob`
-|`Number`
+|`Null`
 |Date of birth of the user
 
 |`welcomeNote`
@@ -34,11 +34,11 @@
 |Familiarity of the user
 
 |`gender`
-|`String`
+|`Null`
 |Gender of the user
 
 |`religion`
-|`String`
+|`Null`
 |Religion of the user
 
 |`scope.organizationId`
