@@ -10,13 +10,13 @@ $ echo '{
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1487264590681,
+  "createdTime" : 1487589739755,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487264591681,
+  "lastUpdatedTime" : 1487589740755,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
-  "visible" : true,
+  "hidden" : true,
   "personal" : false
-}' | http PUT 'https://breezie.com/groups/e3164414-501e-48a2-b71f-c474ed425497' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://breezie.com/groups/01b03cad-30f0-41aa-bd34-d8307e601718' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

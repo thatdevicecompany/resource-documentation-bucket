@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/applications/eb6f6305-1155-4e38-95f4-9ee2a7022007' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://breezie.com/applications/0e98b8ba-1e97-4389-992a-aa2eee61f6d6' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "title" : "Summer Gardening",
   "description" : "Helpful app, informing you when best to water those flowers"
 }'

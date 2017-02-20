@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 717
+Content-Length: 716
 
 {
-  "id" : "0a8257db-9146-4cef-a135-50409ee2a7f6",
+  "id" : "2b91881a-deb5-4b2c-bc55-d93918135b05",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -23,13 +23,13 @@ Content-Length: 717
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838"
   },
-  "createdTime" : 1487264589653,
+  "createdTime" : 1487589739193,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487264590653,
+  "lastUpdatedTime" : 1487589740193,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
-  "visible" : true,
+  "hidden" : true,
   "personal" : false
 }
 ----
