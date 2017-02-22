@@ -1,0 +1,16 @@
+[source,bash]
+----
+$ echo '{
+  "createdTime" : 1487762286392,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1487762288392,
+  "updatedBy" : "James Mitchell",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "a3b5ca1d-34cb-42fb-9943-01ac3193f849",
+  "promote" : false,
+  "hidden" : false
+}' | http PUT 'https://breezie.com/bookmarks/503a4c72-7697-45e3-8498-4e26ebcdf2a3' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----

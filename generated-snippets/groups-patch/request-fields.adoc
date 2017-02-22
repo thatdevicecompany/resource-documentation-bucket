@@ -1,0 +1,44 @@
+|===
+|Path|Type|Description
+
+|`url`
+|`String`
+|Group url
+
+|`name`
+|`String`
+|Name of the group
+
+|`imageUrl`
+|`String`
+|Image url or the group
+
+|`description`
+|`String`
+|A descriptive note related to the group
+
+|`scope`
+|`Object`
+|Scope object holding the access control for the resource
+
+|`scope.organizationId`
+|`String`
+|ID of the organization owning the group
+
+|`scope.regionId`
+|`String`
+|ID of the region owning the group
+
+|`scope.facilityId`
+|`String`
+|ID of the facility owning the group
+
+|`scope.campusId`
+|`String`
+|ID of the campus owning the group
+
+|`scope.userId`
+|`String`
+|ID of the company owning the group
+
+|===

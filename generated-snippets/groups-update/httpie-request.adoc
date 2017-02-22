@@ -1,0 +1,22 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+  },
+  "createdTime" : 1487762289297,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1487762290297,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "hidden" : true,
+  "personal" : false
+}' | http PUT 'https://breezie.com/groups/9fd50cfb-32b1-48fc-aea2-71adf689020c' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----

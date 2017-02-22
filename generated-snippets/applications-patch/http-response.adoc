@@ -1,0 +1,31 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 600
+
+{
+  "createdTime" : 1487762282943,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1487762284943,
+  "updatedBy" : "James Mitchell",
+  "id" : "93033476-0776-4fba-aa5c-2f6d1f261fe9",
+  "title" : "Summer Gardening",
+  "description" : "Helpful app, informing you when best to water those flowers",
+  "productId" : "co.uk.demo.gardening",
+  "iconUrl" : "https://www.gardening.com/image",
+  "smallIconUrl" : "https://www.gardening.com/image/small",
+  "groupId" : "f28ba951-7fe9-4d01-8d32-9ea240bde40a",
+  "promote" : false,
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
+}
+----

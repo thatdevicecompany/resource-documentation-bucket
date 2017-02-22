@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'https://breezie.com/regions/dd6662eb-111b-40b2-8480-aab7fdb1c80f' -i -X DELETE
-----
