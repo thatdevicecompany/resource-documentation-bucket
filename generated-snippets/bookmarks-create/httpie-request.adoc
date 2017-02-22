@@ -1,15 +1,15 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1487773174974,
+  "createdTime" : 1487773631261,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487773176974,
+  "lastUpdatedTime" : 1487773633261,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "7a4ae064-5666-4e23-a021-a8f0dd934228",
+  "groupId" : "246e13bf-8c7f-4408-b600-eb22b36e203e",
   "promote" : false,
   "hidden" : false
 }' | http POST 'https://breezie.com/bookmarks' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
