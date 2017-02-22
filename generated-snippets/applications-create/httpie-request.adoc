@@ -1,16 +1,16 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1487762281791,
+  "createdTime" : 1487764388190,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487762283791,
+  "lastUpdatedTime" : 1487764390190,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "41ce4ab2-178e-4138-b697-ce8a3e107d36",
+  "groupId" : "c4d55649-43e6-4b9b-a4f1-f921d99b162a",
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
