@@ -12,16 +12,16 @@ X-Frame-Options: DENY
 Content-Length: 429
 
 {
-  "createdTime" : 1487350642055,
+  "createdTime" : 1487778248597,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487350644055,
+  "lastUpdatedTime" : 1487778250597,
   "updatedBy" : "James Mitchell",
-  "id" : "703002f4-66fa-40fe-a64b-ba4d2784abf3",
+  "id" : "ac4d9226-361a-4b56-a38c-42bd4c113b61",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "474f8afc-3dd4-4e4d-b217-4a5369d9c1f1",
+  "groupId" : "432eaa9f-8f58-45fe-a37a-adb3511de8c9",
   "promote" : false,
   "hidden" : false
 }
