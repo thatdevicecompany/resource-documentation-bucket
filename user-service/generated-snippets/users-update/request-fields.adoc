@@ -1,0 +1,70 @@
+|===
+|Path|Type|Description
+
+|`username`
+|`String`
+|Username associated with the user (cannot be changed)
+
+|`firstName`
+|`String`
+|First name of the user
+
+|`lastName`
+|`String`
+|Last name of the user
+
+|`phoneNumber`
+|`String`
+|Phone number of the user
+
+|`dob`
+|`Number`
+|Date of birth of the user
+
+|`familiarity`
+|`String`
+|Familiarity of the user. Must be one of: "Not at all familiar with the internet",
+                "A little familiar with the internet",
+                "Quite familiar with the internet"
+
+|`welcomeNote`
+|`String`
+|Welcome note of the user
+
+|`gender`
+|`String`
+|Gender of the user
+
+|`religion`
+|`String`
+|Religion of the user
+
+|`scope.organizationId`
+|`String`
+|ID of the organization that the user belongs to
+
+|`scope.regionId`
+|`String`
+|ID of the region that the user belongs to
+
+|`scope.campusId`
+|`String`
+|ID of the campus that the user belongs to
+
+|`scope.facilityId`
+|`String`
+|ID of the facility that the user belongs to
+
+|`roles`
+|`Array`
+|Role of the user
+
+|`sponsors`
+|`Array`
+|Id list of users sponsoring this user
+
+|`sponsees`
+|`Array`
+|user ID list of people who this user is sponsoring
+
+|===
