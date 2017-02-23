@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|The name of the facility
+
+|`addressLine1`
+|`String`
+|The first line of address of the facility
+
+|`addressLine2`
+|`String`
+|The second line of address of the facility
+
+|`city`
+|`String`
+|The city the facility is located in
+
+|`country`
+|`String`
+|The country the facility is located in
+
+|`zipCode`
+|`String`
+|The zip code the facility is located in
+
+|===

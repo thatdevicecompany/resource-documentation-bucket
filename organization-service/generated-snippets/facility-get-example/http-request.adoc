@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /facilities/6uw8i21-b535-49e1-b565-78eec7154e25 HTTP/1.1
+Accept: application/json
+Host: breezie.com
+
+----

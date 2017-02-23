@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|The name of the organization
+
+|`country`
+|`String`
+|The country the organization is located in
+
+|`demo`
+|`String`
+|Flag indicating if the organization is a demo one or not
+
+|===
