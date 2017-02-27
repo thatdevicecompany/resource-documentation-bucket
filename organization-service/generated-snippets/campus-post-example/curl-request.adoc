@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/campuses' -i -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+  "name" : "Wellington",
+  "resourceScope" : {
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+  },
+  "deleted" : false
+}'
+----

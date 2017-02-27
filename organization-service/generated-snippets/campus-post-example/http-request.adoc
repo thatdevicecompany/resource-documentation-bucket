@@ -1,0 +1,16 @@
+[source,http,options="nowrap"]
+----
+POST /campuses HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Host: breezie.com
+Content-Length: 131
+
+{
+  "name" : "Wellington",
+  "resourceScope" : {
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+  },
+  "deleted" : false
+}
+----
