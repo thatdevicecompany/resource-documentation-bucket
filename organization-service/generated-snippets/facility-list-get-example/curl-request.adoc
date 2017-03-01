@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/facilities' -i -H 'Accept: application/json'
+----
