@@ -10,9 +10,9 @@ $ echo '{
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1487778253538,
+  "createdTime" : 1488886232412,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487778254538,
+  "lastUpdatedTime" : 1488886233412,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
