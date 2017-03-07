@@ -16,9 +16,9 @@ Content-Length: 612
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1487623174686,
+  "createdTime" : 1488898063241,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1487623175686,
+  "lastUpdatedTime" : 1488898064241,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
