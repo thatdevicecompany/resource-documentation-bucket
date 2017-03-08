@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/campuses/a994decc-1609-44af-b438-623c7224f4de' -i -X DELETE
+----
