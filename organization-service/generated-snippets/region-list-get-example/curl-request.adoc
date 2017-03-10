@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'https://breezie.com/regions' -i -H 'Accept: application/json'
-----
