@@ -1,16 +1,17 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1489169093900,
+  "createdTime" : 1490295016818,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1489169095900,
+  "lastUpdatedTime" : 1490295018818,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "d8543861-9827-4042-b24b-a5310eeab4d0",
+  "groupId" : "fcc41ff3-7765-4240-9d76-4bad6c31b022",
   "promote" : false,
-  "hidden" : false
-}' | http PUT 'https://breezie.com/bookmarks/e3efdf1e-3334-4ea2-b2d3-876b562aaa93' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}' | http PUT 'https://breezie.com/bookmarks/ada74ab4-6b73-4a1c-bd5f-52b550a89832' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

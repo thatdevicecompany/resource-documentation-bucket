@@ -1,16 +1,16 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/applications/4de090a6-389d-4fbd-b9cc-7a77eb8e6bb3' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "createdTime" : 1489169089282,
+$ curl 'https://breezie.com/applications/ae0eee75-8927-4de9-aa7d-c866778eac35' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+  "createdTime" : 1490295012636,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1489169091282,
+  "lastUpdatedTime" : 1490295014636,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "a0e93dce-33d0-47f0-acc2-0b84d3f7890e",
+  "groupId" : "2665d027-52e2-4f5f-9ecc-8b39feb3a2f5",
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
