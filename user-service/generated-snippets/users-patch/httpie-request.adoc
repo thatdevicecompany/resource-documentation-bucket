@@ -4,7 +4,7 @@ $ echo '{
   "username" : "bobjones@email.com",
   "firstName" : "James",
   "lastName" : "Jones",
-  "dob" : 1491818347261,
+  "dob" : 1492695578145,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
   "familiarity" : "Not at all familiar with the internet",
