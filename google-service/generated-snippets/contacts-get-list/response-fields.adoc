@@ -180,6 +180,14 @@
 |`Array`
 |List of user defined fields.
 
+|`[].photoLink`
+|`Null`
+|Link to user photo.
+
+|`[].editPhotoLink`
+|`Null`
+|Link to edit user photo.
+
 |`[]userDefinedFieldList[].key`
 |`String`
 |User defined field key.

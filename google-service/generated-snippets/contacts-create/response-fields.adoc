@@ -188,6 +188,14 @@
 |`String`
 |User defined field value.
 
+|`photoLink`
+|`Null`
+|Link to user photo.
+
+|`editPhotoLink`
+|`Null`
+|Link to edit user photo.
+
 |`imAddressList`
 |`Array`
 |List of IM addresses.

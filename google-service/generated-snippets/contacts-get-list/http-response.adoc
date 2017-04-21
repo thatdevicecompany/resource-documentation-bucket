@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 2022
+Content-Length: 2070
 
 [ {
   "id" : "5daecc0e8f670a16",
@@ -98,6 +98,8 @@ Content-Length: 2022
     "label" : null,
     "value" : "Jane Mitchell"
   } ],
-  "notes" : "James is a great architect, worked on a few impressive buildings in his day!"
+  "notes" : "James is a great architect, worked on a few impressive buildings in his day!",
+  "photoLink" : null,
+  "editPhotoLink" : null
 } ]
 ----
