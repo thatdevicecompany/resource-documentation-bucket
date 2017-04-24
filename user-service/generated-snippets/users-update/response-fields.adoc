@@ -43,11 +43,7 @@
 
 |`profileImageUri`
 |`Null`
-|Url of the prfile image
-
-|`profileImageUri`
-|`Null`
-|Url of the prfile image
+|Url of the profile image
 
 |`scope.organizationId`
 |`String`
