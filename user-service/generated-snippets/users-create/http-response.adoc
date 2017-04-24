@@ -9,17 +9,18 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 775
+Content-Length: 803
 
 {
   "id" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1491475685695,
+  "dob" : 1493026285095,
   "phoneNumber" : "071234567",
   "gender" : "Male",
   "religion" : "Atheist",
+  "profileImageUri" : null,
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",

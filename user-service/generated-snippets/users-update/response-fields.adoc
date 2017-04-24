@@ -41,6 +41,14 @@
 |`String`
 |Religion of the user
 
+|`profileImageUri`
+|`Null`
+|Url of the prfile image
+
+|`profileImageUri`
+|`Null`
+|Url of the prfile image
+
 |`scope.organizationId`
 |`String`
 |ID of the organization that the user belongs to
