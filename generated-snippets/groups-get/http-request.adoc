@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /groups/ba75fab6-b9d1-4733-b03d-07e29372c015 HTTP/1.1
+GET /groups/5e3300bc-0da3-46cd-9351-97eab1ddaecb HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
