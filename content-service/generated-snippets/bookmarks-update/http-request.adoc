@@ -1,21 +1,21 @@
 [source,http,options="nowrap"]
 ----
-PUT /bookmarks/ad42ead3-367f-4ffd-877b-9ce6dd68803b HTTP/1.1
+PUT /bookmarks/1580a038-90fc-43b8-a552-916a98138fee HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: breezie.com
 Content-Length: 423
 
 {
-  "createdTime" : 1493742718158,
+  "createdTime" : 1494413971924,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1493742720158,
+  "lastUpdatedTime" : 1494413973924,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "251c825e-b8b3-4479-85e3-f3d99e7407b9",
+  "groupId" : "dcfe8576-c994-4cf3-abfd-aa61b7d408cb",
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
