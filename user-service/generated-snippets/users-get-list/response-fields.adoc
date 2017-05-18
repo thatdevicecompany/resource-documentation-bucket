@@ -30,7 +30,7 @@
 |Welcome note of the user
 
 |`[].familiarity`
-|`String`
+|`Number`
 |Familiarity of the user
 
 |`[].gender`

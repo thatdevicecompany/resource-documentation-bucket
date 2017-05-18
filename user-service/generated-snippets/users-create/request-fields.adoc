@@ -30,7 +30,7 @@
 |Welcome note of the user
 
 |`familiarity`
-|`String`
+|`Number`
 |Familiarity of the user. Must be one of: "Not at all familiar with the internet",
                 "A little familiar with the internet",
                 "Quite familiar with the internet"

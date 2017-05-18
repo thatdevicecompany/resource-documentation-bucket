@@ -4,10 +4,10 @@ $ echo '{
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1495015548023,
+  "dob" : 1495121086600,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
-  "familiarity" : "Not at all familiar with the internet",
+  "familiarity" : 2,
   "gender" : "Male",
   "religion" : "Atheist",
   "scope" : {

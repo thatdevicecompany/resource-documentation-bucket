@@ -4,10 +4,10 @@ $ curl 'https://breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838' -i -X PU
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1495015548023,
+  "dob" : 1495121086600,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
-  "familiarity" : "Not at all familiar with the internet",
+  "familiarity" : 2,
   "gender" : "Male",
   "religion" : "Atheist",
   "scope" : {
