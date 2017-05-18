@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 674
+Content-Length: 697
 
 {
-  "id" : "b4ebc25e-f050-45ee-9ac8-9cc6e2d0cdf9",
+  "id" : "d79c13ba-ac71-4e2e-b783-f22109a35141",
   "name" : "Summer Gardening",
   "description" : "A group for those intersted in summer gardening",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -22,13 +22,14 @@ Content-Length: 674
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1494413974198,
+  "createdTime" : 1495114126223,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1494413975198,
+  "lastUpdatedTime" : 1495114127223,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
   "hidden" : true,
-  "personal" : false
+  "personal" : false,
+  "hideOnHub" : false
 }
 ----

@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /bookmarks/5e877cf8-e094-4c80-8fcf-18a0c40f43bf HTTP/1.1
+DELETE /bookmarks/61578bb7-ceed-441e-aa4a-4fe23107c8fb HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
