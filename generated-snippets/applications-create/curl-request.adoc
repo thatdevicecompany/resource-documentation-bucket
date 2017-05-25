@@ -1,16 +1,16 @@
 [source,bash]
 ----
 $ curl 'https://breezie.com/applications' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "createdTime" : 1495114043271,
+  "createdTime" : 1495730090111,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1495114045271,
+  "lastUpdatedTime" : 1495730092111,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "df9828aa-aa79-42ed-9d7d-688bdbc47d4c",
+  "groupId" : "da5f941a-bb86-4dbf-a68a-2d3ef58834cd",
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,

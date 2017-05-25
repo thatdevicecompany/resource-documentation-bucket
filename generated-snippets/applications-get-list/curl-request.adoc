@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/applications/search/findByGroupId?id=5f2ce382-216c-451f-b0d5-d4c72f058b64' -i -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+$ curl 'https://breezie.com/applications/search/findByGroupId?id=822ce4be-6e44-45f2-888e-90b1e274ee1a' -i -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
