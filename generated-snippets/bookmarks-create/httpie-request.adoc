@@ -1,15 +1,15 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1495795227834,
+  "createdTime" : 1496765607793,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1495795229834,
+  "lastUpdatedTime" : 1496765609793,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "fbda0a27-d269-4e8c-bea2-3abf9af6b079",
+  "groupId" : "cc083a79-e234-4294-b2ea-45cb56b75acb",
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
