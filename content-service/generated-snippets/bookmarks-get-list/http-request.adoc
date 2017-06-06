@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /bookmarks/search/findByGroupId?id=100934a9-7d47-4890-82e9-2190ee1afc8f HTTP/1.1
+GET /bookmarks/search/findByGroupId?id=6f7176dc-081c-4abd-99e6-14fcaf3de211 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
