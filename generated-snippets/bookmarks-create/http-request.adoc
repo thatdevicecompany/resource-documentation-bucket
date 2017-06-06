@@ -7,15 +7,15 @@ Host: breezie.com
 Content-Length: 423
 
 {
-  "createdTime" : 1495730096028,
+  "createdTime" : 1496768704547,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1495730098028,
+  "lastUpdatedTime" : 1496768706547,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "46040e65-be91-46d6-a209-e9aee0bf5394",
+  "groupId" : "ea969206-9240-4bbc-8622-d6be5bde505e",
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
