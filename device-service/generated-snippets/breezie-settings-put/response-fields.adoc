@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`version`
+|`String`
+|schema version applied to the settings. The schema defines the settings json allowed
+
+|`schemaUri`
+|`String`
+|schema url applied
+
+|`usbDebugging`
+|`Boolean`
+|boolean property example
+
+|`allowFactoryReset`
+|`Boolean`
+|boolean property example
+
+|`allowDeviceAdminRemoval`
+|`Boolean`
+|boolean property example
+
+|`allowBreezieAppRemoval`
+|`Array`
+|Array property example
+
+|`disableApps`
+|`Array`
+|Array property example
+
+|`manualTime`
+|`Object`
+|property example
+
+|===
