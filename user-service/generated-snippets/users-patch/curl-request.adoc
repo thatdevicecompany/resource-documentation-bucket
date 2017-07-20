@@ -4,7 +4,7 @@ $ curl 'https://breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838' -i -H 'A
   "username" : "bobjones@email.com",
   "firstName" : "James",
   "lastName" : "Jones",
-  "dob" : 1500390608656,
+  "dob" : 1500547944880,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
   "familiarity" : 2,
