@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 547
+Content-Length: 569
 
 {
   "id" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
@@ -28,9 +28,10 @@ Content-Length: 547
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1488897185784,
+  "lastUpdatedTime" : 1501161474913,
   "createdBy" : null,
   "updatedBy" : "user",
-  "validCredentials" : true
+  "validCredentials" : true,
+  "customTC" : false
 }
 ----
