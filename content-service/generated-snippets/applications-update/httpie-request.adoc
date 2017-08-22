@@ -1,19 +1,19 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1503403493206,
+  "createdTime" : 1503414219697,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1503403495206,
+  "lastUpdatedTime" : 1503414221697,
   "updatedBy" : "James Mitchell",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "bc25d564-35a4-41cc-9f10-63f6b14f1249",
+  "groupId" : "2e2c77cb-e6f3-459c-adc2-c172761a8099",
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
   "blockNotification" : false
-}' | http PUT 'https://breezie.com/applications/ca527fc0-e6d8-49b8-85ba-c521b74e8ee6' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://breezie.com/applications/cd4d4c0f-1756-4645-b52e-e8d54e00d6b2' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----
