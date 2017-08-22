@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/groups/b62d0ece-47ef-4679-bdc5-13e64301ce94' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://breezie.com/groups/d60dc504-0578-4ca5-b057-a36c948be205' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -10,9 +10,9 @@ $ curl 'https://breezie.com/groups/b62d0ece-47ef-4679-bdc5-13e64301ce94' -i -X P
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   },
-  "createdTime" : 1496768942162,
+  "createdTime" : 1503403561974,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1496768943162,
+  "lastUpdatedTime" : 1503403562974,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
