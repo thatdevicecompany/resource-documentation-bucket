@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'https://breezie.com/bookmarks/2091ccda-f2b9-48f4-a0fa-4421c10d9ed5' -i -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+----

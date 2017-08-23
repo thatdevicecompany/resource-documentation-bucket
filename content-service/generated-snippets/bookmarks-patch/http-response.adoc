@@ -1,0 +1,29 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 486
+
+{
+  "createdTime" : 1503493515721,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1503493517721,
+  "updatedBy" : "James Mitchell",
+  "id" : "4d056cb1-07a5-4484-b341-c6f10f7edb67",
+  "url" : "www.gardening.com/summer",
+  "name" : "Summer Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "773ebab4-b324-4125-a102-6520432d6fce",
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}
+----
