@@ -10,7 +10,7 @@ Content-Length: 571
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1503491569019,
+  "dob" : 1503575090227,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
   "familiarity" : 2,
