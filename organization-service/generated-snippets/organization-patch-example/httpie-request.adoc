@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Audi",
+  "country" : "Austria",
+  "demo" : false
+}' | http PATCH 'https://breezie.com/organizations/78b219fb-0099-4171-b4c5-4fbfa1bd88dd' 'Accept:application/json' 'Content-Type:application/json'
+----
