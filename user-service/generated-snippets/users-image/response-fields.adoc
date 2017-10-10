@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`keyname`
+|`String`
+|Username associated with the user (cannot be changed)
+
+|`extension`
+|`String`
+|Password used for login purposes
+
+|`visibility`
+|`String`
+|First name of the user
+
+|`url`
+|`String`
+|Last name of the user
+
+|`scope.organizationId`
+|`String`
+|ID of the organization of the user that the image belongs to
+
+|`scope.regionId`
+|`String`
+|ID of the region of the user that the image belongs to
+
+|`scope.campusId`
+|`String`
+|ID of the campus of the user that the image belongs to
+
+|`scope.facilityId`
+|`String`
+|ID of the facility of the user that the image belongs to
+
+|`scope.userId`
+|`String`
+|ID of the user which image belongs to
+
+|===

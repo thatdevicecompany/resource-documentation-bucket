@@ -17,14 +17,6 @@
 |`String`
 |Last name of the user
 
-|`phoneNumber`
-|`String`
-|Phone number of the user
-
-|`dob`
-|`Number`
-|Date of birth of the user
-
 |`welcomeNote`
 |`String`
 |Welcome note of the user
@@ -32,10 +24,6 @@
 |`familiarity`
 |`Number`
 |Familiarity of the user
-
-|`gender`
-|`String`
-|Gender of the user
 
 |`religion`
 |`String`
@@ -62,7 +50,7 @@
 |ID of the facility that the user belongs to
 
 |`scope.userId`
-|`Null`
+|`String`
 |ID of the user who created the user
 
 |`roles`
@@ -76,21 +64,5 @@
 |`sponsees`
 |`Array`
 |user ID list of people who this user is sponsoring
-
-|`createdBy`
-|`String`
-|The one who created the user
-
-|`createdTime`
-|`Long`
-|The time the user was created
-
-|`lastUpdatedTime`
-|`Long`
-|The time the user was updated
-
-|`updatedBy`
-|`String`
-|The one who updated the user
 
 |===

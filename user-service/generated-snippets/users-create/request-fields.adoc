@@ -5,9 +5,9 @@
 |`String`
 |Username associated with the user (cannot be changed)
 
-|`username`
+|`password`
 |`String`
-|Username associated with the user (cannot be changed)
+|Password used for login purposes
 
 |`firstName`
 |`String`
@@ -16,14 +16,6 @@
 |`lastName`
 |`String`
 |Last name of the user
-
-|`phoneNumber`
-|`String`
-|Phone number of the user
-
-|`dob`
-|`Number`
-|Date of birth of the user
 
 |`welcomeNote`
 |`String`
@@ -34,14 +26,6 @@
 |Familiarity of the user. Must be one of: "Not at all familiar with the internet",
                 "A little familiar with the internet",
                 "Quite familiar with the internet"
-
-|`gender`
-|`String`
-|Gender of the user
-
-|`religion`
-|`String`
-|Religion of the user
 
 |`scope.organizationId`
 |`String`

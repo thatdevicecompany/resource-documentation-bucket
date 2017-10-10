@@ -1,0 +1,12 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "4b3905d2-af1b-4303-aac6-478c3b0f0a14",
+  "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
+  "email" : "mike.owen@email.com",
+  "firstName" : "Mike",
+  "lastName" : "Owen",
+  "message" : "Hi Mike, Would you mind to help me with Breezie?",
+  "redirectUri" : "https://manage.breezie.com"
+}
+----

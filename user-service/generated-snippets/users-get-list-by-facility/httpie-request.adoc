@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'https://api.breezie.com/users/search/findByFacilityId?id=9105e5a5-acba-4c00-8f5d-5b8fccd80da0' \
+    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----

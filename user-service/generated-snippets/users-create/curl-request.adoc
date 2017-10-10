@@ -1,15 +1,15 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/users/' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "username" : "bobjones@email.com",
-  "firstName" : "Bob",
+$ curl 'https://api.breezie.com/users/' -i -X POST \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "username" : "steve.jones@email.com",
+  "password" : "qhfr456ghijhw",
+  "firstName" : "Steve",
   "lastName" : "Jones",
-  "dob" : 1503575090670,
-  "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
   "familiarity" : 2,
-  "gender" : "Male",
-  "religion" : "Atheist",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",

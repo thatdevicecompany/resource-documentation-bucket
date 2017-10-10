@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/sponsorRequests/f31a25a8-832e-47d0-ae0a-e25daa785210' -i -X PATCH \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "firstName" : "Michael"
+}'
+----

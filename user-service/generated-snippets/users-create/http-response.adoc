@@ -9,31 +9,23 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 765
+Content-Length: 605
 
 {
-  "id" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
-  "username" : "bobjones@email.com",
-  "firstName" : "Bob",
+  "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
+  "username" : "steve.jones@email.com",
+  "firstName" : "Steve",
   "lastName" : "Jones",
-  "dob" : 1503575090670,
-  "phoneNumber" : "071234567",
-  "gender" : "Male",
-  "religion" : "Atheist",
   "profileImageUri" : null,
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "userId" : null
+    "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
   "familiarity" : 2,
   "welcomeNote" : "Welcome to Breezie.",
-  "createdTime" : null,
-  "createdBy" : null,
-  "lastUpdatedTime" : null,
-  "updatedBy" : null,
   "roles" : [ "ROLE_U" ],
   "sponsors" : [ ],
   "sponsees" : [ ]

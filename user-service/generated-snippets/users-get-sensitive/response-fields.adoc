@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`phoneNumber`
+|`String`
+|Telephone number of the user
+
+|`socialSecurity`
+|`String`
+|Social security number of the user
+
+|`dob`
+|`String`
+|Date of birth of the user
+
+|`gender`
+|`String`
+|Gender of the user
+
+|`religion`
+|`String`
+|Religion that the user practices
+
+|===

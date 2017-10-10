@@ -1,0 +1,13 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838/sensitive' -i -X PUT \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "phoneNumber" : "07411223333",
+  "socialSecurity" : "000AAA",
+  "dob" : "22/12/1948",
+  "gender" : "Male",
+  "religion" : "agnostic"
+}'
+----

@@ -17,14 +17,6 @@
 |`String`
 |Last name of the user
 
-|`phoneNumber`
-|`Null`
-|Phone number of the user
-
-|`dob`
-|`Null`
-|Date of birth of the user
-
 |`welcomeNote`
 |`String`
 |Welcome note of the user
@@ -33,16 +25,8 @@
 |`Number`
 |Familiarity of the user
 
-|`gender`
-|`Null`
-|Gender of the user
-
-|`religion`
-|`Null`
-|Religion of the user
-
 |`profileImageUri`
-|`Null`
+|`String`
 |Url of the profile image
 
 |`scope.organizationId`
@@ -76,21 +60,5 @@
 |`sponsees`
 |`Array`
 |user ID list of people who this user is sponsoring
-
-|`createdBy`
-|`String`
-|The one who created the user
-
-|`createdTime`
-|`Long`
-|The time the user was created
-
-|`lastUpdatedTime`
-|`Long`
-|The time the user was updated
-
-|`updatedBy`
-|`String`
-|The one who updated the user
 
 |===
