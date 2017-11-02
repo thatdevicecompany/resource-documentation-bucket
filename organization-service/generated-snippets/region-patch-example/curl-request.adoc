@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ curl 'https://breezie.com/regions/ee99aed2-acb8-4559-a1c3-e605ea3a653b' -i -X PATCH -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
-  "name" : "Kensington",
-  "country" : "UK"
-}'
-----

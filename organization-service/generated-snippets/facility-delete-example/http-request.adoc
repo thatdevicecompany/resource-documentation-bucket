@@ -1,6 +1,0 @@
-[source,http,options="nowrap"]
-----
-DELETE /facilities/75e9b678-da51-4320-a26f-ab2ae00c85df HTTP/1.1
-Host: breezie.com
-
-----
