@@ -16,15 +16,15 @@ Content-Length: 458
   "name" : "Maramures",
   "country" : "New Zealand",
   "resourceScope" : {
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : null,
     "facilityId" : null,
     "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "userId" : null
   },
   "deleted" : false,
   "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1502287593796,
+  "lastUpdatedTime" : 1509631184709,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

@@ -19,10 +19,10 @@ Content-Length: 1156
   "addressLine2" : "Floor 2",
   "zipCode" : "TW8 9QW",
   "resourceScope" : {
-    "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : null,
     "userId" : null
   },
   "demo" : false,
@@ -41,10 +41,10 @@ Content-Length: 1156
   "addressLine2" : "Floor 3",
   "zipCode" : "9AS 7U1",
   "resourceScope" : {
-    "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
+    "regionId" : null,
     "userId" : null
   },
   "demo" : false,
