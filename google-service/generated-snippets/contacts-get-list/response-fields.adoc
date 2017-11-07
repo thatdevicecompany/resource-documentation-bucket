@@ -1,0 +1,237 @@
+|===
+|Path|Type|Description
+
+|`[].id`
+|`String`
+|Google Contact ID.
+
+|`[].etag`
+|`String`
+|ETag, used for ensuring consistency when manipulating this type of resource.
+
+|`[].name`
+|`Object`
+|Name, contains Full Name, Given Name, Family Name, Additional Name.
+
+|`[].name.additionalName`
+|`Object`
+|Additional Name
+
+|`[].name.givenName`
+|`Object`
+|Given Name
+
+|`[].name.familyName`
+|`Object`
+|Family Name
+
+|`[].name.fullName`
+|`Object`
+|Full Name
+
+|`[].nickname`
+|`Object`
+|Nickname.
+
+|`[].photoUrl`
+|`String`
+|URL that points to the contact's photo.
+
+|`[].organizationList`
+|`Array`
+|List of Organizations.
+
+|`[].organizationList[].orgName`
+|`String`
+|Organization name.
+
+|`[].organizationList[].orgTitle`
+|`String`
+|Organization title.
+
+|`[].emailList`
+|`Array`
+|List of E-mail addresses.
+
+|`[].emailList[].rel`
+|`Varies`
+|Email address REL, optional. Accepted types: 
+'home',
+'work',
+'other'
+
+|`[].emailList[].label`
+|`Varies`
+|E-mail address Label.
+
+|`[].emailList[].address`
+|`String`
+|E-mail address.
+
+|`[].emailList[].primary`
+|`Boolean`
+|Is the E-mail address this contact's primary one.
+
+|`[].emailList[].displayName`
+|`Varies`
+|Display name for this E-mail address.
+
+|`[].phoneNumberList`
+|`Array`
+|List of phone numbers.
+
+|`[].phoneNumberList[].rel`
+|`Varies`
+|Phone number REL. Accepted types: 
+'mobile',
+'home',
+'work',
+'work_mobile',
+'callback',
+'assistant',
+'company_main',
+'internal-extension',
+'fax',
+'home_fax',
+'work_fax',
+'other_fax',
+'pager',
+'work_pager',
+'car',
+'satellite',
+'radio',
+'tty_tdd',
+'isdn',
+'telex',
+'other',
+'main'
+
+|`[].phoneNumberList[].label`
+|`Varies`
+|Phone number Label.
+
+|`[].phoneNumberList[].phoneNumber`
+|`String`
+|Phone number.
+
+|`[].phoneNumberList[].primary`
+|`Boolean`
+|Is this the primary phone number for this contact.
+
+|`[].postalAddressList`
+|`Array`
+|List of postal addresses.
+
+|`[].postalAddressList[].rel`
+|`Varies`
+|Postal address REL. Accepted types: 
+'home',
+'work',
+'other'
+
+
+|`[].postalAddressList[].label`
+|`Varies`
+|Postal address Label.
+
+|`[].postalAddressList[].value`
+|`String`
+|Postal address.
+
+|`[].postalAddressList[].primary`
+|`Boolean`
+|Is the postal address this contact's primary one.
+
+|`[].relationList`
+|`Array`
+|List of relationships.
+
+|`[].relationList[].rel`
+|`Varies`
+|Relation REL. Accepted types: 
+'assistant',
+'brother',
+'child',
+'domestic-partner',
+'father',
+'friend',
+'manager',
+'mother',
+'parent',
+'partner',
+'referred-by',
+'relative',
+'sister',
+'spouse',
+
+|`[].relationList[].label`
+|`Varies`
+|Relation Label.
+
+|`[].relationList[].value`
+|`String`
+|Relation.
+
+|`[].birthday`
+|`String`
+|Birthday.
+
+|`[]userDefinedFieldList`
+|`Array`
+|List of user defined fields.
+
+|`[].photoLink`
+|`Null`
+|Link to user photo.
+
+|`[].editPhotoLink`
+|`Null`
+|Link to edit user photo.
+
+|`[]userDefinedFieldList[].key`
+|`String`
+|User defined field key.
+
+|`[]userDefinedFieldList[].value`
+|`String`
+|User defined field value.
+
+|`[]imAddressList`
+|`Array`
+|List of IM addresses.
+
+|`[]imAddressList[].rel`
+|`String`
+|IM address rel. Accepted types:
+'home',
+'work',
+'other'
+
+
+|`[]imAddressList[].address`
+|`String`
+|IM address field value.
+
+|`[]imAddressList[].primary`
+|`Boolean`
+|Whether this IM address is the primary one for this contact.
+
+|`[]imAddressList[].protocol`
+|`String`
+|IM address protocol value. Accepted types:
+'AIM',
+'Google Talk',
+'ICQ',
+'Jabber',
+'MSN',
+'Netmeeting',
+'QQ',
+'Skype',
+'Yahoo',
+
+
+|`[]notes`
+|`String`
+|Notes about this contact.
+
+|===
