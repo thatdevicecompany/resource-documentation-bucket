@@ -21,8 +21,8 @@ Content-Length: 1156
   "resourceScope" : {
     "campusId" : null,
     "facilityId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "regionId" : null,
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
     "userId" : null
   },
   "demo" : false,
@@ -43,8 +43,8 @@ Content-Length: 1156
   "resourceScope" : {
     "campusId" : null,
     "facilityId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "regionId" : null,
+    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "userId" : null
   },
   "demo" : false,
