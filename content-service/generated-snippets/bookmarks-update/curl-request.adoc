@@ -1,15 +1,16 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/bookmarks/65248661-b2e7-46a7-b2a6-1a12b05563ad' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "createdTime" : 1503495541436,
+$ curl 'https://breezie.com/bookmarks/1dadf245-11e2-42f4-ac92-203a76f5f263' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+  "createdTime" : 1510245300712,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1503495543436,
+  "lastUpdatedTime" : 1510245302712,
   "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "aaa5e011-1091-4d70-8cd6-11fc190ab42a",
+  "groupId" : "99e0c27e-858c-41a2-a3f7-336c31e45e45",
+  "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false

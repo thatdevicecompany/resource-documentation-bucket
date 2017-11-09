@@ -9,19 +9,20 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 486
+Content-Length: 506
 
 {
-  "createdTime" : 1503495533751,
+  "createdTime" : 1510245298804,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1503495535751,
+  "lastUpdatedTime" : 1510245300804,
   "updatedBy" : "James Mitchell",
-  "id" : "fd95c013-8cd6-424f-9b9f-4a00460f161c",
+  "id" : "86b2b930-fdd9-4e63-91f4-9c0c86590f26",
   "url" : "www.gardening.com/summer",
   "name" : "Summer Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "60c9140a-d1da-49ea-880d-1bf7f1b773c5",
+  "groupId" : "a46e08c3-d342-4ebf-9312-4a4459f4f7d7",
+  "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
