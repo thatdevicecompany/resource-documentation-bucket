@@ -9,12 +9,29 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1217
+Content-Length: 1257
 
 [ {
-  "createdTime" : 1509986456746,
+  "createdTime" : 1512383338679,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1509986458746,
+  "lastUpdatedTime" : 1512383340679,
+  "updatedBy" : "James Mitchell",
+  "id" : "aa7bf258-0271-4614-9cee-62523d6b8e34",
+  "title" : "Gardening",
+  "description" : "Helpful app, informing you when best to water those flowers",
+  "productId" : "co.uk.demo.gardening",
+  "iconUrl" : "https://www.gardening.com/image",
+  "smallIconUrl" : "https://www.gardening.com/image/small",
+  "groupId" : "f3c8c393-4c23-4fbd-b3e6-36a5a903b18b",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
+}, {
+  "createdTime" : 1512383338695,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1512383340695,
   "updatedBy" : "James Mitchell",
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "title" : "Winter Gardening",
@@ -22,23 +39,8 @@ Content-Length: 1217
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "ebb69e9d-0783-4249-9604-ce200141742b",
-  "promote" : false,
-  "hidden" : false,
-  "blockUninstall" : false,
-  "blockNotification" : false
-}, {
-  "createdTime" : 1509986456720,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1509986458720,
-  "updatedBy" : "James Mitchell",
-  "id" : "1684af16-cb8c-48e7-b659-7ecd8383955c",
-  "title" : "Gardening",
-  "description" : "Helpful app, informing you when best to water those flowers",
-  "productId" : "co.uk.demo.gardening",
-  "iconUrl" : "https://www.gardening.com/image",
-  "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "ebb69e9d-0783-4249-9604-ce200141742b",
+  "groupId" : "f3c8c393-4c23-4fbd-b3e6-36a5a903b18b",
+  "forced" : false,
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
