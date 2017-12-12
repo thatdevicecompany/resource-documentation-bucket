@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/sponsorRequests/a9c44b14-3f25-4b20-bb3e-9eca061fe9cc/email' -i -X POST \
+$ curl 'https://api.breezie.com/sponsorRequests/956cd5d9-5ccc-471d-8d9b-fd03b3eb24da/email' -i -X POST \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -H 'Content-Type: application/json' \
     -d '{
