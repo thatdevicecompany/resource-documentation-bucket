@@ -19,11 +19,11 @@
 
 |`[].welcomeNote`
 |`Varies`
-|Welcome note of the user
+|Welcome message to show during user setup process
 
 |`[].familiarity`
 |`Varies`
-|Familiarity of the user
+|Level of familiarity of the user with internet and related technologies. Allowed values: 1, 2 or 3
 
 |`[].profileImageUri`
 |`Varies`
@@ -51,7 +51,7 @@
 
 |`[].sponsors`
 |`Array`
-|Id list of users sponsoring this user
+|ID list of users sponsoring this user
 
 |`[].roles`
 |`Array`
@@ -59,6 +59,6 @@
 
 |`[].sponsees`
 |`Array`
-|user ID list of people who this user is sponsoring
+|ID list of users who this user is sponsoring
 
 |===

@@ -34,7 +34,7 @@
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "e674363b-2d42-4826-900b-f938124a630d" ],
+  "sponsors" : [ "1568aab3-af2c-43d0-a16f-fe70e3c8a833" ],
   "sponsees" : [ ]
 } ]
 ----
