@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "f324202f-3652-4325-b6cf-d6ffcd278856",
+  "id" : "1fbb0eb6-cc44-4a66-855d-d9434fe9527c",
   "username" : "sarah.francis@email.com",
   "firstName" : "Sarah",
   "lastName" : "Francis",
@@ -34,7 +34,7 @@
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "7cde74dd-fce5-4f94-a559-e43e9b854d6d" ],
+  "sponsors" : [ "b99428c3-cf01-419c-b46e-d0ec8b59251c" ],
   "sponsees" : [ ]
 }, {
   "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -55,7 +55,7 @@
   "sponsors" : [ ],
   "sponsees" : [ ]
 }, {
-  "id" : "7cde74dd-fce5-4f94-a559-e43e9b854d6d",
+  "id" : "b99428c3-cf01-419c-b46e-d0ec8b59251c",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",

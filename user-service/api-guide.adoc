@@ -163,9 +163,12 @@ include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 
 [[resources-profile-sensitive]]
 == Sensitive Information
+`Sensitive` is a representation of protected information of the user. Access to this resource is restricted.
 
 === Structure
 include::{user-snippets}/users-get-sensitive/response-fields.adoc[]
+
+=== Sensitive API
 
 ==== Retrieve Sensitive Information
 
@@ -223,10 +226,13 @@ include::{user-snippets}/users-patch-sensitive/http-response.adoc[]
 
 [[sponsor-requests]]
 == Sponsor Request
+A `sponsorRequest` represent an invitation to someone to become sponsor of a user
 
 === Structure
 
 include::{user-snippets}/sponsorRequest-create/response-fields.adoc[]
+
+=== SponsorRequests API
 
 [[sponsor-requests-create]]
 ==== Create Sponsor Request
