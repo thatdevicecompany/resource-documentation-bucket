@@ -19,16 +19,16 @@ Content-Length: 569
   "addressLine2" : "Nr 10",
   "zipCode" : "SE17BU",
   "resourceScope" : {
+    "userId" : null,
+    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
     "regionId" : null,
     "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "facilityId" : null,
-    "userId" : null
+    "facilityId" : null
   },
   "demo" : false,
   "disabled" : false,
   "createdTime" : null,
-  "lastUpdatedTime" : 1503576478289,
+  "lastUpdatedTime" : 1513184292293,
   "createdBy" : null,
   "updatedBy" : "user",
   "validCredentials" : true,
