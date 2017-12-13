@@ -6,7 +6,5 @@ $ echo '{
   "dob" : "22/12/1948",
   "gender" : "Male",
   "religion" : "agnostic"
-}' | http PUT 'https://api.breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838/sensitive' \
-    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' \
-    'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838/sensitive' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

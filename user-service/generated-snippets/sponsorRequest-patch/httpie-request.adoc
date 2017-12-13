@@ -2,7 +2,5 @@
 ----
 $ echo '{
   "firstName" : "Michael"
-}' | http PATCH 'https://api.breezie.com/sponsorRequests/b0d70a0e-4260-4903-a4cc-52a887fbc6c8' \
-    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' \
-    'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/sponsorRequests/918cc172-869c-4450-97a7-1177831d5df2' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

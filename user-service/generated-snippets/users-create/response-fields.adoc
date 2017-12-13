@@ -29,10 +29,6 @@
 |`String`
 |ID of the organization that the user belongs to
 
-|`religion`
-|`String`
-|Religion of the user
-
 |`profileImageUri`
 |`Null`
 |Url of the profile image
