@@ -3,173 +3,174 @@ operations available from this API
 
 * <<user-structure, Structure>>
 * <<users-api, Users API>>
-** <<resources-profile-list, ListingUsers>>
+** <<resources-profile-list, Listing users>>
 ** <<resources-profile-get, Retrieve a user>>
 ** <<resources-profile-create, Create a user>>
 ** <<resources-profile-update, Replace a user>>
 ** <<resources-profile-patch, Update a user>>
 ** <<resources-profile-delete, Delete a user>>
 ** <<resources-profile-image, Creating user image object>>
+** <<resources-sponsor-get, Listing sponsors>>
 
 [[user-structure]]
-===== Structure
+==== Structure
 include::{user-snippets}/users-get/response-fields.adoc[]
 
 [[users-api]]
-===== Users API
+==== Users API
 
 [[resources-profile-list]]
-====== Listing users
+===== Listing users
 
 A `GET` request to `/users` will list all users accessible by the user who make the request.
 Only users with role ROLE_BW or ROLE_BR will see sponsors in this list.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-list/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-get-list/http-response.adoc[]
 
 
 [[resources-profile-list-by-organization]]
-======= Listing users in organization
+====== Listing users in organization
 
 A `GET` request to `/users/search/findByOrganizationId?id=[organization-id]` will list all of the users
 in the organization specified that are accessible by the user who make the request. Sponsors are not listed.
 
-======== Example request
+======= Example request
 
 include::{user-snippets}/users-get-list-by-organization/curl-request.adoc[]
 
 
 [[resources-profile-list-by-region]]
-======= Listing users in region
+====== Listing users in region
 
 A `GET` request to `/users/search/findByRegionId?id=[region-id]` will list all of the users in the region specified
 that are accessible by the user who make the request. Sponsors are not listed.
 
-======== Example request
+======= Example request
 
 include::{user-snippets}/users-get-list-by-region/curl-request.adoc[]
 
 
 [[resources-profile-list-by-campus]]
-======= Listing users in campus
+====== Listing users in campus
 
 A `GET` request to `/users/search/findByCampusId?id=[region-id]` will list all of the users in the campus specified
 that are accessible by the user who make the request. Sponsors are not listed.
 
-======== Example request
+======= Example request
 
 include::{user-snippets}/users-get-list-by-campus/curl-request.adoc[]
 
 
 [[resources-profile-list-by-facility]]
-======= Listing users in facility
+====== Listing users in facility
 
 A `GET` request to `/users/search/findByFacilityId?id=[facility-id]` will list all of the users in the facility
 specified that are accessible by the user who make the request. Sponsors are not listed.
 
-======== Example request
+======= Example request
 
 include::{user-snippets}/users-get-list-by-facility/curl-request.adoc[]
 
 
 [[resources-profile-get]]
-====== Retrieve a User
+===== Retrieve a User
 
 A `GET` request to `/users/{user-id}` will retrieve the user identified by `user-id`
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-get/http-response.adoc[]
 
 [[resources-profile-create]]
-====== Create a user
+===== Create a user
 
 A `POST` request to `/users` will save a new user and return the created representation.
 
-======= Request structure
+====== Request structure
 
 include::{user-snippets}/users-create/request-fields.adoc[]
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-create/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-create/http-response.adoc[]
 
 [[resources-profile-update]]
-====== Replace a user
+===== Replace a user
 
 A `PUT` request to `/users/{user-id}` is used to update a user completely
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-update/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-update/http-response.adoc[]
 
 [[resources-profile-patch]]
-====== Update a user
+===== Update a user
 
 A `PATCH` request to `/users/{user-id}` is used to update a user partially
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-patch/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-patch/http-response.adoc[]
 
 [[resources-profile-delete]]
-====== Delete a user
+===== Delete a user
 
 A `DELETE` request is used to delete a user
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-delete/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-delete/http-response.adoc[]
 
 [[resources-profile-image]]
-====== Create User Image Object
+===== Create User Image Object
 
 A `POST` request to `users/{user-id}/picture` is used to generate an image representation that makes you able to upload a image file for the specified user.
 To complete the image upload a `POST` request to the url returned in this request is required.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-image/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-image/http-response.adoc[]
 
 [[resources-sponsor-get]]
-======= Listing sponsors
+====== Listing sponsors
 
 A `GET` request to `/users/{user-id}/sponsors` will retrieve the list of users that are partner ot the user identified by 'user-id'
 
-======== Example request
+======= Example request
 
 include::{user-snippets}/user-sponsors-get/curl-request.adoc[]
 
-======== Example response
+======= Example response
 
 include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 
@@ -186,64 +187,64 @@ include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 ** <<resources-sensitive-patch, Update Sensitive Information>>
 
 [[sensitive-structure]]
-===== Structure
+==== Structure
 include::{user-snippets}/users-get-sensitive/response-fields.adoc[]
 
 [[sensitive-api]]
-===== Sensitive API
+==== Sensitive API
 
 [[resources-sensitive-retrieve]]
-====== Retrieve Sensitive Information
+===== Retrieve Sensitive Information
 
 A `GET` request to `/users/{user-id}/sensitive` will return the private information of the user.
 This information is exclusively accessible by the owner or partners of the owner.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-sensitive/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-get-sensitive/http-response.adoc[]
 
 [[resources-sensitive-creation]]
-====== Create Sensitive Information
+===== Create Sensitive Information
 
 A `POST` request to `/users/{user-id}/sensitive` will save the private information of the user. This information is exclusively writable by the owner or partners of the owner.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-post-sensitive/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-post-sensitive/http-response.adoc[]
 
 
 [[resources-sensitive-update]]
-====== Replace Sensitive Information
+===== Replace Sensitive Information
 
 A `PUT` request to `/users/{user-id}/sensitive` will update the private information of the user completely. This information is exclusively upgradeable by the owner or partners of the owner.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-put-sensitive/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-put-sensitive/http-response.adoc[]
 
 
 [[resources-sensitive-patch]]
-====== Update Sensitive Information
+===== Update Sensitive Information
 
 A `PATCH` request to `/users/{user-id}/sensitive` will save the private information of the user partially. This information is exclusively upgradeable by the owner or partners of the owner.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-patch-sensitive/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/users-patch-sensitive/http-response.adoc[]
 
@@ -260,62 +261,62 @@ A `sponsorRequest` represent an invitation to someone to become sponsor of a use
 
 
 [[sponsor-requests-structure]]
-===== Structure
+==== Structure
 
 include::{user-snippets}/sponsorRequest-create/response-fields.adoc[]
 
 [[sponsor-requests-api]]
-===== Sponsor Requests API
+==== Sponsor Requests API
 
 [[sponsor-requests-list]]
-====== Listing Sponsor Requests
+===== Listing Sponsor Requests
 
 A `GET` request to `/sponsorRequests/search/findByUserId?id=[userId]` will list all sponsor requests made on behalf of the user identified by `userId`. Any user with read access to the specified user can make this request.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/sponsorRequests-get/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/sponsorRequests-get/http-response.adoc[]
 
 [[sponsor-requests-create]]
-====== Create Sponsor Request
+===== Create Sponsor Request
 
 A `POST` request to `/sponsorRequests` will create a sponsor request for the user specified in the body. Any user with write access to the specified user can make this request.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/sponsorRequest-create/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/sponsorRequest-create/http-response.adoc[]
 
 [[sponsor-requests-update]]
-====== Update Sponsor Request
+===== Update Sponsor Request
 
 A `PATCH` request to `/sponsorRequests/{id}` will update a sponsor request identified by `id`. Any user with write access to the specified user can make this request.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/sponsorRequest-patch/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/sponsorRequest-patch/http-response.adoc[]
 
 [[sponsor-requests-email]]
-====== Send Sponsor Request Email
+===== Send Sponsor Request Email
 
 A `POST` request to `/sponsorRequests/{id}/email` will send a sponsor request email to the email previously set in the sponsor request. Any user with write access to the specified user can make this request.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/sponsorRequest-email/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/sponsorRequest-email/http-response.adoc[]
 
