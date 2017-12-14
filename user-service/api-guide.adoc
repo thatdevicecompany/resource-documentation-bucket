@@ -1,3 +1,9 @@
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: top
+:toclevels: 3
+
 A `user` is a representation of anyone who authenticates with the Breezie Platform. Listing, creating, updating and deleting are the
 operations available from this API
 
