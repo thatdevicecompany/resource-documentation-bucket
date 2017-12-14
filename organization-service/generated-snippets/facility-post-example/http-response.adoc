@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 645
 
 {
-  "id" : "4ef251eb-4ae7-463d-9381-c98d4e159a57",
+  "id" : "902ab9f1-1574-4bbd-b193-ee7598a07de1",
   "name" : "Robertson",
   "addressLine1" : "Dowson Lake street nr 5",
   "addressLine2" : "Floor nr. 4",
@@ -20,15 +20,15 @@ Content-Length: 645
   "country" : "USA",
   "zipCode" : "Z16 I9Q",
   "resourceScope" : {
+    "facilityId" : "902ab9f1-1574-4bbd-b193-ee7598a07de1",
     "userId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : "4ef251eb-4ae7-463d-9381-c98d4e159a57"
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
   },
   "deleted" : false,
-  "createdTime" : 1513184237712,
-  "lastUpdatedTime" : 1513184237712,
+  "createdTime" : 1513267229890,
+  "lastUpdatedTime" : 1513267229890,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

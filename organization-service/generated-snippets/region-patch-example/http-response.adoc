@@ -16,15 +16,15 @@ Content-Length: 450
   "name" : "Kensington",
   "country" : "UK",
   "resourceScope" : {
+    "facilityId" : null,
     "userId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : null,
-    "facilityId" : null
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
   },
   "deleted" : false,
   "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1513184288214,
+  "lastUpdatedTime" : 1513267281309,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

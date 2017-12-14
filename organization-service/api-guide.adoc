@@ -2,437 +2,391 @@ An `organization` is a representation of an institution and is used to allocate 
 `devices`, `contents`... This resource is the top of an pyramidal structure composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
-=== Structure
+* <<organization-structure, Structure>>
+* <<organizations-api, Organizations API>>
+** <<resources-organization-list, Listing organizations>>
+** <<resources-organization-retrieve, Retrieve an organization>>
+** <<resources-organization-update, Replace an organization>>
+** <<resources-organization-patch, Update an organization>>
+
+[[organization-structure]]
+==== Structure
 include::{organizations-snippets}/organization-get-example/response-fields.adoc[]
 
-=== Organizations API
+[[organizations-api]]
+==== Organizations API
 
-[[resources-organization-list-retrieve]]
-==== Retrieve the list of all organizations
+[[resources-organization-list]]
+===== Listing organizations
 
 A `GET` request will retrieve the details of all organizations
 
-===== Response structure
-
-include::{organizations-snippets}/organization-list-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/organization-list-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/organization-list-get-example/http-response.adoc[]
 
 
-
 [[resources-organization-retrieve]]
-==== Retrieve a single organization
+===== Retrieve an organization
 
 A `GET` request will retrieve the details of a single organization
 
-===== Response structure
-
-include::{organizations-snippets}/organization-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/organization-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/organization-get-example/http-response.adoc[]
 
 
 [[resources-organization-update]]
-==== Update a organization
+===== Replace an organization
 
 A `PUT` request is used to update a organization
 
-===== Request structure
-
-====== Request body
-
-include::{organizations-snippets}/organization-update-example/request-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/organization-update-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/organization-update-example/http-response.adoc[]
 
 
-
 [[resources-organization-patch]]
-==== Patch a organization
+===== Update an organization
 
 A `PATCH` will update some fields of a organization
 
-===== Response structure
-
-include::{organizations-snippets}/organization-patch-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/organization-patch-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/organization-patch-example/http-response.adoc[]
 
 
-== Regions
+=== Regions
 A `region` is a representation of a part of an institution localized on some area. It is used to allocate other resources of the system like `users`,
 `devices`, `contents`... This resource is the under the top of an pyramidal structure composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
-=== Structure
+* <<region-structure, Structure>>
+* <<regions-api, Regions API>>
+** <<resources-region-list, Listing regions>>
+** <<resources-region-retrieve, Retrieve a region>>
+** <<resources-region-create, Create a region>>
+** <<resources-region-update, Replace a region>>
+** <<resources-region-patch, Update a region>>
+** <<resources-region-delete, Delete a region>>
+
+[[region-structure]]
+==== Structure
 include::{organizations-snippets}/region-get-example/response-fields.adoc[]
 
-=== Regions API
+[[regions-api]]
+==== Regions API
 
-[[resources-region-list-retrieve]]
-==== Retrieve the list of all regions
+[[resources-region-list]]
+===== Listing regions
 
 A `GET` request will retrieve the details of all regions
 
-===== Response structure
-
-include::{organizations-snippets}/region-list-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-list-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-list-get-example/http-response.adoc[]
 
 
-
 [[resources-region-retrieve]]
-==== Retrieve a single region
+===== Retrieve a region
 
 A `GET` request will retrieve the details of a single region
 
-===== Response structure
-
-include::{organizations-snippets}/region-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-get-example/http-response.adoc[]
 
 
-
 [[resources-region-create]]
-==== Create a region
+===== Create a region
 
 A `POST` will create a new region
 
-===== Request structure
-
-====== Request body
-
-include::{organizations-snippets}/region-post-example/request-fields.adoc[]
-
-===== Response structure
+====== Response structure
 
 include::{organizations-snippets}/region-post-example/response-fields.adoc[]
 
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-post-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-post-example/http-response.adoc[]
 
 
-
 [[resources-region-update]]
-==== Update a region
+===== Replace a region
 
 A `PUT` request is used to update a region
 
-===== Request structure
-
-====== Request body
-
-include::{organizations-snippets}/region-update-example/request-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-update-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-update-example/http-response.adoc[]
 
 
 
 [[resources-region-patch]]
-==== Patch a region
+===== Update a region
 
 A `PATCH` will update some fields of a region
 
-===== Response structure
-
-include::{organizations-snippets}/region-patch-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-patch-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-patch-example/http-response.adoc[]
 
 
 
 [[resources-region-delete]]
-==== Delete a region
+===== Delete a region
 
 A `DELETE` will set the region state to deleted
 
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/region-delete-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/region-delete-example/http-response.adoc[]
 
-== Campuses
+
+=== Campuses
 A `campus` is a representation of a part of `region`. It is used to allocate other resources of the system like `users`,
 `devices`, `contents`... This resource is the over the bottom of an pyramidal structure composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
-=== Structure
+* <<campus-structure, Structure>>
+* <<campuses-api, campuses API>>
+** <<resources-campus-list, Listing campuses>>
+** <<resources-campus-retrieve, Retrieve a campus>>
+** <<resources-campus-create, Create a campus>>
+** <<resources-campus-update, Replace a campus>>
+** <<resources-campus-patch, Update a campus>>
+** <<resources-campus-delete, Delete a campus>>
+
+[[campus-structure]]
+==== Structure
 include::{organizations-snippets}/campus-get-example/response-fields.adoc[]
 
-=== Campuses API
+[[campuses-api]]
+==== Campuses API
 
-[[resources-campus-list-retrieve]]
-==== Retrieve the list of all campuses
+[[resources-campus-list]]
+===== Listing campuses
 
 A `GET` request will retrieve the details of all campuses
 
-===== Response structure
-
-include::{organizations-snippets}/campus-list-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-list-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-list-get-example/http-response.adoc[]
 
+
 [[resources-campus-retrieve]]
-==== Retrieve a single campus
+===== Retrieve a campus
 
 A `GET` request will retrieve the details of a single campus
 
-===== Response structure
-
-include::{organizations-snippets}/campus-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-get-example/http-response.adoc[]
 
+
 [[resources-campus-create]]
-==== Create a campus
+===== Create a campus
 
 A `POST` will create a new campus
 
-===== Response structure
-
-include::{organizations-snippets}/campus-post-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-post-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-post-example/http-response.adoc[]
 
 
 [[resources-campus-update]]
-==== Update a campus
+===== Replace a campus
 
 A `PUT` request is used to update a campus
 
-===== Request structure
-
-====== Request body
-
-include::{organizations-snippets}/campus-update-example/request-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-update-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-update-example/http-response.adoc[]
 
+
 [[resources-campus-patch]]
-==== Patch a campus
+===== Update a campus
 
 A `PATCH` will update some fields of a campus
 
-===== Response structure
-
-include::{organizations-snippets}/campus-patch-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-patch-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-patch-example/http-response.adoc[]
 
 [[resources-campus-delete]]
-==== Delete a campus
+===== Delete a campus
 
 A `DELETE` will set the campus state to deleted
 
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/campus-delete-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/campus-delete-example/http-response.adoc[]
 
 
-== Facilities
+=== Facilities
 A `facility` is a representation of a part of a campus. It is used to allocate other resources of the system like `users`,
 `devices`, `contents`... This resource is the base of an pyramidal structure composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
-=== Structure
+* <<facility-structure, Structure>>
+* <<facilities-api, facilities API>>
+** <<resources-facility-list, Listing facilities>>
+** <<resources-facility-retrieve, Retrieve a facility>>
+** <<resources-facility-create, Create a facility>>
+** <<resources-facility-update, Replace a facility>>
+** <<resources-facility-patch, Update a facility>>
+** <<resources-facility-delete, Delete a facility>>
+
+[[facility-structure]]
+==== Structure
 include::{organizations-snippets}/facility-get-example/response-fields.adoc[]
 
-=== Facilities API
+[[facilities-api]]
+==== Facilities API
 
-
-[[resources-facility-list-retrieve]]
-==== Retrieve the list of all facilities
+[[resources-facility-list]]
+===== Listing facilities
 
 A `GET` request will retrieve the details of all facilities
 
-===== Response structure
-
-include::{organizations-snippets}/facility-list-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-list-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-list-get-example/http-response.adoc[]
 
 
-
-
 [[resources-facility-retrieve]]
-==== Retrieve a single facility
+===== Retrieve a facility
 
 A `GET` request will retrieve the details of a single facility
 
-===== Response structure
-
-include::{organizations-snippets}/facility-get-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-get-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-get-example/http-response.adoc[]
 
+
 [[resources-facility-create]]
-==== Create a facility
+===== Create a facility
 
 A `POST` will create a new facility
 
-===== Response structure
-
-include::{organizations-snippets}/facility-post-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-post-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-post-example/http-response.adoc[]
 
 
 [[resources-facility-update]]
-==== Update a facility
+===== Replace a facility
 
 A `PUT` request is used to update a facility
 
-===== Request structure
-
-====== Request body
-
-include::{organizations-snippets}/facility-update-example/request-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-update-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-update-example/http-response.adoc[]
 
+
 [[resources-facility-patch]]
-==== Patch a facility
+===== Update a facility
 
 A `PATCH` will update some fields of a facility
 
-===== Response structure
-
-include::{organizations-snippets}/facility-patch-example/response-fields.adoc[]
-
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-patch-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-patch-example/http-response.adoc[]
 
 
 [[resources-facility-delete]]
-==== Delete a facility
+===== Delete a facility
 
 A `DELETE` will set the facility state to deleted
 
-===== Example request
+====== Example request
 
 include::{organizations-snippets}/facility-delete-example/curl-request.adoc[]
 
-===== Example response
+====== Example response
 
 include::{organizations-snippets}/facility-delete-example/http-response.adoc[]

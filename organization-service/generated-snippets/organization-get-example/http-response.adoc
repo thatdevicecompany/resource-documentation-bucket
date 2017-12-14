@@ -19,11 +19,11 @@ Content-Length: 579
   "addressLine2" : "Floor 2",
   "zipCode" : "TW8 9QW",
   "resourceScope" : {
+    "facilityId" : null,
     "userId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : null,
     "campusId" : null,
-    "facilityId" : null
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : null
   },
   "demo" : false,
   "disabled" : false,
