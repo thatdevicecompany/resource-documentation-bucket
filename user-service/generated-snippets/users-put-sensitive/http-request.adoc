@@ -4,12 +4,12 @@ PUT /users/4809459f-3d27-46fd-8a59-b6b8204d2838/sensitive HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: api.breezie.com
-Content-Length: 138
+Content-Length: 139
 
 {
   "phoneNumber" : "07411223333",
   "socialSecurity" : "000AAA",
-  "dob" : "22/12/1948",
+  "dob" : -663552000000,
   "gender" : "Male",
   "religion" : "agnostic"
 }

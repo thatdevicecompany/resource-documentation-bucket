@@ -10,7 +10,7 @@
 |Social security number of the user
 
 |`dob`
-|`String`
+|`Number`
 |Date of birth of the user
 
 |`gender`
