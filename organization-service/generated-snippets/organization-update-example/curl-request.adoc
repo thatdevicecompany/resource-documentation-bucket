@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/organizations/78b219fb-0099-4171-b4c5-4fbfa1bd88dd' -i -X PUT -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/organizations/41b412c4-09ff-4b79-919b-e92fae8a5b35' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
   "name" : "Steam Engine",
   "country" : "UK",
   "addressLine1" : "41 Crosser Street",

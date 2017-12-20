@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -9,26 +9,26 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 584
+Content-Length: 581
 
 {
-  "id" : "3601e65d-8c6c-43c9-b70a-6ab44ed05b2f",
-  "name" : "Audi",
-  "country" : "Austria",
-  "addressLine1" : "Clarance Lane 34",
-  "addressLine2" : "Apartment 12",
-  "zipCode" : "W1Q YU7",
+  "id" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
+  "name" : "Breezie",
+  "country" : "UK",
+  "addressLine1" : "3 Loughborough Street",
+  "addressLine2" : "Nr. 15",
+  "zipCode" : "TW71AB",
   "resourceScope" : {
     "campusId" : null,
     "facilityId" : null,
-    "organizationId" : "3601e65d-8c6c-43c9-b70a-6ab44ed05b2f",
+    "organizationId" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
     "regionId" : null,
     "userId" : null
   },
-  "demo" : true,
+  "demo" : false,
   "disabled" : false,
-  "createdTime" : 1513784707978,
-  "lastUpdatedTime" : 1513784707988,
+  "createdTime" : 1513784707729,
+  "lastUpdatedTime" : 1513784707729,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false,

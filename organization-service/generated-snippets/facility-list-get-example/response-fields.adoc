@@ -39,11 +39,11 @@
 
 |`[].createdTime`
 |`Long`
-|The time the facility was created
+|The time (Unix timestamp) the facility was created
 
 |`[].lastUpdatedTime`
 |`Long`
-|The time the facility was updated
+|The time (Unix timestamp) the facility was updated
 
 |`[].updatedBy`
 |`String`

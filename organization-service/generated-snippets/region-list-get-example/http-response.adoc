@@ -9,38 +9,294 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 925
+Content-Length: 8929
 
 [ {
-  "id" : "dd6662eb-111b-40b2-8480-aab7fdb1c80f",
-  "name" : "Baden-Wurttenberg",
-  "country" : "Germany",
-  "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
-    "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "regionId" : "dd6662eb-111b-40b2-8480-aab7fdb1c80f"
-  },
-  "deleted" : false,
-  "createdTime" : 1468929347247,
-  "lastUpdatedTime" : 1468921140258,
-  "createdBy" : "user",
-  "updatedBy" : "user"
-}, {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "55465bd4-6f69-4cc6-a06c-656efede25c4",
   "name" : "Auckland",
   "country" : "New Zealand",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+    "facilityId" : null,
+    "organizationId" : "4dbab117-2b4f-4be8-ac9e-4509a10a397f",
+    "regionId" : "55465bd4-6f69-4cc6-a06c-656efede25c4",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1513784684481,
+  "lastUpdatedTime" : 1513784684481,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "createdRegion2-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "Created region name2",
+  "country" : "Created Region country2",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "createdOrganization2-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "createdRegion2-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
   },
   "deleted" : false,
   "createdTime" : 1468920747247,
   "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "createdRegion3-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "Created region name3",
+  "country" : "Created Region country3",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "createdOrganization3-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "createdRegion3-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "eaf1fc74-36c2-4834-ba5a-a42918b55fee",
+  "name" : "Baden-Wurttenberg",
+  "country" : "Germany",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "a6f0d332-17ee-4874-aa49-0d6f6ee63c01",
+    "regionId" : "eaf1fc74-36c2-4834-ba5a-a42918b55fee",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1513784684482,
+  "lastUpdatedTime" : 1513784684482,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "TestRegion2",
+  "country" : "RegionCountry2",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "3t47u-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "f70sf4-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "Northland",
+  "country" : "New Zealand",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "7fd8s9f0-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "f70sf4-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "oejovr-tttt-5555-qedf-9ugdfugig0fd",
+  "name" : "TestRegion5",
+  "country" : "RegionCountry5",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "4ihnoe-ewrt-4444-8888-scuhn9ej9re",
+    "regionId" : "oejovr-tttt-5555-qedf-9ugdfugig0fd",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747777,
+  "lastUpdatedTime" : 1468927140222,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "re5ty5-ty56-5701-qwer-555h4hih4ihh",
+  "name" : "TestRegion4",
+  "country" : "RegionCountry4",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "3t47u-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "re5ty5-ty56-5701-qwer-555h4hih4ihh",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747777,
+  "lastUpdatedTime" : 1468927140222,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionOfDeleteOrganization-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region of delete organization name1",
+  "country" : "region of delete organization country1",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete3-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionOfDeleteOrganization-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionOfDeleteOrganization6-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region of delete name6",
+  "country" : "region of delete country6",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete6-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionOfDeleteOrganization6-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete1-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name1",
+  "country" : "region to delete country1",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete1-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete2-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name2",
+  "country" : "region to delete country2",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete2-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete3-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name3",
+  "country" : "region to delete country3",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete3-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete4-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name4",
+  "country" : "region to delete country4",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete4-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete5-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name5",
+  "country" : "region to delete country5",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete5-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToDelete6-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "region to delete name6",
+  "country" : "region to delete country6",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToDelete4-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToDelete6-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "regionToUpdate1-acb8-4559-a1c3-e605ea3a653b",
+  "name" : "Region to update name1",
+  "country" : "Region to update country1",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "organizationToUpdate1-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "regionToUpdate1-acb8-4559-a1c3-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747247,
+  "lastUpdatedTime" : 1468927140258,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "v73n5u-acb8-4559-a1a1-e605ea3a653b",
+  "name" : "TestRegion3",
+  "country" : "RegionCountry3",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "3t47u-703e-49b3-8670-b1c468f47f1f",
+    "regionId" : "v73n5u-acb8-4559-a1a1-e605ea3a653b",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1468920747777,
+  "lastUpdatedTime" : 1468927140222,
   "createdBy" : "user",
   "updatedBy" : "user"
 } ]

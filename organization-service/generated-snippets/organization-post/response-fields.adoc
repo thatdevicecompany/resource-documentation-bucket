@@ -1,71 +1,79 @@
 |===
 |Path|Type|Description
 
-|`[].id`
+|`id`
 |`String`
 |The organization id
 
-|`[].name`
+|`name`
 |`String`
 |The name of the organization
 
-|`[].country`
+|`country`
 |`String`
 |The country the organization is located in
 
-|`[].addressLine1`
+|`addressLine1`
 |`String`
 |The first line of the organization address
 
-|`[].addressLine2`
+|`addressLine2`
 |`String`
 |The second line of the organization address
 
-|`[].zipCode`
+|`zipCode`
 |`String`
 |The organization zip code
 
-|`[].demo`
+|`demo`
 |`String`
 |Flag indicating if the organization is a demo one or not
 
-|`[].createdBy`
+|`customTC`
+|`Boolean`
+|Flag indicating if the organization manage its own terms and conditions
+
+|`createdBy`
 |`String`
 |The one who created the organization
 
-|`[].createdTime`
+|`createdTime`
 |`Long`
 |The time (Unix timestamp) the organization was created
 
-|`[].lastUpdatedTime`
+|`lastUpdatedTime`
 |`Long`
 |The time (Unix timestamp) the organization was updated
 
-|`[].updatedBy`
+|`validCredentials`
+|`boolean`
+|Whether this organizations credentials have been validating
+
+|`updatedBy`
 |`String`
 |The one who updated the organization
 
-|`[].resourceScope`
+|`resourceScope`
 |`Object`
 |The scope object for this organization
 
-|`[].resourceScope.organizationId`
+|`resourceScope.organizationId`
 |`String`
 |The organization scope id
 
-|`[].resourceScope.regionId`
+|`resourceScope.regionId`
 |`String`
 |The region scope id
 
-|`[].resourceScope.campusId`
+|`resourceScope.campusId`
 |`String`
 |The campus scope id
 
-|`[].resourceScope.facilityId`
+|`resourceScope.facilityId`
 |`String`
 |The facility scope id
 
-|`[].resourceScope.userId`
+|`resourceScope.userId`
 |`String`
 |The user scope id
 

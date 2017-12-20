@@ -19,11 +19,11 @@
 
 |`[].createdTime`
 |`Long`
-|The time the campus was created
+|The time (Unix timestamp) the campus was created
 
 |`[].lastUpdatedTime`
 |`Long`
-|The time the campus was updated
+|The time (Unix timestamp) the campus was updated
 
 |`[].updatedBy`
 |`String`

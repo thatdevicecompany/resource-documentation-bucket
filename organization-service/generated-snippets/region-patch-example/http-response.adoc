@@ -12,19 +12,19 @@ X-Frame-Options: DENY
 Content-Length: 450
 
 {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "e47efbc6-c71f-4210-ba5c-94ed3d9fca07",
   "name" : "Kensington",
   "country" : "UK",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+    "facilityId" : null,
+    "organizationId" : "1e05f869-d841-455d-a6be-6a1f117fefa2",
+    "regionId" : "e47efbc6-c71f-4210-ba5c-94ed3d9fca07",
+    "userId" : null
   },
   "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1513267281309,
+  "createdTime" : 1513784685014,
+  "lastUpdatedTime" : 1513784685023,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

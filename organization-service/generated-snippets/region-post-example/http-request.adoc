@@ -1,16 +1,17 @@
 [source,http,options="nowrap"]
 ----
 POST /regions HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
-Host: breezie.com
+Host: api.breezie.com
 Content-Length: 152
 
 {
   "name" : "Ohio",
   "country" : "USA",
   "resourceScope" : {
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f"
+    "organizationId" : "2247da11-eb6f-44e1-a18b-13cb993b7020"
   },
   "deleted" : false
 }

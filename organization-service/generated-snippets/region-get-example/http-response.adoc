@@ -12,19 +12,19 @@ X-Frame-Options: DENY
 Content-Length: 457
 
 {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "fbd08e61-ee4e-4bf4-8b06-0ded0cad167e",
   "name" : "Auckland",
   "country" : "New Zealand",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+    "facilityId" : null,
+    "organizationId" : "12a2b759-ab7d-42e7-9791-3cd148ba0b77",
+    "regionId" : "fbd08e61-ee4e-4bf4-8b06-0ded0cad167e",
+    "userId" : null
   },
   "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1468927140258,
+  "createdTime" : 1513784684772,
+  "lastUpdatedTime" : 1513784684772,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

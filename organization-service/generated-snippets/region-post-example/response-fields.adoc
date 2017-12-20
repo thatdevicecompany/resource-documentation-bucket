@@ -23,11 +23,11 @@
 
 |`createdTime`
 |`Long`
-|The time the region was created
+|The time (Unix timestamp) the region was created
 
 |`lastUpdatedTime`
 |`Long`
-|The time the region was updated
+|The time (Unix timestamp) the region was updated
 
 |`updatedBy`
 |`String`

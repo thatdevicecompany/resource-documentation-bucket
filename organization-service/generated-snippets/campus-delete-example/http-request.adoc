@@ -1,6 +1,7 @@
 [source,http,options="nowrap"]
 ----
 DELETE /campuses/a994decc-1609-44af-b438-623c7224f4de HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
 ----

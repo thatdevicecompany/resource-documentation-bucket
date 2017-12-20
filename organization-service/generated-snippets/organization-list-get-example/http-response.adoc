@@ -9,49 +9,71 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1156
+Content-Length: 1760
 
 [ {
-  "id" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-  "name" : "Rock FM",
-  "country" : "New Zealand",
-  "addressLine1" : "Jackson Street nr. 2",
-  "addressLine2" : "Floor 2",
-  "zipCode" : "TW8 9QW",
+  "id" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
+  "name" : "Breezie",
+  "country" : "UK",
+  "addressLine1" : "3 Loughborough Street",
+  "addressLine2" : "Nr. 15",
+  "zipCode" : "TW71AB",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : null
+    "facilityId" : null,
+    "organizationId" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
+    "regionId" : null,
+    "userId" : null
   },
   "demo" : false,
   "disabled" : false,
-  "createdTime" : null,
-  "lastUpdatedTime" : 1468920608549,
-  "createdBy" : null,
+  "createdTime" : 1513784707729,
+  "lastUpdatedTime" : 1513784707729,
+  "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : true,
+  "validCredentials" : false,
   "customTC" : false
 }, {
-  "id" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
+  "id" : "33a67d1f-5e7c-4d78-ba3e-e061de667ff3",
+  "name" : "Pearson",
+  "country" : "New Zeland",
+  "addressLine1" : "Clarance Lane 34",
+  "addressLine2" : "Apartment 12",
+  "zipCode" : "W1Q YU7",
+  "resourceScope" : {
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "33a67d1f-5e7c-4d78-ba3e-e061de667ff3",
+    "regionId" : null,
+    "userId" : null
+  },
+  "demo" : true,
+  "disabled" : false,
+  "createdTime" : 1513784708053,
+  "lastUpdatedTime" : 1513784708053,
+  "createdBy" : "user",
+  "updatedBy" : "user",
+  "validCredentials" : false,
+  "customTC" : false
+}, {
+  "id" : "8cbefa79-d2ce-468d-b006-0b0f9ca5a031",
   "name" : "Kaufland",
   "country" : "Germany",
   "addressLine1" : "Auckan Street 7",
   "addressLine2" : "Floor 3",
   "zipCode" : "9AS 7U1",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "regionId" : null
+    "facilityId" : null,
+    "organizationId" : "8cbefa79-d2ce-468d-b006-0b0f9ca5a031",
+    "regionId" : null,
+    "userId" : null
   },
-  "demo" : false,
+  "demo" : true,
   "disabled" : false,
-  "createdTime" : null,
-  "lastUpdatedTime" : 1468990608549,
-  "createdBy" : null,
+  "createdTime" : 1513784708061,
+  "lastUpdatedTime" : 1513784708061,
+  "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : true,
   "customTC" : false

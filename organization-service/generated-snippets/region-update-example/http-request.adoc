@@ -1,9 +1,10 @@
 [source,http,options="nowrap"]
 ----
-PUT /regions/ee99aed2-acb8-4559-a1c3-e605ea3a653b HTTP/1.1
+PUT /regions/91fe5748-7d73-4a00-a674-765e6ecd1c39 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
-Host: breezie.com
+Host: api.breezie.com
 Content-Length: 51
 
 {

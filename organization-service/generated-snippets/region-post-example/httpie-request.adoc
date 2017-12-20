@@ -4,8 +4,8 @@ $ echo '{
   "name" : "Ohio",
   "country" : "USA",
   "resourceScope" : {
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f"
+    "organizationId" : "2247da11-eb6f-44e1-a18b-13cb993b7020"
   },
   "deleted" : false
-}' | http --form POST 'https://breezie.com/regions' 'Accept:application/json' 'Content-Type:application/json'
+}' | http POST 'https://api.breezie.com/regions' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
 ----

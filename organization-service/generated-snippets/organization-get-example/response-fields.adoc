@@ -35,11 +35,11 @@
 
 |`createdTime`
 |`Long`
-|The time the organization was created
+|The time (Unix timestamp) the organization was created
 
 |`lastUpdatedTime`
 |`Long`
-|The time the organization was updated
+|The time (Unix timestamp) the organization was updated
 
 |`updatedBy`
 |`String`

@@ -12,19 +12,19 @@ X-Frame-Options: DENY
 Content-Length: 458
 
 {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "91fe5748-7d73-4a00-a674-765e6ecd1c39",
   "name" : "Maramures",
   "country" : "New Zealand",
   "resourceScope" : {
-    "facilityId" : null,
-    "userId" : null,
     "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+    "facilityId" : null,
+    "organizationId" : "1ae653d0-122b-4fa7-b086-1f520d419725",
+    "regionId" : "91fe5748-7d73-4a00-a674-765e6ecd1c39",
+    "userId" : null
   },
   "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1513267281538,
+  "createdTime" : 1513784685270,
+  "lastUpdatedTime" : 1513784685299,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
