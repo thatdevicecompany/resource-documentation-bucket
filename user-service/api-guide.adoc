@@ -35,45 +35,45 @@ include::{user-snippets}/users-get-list/http-response.adoc[]
 
 
 [[resources-profile-list-by-organization]]
-====== Listing users in organization
+===== Listing users in organization
 
 A `GET` request to `/users/search/findByOrganizationId?id=[organization-id]` will list all of the users
 in the organization specified that are accessible by the user who make the request. Sponsors are not listed.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-list-by-organization/curl-request.adoc[]
 
 
 [[resources-profile-list-by-region]]
-====== Listing users in region
+===== Listing users in region
 
 A `GET` request to `/users/search/findByRegionId?id=[region-id]` will list all of the users in the region specified
 that are accessible by the user who make the request. Sponsors are not listed.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-list-by-region/curl-request.adoc[]
 
 
 [[resources-profile-list-by-campus]]
-====== Listing users in campus
+===== Listing users in campus
 
 A `GET` request to `/users/search/findByCampusId?id=[region-id]` will list all of the users in the campus specified
 that are accessible by the user who make the request. Sponsors are not listed.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-list-by-campus/curl-request.adoc[]
 
 
 [[resources-profile-list-by-facility]]
-====== Listing users in facility
+===== Listing users in facility
 
 A `GET` request to `/users/search/findByFacilityId?id=[facility-id]` will list all of the users in the facility
 specified that are accessible by the user who make the request. Sponsors are not listed.
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/users-get-list-by-facility/curl-request.adoc[]
 
@@ -162,15 +162,15 @@ include::{user-snippets}/users-image/curl-request.adoc[]
 include::{user-snippets}/users-image/http-response.adoc[]
 
 [[resources-sponsor-get]]
-====== Listing sponsors
+===== Listing sponsors
 
 A `GET` request to `/users/{id}/sponsors` will retrieve the list of users that are partner ot the user identified by `id`
 
-======= Example request
+====== Example request
 
 include::{user-snippets}/user-sponsors-get/curl-request.adoc[]
 
-======= Example response
+====== Example response
 
 include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 

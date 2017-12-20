@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-POST /sponsorRequests/27ac8728-066a-45a2-ae9b-871b635edb80/email HTTP/1.1
+POST /sponsorRequests/4e2d5a38-1d1c-4394-bf45-c114f98cafd4/email HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: api.breezie.com
