@@ -81,7 +81,7 @@ include::{user-snippets}/users-get-list-by-facility/curl-request.adoc[]
 [[resources-profile-get]]
 ===== Retrieve a User
 
-A `GET` request to `/users/{user-id}` will retrieve the user identified by `user-id`
+A `GET` request to `/users/{id}` will retrieve the user identified by `id`
 
 ====== Example request
 
@@ -111,7 +111,7 @@ include::{user-snippets}/users-create/http-response.adoc[]
 [[resources-profile-update]]
 ===== Replace a user
 
-A `PUT` request to `/users/{user-id}` is used to update a user completely
+A `PUT` request to `/users/{id}` is used to update a user completely
 
 ====== Example request
 
@@ -124,7 +124,7 @@ include::{user-snippets}/users-update/http-response.adoc[]
 [[resources-profile-patch]]
 ===== Update a user
 
-A `PATCH` request to `/users/{user-id}` is used to update a user partially
+A `PATCH` request to `/users/{id}` is used to update a user partially
 
 ====== Example request
 
@@ -150,7 +150,7 @@ include::{user-snippets}/users-delete/http-response.adoc[]
 [[resources-profile-image]]
 ===== Create User Image Object
 
-A `POST` request to `users/{user-id}/picture` is used to generate an image representation that makes you able to upload a image file for the specified user.
+A `POST` request to `users/{id}/picture` is used to generate an image representation that makes you able to upload a image file for the specified user.
 To complete the image upload a `POST` request to the url returned in this request is required.
 
 ====== Example request
@@ -164,7 +164,7 @@ include::{user-snippets}/users-image/http-response.adoc[]
 [[resources-sponsor-get]]
 ====== Listing sponsors
 
-A `GET` request to `/users/{user-id}/sponsors` will retrieve the list of users that are partner ot the user identified by 'user-id'
+A `GET` request to `/users/{id}/sponsors` will retrieve the list of users that are partner ot the user identified by `id`
 
 ======= Example request
 
@@ -196,7 +196,7 @@ include::{user-snippets}/users-get-sensitive/response-fields.adoc[]
 [[resources-sensitive-retrieve]]
 ===== Retrieve Sensitive Information
 
-A `GET` request to `/users/{user-id}/sensitive` will return the private information of the user.
+A `GET` request to `/users/{id}/sensitive` will return the private information of the user.
 This information is exclusively accessible by the owner or partners of the owner.
 
 ====== Example request
@@ -210,7 +210,7 @@ include::{user-snippets}/users-get-sensitive/http-response.adoc[]
 [[resources-sensitive-creation]]
 ===== Create Sensitive Information
 
-A `POST` request to `/users/{user-id}/sensitive` will save the private information of the user. This information is exclusively writable by the owner or partners of the owner.
+A `POST` request to `/users/{id}/sensitive` will save the private information of the user. This information is exclusively writable by the owner or partners of the owner.
 
 ====== Example request
 
@@ -224,7 +224,7 @@ include::{user-snippets}/users-post-sensitive/http-response.adoc[]
 [[resources-sensitive-update]]
 ===== Replace Sensitive Information
 
-A `PUT` request to `/users/{user-id}/sensitive` will update the private information of the user completely. This information is exclusively upgradeable by the owner or partners of the owner.
+A `PUT` request to `/users/{id}/sensitive` will update the private information of the user completely. This information is exclusively upgradeable by the owner or partners of the owner.
 
 ====== Example request
 
@@ -238,7 +238,7 @@ include::{user-snippets}/users-put-sensitive/http-response.adoc[]
 [[resources-sensitive-patch]]
 ===== Update Sensitive Information
 
-A `PATCH` request to `/users/{user-id}/sensitive` will save the private information of the user partially. This information is exclusively upgradeable by the owner or partners of the owner.
+A `PATCH` request to `/users/{id}/sensitive` will save the private information of the user partially. This information is exclusively upgradeable by the owner or partners of the owner.
 
 ====== Example request
 
