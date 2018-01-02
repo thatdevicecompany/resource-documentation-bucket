@@ -1,8 +1,7 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/organizations/3601e65d-8c6c-43c9-b70a-6ab44ed05b2f' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/organizations/8ab019b6-f080-4998-be09-55e4362ac440' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
   "name" : "Audi",
-  "country" : "Austria",
-  "demo" : false
+  "country" : "Austria"
 }'
 ----

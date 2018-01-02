@@ -9,29 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 580
+Content-Length: 398
 
 {
-  "id" : "41b412c4-09ff-4b79-919b-e92fae8a5b35",
   "name" : "Steam Engine",
   "country" : "UK",
   "addressLine1" : "41 Crosser Street",
   "addressLine2" : "Nr 10",
   "zipCode" : "SE17BU",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "41b412c4-09ff-4b79-919b-e92fae8a5b35",
-    "regionId" : null,
-    "userId" : null
-  },
   "demo" : true,
-  "disabled" : false,
-  "createdTime" : 1513784707906,
-  "lastUpdatedTime" : 1513784707918,
+  "disabled" : true,
+  "customTC" : false,
+  "id" : "1806e4bc-593b-44df-b370-0230fea28cb3",
+  "createdTime" : 1514916929761,
+  "lastUpdatedTime" : 1514916929770,
   "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : false,
-  "customTC" : false
+  "validCredentials" : false
 }
 ----

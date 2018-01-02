@@ -6,7 +6,6 @@ $ curl 'https://api.breezie.com/organizations' -i -X POST -H 'Authorization: Bea
   "addressLine1" : "3 Loughborough Street",
   "addressLine2" : "Nr. 15",
   "zipCode" : "TW71AB",
-  "resourceScope" : { },
   "demo" : false,
   "disabled" : false
 }'

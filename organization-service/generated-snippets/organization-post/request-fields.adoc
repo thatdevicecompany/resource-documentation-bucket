@@ -27,10 +27,6 @@
 
 |`disabled`
 |`Boolean`
-|Flag indicating if the organization has been disabled or not
-
-|`resourceScope`
-|`Object`
-|The scope object for this organization
+|Flag indicating if the organization has been disabled or not. Only Super Admins (ROLE_BW) can modify this field.
 
 |===

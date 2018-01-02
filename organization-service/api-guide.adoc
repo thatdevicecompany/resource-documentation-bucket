@@ -20,7 +20,7 @@ include::{organizations-snippets}/organization-get-example/response-fields.adoc[
 [[resources-organization-list]]
 ===== Listing organizations
 
-A `GET` request to `/organizations' will retrieve all organizations accessible by the user who make the request.
+A `GET` request to `/organizations` will retrieve all organizations accessible by the user who make the request.
 
 ====== Example request
 
@@ -34,7 +34,7 @@ include::{organizations-snippets}/organization-list-get-example/http-response.ad
 [[resources-organization-retrieve]]
 ===== Retrieve an organization
 
-A `GET` request to `/organizations/{id} will retrieve all metadata about a specific organization
+A `GET` request to `/organizations/{id}` will retrieve all metadata about a specific organization
 
 ====== Example request
 
@@ -146,7 +146,7 @@ include::{organizations-snippets}/region-get-example/http-response.adoc[]
 
 A `POST` request to `/regions` will create a new region an return the metadata of the resource created.
 
-====== Response structure
+====== Request structure
 
 include::{organizations-snippets}/region-post-example/request-fields.adoc[]
 
@@ -162,7 +162,7 @@ include::{organizations-snippets}/region-post-example/http-response.adoc[]
 [[resources-region-update]]
 ===== Replace a region
 
-A `PUT` request to `/regions/{id}` is used to replace completely a region.
+A `PUT` request to `/regions/{id}` is used to replace completely a region. `organizationId` can not be modified.
 
 ====== Example request
 
@@ -173,12 +173,11 @@ include::{organizations-snippets}/region-update-example/curl-request.adoc[]
 include::{organizations-snippets}/region-update-example/http-response.adoc[]
 
 
-
 [[resources-region-patch]]
 ===== Update a region
 
 A `PATCH` request to `/regions/{id}` will update the specified region partially. This will ONLY update the fields
- you request be changed.
+ you request be changed. `organizationId, can not be modified.
 
 ====== Example request
 
@@ -187,7 +186,6 @@ include::{organizations-snippets}/region-patch-example/curl-request.adoc[]
 ====== Example response
 
 include::{organizations-snippets}/region-patch-example/http-response.adoc[]
-
 
 
 [[resources-region-delete]]
@@ -206,7 +204,7 @@ include::{organizations-snippets}/region-delete-example/http-response.adoc[]
 
 === Campuses
 A `campus` is a representation of a part of `region`. It is used to allocate other resources of the system like `users`,
-`devices`, `contents`... This resource is over the bottom of an pyramidal structure composed by `facilities`, `campuses`,
+`devices`, `contents`... This resource is over the bottom of a pyramidal structure composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
 * <<campus-structure, Structure>>
@@ -228,7 +226,7 @@ include::{organizations-snippets}/campus-get-example/response-fields.adoc[]
 [[resources-campus-list]]
 ===== Listing campuses
 
-A `GET` request to `campuses` will retrieve all campuses accessible by the user who make the request.
+A `GET` request to `/campuses` will retrieve all campuses accessible by the user who make the request.
 
 ====== Example request
 
@@ -258,9 +256,9 @@ include::{organizations-snippets}/campus-get-example/http-response.adoc[]
 
 A `POST` request to `/campuses/{id}` will create a new campus and return the created resource metadata.
 
-====== Response structure
+====== Request structure
 
-include::{organizations-snippets}/campus-post-example/response-fields.adoc[]
+include::{organizations-snippets}/campus-post-example/request-fields.adoc[]
 
 ====== Example request
 
@@ -274,7 +272,7 @@ include::{organizations-snippets}/campus-post-example/http-response.adoc[]
 [[resources-campus-update]]
 ===== Replace a campus
 
-A `PUT` request to `/campuses/{id}` will do a complete replace of the campus.
+A `PUT` request to `/campuses/{id}` will do a complete replace of the campus. `regionId` can not be modified.
 
 ====== Example request
 
@@ -351,7 +349,7 @@ include::{organizations-snippets}/facility-list-get-example/http-response.adoc[]
 [[resources-facility-retrieve]]
 ===== Retrieve a facility
 
-A `GET` request to `/facilities{id}` will retrieve all metadata about the specified facility.
+A `GET` request to `/facilities/{id}` will retrieve all metadata about the specified facility.
 
 ====== Example request
 
@@ -365,11 +363,11 @@ include::{organizations-snippets}/facility-get-example/http-response.adoc[]
 [[resources-facility-create]]
 ===== Create a facility
 
-A `POST` request to `/facilities{id}` will create a new facility and return the created resource metadata
+A `POST` request to `/facilities/{id}` will create a new facility and return the created resource metadata
 
-====== Response structure
+====== Request structure
 
-include::{organizations-snippets}/facility-post-example/response-fields.adoc[]
+include::{organizations-snippets}/facility-post-example/request-fields.adoc[]
 
 ====== Example request
 
@@ -383,7 +381,7 @@ include::{organizations-snippets}/facility-post-example/http-response.adoc[]
 [[resources-facility-update]]
 ===== Replace a facility
 
-A `PUT` request to `/facilities{id}` will do a complete replace of the facility.
+A `PUT` request to `/facilities/{id}` will do a complete replace of the facility. `campusId` can not be modified.
 
 ====== Example request
 
@@ -397,7 +395,7 @@ include::{organizations-snippets}/facility-update-example/http-response.adoc[]
 [[resources-facility-patch]]
 ===== Update a facility
 
-A `PATCH` request to `/facilities{id}` will update the facility partially. This will ONLY update the fields
+A `PATCH` request to `/facilities/{id}` will update the facility partially. This will ONLY update the fields
 you request be changed.
 
 ====== Example request
@@ -412,7 +410,7 @@ include::{organizations-snippets}/facility-patch-example/http-response.adoc[]
 [[resources-facility-delete]]
 ===== Delete a facility
 
-A `DELETE` request to `/facilities{id}` will delete the specified facility.
+A `DELETE` request to `/facilities/{id}` will delete the specified facility.
 
 ====== Example request
 

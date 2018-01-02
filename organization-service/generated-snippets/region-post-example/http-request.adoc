@@ -5,14 +5,11 @@ Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
 Host: api.breezie.com
-Content-Length: 152
+Content-Length: 103
 
 {
   "name" : "Ohio",
   "country" : "USA",
-  "resourceScope" : {
-    "organizationId" : "2247da11-eb6f-44e1-a18b-13cb993b7020"
-  },
-  "deleted" : false
+  "organizationId" : "adf4a943-4c36-4028-900a-28ca385c9a9c"
 }
 ----

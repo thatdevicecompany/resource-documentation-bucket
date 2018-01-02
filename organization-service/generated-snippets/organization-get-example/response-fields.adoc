@@ -45,28 +45,4 @@
 |`String`
 |The one who updated the organization
 
-|`resourceScope`
-|`Object`
-|The scope object for this organization
-
-|`resourceScope.organizationId`
-|`String`
-|The organization scope id
-
-|`resourceScope.regionId`
-|`String`
-|The region scope id
-
-|`resourceScope.campusId`
-|`String`
-|The campus scope id
-
-|`resourceScope.facilityId`
-|`String`
-|The facility scope id
-
-|`resourceScope.userId`
-|`String`
-|The user scope id
-
 |===

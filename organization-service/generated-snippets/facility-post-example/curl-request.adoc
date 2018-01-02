@@ -7,9 +7,6 @@ $ curl 'https://breezie.com/facilities' -i -X POST -H 'Authorization: Bearer: 0b
   "city" : "Detroit",
   "country" : "USA",
   "zipCode" : "Z16 I9Q",
-  "resourceScope" : {
-    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a"
-  },
-  "deleted" : false
+  "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a"
 }'
 ----

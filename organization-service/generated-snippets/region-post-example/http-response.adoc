@@ -9,22 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 445
+Content-Length: 270
 
 {
-  "id" : "6c8bbcbd-4bc3-484d-9618-afa9d6a8b16f",
+  "id" : "d36718a2-40ac-4a0f-a2ea-4b110d0e6e5d",
   "name" : "Ohio",
   "country" : "USA",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "2247da11-eb6f-44e1-a18b-13cb993b7020",
-    "regionId" : "6c8bbcbd-4bc3-484d-9618-afa9d6a8b16f",
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1513784684375,
-  "lastUpdatedTime" : 1513784684375,
+  "organizationId" : "adf4a943-4c36-4028-900a-28ca385c9a9c",
+  "createdTime" : 1514916903803,
+  "lastUpdatedTime" : 1514916903803,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

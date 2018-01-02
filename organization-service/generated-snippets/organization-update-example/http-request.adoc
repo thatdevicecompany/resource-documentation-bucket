@@ -1,11 +1,11 @@
 [source,http,options="nowrap"]
 ----
-PUT /organizations/41b412c4-09ff-4b79-919b-e92fae8a5b35 HTTP/1.1
+PUT /organizations/1806e4bc-593b-44df-b370-0230fea28cb3 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
 Host: api.breezie.com
-Content-Length: 158
+Content-Length: 179
 
 {
   "name" : "Steam Engine",
@@ -13,6 +13,7 @@ Content-Length: 158
   "addressLine1" : "41 Crosser Street",
   "addressLine2" : "Nr 10",
   "zipCode" : "SE17BU",
-  "demo" : true
+  "demo" : true,
+  "disabled" : true
 }
 ----

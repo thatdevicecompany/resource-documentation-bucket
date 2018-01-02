@@ -9,22 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 458
+Content-Length: 279
 
 {
-  "id" : "91fe5748-7d73-4a00-a674-765e6ecd1c39",
+  "id" : "0d315a32-c874-4c4f-a75c-692f197fad8d",
   "name" : "Maramures",
-  "country" : "New Zealand",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "1ae653d0-122b-4fa7-b086-1f520d419725",
-    "regionId" : "91fe5748-7d73-4a00-a674-765e6ecd1c39",
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1513784685270,
-  "lastUpdatedTime" : 1513784685299,
+  "country" : "Romania",
+  "organizationId" : "e3ccca17-8a37-4000-953e-a2f6f5332451",
+  "createdTime" : 1514916904286,
+  "lastUpdatedTime" : 1514916904295,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

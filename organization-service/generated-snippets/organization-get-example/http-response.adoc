@@ -9,29 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 590
+Content-Length: 409
 
 {
-  "id" : "072c80a1-57da-44b1-a101-97ffebc0e42e",
   "name" : "Pearson",
   "country" : "New Zeland",
   "addressLine1" : "Clarance Lane 34",
   "addressLine2" : "Apartment 12",
   "zipCode" : "W1Q YU7",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "072c80a1-57da-44b1-a101-97ffebc0e42e",
-    "regionId" : null,
-    "userId" : null
-  },
   "demo" : true,
   "disabled" : false,
-  "createdTime" : 1513784707812,
-  "lastUpdatedTime" : 1513784707812,
+  "customTC" : false,
+  "id" : "a462e6c7-ee30-4dfa-ba72-ff3a7be22236",
+  "createdTime" : 1514916929674,
+  "lastUpdatedTime" : 1514916929674,
   "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : false,
-  "customTC" : false
+  "validCredentials" : false
 }
 ----

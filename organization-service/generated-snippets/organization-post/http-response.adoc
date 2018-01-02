@@ -9,29 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 581
+Content-Length: 400
 
 {
-  "id" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
   "name" : "Breezie",
   "country" : "UK",
   "addressLine1" : "3 Loughborough Street",
   "addressLine2" : "Nr. 15",
   "zipCode" : "TW71AB",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
-    "regionId" : null,
-    "userId" : null
-  },
   "demo" : false,
   "disabled" : false,
-  "createdTime" : 1513784707729,
-  "lastUpdatedTime" : 1513784707729,
+  "customTC" : false,
+  "id" : "9fdebdf6-dc0e-4d44-bea5-b2f13667da6f",
+  "createdTime" : 1514916929585,
+  "lastUpdatedTime" : 1514916929585,
   "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : false,
-  "customTC" : false
+  "validCredentials" : false
 }
 ----

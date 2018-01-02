@@ -9,73 +9,37 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1760
+Content-Length: 815
 
 [ {
-  "id" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
-  "name" : "Breezie",
-  "country" : "UK",
-  "addressLine1" : "3 Loughborough Street",
-  "addressLine2" : "Nr. 15",
-  "zipCode" : "TW71AB",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "18ecdeed-d8e7-4215-aa11-38b5fc8c1065",
-    "regionId" : null,
-    "userId" : null
-  },
-  "demo" : false,
-  "disabled" : false,
-  "createdTime" : 1513784707729,
-  "lastUpdatedTime" : 1513784707729,
-  "createdBy" : "user",
-  "updatedBy" : "user",
-  "validCredentials" : false,
-  "customTC" : false
-}, {
-  "id" : "33a67d1f-5e7c-4d78-ba3e-e061de667ff3",
-  "name" : "Pearson",
-  "country" : "New Zeland",
-  "addressLine1" : "Clarance Lane 34",
-  "addressLine2" : "Apartment 12",
-  "zipCode" : "W1Q YU7",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "33a67d1f-5e7c-4d78-ba3e-e061de667ff3",
-    "regionId" : null,
-    "userId" : null
-  },
-  "demo" : true,
-  "disabled" : false,
-  "createdTime" : 1513784708053,
-  "lastUpdatedTime" : 1513784708053,
-  "createdBy" : "user",
-  "updatedBy" : "user",
-  "validCredentials" : false,
-  "customTC" : false
-}, {
-  "id" : "8cbefa79-d2ce-468d-b006-0b0f9ca5a031",
   "name" : "Kaufland",
   "country" : "Germany",
   "addressLine1" : "Auckan Street 7",
   "addressLine2" : "Floor 3",
   "zipCode" : "9AS 7U1",
-  "resourceScope" : {
-    "campusId" : null,
-    "facilityId" : null,
-    "organizationId" : "8cbefa79-d2ce-468d-b006-0b0f9ca5a031",
-    "regionId" : null,
-    "userId" : null
-  },
   "demo" : true,
   "disabled" : false,
-  "createdTime" : 1513784708061,
-  "lastUpdatedTime" : 1513784708061,
+  "customTC" : false,
+  "id" : "1cedbeaa-3027-4d08-9902-8f591d87d0c2",
+  "createdTime" : 1514916929930,
+  "lastUpdatedTime" : 1514916929930,
   "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : true,
-  "customTC" : false
+  "validCredentials" : true
+}, {
+  "name" : "Pearson",
+  "country" : "New Zeland",
+  "addressLine1" : "Clarance Lane 34",
+  "addressLine2" : "Apartment 12",
+  "zipCode" : "W1Q YU7",
+  "demo" : true,
+  "disabled" : false,
+  "customTC" : false,
+  "id" : "d9826291-3432-44e1-958f-60adf6152408",
+  "createdTime" : 1514916929929,
+  "lastUpdatedTime" : 1514916929929,
+  "createdBy" : "user",
+  "updatedBy" : "user",
+  "validCredentials" : false
 } ]
 ----
