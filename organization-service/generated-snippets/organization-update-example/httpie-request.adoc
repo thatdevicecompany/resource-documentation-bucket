@@ -8,5 +8,5 @@ $ echo '{
   "zipCode" : "SE17BU",
   "demo" : true,
   "disabled" : true
-}' | http PUT 'https://api.breezie.com/organizations/1806e4bc-593b-44df-b370-0230fea28cb3' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/organizations/94bfe2ea-4dcf-4ca3-bc0b-e22d4ac376fe' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
 ----
