@@ -1,18 +1,14 @@
 [source,bash]
 ----
 $ echo '{
-  "createdTime" : 1510245300712,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1510245302712,
-  "updatedBy" : "James Mitchell",
   "url" : "www.gardening.com",
-  "name" : "Gardening",
+  "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "99e0c27e-858c-41a2-a3f7-336c31e45e45",
+  "groupId" : "6459bf28-f940-475d-bc74-5a23bee09740",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
-}' | http PUT 'https://breezie.com/bookmarks/1dadf245-11e2-42f4-ac92-203a76f5f263' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/bookmarks/123a0074-73af-43b6-bd83-6f9bdfb79d10' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

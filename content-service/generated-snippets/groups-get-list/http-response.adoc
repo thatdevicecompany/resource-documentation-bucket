@@ -9,22 +9,89 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 708
+Content-Length: 2790
 
 [ {
-  "id" : "93afa29d-a8a9-4a4b-8f4b-739c5debeaf8",
+  "id" : "70deb4a2-9a2d-4b37-98bb-18e7391dcbca",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
   },
-  "createdTime" : 1510245303638,
+  "createdTime" : 1516618502307,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1510245304638,
+  "lastUpdatedTime" : 1516618503307,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "994ab27d-c7b8-4c08-8ab8-6b8217d29290",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "createdTime" : 1516618502343,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1516618503343,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "dad2491e-8973-4eed-987a-8431f921308b",
+  "name" : "Games",
+  "description" : "A group for all the games enthusiasts",
+  "imageUrl" : "www.games-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "createdTime" : 1516618502319,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1516618503319,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "6f9e53ff-f09e-42e9-9d36-dc8d306305f6",
+  "name" : "Travelling",
+  "description" : "A group for all the travelling enthusiasts",
+  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : null,
+    "userId" : null
+  },
+  "createdTime" : 1516618502332,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1516618503332,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,

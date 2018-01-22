@@ -42,19 +42,19 @@
 |Whether this bookmark should first authenticate with the Breezie system before loading
 
 |`createdTime`
-|`Number`
+|`Null`
 |Unix timestamp when the resource was created
 
 |`createdBy`
-|`String`
+|`Null`
 |User who created the resource
 
 |`lastUpdatedTime`
-|`Number`
+|`Null`
 |Unix timestamp when the resource was last updated
 
 |`updatedBy`
-|`String`
+|`Null`
 |User who last updated the resource
 
 |===
