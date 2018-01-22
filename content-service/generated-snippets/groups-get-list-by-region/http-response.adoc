@@ -12,42 +12,20 @@ X-Frame-Options: DENY
 Content-Length: 2790
 
 [ {
-  "id" : "d5852a75-53bb-4067-ad49-ce5881e6bd48",
+  "id" : "4b535861-c70b-4cfb-85c1-83b7ee71a77d",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "createdTime" : 1516618496643,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618497643,
-  "updatedBy" : "James Mitchel",
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "1969bd0d-6ba3-4412-9e82-d45562da339c",
-  "name" : "Games",
-  "description" : "A group for all the games enthusiasts",
-  "imageUrl" : "www.games-group.co.uk/logo.jpg",
-  "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : null,
-    "facilityId" : null,
     "userId" : null
   },
-  "createdTime" : 1516618496612,
+  "createdTime" : 1516640530444,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618497612,
+  "lastUpdatedTime" : 1516640531444,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
@@ -56,20 +34,20 @@ Content-Length: 2790
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "91e938c0-8382-4f65-ab0f-ba6a65e4d76e",
+  "id" : "4d27d308-21ef-4992-8dca-da21c8602e6d",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
   "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : null,
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516618496625,
+  "createdTime" : 1516640530417,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618497625,
+  "lastUpdatedTime" : 1516640531417,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
@@ -78,20 +56,42 @@ Content-Length: 2790
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "f8773dbc-09dc-4456-a0f0-8932dad4a9b0",
+  "id" : "2572883d-db7a-4371-829b-2170a8701dcc",
+  "name" : "Games",
+  "description" : "A group for all the games enthusiasts",
+  "imageUrl" : "www.games-group.co.uk/logo.jpg",
+  "scope" : {
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : null,
+    "facilityId" : null,
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "userId" : null
+  },
+  "createdTime" : 1516640530395,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1516640531395,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "a3199251-7cb5-46c3-bb5f-c768225bd534",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516618496593,
+  "createdTime" : 1516640530360,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618497593,
+  "lastUpdatedTime" : 1516640531360,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,

@@ -7,7 +7,7 @@
 
 |`imageUrl`
 |`String`
-|Image url or the group
+|Image url of the group
 
 |`description`
 |`String`

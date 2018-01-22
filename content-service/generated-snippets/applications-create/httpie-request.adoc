@@ -6,7 +6,7 @@ $ echo '{
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "fc8d6aaa-c176-4964-b11d-977d69492d22",
+  "groupId" : "7e355317-e93e-4938-91ab-974f31b9b2de",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

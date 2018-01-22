@@ -18,6 +18,7 @@ appearing within each category.
 ** <<resources-user_group-add, Add users to a group>>
 ** <<resources-user_group-remove, Remove user from a group>>
 
+[[group-structure]]
 ==== Structure
 include::{content-snippets}/groups-get/response-fields.adoc[]
 
@@ -160,6 +161,7 @@ include::{content-snippets}/groups-delete/http-response.adoc[]
 
 A `GET` request to `/groups/{id}/users` will retrieve the list of users subscribed to the group.
 
+[[user-structure]]
 ====== User Structure
 include::{content-snippets}/user_groups-get-list/response-fields.adoc[]
 
@@ -175,7 +177,7 @@ include::{content-snippets}/user_groups-get-list/http-response.adoc[]
 [[resources-user_group-add]]
 ===== Add users to a group
 
-A `PUT` request to `/groups/{id}/users` will add a set of users to the specified group. The body has
+A `PUT` request to `/groups/{id}/users` will add a set of <<user-structure, users>> users to the specified group. The body has
 to contain the list of user id (line separator).
 
 ====== Example request
@@ -190,7 +192,7 @@ include::{content-snippets}/user_groups-add/http-response.adoc[]
 [[resources-user_group-remove]]
 ===== Remove user from a group
 
-A `DELETE` request to `/groups/{id}/users/{userId}` will remove the specified user from the specified group.
+A `DELETE` request to `/groups/{id}/users/{userId}` will remove the specified <<user-structure, user>> from the specified group.
 
 ====== Example request
 
@@ -213,7 +215,7 @@ In the context of the Breezie client application, applications appear on the Sta
 * <<applications-structure, Structure>>
 * <<applications-api, Applications API>>
 ** <<resources-applications-list, Listing applications by group>>
-** <<resources-applications-list, Listing applications by user>>
+** <<resources-applications-list-by-user, Listing applications by user>>
 ** <<resources-applications-get, Retrieve an application>>
 ** <<resources-applications-create, Create an application>>
 ** <<resources-applications-update, Replace an application>>
@@ -241,7 +243,7 @@ include::{content-snippets}/applications-by-group-get-list/curl-request.adoc[]
 
 include::{content-snippets}/applications-by-group-get-list/http-response.adoc[]
 
-
+[[resources-applications-list-by-user]]
 ===== Listing applications by user
 
 A `GET` request to `/applications/search/findByUserId?id=[user-id]` will list all of the applications that a
@@ -331,7 +333,7 @@ They act as shortcuts to links on the web and are grouped within Categories in t
 * <<bookmarks-structure, Structure>>
 * <<bookmarks-api, Bookmarks API>>
 ** <<resources-bookmarks-list, Listing bookmarks by group>>
-** <<resources-bookmarks-list, Listing bookmarks by user>>
+** <<resources-bookmarks-list-by-user, Listing bookmarks by user>>
 ** <<resources-bookmarks-get, Retrieve a bookmark>>
 ** <<resources-bookmarks-create, Create a bookmark>>
 ** <<resources-bookmarks-update, Replace a bookmark>>
@@ -358,10 +360,10 @@ include::{content-snippets}/bookmarks-get-list/curl-request.adoc[]
 
 include::{content-snippets}/bookmarks-get-list/http-response.adoc[]
 
-
+[[resources-bookmarks-list-by-user]]
 ===== Listing bookmarks by user
 
-A `GET` request to `/bookmarks/search/findByUserId?id=[user-id]` will list all of the bookmarks in the user specified.
+A `GET` request to `/bookmarks/search/findByUserId?id=[user-id]` will list all of the bookmarks for the user specified.
 
 ====== Example request
 

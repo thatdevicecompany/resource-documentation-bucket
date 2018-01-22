@@ -15,7 +15,7 @@
 
 |`imageUrl`
 |`String`
-|Image url or the bookmark
+|Image url of the bookmark
 
 |`note`
 |`String`

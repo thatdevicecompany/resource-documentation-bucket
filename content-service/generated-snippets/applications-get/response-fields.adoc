@@ -11,7 +11,7 @@
 
 |`description`
 |`String`
-|Description or the application
+|Description of the application
 
 |`iconUrl`
 |`String`

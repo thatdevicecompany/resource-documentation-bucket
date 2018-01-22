@@ -12,20 +12,20 @@ X-Frame-Options: DENY
 Content-Length: 1447
 
 [ {
-  "id" : "12ab26ab-139d-463a-80b8-bc1c163e5d54",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "61076a6b-ad20-4e49-b222-6ae03ead786a",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516618500331,
+  "createdTime" : 1516640533645,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618501331,
+  "lastUpdatedTime" : 1516640534645,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
@@ -34,20 +34,20 @@ Content-Length: 1447
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "2511806a-543c-485b-8576-16c7f9b237e7",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "id" : "badbc176-0bbc-4d50-afc2-f6f9f6870cbd",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516618500292,
+  "createdTime" : 1516640533679,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516618501292,
+  "lastUpdatedTime" : 1516640534679,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
