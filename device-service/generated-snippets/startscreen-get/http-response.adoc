@@ -1,0 +1,114 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 2773
+
+{
+  "numberOfItems" : 4,
+  "items" : [ {
+    "title" : "Interests",
+    "imageUrl" : "https://lh3.googleusercontent.com/LJYTR7O6FhgmgKz8DWjdwOrjSwotEjj1cRzRXiwe-ku-iD-jvvYKAkFpoRXz40VthHg=w300",
+    "type" : "EXCEPTIONAL",
+    "action" : "interests",
+    "forced" : true,
+    "settled" : false,
+    "promoted" : true,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : null
+  }, {
+    "title" : "Address Book",
+    "imageUrl" : "https://lh3.googleusercontent.com/ymxsToS_hwIz4I8erEK1L6EYB3weXve9mai5ozqOEKI_1TB01COmv3NGwUwP_DihXwk-",
+    "type" : "APP",
+    "action" : "app:com.breezie.apps.addressbook",
+    "forced" : true,
+    "settled" : false,
+    "promoted" : true,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : {
+      "userId" : null,
+      "regionId" : null,
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
+    }
+  }, {
+    "title" : "Angry Birds",
+    "imageUrl" : "https://lh3.googleusercontent.com/iOi6YJxQwMenT5UQWGPWTrFMQFm68IC4uKlFtARveZzVD5lTZ7fC47_rnnF7Tk48DpY",
+    "type" : "APP",
+    "action" : "app:com.rovio.candyCrush",
+    "forced" : false,
+    "settled" : true,
+    "promoted" : true,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : {
+      "userId" : null,
+      "regionId" : null,
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
+    }
+  }, {
+    "title" : "My Choices",
+    "imageUrl" : null,
+    "type" : "GROUP",
+    "action" : "4f4a99e1-c0d8-4510-ac7f-d30322749534",
+    "forced" : false,
+    "settled" : true,
+    "promoted" : false,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : {
+      "userId" : null,
+      "regionId" : null,
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
+    }
+  }, {
+    "title" : "Candy Crash Saga",
+    "imageUrl" : "https://lh5.ggpht.com/81M05pEyFiOqKt8CashUoz66iJAhL-3PHHbAil108QkU9sKeVZBuZaNJiV7b0gZ2GFU",
+    "type" : "APP",
+    "action" : "app:com.king.candycrushsaga",
+    "forced" : false,
+    "settled" : false,
+    "promoted" : true,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : {
+      "userId" : null,
+      "regionId" : null,
+      "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+      "campusId" : null,
+      "facilityId" : null
+    }
+  }, {
+    "title" : "Google Photos",
+    "imageUrl" : "https://lh5.ggpht.com/tq3WqEUxtRyBn-d_0t3j6WKNHuJDrmLq-FE3GAYrsAMQFIaS7FIgRLfzzql2SvfvLqto",
+    "type" : "APP",
+    "action" : "app:com.google.android.apps.photos",
+    "forced" : false,
+    "settled" : false,
+    "promoted" : false,
+    "ignored" : false,
+    "hidden" : false,
+    "scope" : {
+      "userId" : null,
+      "regionId" : null,
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
+    }
+  } ]
+}
+----
