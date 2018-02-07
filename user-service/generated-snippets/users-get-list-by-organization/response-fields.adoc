@@ -7,7 +7,7 @@
 
 |`[].username`
 |`String`
-|Username assositated with the user
+|Username asosiated with the user
 
 |`[].firstName`
 |`String`

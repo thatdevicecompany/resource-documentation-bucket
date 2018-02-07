@@ -59,7 +59,7 @@ include::{user-snippets}/users-get-list-by-region/curl-request.adoc[]
 [[resources-profile-list-by-campus]]
 ===== Listing users in campus
 
-A `GET` request to `/users/search/findByCampusId?id=[region-id]` will list all of the users in the campus specified
+A `GET` request to `/users/search/findByCampusId?id=[campus-id]` will list all of the users in the campus specified
 that are accessible by the user who make the request. Sponsors are not listed.
 
 ====== Example request
@@ -255,8 +255,8 @@ A `sponsorRequest` represent an invitation to someone to become sponsor of a use
 * <<sponsor-requests-structure, Structure>>
 * <<sponsor-requests-api, Sponsor Requests API>>
 ** <<sponsor-requests-list, Listing sponsor requests>>
-** <<sponsor-requests-create, Create Sensitive Information>>
-** <<sponsor-requests-update, Update Sensitive Information>>
+** <<sponsor-requests-create, Create Sponsor Requests>>
+** <<sponsor-requests-update, Update Sponsor Requests>>
 ** <<sponsor-requests-email, Send sponsor request email>>
 
 
