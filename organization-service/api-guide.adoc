@@ -254,7 +254,7 @@ include::{organizations-snippets}/campus-get-example/http-response.adoc[]
 [[resources-campus-create]]
 ===== Create a campus
 
-A `POST` request to `/campuses/{id}` will create a new campus and return the created resource metadata.
+A `POST` request to `/campuses` will create a new campus and return the created resource metadata.
 
 ====== Request structure
 
@@ -363,7 +363,7 @@ include::{organizations-snippets}/facility-get-example/http-response.adoc[]
 [[resources-facility-create]]
 ===== Create a facility
 
-A `POST` request to `/facilities/{id}` will create a new facility and return the created resource metadata
+A `POST` request to `/facilities` will create a new facility and return the created resource metadata
 
 ====== Request structure
 

@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PATCH /regions/ff99f8ef-a12d-4907-a261-6428ab705cdd HTTP/1.1
+PATCH /regions/4f0472fc-7629-4584-8552-b152ff831f80 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
