@@ -10,5 +10,5 @@ $ echo '{
   "fcmToken" : null,
   "enabled" : false,
   "scope" : null
-}' | http PATCH 'https://api.breezie.com/devices/236027c7-fa91-4ebf-9d94-fb5b1a5746fa' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/devices/4ee1b7cc-fa28-4565-85b2-1f3229a6f799' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----
