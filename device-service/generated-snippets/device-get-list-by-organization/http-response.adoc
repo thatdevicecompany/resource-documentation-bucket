@@ -12,23 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "a5aae96f-ec3a-4bd9-b0cd-81094995c3f7",
-  "serialNumber" : "R52K706QYTPZ",
-  "androidId" : "35121d98a70f4140",
-  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-  "model" : "SM-T813",
-  "manufacturer" : "samsung",
-  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
-  "enabled" : true,
-  "scope" : {
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
-  }
-}, {
-  "id" : "861f845c-859f-47d7-916c-4b8a3f9a6fc7",
+  "id" : "73560617-5057-48fb-91bc-ae926808541d",
   "serialNumber" : "R52G5ABX16XV",
   "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -37,11 +21,27 @@ Content-Length: 1248
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
   "scope" : {
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec"
+  }
+}, {
+  "id" : "d4b30408-8249-411d-95b3-a937381943cc",
+  "serialNumber" : "R52K706QYTPZ",
+  "androidId" : "35121d98a70f4140",
+  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+  "model" : "SM-T813",
+  "manufacturer" : "samsung",
+  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
+  "enabled" : true,
+  "scope" : {
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec"
   }
 } ]
 ----
