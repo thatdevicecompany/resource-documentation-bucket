@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "b8562723-2340-4b95-bb51-723c54b5a4f8",
+  "id" : "4d4e6755-9645-42e3-beb5-3fdc3fc2d603",
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -21,14 +21,14 @@ Content-Length: 1248
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
   "scope" : {
-    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
   }
 }, {
-  "id" : "79800d30-00bf-4777-aa19-77b5c2c65daf",
+  "id" : "c3fcb378-8e66-4549-9128-db6083897970",
   "serialNumber" : "R52G5ABX16XV",
   "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -37,11 +37,11 @@ Content-Length: 1248
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
   "scope" : {
-    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
   }
 } ]
 ----
