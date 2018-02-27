@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 2372
 
 [ {
-  "id" : "516e83f7-7af8-4bae-bb6c-27f768d696f4",
+  "id" : "95df5d90-2d43-42d1-8b01-057090484fc0",
   "username" : "sarah.francis@email.com",
   "firstName" : "Sarah",
   "lastName" : "Francis",
@@ -45,7 +45,7 @@ Content-Length: 2372
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "88813376-696d-47ec-9cc1-918293e07bec" ],
+  "sponsors" : [ "75b00ea3-9353-498f-b102-f2fb0e10771c" ],
   "sponsees" : [ ]
 }, {
   "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -66,7 +66,7 @@ Content-Length: 2372
   "sponsors" : [ ],
   "sponsees" : [ ]
 }, {
-  "id" : "88813376-696d-47ec-9cc1-918293e07bec",
+  "id" : "75b00ea3-9353-498f-b102-f2fb0e10771c",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",
