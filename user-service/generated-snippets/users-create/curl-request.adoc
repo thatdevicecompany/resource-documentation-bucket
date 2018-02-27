@@ -4,7 +4,7 @@ $ curl 'https://breezie.com/users/' -i -X POST -H 'Authorization: Bearer: 0b79ba
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : 1513610227917,
+  "dob" : 1519755240104,
   "phoneNumber" : "071234567",
   "welcomeNote" : "Welcome to Breezie.",
   "familiarity" : 2,
