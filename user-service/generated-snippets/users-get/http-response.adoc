@@ -27,7 +27,7 @@ Content-Length: 715
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "c15d9032-07c8-403d-8191-eb63756aaad7" ],
+  "sponsors" : [ "f53b8ad9-405d-416b-a5cc-ce44e560f267" ],
   "sponsees" : [ ]
 }
 ----
