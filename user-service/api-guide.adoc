@@ -13,6 +13,9 @@ operations available from this API
 ** <<resources-profile-delete, Delete a user>>
 ** <<resources-profile-image, Creating user image object>>
 ** <<resources-sponsor-get, Listing sponsors>>
+** <<resources-userSettings>> Settings
+*** <<resources-userSettings-retrieve, Retrieve settings for an user >>
+*** <<resources-userSettings-update, Replace settings for an user>>
 
 [[user-structure]]
 ==== Structure
@@ -176,6 +179,56 @@ include::{user-snippets}/user-sponsors-get/curl-request.adoc[]
 
 include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 
+[[resources-userSettings]]
+==== Settings
+`Settings` is a representation of a set of properties that define the device behaviour. `Settings` can be
+defined at different levels: breezie level, organization level and user level. Properties defined at
+Breezie level can be overwritten at organization and user level and properties set at organization level
+can be overwritten at user level.
+
+The set of properties that can be settled to a device are defined in a `schema` that can be found on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
+restrictions.
+
+[[resources-userSettings-retrieve]]
+===== Retrieve settings for a user
+
+A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
+
+====== Example request
+
+include::{device-snippets}/user-settings-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/user-settings-get/http-response.adoc[]
+
+[[resources-userSettings-retrieve]]
+===== Retrieve settings for a user
+
+A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
+
+====== Example request
+
+include::{device-snippets}/user-settings-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/user-settings-get/http-response.adoc[]
+
+[[resources-userSettings-update]]
+===== Replace settings for a user
+
+A `PUT` request to `/users/{id}/settings` will update the set of properties settled at user level.
+
+====== Example request
+
+include::{device-snippets}/user-settings-put/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/user-settings-put/http-response.adoc[]
+
 
 [[resources-profile-sensitive]]
 === Sensitive Information
@@ -322,18 +375,4 @@ include::{user-snippets}/sponsorRequest-email/curl-request.adoc[]
 
 include::{user-snippets}/sponsorRequest-email/http-response.adoc[]
 
-
-
-[[resources-settings-retrieve]]
-===== Retrieve settings for a user
-
-A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
-
-====== Example request
-
-include::{device-snippets}/user-settings-get/curl-request.adoc[]
-
-====== Example response
-
-include::{device-snippets}/user-settings-get/http-response.adoc[]
 
