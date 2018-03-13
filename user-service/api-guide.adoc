@@ -1,3 +1,5 @@
+:device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/development/device-service
+
 A `user` is a representation of anyone who authenticates with the Breezie Platform. Listing, creating, updating and deleting are the
 operations available from this API
 
@@ -319,4 +321,19 @@ include::{user-snippets}/sponsorRequest-email/curl-request.adoc[]
 ====== Example response
 
 include::{user-snippets}/sponsorRequest-email/http-response.adoc[]
+
+
+
+[[resources-settings-retrieve]]
+===== Retrieve settings for a user
+
+A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
+
+====== Example request
+
+include::{device-snippets}/user-settings-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/user-settings-get/http-response.adoc[]
 
