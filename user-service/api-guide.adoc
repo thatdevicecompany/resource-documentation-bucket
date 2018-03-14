@@ -13,8 +13,8 @@ operations available from this API
 ** <<resources-profile-delete, Delete a user>>
 ** <<resources-profile-image, Creating user image object>>
 ** <<resources-sponsor-get, Listing sponsors>>
-** <<resources-userSettings>> Settings
-*** <<resources-userSettings-retrieve, Retrieve settings for an user >>
+** <<resources-userSettings, Settings>>
+*** <<resources-userSettings-retrieve, Retrieve settings for an user>>
 *** <<resources-userSettings-update, Replace settings for an user>>
 
 [[user-structure]]
@@ -182,7 +182,7 @@ include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 [[resources-userSettings]]
 ==== Settings
 `Settings` is a representation of a set of properties that define the device behaviour. `Settings` can be
-defined at different levels: breezie level, organization level and user level. Properties defined at
+defined at different levels: breezie level, <<organizations-micro-service, organization>> level and user level. Properties defined at
 Breezie level can be overwritten at organization and user level and properties set at organization level
 can be overwritten at user level.
 
