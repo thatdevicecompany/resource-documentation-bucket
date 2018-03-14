@@ -1,7 +1,6 @@
 [source,bash]
 ----
 $ echo '{
-  "id" : null,
   "serialNumber" : null,
   "androidId" : null,
   "userId" : null,
@@ -10,5 +9,5 @@ $ echo '{
   "fcmToken" : null,
   "enabled" : false,
   "scope" : null
-}' | http PATCH 'https://api.breezie.com/devices/8995ece1-8992-4625-b671-80216972b72c' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/devices/ae6c91cf-217b-49ba-94eb-9f42c0478679' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

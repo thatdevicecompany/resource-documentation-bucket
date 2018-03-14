@@ -36,10 +36,10 @@ Content-Length: 2773
     "hidden" : false,
     "scope" : {
       "userId" : null,
-      "campusId" : null,
-      "facilityId" : null,
       "regionId" : null,
-      "organizationId" : null
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
     }
   }, {
     "title" : "Angry Birds",
@@ -53,10 +53,10 @@ Content-Length: 2773
     "hidden" : false,
     "scope" : {
       "userId" : null,
-      "campusId" : null,
-      "facilityId" : null,
       "regionId" : null,
-      "organizationId" : null
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
     }
   }, {
     "title" : "My Choices",
@@ -70,10 +70,10 @@ Content-Length: 2773
     "hidden" : false,
     "scope" : {
       "userId" : null,
-      "campusId" : null,
-      "facilityId" : null,
       "regionId" : null,
-      "organizationId" : null
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
     }
   }, {
     "title" : "Candy Crash Saga",
@@ -87,10 +87,10 @@ Content-Length: 2773
     "hidden" : false,
     "scope" : {
       "userId" : null,
-      "campusId" : null,
-      "facilityId" : null,
       "regionId" : null,
-      "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec"
+      "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+      "campusId" : null,
+      "facilityId" : null
     }
   }, {
     "title" : "Google Photos",
@@ -104,10 +104,10 @@ Content-Length: 2773
     "hidden" : false,
     "scope" : {
       "userId" : null,
-      "campusId" : null,
-      "facilityId" : null,
       "regionId" : null,
-      "organizationId" : null
+      "organizationId" : null,
+      "campusId" : null,
+      "facilityId" : null
     }
   } ]
 }

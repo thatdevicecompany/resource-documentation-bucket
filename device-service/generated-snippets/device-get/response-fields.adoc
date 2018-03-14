@@ -11,7 +11,7 @@
 
 |`manufacturer`
 |`String`
-|Device Brand
+|Device brand
 
 |`model`
 |`String`
