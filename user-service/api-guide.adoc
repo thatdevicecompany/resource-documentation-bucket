@@ -181,14 +181,21 @@ include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 
 [[resources-userSettings]]
 ==== Settings
-`Settings` is a representation of a set of properties that define the device behaviour. `Settings` can be
-defined at different levels: breezie level, <<organizations-micro-service, organization>> level and user level. Properties defined at
-Breezie level can be overwritten at organization and user level and properties set at organization level
-can be overwritten at user level.
+`Settings` is a representation of a set of properties that define the device behaviour.
 
+[NOTE]
+====
 The set of properties that can be settled to a device are defined in a `schema` that can be found on
 `https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
 restrictions.
+===
+
+[NOTE]
+====
+`Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
+and user level. Properties defined at Breezie level can be overwritten at organization and user level and properties
+set at organization level can be overwritten at user level.
+====
 
 [[resources-userSettings-retrieve]]
 ===== Retrieve settings for a user
