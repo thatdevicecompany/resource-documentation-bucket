@@ -197,6 +197,13 @@ and user level. Properties defined at Breezie level can be overwritten at organi
 set at organization level can be overwritten at user level.
 ====
 
+[NOTE]
+===
+The `Settings` applied to a <<device-micro-service,device>> is the combination of breezie settings, organizations settings
+and user settings. In case the same property is defined at different levels, user level
+has the highest priority and breezie level the lowest.
+===
+
 [[resources-userSettings-retrieve]]
 ===== Retrieve settings for a user
 
