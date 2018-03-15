@@ -180,8 +180,6 @@ The `Settings` applied to a device is the combination of breezie settings, organ
 and user settings. In case the same property is defined at different levels, user level
 has the highest priority and breezie level the lowest.
 
-
-
 [[resources-deviceSettings-retrieve]]
 ===== Retrieve settings for a devices
 A `GET` request to `/devices/{id}/settings` will list all of the the settings applied to a particular device. This settings are a combination of
@@ -263,14 +261,22 @@ include::{device-snippets}/startscreen-put/http-response.adoc[]
 
 [[resources-device-settings]]
 === Settings
-`Settings` is a representation of a set of properties that define the device behaviour. `Settings` can be
-defined at different levels: breezie level, organization level and user level. Properties defined at
-Breezie level can be overwritten at organization and user level and properties set at organization level
-can be overwritten at user level.
+`Settings` is a representation of a set of properties that define the device behaviour.
 
+[NOTE]
 The set of properties that can be settled to a device are defined in a `schema` that can be found on
 `https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
 restrictions.
+
+[NOTE]
+`Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
+and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at organization and user level and properties
+set at organization level can be overwritten at user level.
+
+[NOTE]
+The `Settings` applied to a device is the combination of breezie settings, organizations settings
+and user settings. In case the same property is defined at different levels, user level
+has the highest priority and breezie level the lowest.
 
 * <<settings-api, Settings API>>
 ** <<resources-settings-retrieve-by-breezie, Retrieve settings for all devices>>
