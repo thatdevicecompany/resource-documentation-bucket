@@ -1,14 +1,13 @@
 :device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/development/device-service
 
 An `organization` is a representation of an institution where other resources of the system like `users`, `devices`,
-`contents`... will be allocated. This resource is the top of an pyramidal structure called `scope` composed by
+`contents`... will be allocated. This resource is the top of an pyramidal structure called <<scope,scope>> composed by
 `facilities`, `campuses`, `regions` and `organizations`.
 
 * <<organization-structure, Structure>>
 * <<organizations-api, Organizations API>>
 ** <<resources-organization-list, Listing organizations>>
 ** <<resources-organization-retrieve, Retrieve an organization>>
-** <<resources-organization-create, Create an organization>>
 ** <<resources-organization-update, Replace an organization>>
 ** <<resources-organization-patch, Update an organization>>
 ** <<resources-orgSettings, Settings>>
@@ -50,24 +49,6 @@ include::{organizations-snippets}/organization-get-example/curl-request.adoc[]
 include::{organizations-snippets}/organization-get-example/http-response.adoc[]
 
 
-[[resources-organization-create]]
-===== Create an organization
-
-A `POST` request to `/organizations` will create a new organization and return the created representation.
-
-==== Request structure
-
-include::{organizations-snippets}/organization-post/request-fields.adoc[]
-
-====== Example request
-
-include::{organizations-snippets}/organization-post/curl-request.adoc[]
-
-====== Example response
-
-include::{organizations-snippets}/organization-post/http-response.adoc[]
-
-
 [[resources-organization-update]]
 ===== Replace an organization
 
@@ -85,7 +66,7 @@ include::{organizations-snippets}/organization-update-example/http-response.adoc
 [[resources-organization-patch]]
 ===== Update an organization
 
-A `PATCH` request to `/organizations/{id}` will update the organization partially. This will ONLY update the fields
+A `PATCH` request to `/organizations/{id}` will update the organization partially. This will only update the fields
 you request be changed.
 
 ====== Example request
@@ -146,7 +127,7 @@ include::{device-snippets}/organization-settings-put/http-response.adoc[]
 
 === Regions
 A `region` is a representation of a part of an institution localized on some area. It is used to allocate other resources of the system like `users`,
-`devices`, `contents`... This resource is the under the top of an pyramidal structure composed by `facilities`, `campuses`,
+`devices`, `contents`... This resource is the under the top of an pyramidal structure (<<scope,scope>>) composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
 * <<region-structure, Structure>>
@@ -228,7 +209,7 @@ include::{organizations-snippets}/region-update-example/http-response.adoc[]
 [[resources-region-patch]]
 ===== Update a region
 
-A `PATCH` request to `/regions/{id}` will update the specified region partially. This will ONLY update the fields
+A `PATCH` request to `/regions/{id}` will update the specified region partially. This will only update the fields
  you request be changed. `organizationId, can not be modified.
 
 ====== Example request
@@ -256,7 +237,7 @@ include::{organizations-snippets}/region-delete-example/http-response.adoc[]
 
 === Campuses
 A `campus` is a representation of a part of `region`. It is used to allocate other resources of the system like `users`,
-`devices`, `contents`... This resource is over the bottom of a pyramidal structure composed by `facilities`, `campuses`,
+`devices`, `contents`... This resource is over the bottom of a pyramidal structure (<<scope,scope>>) composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
 * <<campus-structure, Structure>>
@@ -338,7 +319,7 @@ include::{organizations-snippets}/campus-update-example/http-response.adoc[]
 [[resources-campus-patch]]
 ===== Update a campus
 
-A `PATCH` request to `/campuses/{id}` will update the campus partially. This will ONLY update the fields
+A `PATCH` request to `/campuses/{id}` will update the campus partially. This will only update the fields
 you request be changed.
 
 ====== Example request
@@ -352,7 +333,7 @@ include::{organizations-snippets}/campus-patch-example/http-response.adoc[]
 [[resources-campus-delete]]
 ===== Delete a campus
 
-A `DELETE` request to `/campuses/{id}` will delete the campus
+A `DELETE` request to `/campuses/{id}` will delete the campus.
 
 ====== Example request
 
@@ -365,7 +346,7 @@ include::{organizations-snippets}/campus-delete-example/http-response.adoc[]
 
 === Facilities
 A `facility` is a representation of a part of a campus. It is used to allocate other resources of the system like `users`,
-`devices`, `contents`... This resource is the base of an pyramidal structure composed by `facilities`, `campuses`,
+`devices`, `contents`... This resource is the base of an pyramidal structure (<<scope,scope>>) composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
 * <<facility-structure, Structure>>
@@ -447,7 +428,7 @@ include::{organizations-snippets}/facility-update-example/http-response.adoc[]
 [[resources-facility-patch]]
 ===== Update a facility
 
-A `PATCH` request to `/facilities/{id}` will update the facility partially. This will ONLY update the fields
+A `PATCH` request to `/facilities/{id}` will update the facility partially. This will only update the fields
 you request be changed.
 
 ====== Example request
