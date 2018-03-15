@@ -47,7 +47,7 @@
 
 |`scope.userId`
 |`String`
-|ID of the user who created the user
+|ID of the user (only for breezie users, other roles won't have value on this field)
 
 |`sponsors`
 |`Array`

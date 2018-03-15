@@ -1,7 +1,7 @@
 :device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/development/device-service
 
 A `user` is a representation of anyone who authenticates with the Breezie Platform. Listing, creating, updating and deleting are the
-operations available from this API
+operations available from this API.
 
 * <<user-structure, Structure>>
 * <<users-api, Users API>>
@@ -156,7 +156,7 @@ include::{user-snippets}/users-delete/http-response.adoc[]
 ===== Create User Image Object
 
 A `POST` request to `users/{id}/picture` is used to generate an image representation that makes you able to upload a image file for the specified user.
-To complete the image upload a `POST` request to the url returned in this request is required.
+To complete the image upload a `POST` request with the image file to the url returned in this request is required.
 
 ====== Example request
 
@@ -197,19 +197,6 @@ set at organization level can be overwritten at user level.
 The `Settings` applied to a <<device-micro-service,device>> is the combination of breezie settings, organizations settings
 and user settings. In case the same property is defined at different levels, user level
 has the highest priority and breezie level the lowest.
-
-[[resources-userSettings-retrieve]]
-===== Retrieve settings for a user
-
-A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
-
-====== Example request
-
-include::{device-snippets}/user-settings-get/curl-request.adoc[]
-
-====== Example response
-
-include::{device-snippets}/user-settings-get/http-response.adoc[]
 
 [[resources-userSettings-retrieve]]
 ===== Retrieve settings for a user
