@@ -12,20 +12,20 @@ X-Frame-Options: DENY
 Content-Length: 1447
 
 [ {
-  "id" : "61076a6b-ad20-4e49-b222-6ae03ead786a",
+  "id" : "391011b7-1a2e-4692-b6f1-5b3fa0a967a7",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516640533645,
+  "createdTime" : 1521218641276,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516640534645,
+  "lastUpdatedTime" : 1521218642276,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
@@ -34,20 +34,20 @@ Content-Length: 1447
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "badbc176-0bbc-4d50-afc2-f6f9f6870cbd",
+  "id" : "7c330337-f0d9-4168-b9c0-b1ebb5883404",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516640533679,
+  "createdTime" : 1521218641371,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516640534679,
+  "lastUpdatedTime" : 1521218642371,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,

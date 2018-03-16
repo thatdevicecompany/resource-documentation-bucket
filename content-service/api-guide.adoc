@@ -3,7 +3,7 @@ items, be it a Bookmark, Application, Feed, Contact etc. One of the aforemention
 therefore you can receive the content of a group once you know the groups information. Think of the Groups API as a collection of
 specific resources. The group itself also holds all of the access control for resources within it.
 
-In the context of a Breezie client application, groups will appear as categories within the Interests application, with their content
+In the context of a Breezie device tablet, groups will appear as categories within the Interests application, with their content
 appearing within each category.
 
 * <<group-structure, Structure>>
@@ -209,7 +209,7 @@ The Applications api is used to create and list applications. A Application is a
 Android Play Store application, they are represented with a title, description, image and a package name.
 A Application is always assigned to a group.
 
-In the context of the Breezie client application, applications appear on the StartScreen and within Interests application.
+In the context of the Breezie device tablet, applications appear on the StartScreen and within Interests application.
 
 
 * <<applications-structure, Structure>>
@@ -327,7 +327,7 @@ The Bookmarks api is used to create and list bookmarks. A Bookmark is a represen
 hyperlink to a resource or a web page, they are represented with a name, url, image and a description.
 A Bookmark is always assigned to a group.
 
-In the context of the Breezie client application, bookmarks appear on the StartScreen and within Interests application.
+In the context of the Breezie device tablet, bookmarks appear on the StartScreen and within Interests application.
 They act as shortcuts to links on the web and are grouped within Categories in the interests by their category.
 
 * <<bookmarks-structure, Structure>>
@@ -350,7 +350,7 @@ include::{content-snippets}/bookmarks-get/response-fields.adoc[]
 [[resources-bookmarks-list]]
 ===== Listing bookmarks by group
 
-A `GET` request to `/bookmarks/search/findByGroupId?id=[group-id]` will list all of the groups in the group specified.
+A `GET` request to `/bookmarks/search/findByGroupId?id=[group-id]` will list all of the bookmarks in the group specified.
 
 ====== Example request
 
@@ -386,7 +386,7 @@ include::{content-snippets}/bookmarks-get/http-response.adoc[]
 [[resources-bookmarks-create]]
 ===== Creating a bookmark
 
-A `POST` request to `/bookmarks/{id}` will save a new bookmark and return the created resource.
+A `POST` request to `/bookmarks` will save a new bookmark and return the created resource.
 
 ====== Example request
 

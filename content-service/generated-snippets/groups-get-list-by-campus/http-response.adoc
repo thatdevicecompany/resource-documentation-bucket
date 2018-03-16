@@ -12,20 +12,20 @@ X-Frame-Options: DENY
 Content-Length: 2143
 
 [ {
-  "id" : "2e85b492-5253-4206-a5bb-4d2fbfaefa86",
+  "id" : "ca1c1a49-d0a4-45b0-80ad-7f77b8680aee",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
   "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : null,
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516640529879,
+  "createdTime" : 1521218628704,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516640530879,
+  "lastUpdatedTime" : 1521218629704,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
@@ -34,42 +34,42 @@ Content-Length: 2143
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "8c4ea9ec-9c6f-4d35-b7b5-dd273491a594",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "scope" : {
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "userId" : null
-  },
-  "createdTime" : 1516640529845,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516640530845,
-  "updatedBy" : "James Mitchel",
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "8ab2d37b-986d-410c-b306-7cbe223f41e6",
+  "id" : "057c3884-8cc5-48de-956b-2a5917574598",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "userId" : null
   },
-  "createdTime" : 1516640529896,
+  "createdTime" : 1521218628752,
   "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1516640530896,
+  "lastUpdatedTime" : 1521218629752,
+  "updatedBy" : "James Mitchel",
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "94a92518-e55c-4130-8cba-bd727f8b61ba",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "createdTime" : 1521218627223,
+  "createdBy" : "Bob Jones",
+  "lastUpdatedTime" : 1521218628223,
   "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
