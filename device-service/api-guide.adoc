@@ -138,7 +138,7 @@ include::{device-snippets}/device-put/http-response.adoc[]
 [[resources-device-patch]]
 ===== Update a Device
 
-A `PUT` request to `/devices/{id}` will update the device identified by `id` partially.
+A `PATCH` request to `/devices/{id}` will update the device identified by `id` partially.
 
 ====== Example request
 
