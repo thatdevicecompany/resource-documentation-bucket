@@ -9,19 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 492
+Content-Length: 359
 
 {
-  "createdTime" : 1521218567058,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1521218569058,
-  "updatedBy" : "James Mitchell",
-  "id" : "f5e11050-b009-4810-88a1-e0921fed2e34",
+  "id" : "7a3559a7-3de8-4785-b96a-df353f8b6461",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "34622fcb-f947-482e-9c1d-e2ca6530eea8",
+  "groupId" : "4a927072-9a5c-44e4-bdd3-6e1553ddb17a",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

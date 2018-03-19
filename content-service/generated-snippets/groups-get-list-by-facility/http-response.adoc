@@ -9,24 +9,20 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1447
+Content-Length: 1183
 
 [ {
-  "id" : "391011b7-1a2e-4692-b6f1-5b3fa0a967a7",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "id" : "1c8cbcc9-87b1-41f9-b36d-738673cdc075",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
-  "createdTime" : 1521218641276,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1521218642276,
-  "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
   "forced" : false,
@@ -34,21 +30,17 @@ Content-Length: 1447
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "7c330337-f0d9-4168-b9c0-b1ebb5883404",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "613f827c-8412-4236-8fda-52043374a88b",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
-  "createdTime" : 1521218641371,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1521218642371,
-  "updatedBy" : "James Mitchel",
   "isDefault" : true,
   "promote" : false,
   "forced" : false,

@@ -9,19 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 499
+Content-Length: 366
 
 {
-  "createdTime" : 1521218569354,
-  "createdBy" : "Bob Jones",
-  "lastUpdatedTime" : 1521218571354,
-  "updatedBy" : "James Mitchell",
-  "id" : "c8b7b60a-509c-4408-bc42-10e6859818a8",
+  "id" : "45cd257f-8e3b-455b-90b7-822c7cae156c",
   "url" : "www.gardening.com",
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "6129276d-3f22-427f-aa17-0c019fba6371",
+  "groupId" : "c615250c-ea5d-407a-a3db-51d8ce8f0155",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
