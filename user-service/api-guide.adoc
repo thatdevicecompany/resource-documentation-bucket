@@ -1,6 +1,6 @@
 :device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/development/device-service
 
-A `user` is a representation of anyone who authenticates with the Breezie Platform. Listing, creating, updating and deleting are the
+A `User` is a representation of anyone who authenticates with the Breezie platform. Listing, creating, updating and deleting are the
 operations available from this API.
 
 * <<user-structure, Structure>>
@@ -25,10 +25,10 @@ include::{user-snippets}/users-get/response-fields.adoc[]
 ==== Users API
 
 [[resources-profile-list]]
-===== Listing users
+===== Listing Users
 
-A `GET` request to `/users` will list all users accessible by the user who make the request.
-Only users with role ROLE_BW or ROLE_BR will see sponsors in this list.
+A `GET` request to `/users` will list all Users accessible by the User who makes the request.
+Only Users with the roles ROLE_BW or ROLE_BR will see sponsors in this list.
 
 ====== Example request
 
@@ -40,10 +40,10 @@ include::{user-snippets}/users-get-list/http-response.adoc[]
 
 
 [[resources-profile-list-by-organization]]
-===== Listing users in organization
+===== Listing Users in an Organization
 
-A `GET` request to `/users/search/findByOrganizationId?id=[organization-id]` will list all of the users
-in the organization specified that are accessible by the user who make the request. Sponsors are not listed.
+A `GET` request to `/users/search/findByOrganizationId?id=[organization-id]` will list all of the Users
+in the Organization specified that are accessible by the User who make the request. Sponsors are not listed.
 
 ====== Example request
 
@@ -51,10 +51,10 @@ include::{user-snippets}/users-get-list-by-organization/curl-request.adoc[]
 
 
 [[resources-profile-list-by-region]]
-===== Listing users in region
+===== Listing Users in a Region
 
-A `GET` request to `/users/search/findByRegionId?id=[region-id]` will list all of the users in the region specified
-that are accessible by the user who make the request. Sponsors are not listed.
+A `GET` request to `/users/search/findByRegionId?id=[region-id]` will list all of the Users in the Region specified
+that are accessible by the User who make the request. Sponsors are not listed.
 
 ====== Example request
 
@@ -62,10 +62,10 @@ include::{user-snippets}/users-get-list-by-region/curl-request.adoc[]
 
 
 [[resources-profile-list-by-campus]]
-===== Listing users in campus
+===== Listing Users in a Campus
 
-A `GET` request to `/users/search/findByCampusId?id=[campus-id]` will list all of the users in the campus specified
-that are accessible by the user who make the request. Sponsors are not listed.
+A `GET` request to `/users/search/findByCampusId?id=[campus-id]` will list all of the Users in the Campus specified
+that are accessible by the User who make the request. Sponsors are not listed.
 
 ====== Example request
 
@@ -73,10 +73,10 @@ include::{user-snippets}/users-get-list-by-campus/curl-request.adoc[]
 
 
 [[resources-profile-list-by-facility]]
-===== Listing users in facility
+===== Listing Users in a Facility
 
-A `GET` request to `/users/search/findByFacilityId?id=[facility-id]` will list all of the users in the facility
-specified that are accessible by the user who make the request. Sponsors are not listed.
+A `GET` request to `/users/search/findByFacilityId?id=[facility-id]` will list all of the Users in the Facility
+specified that are accessible by the User who make the request. Sponsors are not listed.
 
 ====== Example request
 
@@ -86,7 +86,7 @@ include::{user-snippets}/users-get-list-by-facility/curl-request.adoc[]
 [[resources-profile-get]]
 ===== Retrieve a User
 
-A `GET` request to `/users/{id}` will retrieve the user identified by `id`
+A `GET` request to `/users/{id}` will retrieve the User identified by `id`
 
 ====== Example request
 
@@ -97,9 +97,9 @@ include::{user-snippets}/users-get/curl-request.adoc[]
 include::{user-snippets}/users-get/http-response.adoc[]
 
 [[resources-profile-create]]
-===== Create a user
+===== Create a User
 
-A `POST` request to `/users` will save a new user and return the created representation.
+A `POST` request to `/users` will save a new User and return the created representation.
 
 ====== Request structure
 
@@ -114,9 +114,9 @@ include::{user-snippets}/users-create/curl-request.adoc[]
 include::{user-snippets}/users-create/http-response.adoc[]
 
 [[resources-profile-update]]
-===== Replace a user
+===== Replace a User
 
-A `PUT` request to `/users/{id}` is used to update a user completely
+A `PUT` request to `/users/{id}` is used to update a User completely.
 
 ====== Example request
 
@@ -127,9 +127,9 @@ include::{user-snippets}/users-update/curl-request.adoc[]
 include::{user-snippets}/users-update/http-response.adoc[]
 
 [[resources-profile-patch]]
-===== Update a user
+===== Update a User
 
-A `PATCH` request to `/users/{id}` is used to update a user partially
+A `PATCH` request to `/users/{id}` is used to update a User partially.
 
 ====== Example request
 
@@ -140,9 +140,9 @@ include::{user-snippets}/users-patch/curl-request.adoc[]
 include::{user-snippets}/users-patch/http-response.adoc[]
 
 [[resources-profile-delete]]
-===== Delete a user
+===== Delete a User
 
-A `DELETE` request is used to delete a user
+A `DELETE` request is used to delete a User.
 
 ====== Example request
 
@@ -155,8 +155,8 @@ include::{user-snippets}/users-delete/http-response.adoc[]
 [[resources-profile-image]]
 ===== Create User Image Object
 
-A `POST` request to `users/{id}/picture` is used to generate an image representation that makes you able to upload a image file for the specified user.
-To complete the image upload a `POST` request with the image file to the url returned in this request is required.
+A `POST` request to `users/{id}/picture` is used to generate an image representation that allows you to upload an image file for the specified User.
+To complete the image upload, a `POST` request with the image file to the URL returned in this request is required.
 
 ====== Example request
 
@@ -169,7 +169,7 @@ include::{user-snippets}/users-image/http-response.adoc[]
 [[resources-sponsor-get]]
 ===== Listing sponsors
 
-A `GET` request to `/users/{id}/sponsors` will retrieve the list of users that are partner ot the user identified by `id`
+A `GET` request to `/users/{id}/sponsors` will retrieve the list of Users that are Partners of the User identified by `id`.
 
 ====== Example request
 
@@ -181,27 +181,27 @@ include::{user-snippets}/user-sponsors-get/http-response.adoc[]
 
 [[resources-userSettings]]
 ==== Settings
-`Settings` is a representation of a set of properties that define the device behaviour.
+`Settings` is a representation of a set of properties that defines the Device behaviour.
 
 [NOTE]
-The set of properties that can be settled to a device are defined in a `schema` that can be found on
-`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
+The set of properties that can be set on a Device are defined in a `schema` that can be found on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and the
 restrictions.
 
 [NOTE]
 `Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
-and user level. Properties defined at Breezie level can be overwritten at organization and user level and properties
-set at organization level can be overwritten at user level.
+and user level. Properties defined at Breezie level can be overwritten at Organization and User level and properties
+set at Organization level can be overwritten at User level.
 
 [NOTE]
-The `Settings` applied to a <<device-micro-service,device>> is the combination of breezie settings, organizations settings
-and user settings. In case the same property is defined at different levels, user level
-has the highest priority and breezie level the lowest.
+The `Settings` applied to a <<device-micro-service,device>> is the combination of Breezie Settings, Organizations Settings
+and User Settings. In the event that the same property is defined at different levels, the User level
+has the highest priority and Breezie level the lowest.
 
 [[resources-userSettings-retrieve]]
-===== Retrieve settings for a user
+===== Retrieve Settings for a User
 
-A `GET` request to `/users/{id}/settings` will return the set of properties settled at user level.
+A `GET` request to `/users/{id}/settings` will return the set of properties set at User level.
 
 ====== Example request
 
@@ -212,9 +212,9 @@ include::{device-snippets}/user-settings-get/curl-request.adoc[]
 include::{device-snippets}/user-settings-get/http-response.adoc[]
 
 [[resources-userSettings-update]]
-===== Replace settings for a user
+===== Replace Settings for a User
 
-A `PUT` request to `/users/{id}/settings` will update the set of properties settled at user level.
+A `PUT` request to `/users/{id}/settings` will update the set of properties set at User level.
 
 ====== Example request
 
@@ -227,7 +227,7 @@ include::{device-snippets}/user-settings-put/http-response.adoc[]
 
 [[resources-profile-sensitive]]
 === Sensitive Information
-`Sensitive` is a representation of protected information of the user. Access to this resource is restricted.
+`Sensitive` represents protected information of the User. Access to this resource is restricted.
 
 * <<sensitive-structure, Structure>>
 * <<sensitive-api, Sensitive API>>
@@ -246,8 +246,8 @@ include::{user-snippets}/users-get-sensitive/response-fields.adoc[]
 [[resources-sensitive-retrieve]]
 ===== Retrieve Sensitive Information
 
-A `GET` request to `/users/{id}/sensitive` will return the private information of the user.
-This information is exclusively accessible by the owner or partners of the owner.
+A `GET` request to `/users/{id}/sensitive` will return the private information of the User.
+This information is exclusively accessible by the owner or Partners of the owner.
 
 ====== Example request
 
@@ -260,7 +260,7 @@ include::{user-snippets}/users-get-sensitive/http-response.adoc[]
 [[resources-sensitive-creation]]
 ===== Create Sensitive Information
 
-A `POST` request to `/users/{id}/sensitive` will save the private information of the user. This information is exclusively writable by the owner or partners of the owner.
+A `POST` request to `/users/{id}/sensitive` will save the private information of the User. This information is exclusively writable by the owner or Partners of the owner.
 
 ====== Example request
 
@@ -274,7 +274,7 @@ include::{user-snippets}/users-post-sensitive/http-response.adoc[]
 [[resources-sensitive-update]]
 ===== Replace Sensitive Information
 
-A `PUT` request to `/users/{id}/sensitive` will update the private information of the user completely. This information is exclusively upgradeable by the owner or partners of the owner.
+A `PUT` request to `/users/{id}/sensitive` will update the private information of the User completely. This information is exclusively upgradeable by the owner or partners of the owner.
 
 ====== Example request
 
@@ -288,7 +288,7 @@ include::{user-snippets}/users-put-sensitive/http-response.adoc[]
 [[resources-sensitive-patch]]
 ===== Update Sensitive Information
 
-A `PATCH` request to `/users/{id}/sensitive` will save the private information of the user partially. This information is exclusively upgradeable by the owner or partners of the owner.
+A `PATCH` request to `/users/{id}/sensitive` will save the private information of the User partially. This information is exclusively upgradeable by the owner or Partners of the owner.
 
 ====== Example request
 
@@ -300,7 +300,7 @@ include::{user-snippets}/users-patch-sensitive/http-response.adoc[]
 
 [[sponsor-requests]]
 === Sponsor Request
-A `sponsorRequest` represent an invitation to someone to become sponsor of a user
+A `sponsorRequest` represents an invitation to someone to become the sponsor of a User.
 
 * <<sponsor-requests-structure, Structure>>
 * <<sponsor-requests-api, Sponsor Requests API>>
@@ -321,7 +321,7 @@ include::{user-snippets}/sponsorRequest-create/response-fields.adoc[]
 [[sponsor-requests-list]]
 ===== Listing Sponsor Requests
 
-A `GET` request to `/sponsorRequests/search/findByUserId?id=[userId]` will list all sponsor requests made on behalf of the user identified by `userId`. Any user with read access to the specified user can make this request.
+A `GET` request to `/sponsorRequests/search/findByUserId?id=[userId]` will list all sponsor requests made on behalf of the User identified by `userId`. Any User with read access to the specified User can make this request.
 
 ====== Example request
 
@@ -334,7 +334,7 @@ include::{user-snippets}/sponsorRequests-get/http-response.adoc[]
 [[sponsor-requests-create]]
 ===== Create Sponsor Request
 
-A `POST` request to `/sponsorRequests` will create a sponsor request for the user specified in the body. Any user with write access to the specified user can make this request.
+A `POST` request to `/sponsorRequests` will create a sponsor request for the User specified in the body. Any User with write access to the specified User can make this request.
 
 ====== Example request
 
@@ -347,7 +347,7 @@ include::{user-snippets}/sponsorRequest-create/http-response.adoc[]
 [[sponsor-requests-update]]
 ===== Update Sponsor Request
 
-A `PATCH` request to `/sponsorRequests/{id}` will update a sponsor request identified by `id`. Any user with write access to the specified user can make this request.
+A `PATCH` request to `/sponsorRequests/{id}` will update a sponsor request identified by `id`. Any User with write access to the specified User can make this request.
 
 ====== Example request
 
@@ -360,7 +360,7 @@ include::{user-snippets}/sponsorRequest-patch/http-response.adoc[]
 [[sponsor-requests-email]]
 ===== Send Sponsor Request Email
 
-A `POST` request to `/sponsorRequests/{id}/email` will send a sponsor request email to the email previously set in the sponsor request. Any user with write access to the specified user can make this request.
+A `POST` request to `/sponsorRequests/{id}/email` will send a sponsor request email to the email previously set in the sponsor request. Any User with write access to the specified User can make this request.
 
 ====== Example request
 
