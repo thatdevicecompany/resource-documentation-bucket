@@ -6,7 +6,7 @@ $ curl 'https://api.breezie.com/applications' -i -X POST -H 'Authorization: Bear
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "a47e1a9a-029f-473b-8dd1-d5536ac1837b",
+  "groupId" : "0f5fcbab-4dc6-4c87-abd6-64673a9cbd7c",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
