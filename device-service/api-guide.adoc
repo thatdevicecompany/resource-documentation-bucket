@@ -1,9 +1,9 @@
-A `device` is a representation of a breezie tablet. A `device` belongs to a user, so the accessibility is defined
-by the user who own the device. This resources have a set of configurations (`settings`) that could alter how they
+A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
+by the User who owns the Device. The resources have a set of configurations (`settings`) that can alter how they
 behave.
 
 `StartScreen` is a sub-resource of `device` that represents the configuration of the initial screen on the
- device. This resource is used to manage the apps, bookmarks, categories... that the device will show on its screen.
+ Device. This resource is used to manage the apps, bookmarks, categories... that the Device will show on its screen.
 
 * <<device-structure, Structure>>
 * <<devices-api, devices API>>
@@ -31,7 +31,7 @@ include::{device-snippets}/device-get/response-fields.adoc[]
 [[resources-device-list]]
 ===== Listing devices
 
-A `GET` request to `/devices` will list all devices accessible by the user who make the request.
+A `GET` request to `/devices` will list all Devices accessible by the User who made the request.
 
 ====== Example request
 
@@ -41,19 +41,19 @@ include::{device-snippets}/device-get-list/curl-request.adoc[]
 
 include::{device-snippets}/device-get-list/http-response.adoc[]
 
-===== Listing devices by Organization
+===== Listing Devices by Organization
 
-A `GET` request to `/devices/search/findByOrganizationId?id=[organization-id]` will list all the devices belonging
-to the organization which identifier is the one passed as a parameter.
+A `GET` request to `/devices/search/findByOrganizationId?id=[organization-id]` will list all the Devices belonging
+to the Organization chosen in the request.
 
 ====== Example request
 
 include::{device-snippets}/device-get-list-by-organization/curl-request.adoc[]
 
-===== Listing devices by Region
+===== Listing Devices by Region
 
-A `GET` request to `/devices/search/findByRegionId?id=[region-id]` will list all the devices belonging
-to the region which identifier is the one passed as a parameter.
+A `GET` request to `/devices/search/findByRegionId?id=[region-id]` will list all the Devices belonging
+to the Region chosen in the request.
 
 ====== Example request
 
@@ -61,17 +61,17 @@ include::{device-snippets}/device-get-list-by-region/curl-request.adoc[]
 
 ===== Listing devices by Campus
 
-A `GET` request to `/devices/search/findByCampusId?id=[campus-id]` will list all the devices belonging
-to the campus which identifier is the one passed as a parameter.
+A `GET` request to `/devices/search/findByCampusId?id=[campus-id]` will list all the Devices belonging
+to the Campus chosen in the request.
 
 ====== Example request
 
 include::{device-snippets}/device-get-list-by-campus/curl-request.adoc[]
 
-===== Listing devices by Facility
+===== Listing Devices by Facility
 
-A `GET` request to `/devices/search/findByFacilityId?id=[facility-id]` will list all the devices belonging
-to the facility which identifier is the one passed as a parameter.
+A `GET` request to `/devices/search/findByFacilityId?id=[facility-id]` will list all the Devices belonging
+to the Facility chosen in the request.
 
 ====== Example request
 
@@ -80,7 +80,7 @@ include::{device-snippets}/device-get-list-by-facility/curl-request.adoc[]
 [[resources-device-get]]
 ===== Retrieve a Device
 
-A `GET` request to `/devices/{id}` will retrieve the device identified by `id`.
+A `GET` request to `/devices/{id}` will retrieve the Device identified by `id`.
 
 ====== Example request
 
@@ -90,10 +90,9 @@ include::{device-snippets}/device-get/curl-request.adoc[]
 
 include::{device-snippets}/device-get/http-response.adoc[]
 
-===== Retrieve device by serialNumber
+===== Retrieve Device by Serial Number
 
-A `GET` request to `/devices/search/findBySerialNumber?id=[serial-number]` will show the device which serial number is the
-one sent as a parameter.
+A `GET` request to `/devices/search/findBySerialNumber?id=[serial-number]` will show the Device with the Serial Number chosen in the request.
 
 ====== Example request
 
@@ -101,8 +100,7 @@ include::{device-snippets}/device-get-list-by-sn/curl-request.adoc[]
 
 ===== Retrieve device by Android ID
 
-A `GET` request to `/devices/search/findByAndroidId?id=[android-id]` will show the device which android identifier is the
-one sent as a parameter.
+A `GET` request to `/devices/search/findByAndroidId?id=[android-id]` will show the Device with the Android ID chosen in the request.
 
 ====== Example request
 
@@ -112,7 +110,7 @@ include::{device-snippets}/device-get-list-by-androidId/curl-request.adoc[]
 [[resources-device-create]]
 ===== Create a Device
 
-A `POST` request to `/devices` will save a new device and return the created representation.
+A `POST` request to `/devices` will save a new Device and return the created representation.
 
 ====== Example request
 
@@ -125,7 +123,7 @@ include::{device-snippets}/device-create/http-response.adoc[]
 [[resources-device-update]]
 ===== Replace a Device
 
-A `PUT` request to `/devices/{id}` will update the device identified by `id` completely.
+A `PUT` request to `/devices/{id}` will update the Device identified by `id` completely.
 
 ====== Example request
 
@@ -138,7 +136,7 @@ include::{device-snippets}/device-put/http-response.adoc[]
 [[resources-device-patch]]
 ===== Update a Device
 
-A `PATCH` request to `/devices/{id}` will update the device identified by `id` partially.
+A `PATCH` request to `/devices/{id}` will update the Device identified by `id` partially.
 
 ====== Example request
 
@@ -149,9 +147,9 @@ include::{device-snippets}/device-patch/curl-request.adoc[]
 include::{device-snippets}/device-patch/http-response.adoc[]
 
 [[resources-device-delete]]
-===== DELETE a Device
+===== Delete a Device
 
-A `DELETE` request to `/devices/{id}` will delete the device identified by `id`.
+A `DELETE` request to `/devices/{id}` will delete the Device identified by `id`.
 
 ====== Example request
 
@@ -163,28 +161,27 @@ include::{device-snippets}/device-delete/http-response.adoc[]
 
 [[resources-deviceSettings]]
 ==== Settings
-`Settings` is a representation of a set of properties that define the device behaviour.
+`Settings` represents a set of properties that define the Device behaviour.
 
 [NOTE]
-The set of properties that can be settled to a device are defined in a `schema` that can be found on
-`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
-restrictions.
+The set of properties that can be set on a device is defined in a `schema` that can be found on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and their restrictions.
 
 [NOTE]
 `Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
-and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at organization and user level and properties
-set at organization level can be overwritten at user level.
+and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at Organization and User level and properties
+set at Organization level can be overwritten at User level.
 
 [NOTE]
-The `Settings` applied to a device is the combination of breezie settings, organizations settings
-and user settings. In case the same property is defined at different levels, user level
-has the highest priority and breezie level the lowest.
+The `Settings` applied to a Device is the combination of Breezie Settings, Organizations Settings
+and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
 
 [[resources-deviceSettings-retrieve]]
-===== Retrieve settings for a devices
-A `GET` request to `/devices/{id}/settings` will list all of the the settings applied to a particular device. This settings are a combination of
-breezie settings, organizations settings and user settings. In case the same property is defined at different levels, user level
-has the highest priority and breezie level the lowest.
+===== Retrieve Settings for a Device
+A `GET` request to `/devices/{id}/settings` will list all of the the Settings applied to a particular Device. These Settings are a combination of
+Breezie Settings, Organization Settings and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
 
 ====== Example request
 
@@ -196,11 +193,10 @@ include::{device-snippets}/device-settings-get/http-response.adoc[]
 
 
 [[resources-deviceSettings-update]]
-===== Replace device settings
+===== Replace Device Settings
 
-A `PUT` request to `/devices/{id}/settings` is used to save the device settings. This information cannot be requested from
-the API and it is stored to have the knowledge of the status of the device.
-
+A `PUT` request to `/devices/{id}/settings` is used to save the Device Settings. This information cannot be requested from
+the API and it is stored to have the knowledge of the status of the Device.
 ====== Example request
 
 include::{device-snippets}/device-settings-put/curl-request.adoc[]
@@ -213,18 +209,18 @@ include::{device-snippets}/device-settings-put/http-response.adoc[]
 
 [[resources-device-startscreen]]
 ==== Start Screen
-StartScreen resource is composed for two attributes: the maximum number of items that will be displayed
-on the device's screen and a sorted list of items candidates to show on the screen. This list of items is
-composed by the items `forced` by an admin to be on the start screen, the items manually `settled` on the
+The Start Screen resource is composed of two attributes: the maximum number of items that can be displayed
+on the Device's screen and a sorted list of items which are candidates to show on the screen. This list of items is
+composed of the items `forced` by an admin to be on the Start Screen, the items manually `settled` on the
 screen, the items `promoted` by admins and finally the rest of items candidates to be on the screen.
 
-It is a device job to calculate the items to show in the screen from the information provided in this endpoint.
+It is a Device job to calculate the items to show in the screen from the information provided in this endpoint.
 
 
 [[resources-device-startscreen-get]]
 ===== Retrieve StartScreen
-A `GET` request to `/devices/{id}/startscreen` will return the startscreen configuration of the
-device identified by `id`.
+A `GET` request to `/devices/{id}/startscreen` will return the Start Screen configuration of the
+Device identified by `id`.
 
 ====== Structure
 
@@ -241,8 +237,8 @@ include::{device-snippets}/startscreen-get/http-response.adoc[]
 
 [[resources-device-startscreen-put]]
 ====== Update StartScreen
-A `PUT` request to `/devices/{id}/startscreen` will update the startscreen configuration of the
-device identified by `id`.
+A `PUT` request to `/devices/{id}/startscreen` will update the Start Screen configuration of the
+Device identified by `id`.
 
 ====== Structure
 
@@ -261,7 +257,7 @@ include::{device-snippets}/startscreen-put/http-response.adoc[]
 
 [[resources-device-settings]]
 === Settings
-`Settings` is a representation of a set of properties that define the device behaviour.
+`Settings` represents a set of properties that define the Device behaviour.
 
 [NOTE]
 The set of properties that can be settled to a device are defined in a `schema` that can be found on
@@ -270,16 +266,15 @@ restrictions.
 
 [NOTE]
 `Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
-and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at organization and user level and properties
-set at organization level can be overwritten at user level.
+and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at Organization and User level and properties set at Organization level can be overwritten at User level.
 
 [NOTE]
-The `Settings` applied to a device is the combination of breezie settings, organizations settings
-and user settings. In case the same property is defined at different levels, user level
-has the highest priority and breezie level the lowest.
+The `Settings` applied to a Device is the combination of Breezie Settings, Organizations Settings
+and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
 
 * <<settings-api, Settings API>>
-** <<resources-settings-retrieve-by-breezie, Retrieve settings for all devices>>
+** <<resources-settings-retrieve-by-breezie, Retrieve Settings for all devices>>
 ** <<resources-settings-update-by-breezie, Replace settings for all devices>>
 
 
@@ -290,7 +285,7 @@ has the highest priority and breezie level the lowest.
 [[resources-settings-retrieve-by-breezie]]
 ===== Retrieve settings for all devices
 
-A `GET` request to `/breezie-settings` will update the set of properties settled at breezie level.
+A `GET` request to `/breezie-settings` will update the set of properties settled at Breezie level.
 
 ====== Example request
 
@@ -301,9 +296,9 @@ include::{device-snippets}/breezie-settings-get/curl-request.adoc[]
 include::{device-snippets}/breezie-settings-get/http-response.adoc[]
 
 [[resources-settings-update-by-breezie]]
-===== Replace settings for all devices
+===== Replace Settings for all Devices
 
-A `PUT` request to `/breezie-settings` will update the set of properties settled at breezie level. This
+A `PUT` request to `/breezie-settings` will update the set of properties settled at Breezie level. This
 properties will be applied for all users.
 
 ====== Example request

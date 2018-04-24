@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 611
 
 {
-  "id" : "7a59fa7f-3473-4e3f-bfe5-d953d2f91b1b",
+  "id" : "5200ed65-b20e-49c1-8e1e-505a698198a8",
   "serialNumber" : "R52G5ABX32BB",
   "androidId" : "3e4dhgf5s223hggt",
   "userId" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -23,9 +23,9 @@ Content-Length: 611
   "scope" : {
     "userId" : "dft54er4-8709-9iyt-ht5r67ytg4df",
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec"
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
   }
 }
 ----
