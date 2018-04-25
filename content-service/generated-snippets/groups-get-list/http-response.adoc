@@ -12,70 +12,70 @@ X-Frame-Options: DENY
 Content-Length: 2262
 
 [ {
-  "id" : "5b03499f-9bc4-44fa-987e-78fb851afcb8",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "scope" : {
-    "userId" : null,
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "79746166-8ca4-4308-8e76-124c04012780",
-  "name" : "Travelling",
-  "description" : "A group for all the travelling enthusiasts",
-  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
-  "scope" : {
-    "userId" : null,
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "df81017e-498b-4409-96ae-c6724ee34ddd",
-  "name" : "Games",
-  "description" : "A group for all the games enthusiasts",
-  "imageUrl" : "www.games-group.co.uk/logo.jpg",
-  "scope" : {
-    "userId" : null,
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : null,
-    "facilityId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "b2c94de4-dcc5-4523-a1ce-2a4d859cbce1",
+  "id" : "e13c299e-c3fe-4a74-8d80-befef08d13d6",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
-    "userId" : null,
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "781e29df-c5cc-4daf-b5d8-4849387b38ca",
+  "name" : "Games",
+  "description" : "A group for all the games enthusiasts",
+  "imageUrl" : "www.games-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : null,
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : null,
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "c402631e-638f-47ec-ac8b-05ab5a1e3475",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "899168eb-65e7-4151-b0d2-50107d4717ba",
+  "name" : "Travelling",
+  "description" : "A group for all the travelling enthusiasts",
+  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : null,
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "userId" : null
   },
   "isDefault" : true,
   "promote" : false,

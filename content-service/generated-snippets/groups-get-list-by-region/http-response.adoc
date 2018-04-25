@@ -12,34 +12,16 @@ X-Frame-Options: DENY
 Content-Length: 2262
 
 [ {
-  "id" : "c3e58acf-5112-47bb-b443-c98fb7f9df72",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "scope" : {
-    "userId" : null,
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "8ea5e6e9-153a-4e7c-8f69-93d97d0f7615",
+  "id" : "aa6c9988-2d51-415c-a2b7-063e82d1ab43",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
   "scope" : {
-    "userId" : null,
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : null,
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : null,
-    "facilityId" : null
+    "userId" : null
   },
   "isDefault" : true,
   "promote" : false,
@@ -48,16 +30,16 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "65016e6d-43a6-499d-b506-448f27abfa05",
+  "id" : "5423375f-06a2-413b-bead-f1f351e2e910",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
-    "userId" : null,
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+    "userId" : null
   },
   "isDefault" : true,
   "promote" : false,
@@ -66,16 +48,34 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "f58e9861-4ad3-4daa-90ec-4b7c3656e247",
+  "id" : "4679ca50-3738-4d83-bb15-78c0e810d5dd",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "1eb38d8d-a68b-4593-99ed-4c3e295a226c",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
   "scope" : {
-    "userId" : null,
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "facilityId" : null,
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : null
+    "userId" : null
   },
   "isDefault" : true,
   "promote" : false,
