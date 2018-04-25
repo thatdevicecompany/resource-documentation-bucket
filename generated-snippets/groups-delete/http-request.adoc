@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /groups/e0e9936a-9272-485f-b8f0-1e150cd8e781 HTTP/1.1
+DELETE /groups/ccf6e6c7-f715-4e43-bd2b-4138bad88c26 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: breezie.com
 
