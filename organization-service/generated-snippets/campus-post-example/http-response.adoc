@@ -1,0 +1,30 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 464
+
+{
+  "id" : "22d32cb3-a3c1-4648-82ea-33b66d07b4b7",
+  "name" : "Wellington",
+  "resourceScope" : {
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "22d32cb3-a3c1-4648-82ea-33b66d07b4b7",
+    "facilityId" : null,
+    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+    "userId" : null
+  },
+  "deleted" : false,
+  "createdTime" : 1525361446019,
+  "lastUpdatedTime" : 1525361446019,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}
+----
