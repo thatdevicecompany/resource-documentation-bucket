@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`userId`
+|`String`
+|User identifier
+
+|`version`
+|`String`
+|schema version applied to the settings. The schema defines the settings json allowed
+
+|`schemaUri`
+|`String`
+|schema url applied
+
+|`volume`
+|`Number`
+|integer property example
+
+|`screenBrightness`
+|`Number`
+|integer property example
+
+|`screenTimeout`
+|`Number`
+|integer property example
+
+|`allowMicrophone`
+|`Boolean`
+|boolean property example
+
+|`enableCamera`
+|`Boolean`
+|boolean property example
+
+|`allowAppsUninstall`
+|`Array`
+|property example
+
+|===
