@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/procura/e91008ab-752a-483b-9c63-b8629c62b6a9/imports/b70653ea-6ce0-46bb-98b5-343a59b750bc' -i \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+----

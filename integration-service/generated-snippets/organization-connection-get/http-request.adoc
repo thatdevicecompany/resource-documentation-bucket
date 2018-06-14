@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /organizations/8e0be458-5705-4318-9cf9-851d43266e6e/procura/d45ee349-a777-4add-bbae-0b4f4ee4bc67 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Host: api.breezie.com
+
+----

@@ -1,0 +1,21 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "fb048a33-ae0d-4be4-9aff-23de94af601a",
+  "name" : "Kaufland Procura Connection",
+  "description" : "Procura Connection for users in kaufland Organization",
+  "username" : "kaufland.org.connection",
+  "apiUrl" : "https://kaufland.procura.au",
+  "scope" : {
+    "organizationId" : "efcd4379-e521-4291-adef-51c7cbbcc5cb",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "createdBy" : "documentation@breezie.com",
+  "createdTime" : 1528983496741,
+  "updatedBy" : "documentation@breezie.com",
+  "lastUpdatedTime" : 1528983496741
+}
+----

@@ -1,0 +1,32 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 587
+
+{
+  "id" : "33e5b80f-8f8d-417c-86d2-990968256fe2",
+  "name" : "Kaufland Procura Connection",
+  "description" : "Procura Connection for users in kaufland Organization",
+  "username" : "kaufland.org.connection",
+  "apiUrl" : "https://kaufland.procura.au",
+  "scope" : {
+    "organizationId" : "efcd4379-e521-4291-adef-51c7cbbcc5cb",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "createdBy" : "documentation@breezie.com",
+  "createdTime" : 1528983497848,
+  "updatedBy" : "documentation@breezie.com",
+  "lastUpdatedTime" : 1528983497932
+}
+----

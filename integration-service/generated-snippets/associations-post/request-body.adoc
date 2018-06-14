@@ -1,0 +1,7 @@
+[source,options="nowrap"]
+----
+{
+  "procuraUserId" : "e039f601-31f9-4119-b3e1-d60f9b74fb3a",
+  "procuraConnectionId" : "da037ae6-1366-4ba8-8194-4530a129e96d"
+}
+----

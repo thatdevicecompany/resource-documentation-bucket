@@ -1,0 +1,54 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 862
+
+[ {
+  "id" : "sdfg-sdfghj-ertyu-ertne3-8u3bd",
+  "name" : {
+    "prefix" : "Mr",
+    "firstName" : "Phil",
+    "middleName" : null,
+    "lastName" : "Johanson"
+  },
+  "dateOfBirth" : "21/08/1837",
+  "phoneNumbers" : [ {
+    "type" : "permanent",
+    "number" : "0061298765432"
+  } ]
+}, {
+  "id" : "07205a36-75fb-4298-8201-2a21fb1890af",
+  "name" : {
+    "prefix" : "Ms",
+    "firstName" : "Sarah",
+    "middleName" : null,
+    "lastName" : "White"
+  },
+  "dateOfBirth" : "14/02/1842",
+  "phoneNumbers" : [ {
+    "type" : "permanent",
+    "number" : "0061298767398"
+  } ]
+}, {
+  "id" : "eabb5d32-1a20-4737-8cb1-9df38c398962",
+  "name" : {
+    "prefix" : "Ms",
+    "firstName" : "Kelly",
+    "middleName" : null,
+    "lastName" : "Right"
+  },
+  "dateOfBirth" : "20/07/1844",
+  "phoneNumbers" : [ {
+    "type" : "permanent",
+    "number" : "0061433367398"
+  } ]
+} ]
+----

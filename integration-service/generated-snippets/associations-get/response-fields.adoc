@@ -1,0 +1,32 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|ID of the association
+
+|`procuraUserId`
+|`String`
+|Procura user id which the breezie user is associated
+
+|`procuraConnectionId`
+|`String`
+|Identifier of the connection which the association was created
+
+|`createdBy`
+|`String`
+|The one who created the association
+
+|`createdTime`
+|`Number`
+|The time the association was created
+
+|`updatedBy`
+|`String`
+|The one who updated the association
+
+|`lastUpdatedTime`
+|`Number`
+|The time the association was updated
+
+|===

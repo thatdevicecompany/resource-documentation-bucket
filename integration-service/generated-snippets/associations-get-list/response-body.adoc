@@ -1,0 +1,12 @@
+[source,options="nowrap"]
+----
+[ {
+  "id" : "442fac73-7523-44ca-a920-df1dca4af05a",
+  "procuraUserId" : "sdfg-sdfghj-ertyu-ertne3-8u3bd",
+  "procuraConnectionId" : "e91008ab-752a-483b-9c63-b8629c62b6a9",
+  "createdBy" : "documentation@breezie.com",
+  "createdTime" : 1528800302015,
+  "updatedBy" : "documentation@breezie.com",
+  "lastUpdatedTime" : 1528800302015
+} ]
+----

@@ -1,0 +1,266 @@
+Procura is not a resource itself. It represents a set of capabilities that Breezie has integrated from the services offered by
+http://www.compliahealth.com/products/procura-na/overview.htm[Procura].
+From Breezie platform a user can manage connections to Procura, retrieve Procura users and import them to Breezie.
+
+* <<connection-resource, Connection>>
+* <<association-resource, Association>>
+* <<import-resource, Import>>
+* <<user-resource, Listing Procura Users>>
+
+
+[[connection-resource]]
+==== Connections
+A connection is a representation of the information required to set a connection with Procura.
+The connection itself defines the access that users has to the resource through the scope.
+
+
+[NOTE]
+====
+Connections can be created as a sub-resource of organizations, regions, campuses and facility. The examples in this document
+are shown for an organization but the URL can be modified to create, retrieve or update connections that belong to a region, campus or facility.
+====
+
+* <<connection-structure, Structure>>
+* <<connections-api, Connection API>>
+** <<resources-organization-connection-list, Listing Connections>>
+** <<resources-connection-get, Retrieve a connection>>
+** <<resources-connection-create, Create a connection>>
+** <<resources-connection-update, Replace a connection>>
+** <<resources-connection-patch, Update a connection>>
+** <<resources-connection-delete, Delete a connection>>
+
+[[connection-structure]]
+===== Structure
+include::{procura-snippets}/organization-connection-get/response-fields.adoc[]
+
+[[connections-api]]
+==== Procura Connections API
+
+[[resources-organization-connection-list]]
+===== Listing connections
+
+A `GET` request to `/organizations/{id}/procura` will list all connections that belogs to the organization specified in the request.
+
+====== Example request
+
+include::{procura-snippets}/organization-connection-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/organization-connection-get-list/http-response.adoc[]
+
+[[resources-connection-get]]
+===== Retrieve a connection
+
+A `GET` request to `/organizations/{id}/procura/{id}` will retrieve the connection identified by `id`.
+
+====== Example request
+
+include::{procura-snippets}/organization-connection-get/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/organization-connection-get/http-response.adoc[]
+
+
+[[resources-connection-create]]
+===== Creating a connection
+
+A `POST` request to `/organizations/{id}/procura` will save a new connection and return the created resource.
+
+====== Request structure
+include::{procura-snippets}/organization-connection-post/request-fields.adoc[]
+
+====== Example request
+include::{procura-snippets}/organization-connection-post/curl-request.adoc[]
+
+====== Example response
+include::{procura-snippets}/organization-connection-post/http-response.adoc[]
+
+
+[[resources-connection-update]]
+===== Replace a connection
+
+A `PUT` request to `/organizations/{id}/procura/{id}` is used to update a connection completely.
+
+====== Example request
+
+include::{procura-snippets}/organization-connection-put/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/organization-connection-put/http-response.adoc[]
+
+
+[[resources-connection-patch]]
+===== Update a connection
+
+A `PATCH` request to `/organizations/{id}/procura/{id}` is used to update a connection partially.
+
+====== Example request
+
+include::{procura-snippets}/organization-connection-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/organization-connection-patch/http-response.adoc[]
+
+
+[[resources-connection-delete]]
+===== Delete a connection
+
+A `DELETE` request to `/organizations/{id}/procura/{id}` is used to delete a connection. This action will delete all the associations between
+Breezie users and Procura users made with the connection to delete.
+
+====== Example request
+
+include::{procura-snippets}/organization-connection-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/organization-connection-delete/http-response.adoc[]
+
+[[association-resource]]
+==== Associations
+An association represents a link between a breezie user and a procura user made with on connection. An association has the
+identifier of the procura user related with a user.
+
+* <<association-structure, Structure>>
+* <<associations-api, Association API>>
+** <<resources-association-list, Listing associations>>
+** <<resources-association-get, Retrieve an association>>
+** <<resources-association-create, Create an association>>
+** <<resources-association-delete, Delete an association>>
+
+[[association-structure]]
+===== Structure
+include::{procura-snippets}/associations-get/response-fields.adoc[]
+
+[[associations-api]]
+==== Procura Associations API
+
+[[resources-association-list]]
+===== Listing associations
+
+A `GET` request to `/users/{userId}/procura-associations` will list all the associations for the user specified in the request.
+
+====== Example request
+
+include::{procura-snippets}/associations-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/associations-get-list/http-response.adoc[]
+
+[[resources-association-get]]
+===== Retrieve an association
+
+A `GET` request to `/users/{userId}/procura-associations/{id}` will retrieve the association identified by `id`.
+
+====== Example request
+
+include::{procura-snippets}/associations-get/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/associations-get/http-response.adoc[]
+
+
+[[resources-association-create]]
+===== Creating a connection
+
+A `POST` request to `/users/{userId}/procura-associations` will save a new association and return the created resource.
+
+====== Example request
+include::{procura-snippets}/associations-post/curl-request.adoc[]
+
+====== Example response
+include::{procura-snippets}/associations-post/http-response.adoc[]
+
+[[resources-association-delete]]
+===== Delete a connection
+
+A `DELETE` request to `/users/{userId}/procura-associations/{id}` is used to delete an association.
+
+====== Example request
+
+include::{procura-snippets}/associations-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/associations-delete/http-response.adoc[]
+
+[[import-resource]]
+==== Import
+A import represents the action of importing users form Procura to Breezie. This action of importing users will be execute asynchronously. The status of
+the import can be requested at any moment.
+
+* <<import-structure, Structure>>
+* <<import-api, Import API>>
+** <<resources-import-list, Listing imports>>
+** <<resources-import-get, Retrieve a import>>
+** <<resources-import-create, Create a import>>
+
+[[import-structure]]
+===== Structure
+include::{procura-snippets}/procura-import-get/response-fields.adoc[]
+
+[[import-api]]
+==== Procura Imports API
+
+[[resources-import-list]]
+===== Listing imports
+
+A `GET` request to `/procura/{connectionId}/imports` will list all the imports for the connection specified in the request.
+
+====== Example request
+
+include::{procura-snippets}/procura-import-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/procura-import-get-list/http-response.adoc[]
+
+[[resources-import-get]]
+===== Retrieve a import
+
+A `GET` request to `/procura/{connectionId}/imports/{id}` will retrieve the import identified by `id`.
+
+====== Example request
+
+include::{procura-snippets}/procura-import-get/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/procura-import-get/http-response.adoc[]
+
+
+[[resources-import-create]]
+===== Creating a import
+
+A `POST` request to `/procura/{connectionId}/imports` will save a new import that will be executed asynchronously and return the created resource.
+
+====== Example request
+include::{procura-snippets}/procura-import-post/curl-request.adoc[]
+
+====== Example response
+include::{procura-snippets}/procura-import-post/http-response.adoc[]
+
+
+[[user-resource]]
+==== Listiing procura users
+A `GET` request to `/procura/{connectionId}/users` will list all the users for the connection specified in the request.
+
+===== Structure
+
+include::{procura-snippets}/procura-user-get-list/response-fields.adoc[]
+
+====== Example request
+
+include::{procura-snippets}/procura-user-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{procura-snippets}/procura-user-get-list/http-response.adoc[]
+
+

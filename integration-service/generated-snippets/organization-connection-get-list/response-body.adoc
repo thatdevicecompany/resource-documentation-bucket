@@ -1,0 +1,21 @@
+[source,options="nowrap"]
+----
+[ {
+  "id" : "c0638149-e289-46b1-8915-66f3af17643a",
+  "name" : "Pearson Procura Connection",
+  "description" : "Procura Connection for users in Pearson Organization",
+  "username" : "pearson.org.connection",
+  "apiUrl" : "https://pearson.procura.au",
+  "scope" : {
+    "organizationId" : "8e0be458-5705-4318-9cf9-851d43266e6e",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "createdBy" : "documentation@breezie.com",
+  "createdTime" : 1528983498232,
+  "updatedBy" : "documentation@breezie.com",
+  "lastUpdatedTime" : 1528983498232
+} ]
+----

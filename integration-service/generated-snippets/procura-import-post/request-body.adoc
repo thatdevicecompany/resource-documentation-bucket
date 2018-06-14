@@ -1,0 +1,7 @@
+[source,options="nowrap"]
+----
+{
+  "procuraUserIdList" : [ "e22a9d04-1e3a-471c-84bf-9de4738e86ae", "2fb0c511-2fef-4339-abb0-403ad60d03e8", "sdfg-sdfghj-ertyu-ertne3-8u3bd", "aa1edca4-1702-4c69-a9ce-f55f78be7889" ],
+  "facilityId" : "26f73839-ae95-4086-8e64-cab17b10cc34"
+}
+----

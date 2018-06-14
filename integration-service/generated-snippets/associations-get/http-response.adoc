@@ -1,0 +1,23 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 331
+
+{
+  "id" : "442fac73-7523-44ca-a920-df1dca4af05a",
+  "procuraUserId" : "sdfg-sdfghj-ertyu-ertne3-8u3bd",
+  "procuraConnectionId" : "e91008ab-752a-483b-9c63-b8629c62b6a9",
+  "createdBy" : "documentation@breezie.com",
+  "createdTime" : 1528800302015,
+  "updatedBy" : "documentation@breezie.com",
+  "lastUpdatedTime" : 1528800302015
+}
+----

@@ -1,0 +1,22 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 336
+
+[ {
+  "id" : "b70653ea-6ce0-46bb-98b5-343a59b750bc",
+  "status" : "ACCEPTED",
+  "procuraUserIdList" : [ "e22a9d04-1e3a-471c-84bf-9de4738e86ae", "2fb0c511-2fef-4339-abb0-403ad60d03e8", "sdfg-sdfghj-ertyu-ertne3-8u3bd", "aa1edca4-1702-4c69-a9ce-f55f78be7889" ],
+  "creationDate" : 1528983515159,
+  "scope" : null,
+  "responses" : null
+} ]
+----

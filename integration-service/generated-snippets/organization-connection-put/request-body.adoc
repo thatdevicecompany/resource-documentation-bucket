@@ -1,0 +1,11 @@
+[source,options="nowrap"]
+----
+{
+  "name" : "New Name",
+  "description" : "New Description",
+  "username" : "kaufland.org.connection",
+  "password" : "akgucmehg8smg323{d@af",
+  "apiKey" : "hfjs[d-=gfna",
+  "apiUrl" : "https://kaufland.procura.au"
+}
+----

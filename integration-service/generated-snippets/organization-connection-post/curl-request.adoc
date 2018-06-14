@@ -1,0 +1,14 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/organizations/efcd4379-e521-4291-adef-51c7cbbcc5cb/procura/' -i -X POST \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -d '{
+  "name" : "Kaufland Procura Connection",
+  "description" : "Procura Connection for users in kaufland Organization",
+  "username" : "kaufland.org.connection",
+  "password" : "akgucmehg8smg323{d@af",
+  "apiKey" : "hfjs[d-=gfna",
+  "apiUrl" : "https://kaufland.procura.au"
+}'
+----

@@ -1,0 +1,28 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|Name of the connection
+
+|`description`
+|`String`
+|Description of the connection
+
+|`username`
+|`String`
+|Username required to establish the connection with Procura
+
+|`password`
+|`String`
+|Password required to establish the connection with Procura
+
+|`apiKey`
+|`String`
+|Api key required to establish the connection with Procura
+
+|`apiUrl`
+|`String`
+|Base url where the procura instance can be requested
+
+|===

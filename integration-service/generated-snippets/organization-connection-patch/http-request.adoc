@@ -1,0 +1,12 @@
+[source,http,options="nowrap"]
+----
+PATCH /organizations/efcd4379-e521-4291-adef-51c7cbbcc5cb/procura/33e5b80f-8f8d-417c-86d2-990968256fe2 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Host: api.breezie.com
+Content-Length: 45
+
+{
+  "password" : "hgdfsajkhirefba;kld002bf"
+}
+----

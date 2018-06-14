@@ -1,0 +1,48 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|Import identifier
+
+|`status`
+|`String`
+|Status of the import execution
+
+|`creationDate`
+|`Number`
+|The date the import was created
+
+|`procuraUserIdList`
+|`String List`
+|List of procura user ID to import
+
+|`scope`
+|`Object`
+|Scope object holding the access control for the resource
+
+|`responses`
+|`Array`
+|Data structure with the result of each user creation request
+
+|`responses[].code`
+|`String`
+|Http code for the result of the user creation
+
+|`responses[].message`
+|`String`
+|Explanatory message for the result of the user creation
+
+|`responses[].userId`
+|`String`
+|Breezie user identifier if the user was created
+
+|`responses[].procuraId`
+|`String`
+|Procura user identifier of the user to import
+
+|`responses[].userName`
+|`String`
+|Name and Surname of the user to import
+
+|===

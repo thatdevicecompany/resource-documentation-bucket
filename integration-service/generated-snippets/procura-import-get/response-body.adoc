@@ -1,0 +1,35 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "b70653ea-6ce0-46bb-98b5-343a59b750bc",
+  "status" : "ACCEPTED",
+  "procuraUserIdList" : [ "e22a9d04-1e3a-471c-84bf-9de4738e86ae", "2fb0c511-2fef-4339-abb0-403ad60d03e8", "sdfg-sdfghj-ertyu-ertne3-8u3bd", "aa1edca4-1702-4c69-a9ce-f55f78be7889" ],
+  "creationDate" : 1528983515667,
+  "scope" : null,
+  "responses" : [ {
+    "code" : "409",
+    "message" : "User with this username already exists",
+    "userId" : "30ee042d-2595-4bc5-97b2-475bd8abc1c5",
+    "userName" : "Kelly Right",
+    "procuraId" : "e22a9d04-1e3a-471c-84bf-9de4738e86ae"
+  }, {
+    "code" : "200",
+    "message" : "User created successfully",
+    "userId" : "a74f141c-5854-424f-b424-4ab67b81ce73",
+    "userName" : "Sarah White",
+    "procuraId" : "2fb0c511-2fef-4339-abb0-403ad60d03e8"
+  }, {
+    "code" : "200",
+    "message" : "User created successfully",
+    "userId" : "a85a17b4-868e-4d62-83c4-7a59adb62af4",
+    "userName" : "Phil Johanson",
+    "procuraId" : "sdfg-sdfghj-ertyu-ertne3-8u3bd"
+  }, {
+    "code" : "200",
+    "message" : "User created successfully",
+    "userId" : "12a74188-e758-4dda-8bc5-f30a712ce995",
+    "userName" : "Roger Bathke",
+    "procuraId" : "aa1edca4-1702-4c69-a9ce-f55f78be7889"
+  } ]
+}
+----

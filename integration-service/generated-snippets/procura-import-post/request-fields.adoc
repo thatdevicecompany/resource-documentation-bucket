@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`procuraUserIdList`
+|`String List`
+|List of procura user ID to import
+
+|`facilityId`
+|`String`
+|Facility where the user will be imported
+
+|===
