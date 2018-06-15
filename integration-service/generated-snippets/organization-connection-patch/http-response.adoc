@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 587
 
 {
-  "id" : "33e5b80f-8f8d-417c-86d2-990968256fe2",
+  "id" : "26d69ce5-deee-40e9-bab8-686f295dc508",
   "name" : "Kaufland Procura Connection",
   "description" : "Procura Connection for users in kaufland Organization",
   "username" : "kaufland.org.connection",
@@ -25,8 +25,8 @@ Content-Length: 587
     "userId" : null
   },
   "createdBy" : "documentation@breezie.com",
-  "createdTime" : 1528983497848,
+  "createdTime" : 1529058059259,
   "updatedBy" : "documentation@breezie.com",
-  "lastUpdatedTime" : 1528983497932
+  "lastUpdatedTime" : 1529058059433
 }
 ----

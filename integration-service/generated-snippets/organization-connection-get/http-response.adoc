@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 583
 
 {
-  "id" : "d45ee349-a777-4add-bbae-0b4f4ee4bc67",
+  "id" : "e563c182-ffc1-4f80-a3f7-2ac8dc8f2203",
   "name" : "Pearson Procura Connection",
   "description" : "Procura Connection for users in Pearson Organization",
   "username" : "pearson.org.connection",
@@ -25,8 +25,8 @@ Content-Length: 583
     "userId" : null
   },
   "createdBy" : "documentation@breezie.com",
-  "createdTime" : 1528983497567,
+  "createdTime" : 1529058058919,
   "updatedBy" : "documentation@breezie.com",
-  "lastUpdatedTime" : 1528983497567
+  "lastUpdatedTime" : 1529058058919
 }
 ----

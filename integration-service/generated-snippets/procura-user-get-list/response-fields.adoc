@@ -1,0 +1,44 @@
+|===
+|Path|Type|Description
+
+|`[].id`
+|`String`
+|identifier of the user in Procura
+
+|`[].name`
+|`Object`
+|Name of the user
+
+|`[].name.prefix`
+|`String`
+|Prefix name of the user
+
+|`[].name.firstName`
+|`String`
+|First name of the user
+
+|`[].name.middleName`
+|`String`
+|Middle name of the user
+
+|`[].name.lastName`
+|`String`
+|Last name of the user
+
+|`[].dateOfBirth`
+|`String`
+|Date of birth of the user
+
+|`[].phoneNumbers`
+|`Array`
+|List of phone numbers of the user
+
+|`[].phoneNumbers[].type`
+|`String`
+|Type of phone number
+
+|`[].phoneNumbers[].number`
+|`String`
+|Actual phone number
+
+|===

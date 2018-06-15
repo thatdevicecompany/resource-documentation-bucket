@@ -4,7 +4,7 @@ $ curl 'https://api.breezie.com/users/4809459f-3d27-46fd-8a59-b6b8204d2838/procu
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
-  "procuraUserId" : "e039f601-31f9-4119-b3e1-d60f9b74fb3a",
-  "procuraConnectionId" : "da037ae6-1366-4ba8-8194-4530a129e96d"
+  "procuraUserId" : "44e63a2d-716e-4a1f-928c-850f93d77800",
+  "procuraConnectionId" : "89acb3e1-d285-4fa3-a2fa-28de0ed7e060"
 }'
 ----

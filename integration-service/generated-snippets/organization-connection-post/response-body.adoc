@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "fb048a33-ae0d-4be4-9aff-23de94af601a",
+  "id" : "fa0496d1-d6d1-4610-a653-bc0d642bceec",
   "name" : "Kaufland Procura Connection",
   "description" : "Procura Connection for users in kaufland Organization",
   "username" : "kaufland.org.connection",
@@ -14,8 +14,8 @@
     "userId" : null
   },
   "createdBy" : "documentation@breezie.com",
-  "createdTime" : 1528983496741,
+  "createdTime" : 1529058058182,
   "updatedBy" : "documentation@breezie.com",
-  "lastUpdatedTime" : 1528983496741
+  "lastUpdatedTime" : 1529058058182
 }
 ----

@@ -15,32 +15,32 @@ Content-Length: 1204
   "id" : "b70653ea-6ce0-46bb-98b5-343a59b750bc",
   "status" : "ACCEPTED",
   "procuraUserIdList" : [ "e22a9d04-1e3a-471c-84bf-9de4738e86ae", "2fb0c511-2fef-4339-abb0-403ad60d03e8", "sdfg-sdfghj-ertyu-ertne3-8u3bd", "aa1edca4-1702-4c69-a9ce-f55f78be7889" ],
-  "creationDate" : 1528983515667,
+  "creationDate" : 1529058079204,
   "scope" : null,
   "responses" : [ {
-    "code" : "409",
-    "message" : "User with this username already exists",
-    "userId" : "30ee042d-2595-4bc5-97b2-475bd8abc1c5",
-    "userName" : "Kelly Right",
-    "procuraId" : "e22a9d04-1e3a-471c-84bf-9de4738e86ae"
-  }, {
     "code" : "200",
     "message" : "User created successfully",
-    "userId" : "a74f141c-5854-424f-b424-4ab67b81ce73",
+    "userId" : "1a1f2013-331b-4d3b-af25-fe5e544b79f3",
     "userName" : "Sarah White",
     "procuraId" : "2fb0c511-2fef-4339-abb0-403ad60d03e8"
   }, {
     "code" : "200",
     "message" : "User created successfully",
-    "userId" : "a85a17b4-868e-4d62-83c4-7a59adb62af4",
+    "userId" : "77802b21-4c87-4fad-a912-cf7f60825afc",
     "userName" : "Phil Johanson",
     "procuraId" : "sdfg-sdfghj-ertyu-ertne3-8u3bd"
   }, {
     "code" : "200",
     "message" : "User created successfully",
-    "userId" : "12a74188-e758-4dda-8bc5-f30a712ce995",
+    "userId" : "a8501a60-dd8e-4ded-b9e7-f7e143ebfbe8",
     "userName" : "Roger Bathke",
     "procuraId" : "aa1edca4-1702-4c69-a9ce-f55f78be7889"
+  }, {
+    "code" : "409",
+    "message" : "User with this username already exists",
+    "userId" : "015499c1-6814-4621-93dd-ceda8ad5cb09",
+    "userName" : "Kelly Right",
+    "procuraId" : "e22a9d04-1e3a-471c-84bf-9de4738e86ae"
   } ]
 }
 ----
