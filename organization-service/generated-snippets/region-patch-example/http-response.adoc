@@ -9,22 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 450
+Content-Length: 275
 
 {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "2f01bcab-774c-4e5e-a83d-9019d7cf4032",
   "name" : "Kensington",
   "country" : "UK",
-  "resourceScope" : {
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1525441380531,
+  "organizationId" : "f40b5a42-2ef5-4e13-b9f2-7f566950dc4b",
+  "createdTime" : 1530197925361,
+  "lastUpdatedTime" : 1530197925372,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

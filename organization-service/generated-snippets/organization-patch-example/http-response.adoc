@@ -9,29 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 567
+Content-Length: 403
 
 {
-  "id" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
   "name" : "Audi",
   "country" : "Austria",
-  "addressLine1" : "Auckan Street 7",
-  "addressLine2" : "Floor 3",
-  "zipCode" : "9AS 7U1",
-  "resourceScope" : {
-    "regionId" : null,
-    "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "demo" : false,
+  "addressLine1" : "Clarance Lane 34",
+  "addressLine2" : "Apartment 12",
+  "zipCode" : "W1Q YU7",
+  "demo" : true,
   "disabled" : false,
-  "createdTime" : null,
-  "lastUpdatedTime" : 1525441379751,
-  "createdBy" : null,
+  "customTC" : false,
+  "id" : "85db1269-8156-41e3-b321-29e1aa93c2f5",
+  "createdTime" : 1530197749706,
+  "lastUpdatedTime" : 1530197749729,
+  "createdBy" : "user",
   "updatedBy" : "user",
-  "validCredentials" : true,
-  "customTC" : false
+  "validCredentials" : false
 }
 ----

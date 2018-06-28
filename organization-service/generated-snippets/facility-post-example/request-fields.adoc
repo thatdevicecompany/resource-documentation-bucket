@@ -25,12 +25,8 @@
 |`String`
 |The facility zip code
 
-|`deleted`
+|`campusId`
 |`String`
-|Flag indicating if the facility was deleted or not
-
-|`resourceScope`
-|`Object`
-|The scope object for this facility
+|The identifier of the campus which the facility belongs to
 
 |===

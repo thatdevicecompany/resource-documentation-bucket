@@ -9,38 +9,24 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 925
+Content-Length: 575
 
 [ {
-  "id" : "dd6662eb-111b-40b2-8480-aab7fdb1c80f",
-  "name" : "Baden-Wurttenberg",
-  "country" : "Germany",
-  "resourceScope" : {
-    "regionId" : "dd6662eb-111b-40b2-8480-aab7fdb1c80f",
-    "campusId" : null,
-    "organizationId" : "78b219fb-0099-4171-b4c5-4fbfa1bd88dd",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1468929347247,
-  "lastUpdatedTime" : 1468921140258,
+  "id" : "0dadddac-5175-41a3-a7a0-1b3bb7bcef98",
+  "name" : "Auckland",
+  "country" : "New Zealand",
+  "organizationId" : "a8038291-e7bf-4709-a035-2a3a3e3ad68e",
+  "createdTime" : 1530197925116,
+  "lastUpdatedTime" : 1530197925116,
   "createdBy" : "user",
   "updatedBy" : "user"
 }, {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-  "name" : "Auckland",
-  "country" : "New Zealand",
-  "resourceScope" : {
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1468927140258,
+  "id" : "8d582be6-7af5-4900-b22f-257cb0c733fc",
+  "name" : "Baden-Wurttenberg",
+  "country" : "Germany",
+  "organizationId" : "c0ee97ef-09fa-40b7-8d37-ec7f745c8f53",
+  "createdTime" : 1530197925117,
+  "lastUpdatedTime" : 1530197925117,
   "createdBy" : "user",
   "updatedBy" : "user"
 } ]

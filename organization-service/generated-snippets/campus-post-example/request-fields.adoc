@@ -5,11 +5,7 @@
 |`String`
 |The name of the campus
 
-|`deleted`
-|`String`
-|Flag indicating if the campus was deleted or not
-
-|`resourceScope`
+|`regionId`
 |`Object`
 |The scope object for this campus
 

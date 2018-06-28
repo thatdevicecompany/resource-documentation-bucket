@@ -29,9 +29,17 @@
 |`String`
 |The zip code of the facility
 
-|`deleted`
+|`organizationId`
 |`String`
-|Flag indicating if the facility was deleted or not
+|The identifier of organization which the facility belongs to
+
+|`regionId`
+|`String`
+|The identifier of the region which the facility belongs to
+
+|`campusId`
+|`String`
+|The identifier of the campus which the facility belongs to
 
 |`createdBy`
 |`String`
@@ -39,38 +47,14 @@
 
 |`createdTime`
 |`Long`
-|The time the facility was created
+|The time (Unix timestamp) the facility was created
 
 |`lastUpdatedTime`
 |`Long`
-|The time the facility was updated
+|The time (Unix timestamp) the facility was updated
 
 |`updatedBy`
 |`String`
 |The one who updated the facility
-
-|`resourceScope`
-|`Object`
-|The scope object for this facility
-
-|`resourceScope.organizationId`
-|`String`
-|The organization scope id
-
-|`resourceScope.regionId`
-|`String`
-|The region scope id
-
-|`resourceScope.campusId`
-|`String`
-|The campus scope id
-
-|`resourceScope.facilityId`
-|`String`
-|The facility scope id
-
-|`resourceScope.userId`
-|`String`
-|The user scope id
 
 |===

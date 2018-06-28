@@ -9,22 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 457
+Content-Length: 282
 
 {
-  "id" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "id" : "b261b4ef-0074-4cdf-bf25-3a6072923cf5",
   "name" : "Auckland",
   "country" : "New Zealand",
-  "resourceScope" : {
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : null,
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1468920747247,
-  "lastUpdatedTime" : 1468927140258,
+  "organizationId" : "ac60e6eb-fce4-4e71-a803-d46693520531",
+  "createdTime" : 1530197925276,
+  "lastUpdatedTime" : 1530197925276,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

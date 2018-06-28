@@ -9,21 +9,15 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 464
+Content-Length: 310
 
 {
-  "id" : "4a32041e-9780-405d-a766-2051d40b7e33",
+  "id" : "ee6e54cb-0ddb-4e6f-bd50-184a8c5bfc1d",
   "name" : "Wellington",
-  "resourceScope" : {
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "4a32041e-9780-405d-a766-2051d40b7e33",
-    "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "deleted" : false,
-  "createdTime" : 1525441379268,
-  "lastUpdatedTime" : 1525441379268,
+  "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
+  "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+  "createdTime" : 1530197869274,
+  "lastUpdatedTime" : 1530197869274,
   "createdBy" : "user",
   "updatedBy" : "user"
 }

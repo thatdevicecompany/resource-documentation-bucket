@@ -22,7 +22,11 @@
 |The organization zip code
 
 |`demo`
-|`String`
-|Flag indicationg if the organization is a demo one or not
+|`Boolean`
+|Flag indicating if the organization is a demo one or not
+
+|`disabled`
+|`Boolean`
+|Flag indicating if the organization has been disabled or not. Only Super Admins (ROLE_BW) can modify this field.
 
 |===

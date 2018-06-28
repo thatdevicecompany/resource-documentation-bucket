@@ -1,9 +1,10 @@
 [source,http,options="nowrap"]
 ----
-PATCH /regions/ee99aed2-acb8-4559-a1c3-e605ea3a653b HTTP/1.1
+PATCH /regions/2f01bcab-774c-4e5e-a83d-9019d7cf4032 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
-Host: breezie.com
+Host: api.breezie.com
 Content-Length: 47
 
 {

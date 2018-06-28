@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -9,20 +9,20 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 409
+Content-Length: 400
 
 {
-  "name" : "Pearson",
-  "country" : "New Zeland",
-  "addressLine1" : "Clarance Lane 34",
-  "addressLine2" : "Apartment 12",
-  "zipCode" : "W1Q YU7",
-  "demo" : true,
+  "name" : "Breezie",
+  "country" : "UK",
+  "addressLine1" : "3 Loughborough Street",
+  "addressLine2" : "Nr. 15",
+  "zipCode" : "TW71AB",
+  "demo" : false,
   "disabled" : false,
   "customTC" : false,
-  "id" : "7df5df7d-97a9-4ad9-8793-9730d5048417",
-  "createdTime" : 1530197749420,
-  "lastUpdatedTime" : 1530197749420,
+  "id" : "ea5cdaaf-3786-4be6-9856-718b4735cc0d",
+  "createdTime" : 1530197749188,
+  "lastUpdatedTime" : 1530197749188,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false
