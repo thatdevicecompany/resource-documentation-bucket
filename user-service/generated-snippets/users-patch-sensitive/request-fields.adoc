@@ -1,8 +1,0 @@
-|===
-|Path|Type|Description
-
-|`socialSecurity`
-|`String`
-|First name of the user
-
-|===

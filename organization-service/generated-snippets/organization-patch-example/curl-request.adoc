@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ curl 'https://api.breezie.com/organizations/85db1269-8156-41e3-b321-29e1aa93c2f5' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
-  "name" : "Audi",
-  "country" : "Austria"
-}'
-----

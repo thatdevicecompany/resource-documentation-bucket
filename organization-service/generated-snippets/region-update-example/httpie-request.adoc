@@ -1,8 +1,0 @@
-[source,bash]
-----
-$ echo '{
-  "name" : "Maramures",
-  "country" : "Romania",
-  "organizationId" : "a83a950a-8462-42cf-841b-35db1ce7ec4d"
-}' | http PUT 'https://api.breezie.com/regions/5c2b2d63-7503-4da0-b320-f9385ac93058' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
-----

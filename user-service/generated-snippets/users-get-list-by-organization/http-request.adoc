@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-GET /users/search/findByOrganizationId?id=48865325-ddb0-4dc5-ac55-d7729794b8ec HTTP/1.1
-Authorization: Bearer: 00a8bc434df00b000d4f1a2b6745eef3fb35bfa
-Host: api.breezie.com
-
-----

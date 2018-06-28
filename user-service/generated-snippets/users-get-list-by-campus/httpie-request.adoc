@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'https://api.breezie.com/users/search/findByCampusId?id=7ccae739-0817-46ef-b39c-4c695a6ec835' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
-----
