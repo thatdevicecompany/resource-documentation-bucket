@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`firstName`
+|`String`
+|First name of the person who receives the request
+
+|===

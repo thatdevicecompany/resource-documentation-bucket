@@ -9,18 +9,32 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 780
+Content-Length: 2372
 
 [ {
+  "id" : "d34b006e-ceef-4bbf-963d-a51a84b1c5ef",
+  "username" : "sarah.francis@email.com",
+  "firstName" : "Sarah",
+  "lastName" : "Francis",
+  "profileImageUri" : null,
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "familiarity" : null,
+  "welcomeNote" : null,
+  "roles" : [ "ROLE_BW" ],
+  "sponsors" : [ ],
+  "sponsees" : [ ]
+}, {
   "id" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
   "username" : "bobjones@email.com",
   "firstName" : "Bob",
   "lastName" : "Jones",
-  "dob" : null,
-  "phoneNumber" : null,
-  "gender" : null,
-  "religion" : null,
-  "profileImageUri" : null,
+  "profileImageUri" : "https://api-dev.breezie.com/pictures/c9897964-fb64-45ee-876a-128dbaf4c18b/file",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
@@ -30,12 +44,44 @@ Content-Length: 780
   },
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
-  "createdTime" : null,
-  "createdBy" : null,
-  "lastUpdatedTime" : null,
-  "updatedBy" : null,
+  "roles" : [ "ROLE_U" ],
+  "sponsors" : [ "bce52f4e-71ab-4867-97a5-3610b2e875c8" ],
+  "sponsees" : [ ]
+}, {
+  "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
+  "username" : "janeparker@email.com",
+  "firstName" : "Jane",
+  "lastName" : "Parker",
+  "profileImageUri" : "https://api-dev.breezie.com/pictures/gt89365-fb64-876a-45ee-rhdy363926hd/file",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "userId" : "dft54er4-8709-9iyt-ht5r67ytg4df"
+  },
+  "familiarity" : 2,
+  "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
   "sponsors" : [ ],
   "sponsees" : [ ]
+}, {
+  "id" : "bce52f4e-71ab-4867-97a5-3610b2e875c8",
+  "username" : "alicia.smith@email.com",
+  "firstName" : "Alicia",
+  "lastName" : "Smith",
+  "profileImageUri" : "https://api-dev.breezie.com/pictures/rt534625-gfts-876a-oi8u-134rf4eds233/file",
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "familiarity" : 1,
+  "welcomeNote" : "Welcome to Breezie.",
+  "roles" : [ "ROLE_S" ],
+  "sponsors" : [ ],
+  "sponsees" : [ "4809459f-3d27-46fd-8a59-b6b8204d2838" ]
 } ]
 ----
