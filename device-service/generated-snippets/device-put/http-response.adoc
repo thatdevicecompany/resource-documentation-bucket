@@ -1,0 +1,31 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 622
+
+{
+  "id" : "15eacfa3-a9ff-44a0-a4da-38fefc3e09b1",
+  "serialNumber" : "R52K706QYTPZ",
+  "androidId" : "35121d98a70f4140",
+  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+  "model" : "SM-T813",
+  "manufacturer" : "samsung",
+  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
+  "enabled" : false,
+  "scope" : {
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+  }
+}
+----

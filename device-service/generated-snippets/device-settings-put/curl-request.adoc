@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://breezie.com/devices/9a67fb73-f44c-4ac7-a7e2-186bf6569711/settings' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'version: 1.0' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/devices/9a67fb73-f44c-4ac7-a7e2-186bf6569711/settings' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'version: 1.0' -H 'Content-Type: application/json' -d '{
   "allowMicrophone" : true,
   "enableCamera" : true,
   "screenTimeout" : 60,
