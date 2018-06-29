@@ -1,0 +1,6 @@
+[source,bash]
+----
+$ echo '{
+  "firstName" : "Michael"
+}' | http PATCH 'https://api.breezie.com/sponsorRequests/61944315-0ec2-49ec-bb37-fd4501126638' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----
