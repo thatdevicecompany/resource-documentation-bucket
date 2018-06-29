@@ -1,0 +1,14 @@
+[source,http,options="nowrap"]
+----
+PUT /campuses/9784ad47-ee1f-4273-8de3-f9652d865b1a HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Accept: application/json
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 89
+
+{
+  "name" : "John Kresse Court",
+  "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b"
+}
+----

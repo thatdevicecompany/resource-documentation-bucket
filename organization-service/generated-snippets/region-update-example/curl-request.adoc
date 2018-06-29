@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/regions/3674f719-8a06-4a8c-b179-d397168713e9' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+  "name" : "Maramures",
+  "country" : "Romania",
+  "organizationId" : "0672ae9e-4a66-4acc-b0db-aabd482e485c"
+}'
+----

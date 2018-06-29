@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`name`
+|`String`
+|The name of the region
+
+|`country`
+|`String`
+|The country the region is located in
+
+|`organizationId`
+|`String`
+|The organization which the region belongs to
+
+|===
