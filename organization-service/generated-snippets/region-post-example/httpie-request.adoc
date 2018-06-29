@@ -1,8 +1,0 @@
-[source,bash]
-----
-$ echo '{
-  "name" : "Ohio",
-  "country" : "USA",
-  "organizationId" : "7d6c599d-ac44-4805-bbcd-a2e828f2bb3b"
-}' | http POST 'https://api.breezie.com/regions' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
-----
