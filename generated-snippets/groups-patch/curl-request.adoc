@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ curl 'https://api.breezie.com/groups/ec89bd4c-7bb8-4828-826f-14e0f9321023' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
-  "name" : "Summer Gardening",
-  "description" : "A group for those intersted in summer gardening"
-}'
-----
