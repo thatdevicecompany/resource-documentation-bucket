@@ -1,0 +1,23 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 304
+
+[ {
+  "id" : "5fa02389-5453-4e01-b413-3ba29080fbff",
+  "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
+  "email" : "mike.owen@email.com",
+  "firstName" : "Mike",
+  "lastName" : "Owen",
+  "message" : "Hi Mike, Would you mind to help me with Breezie?",
+  "redirectUri" : "https://manage.breezie.com"
+} ]
+----
