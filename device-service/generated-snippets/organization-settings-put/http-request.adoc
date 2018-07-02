@@ -1,0 +1,22 @@
+[source,http,options="nowrap"]
+----
+PUT /organizations/54947df8-0e9e-4471-a2f9-9af509fb5889/settings HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+version: 1.0
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 359
+
+{
+  "usbDebugging" : false,
+  "allowFactoryReset" : false,
+  "allowDeviceAdminRemoval" : true,
+  "allowBreezieAppRemoval" : false,
+  "disableApps" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
+  "manualTime" : {
+    "timeZoneId" : "Europe/London",
+    "timeFormat" : "YYYY-MM-DD"
+  },
+  "region" : "UK"
+}
+----

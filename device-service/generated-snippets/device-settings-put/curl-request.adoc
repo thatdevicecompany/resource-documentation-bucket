@@ -1,0 +1,20 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/devices/9a67fb73-f44c-4ac7-a7e2-186bf6569711/settings' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'version: 1.0' -H 'Content-Type: application/json' -d '{
+  "allowMicrophone" : true,
+  "enableCamera" : true,
+  "screenTimeout" : 60,
+  "volume" : 50,
+  "screenBrightness" : 7,
+  "usbDebugging" : false,
+  "allowFactoryReset" : false,
+  "allowDeviceAdminRemoval" : true,
+  "allowBreezieAppRemoval" : false,
+  "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
+  "disableApps" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
+  "manualTime" : {
+    "timeZoneId" : "Europe/London",
+    "timeFormat" : "YYYY-MM-DD"
+  }
+}'
+----

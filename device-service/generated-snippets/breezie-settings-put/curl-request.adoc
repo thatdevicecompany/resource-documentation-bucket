@@ -1,0 +1,14 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/breezie-settings' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'version: 1.0' -H 'Content-Type: application/json' -d '{
+  "usbDebugging" : false,
+  "allowFactoryReset" : false,
+  "allowDeviceAdminRemoval" : false,
+  "allowBreezieAppRemoval" : false,
+  "disableApps" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
+  "manualTime" : {
+    "timeZoneId" : "Europe/London",
+    "timeFormat" : "YYYY-MM-DD"
+  }
+}'
+----
