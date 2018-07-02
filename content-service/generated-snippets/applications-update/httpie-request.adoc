@@ -1,0 +1,16 @@
+[source,bash]
+----
+$ echo '{
+  "title" : "Gardening",
+  "description" : "Helpful app, informing you when best to water those flowers",
+  "productId" : "co.uk.demo.gardening",
+  "iconUrl" : "https://www.gardening.com/image",
+  "smallIconUrl" : "https://www.gardening.com/image/small",
+  "groupId" : "1ee53758-cdf2-4cfa-968f-2b89f7cdde31",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
+}' | http PUT 'https://api.breezie.com/applications/4339bf2e-96fa-4a38-9525-2aaff29299be' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----

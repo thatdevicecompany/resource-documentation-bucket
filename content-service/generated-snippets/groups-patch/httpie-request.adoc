@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Summer Gardening",
+  "description" : "A group for those intersted in summer gardening"
+}' | http PATCH 'https://api.breezie.com/groups/b063b867-6a49-40dc-810b-eb2d76ed525f' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+----

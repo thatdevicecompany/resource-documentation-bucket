@@ -1,0 +1,13 @@
+[source,http,options="nowrap"]
+----
+PATCH /bookmarks/180a8980-b75c-4ba9-8467-df240a4dfb34 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 71
+
+{
+  "url" : "www.gardening.com/summer",
+  "name" : "Summer Gardening"
+}
+----

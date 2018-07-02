@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http DELETE 'https://api.breezie.com/bookmarks/b38b90fb-ca0c-4edf-920d-df0bfd02847a' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----
