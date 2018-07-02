@@ -1,0 +1,12 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Robertson",
+  "addressLine1" : "Dowson Lake street nr 5",
+  "addressLine2" : "Floor nr. 4",
+  "city" : "Detroit",
+  "country" : "USA",
+  "zipCode" : "Z16 I9Q",
+  "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a"
+}' | http POST 'https://api.breezie.com/facilities' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+----

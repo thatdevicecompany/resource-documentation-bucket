@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|The campus id
+
+|`name`
+|`String`
+|The name of the campus
+
+|`organizationId`
+|`String`
+|The identifier of organization which the campus belongs to
+
+|`regionId`
+|`String`
+|The identifier of the region which the campus belongs to
+
+|`createdBy`
+|`String`
+|The one who created the campus
+
+|`createdTime`
+|`Long`
+|The time (Unix timestamp) the campus was created
+
+|`lastUpdatedTime`
+|`Long`
+|The time (Unix timestamp) the campus was updated
+
+|`updatedBy`
+|`String`
+|The one who updated the campus
+
+|===

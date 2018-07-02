@@ -1,0 +1,15 @@
+[source,http,options="nowrap"]
+----
+PUT /regions/ce05da15-ff7a-4aae-ae49-c38489bacb37 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Accept: application/json
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 112
+
+{
+  "name" : "Maramures",
+  "country" : "Romania",
+  "organizationId" : "3a780b1e-da56-453f-a21a-b730a2f28273"
+}
+----

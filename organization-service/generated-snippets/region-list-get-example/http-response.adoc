@@ -1,0 +1,33 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 575
+
+[ {
+  "id" : "b0f98553-7f3c-4a50-ad37-db68cdf6860b",
+  "name" : "Auckland",
+  "country" : "New Zealand",
+  "organizationId" : "917e821e-105d-4b9c-9b2b-d3b3c7da0a8a",
+  "createdTime" : 1530550728349,
+  "lastUpdatedTime" : 1530550728349,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}, {
+  "id" : "f22407bc-1438-4e17-ae55-ad9edd8810c1",
+  "name" : "Baden-Wurttenberg",
+  "country" : "Germany",
+  "organizationId" : "56fb47d1-1875-470c-b892-1ce0b3388793",
+  "createdTime" : 1530550728350,
+  "lastUpdatedTime" : 1530550728350,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+} ]
+----

@@ -1,0 +1,12 @@
+[source,bash]
+----
+$ echo '{
+  "name" : "Steam Engine",
+  "country" : "UK",
+  "addressLine1" : "41 Crosser Street",
+  "addressLine2" : "Nr 10",
+  "zipCode" : "SE17BU",
+  "demo" : true,
+  "disabled" : true
+}' | http PUT 'https://api.breezie.com/organizations/6e5929bf-1f3a-4e16-88c5-1416e3a27ba1' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+----

@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|The region id
+
+|`name`
+|`String`
+|The name of the region
+
+|`country`
+|`String`
+|The country the region belongs to
+
+|`organizationId`
+|`String`
+|The organization which the region belongs to
+
+|`createdBy`
+|`String`
+|The one who created the region
+
+|`createdTime`
+|`Long`
+|The time (Unix timestamp) the region was created
+
+|`lastUpdatedTime`
+|`Long`
+|The time (Unix timestamp) the region was updated
+
+|`updatedBy`
+|`String`
+|The one who updated the region
+
+|===
