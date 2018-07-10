@@ -5,9 +5,9 @@
 |`String`
 |Username associated with the user (cannot be changed)
 
-|`username`
+|`password`
 |`String`
-|Username associated with the user (cannot be changed)
+|Password used for login purposes
 
 |`firstName`
 |`String`
@@ -17,31 +17,13 @@
 |`String`
 |Last name of the user
 
-|`phoneNumber`
-|`String`
-|Phone number of the user
-
-|`dob`
-|`Number`
-|Date of birth of the user
-
 |`welcomeNote`
 |`String`
-|Welcome note of the user
+|Welcome message to show during user setup process
 
 |`familiarity`
 |`Number`
-|Familiarity of the user. Must be one of: "Not at all familiar with the internet",
-                "A little familiar with the internet",
-                "Quite familiar with the internet"
-
-|`gender`
-|`String`
-|Gender of the user
-
-|`religion`
-|`String`
-|Religion of the user
+|Level of familiarity of the user with internet and related technologies. Allowed values: 1, 2 or 3. 1 = 'Not at all familiar with the internet', 2 = 'A little familiar with the internet', 3 = 'Quite familiar with the internet'.
 
 |`scope.organizationId`
 |`String`
@@ -65,10 +47,10 @@
 
 |`sponsors`
 |`Array`
-|Id list of users sponsoring this user
+|ID list of users sponsoring this user
 
 |`sponsees`
 |`Array`
-|user ID list of people who this user is sponsoring
+|ID list of users who this user is sponsoring
 
 |===

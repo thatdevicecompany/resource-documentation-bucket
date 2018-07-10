@@ -1,0 +1,33 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 556
+
+[ {
+  "id" : "b0d50af0-5cc2-45a6-babb-d006cc894ab5",
+  "username" : "alicia.smith@email.com",
+  "firstName" : "Alicia",
+  "lastName" : "Smith",
+  "profileImageUri" : "https://api-dev.breezie.com/pictures/rt534625-gfts-876a-oi8u-134rf4eds233/file",
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "familiarity" : 1,
+  "welcomeNote" : "Welcome to Breezie.",
+  "roles" : [ "ROLE_S" ],
+  "sponsors" : [ ],
+  "sponsees" : [ "4809459f-3d27-46fd-8a59-b6b8204d2838" ]
+} ]
+----

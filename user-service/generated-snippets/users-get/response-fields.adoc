@@ -17,32 +17,16 @@
 |`String`
 |Last name of the user
 
-|`phoneNumber`
-|`Null`
-|Phone number of the user
-
-|`dob`
-|`Null`
-|Date of birth of the user
-
 |`welcomeNote`
 |`String`
-|Welcome note of the user
+|Welcome message to show during user setup process
 
 |`familiarity`
 |`Number`
-|Familiarity of the user
-
-|`gender`
-|`Null`
-|Gender of the user
-
-|`religion`
-|`Null`
-|Religion of the user
+|Level of familiarity of the user with internet and related technologies. Allowed values: 1, 2 or 3. 1 = 'Not at all familiar with the internet', 2 = 'A little familiar with the internet', 3 = 'Quite familiar with the internet'.
 
 |`profileImageUri`
-|`Null`
+|`String`
 |Url of the profile image
 
 |`scope.organizationId`
@@ -63,11 +47,11 @@
 
 |`scope.userId`
 |`String`
-|ID of the user who created the user
+|ID of the user (only for breezie users, other roles won't have value on this field)
 
 |`sponsors`
 |`Array`
-|Id list of users sponsoring this user
+|ID list of users sponsoring this user
 
 |`roles`
 |`Array`
@@ -75,22 +59,6 @@
 
 |`sponsees`
 |`Array`
-|user ID list of people who this user is sponsoring
-
-|`createdBy`
-|`String`
-|The one who created the user
-
-|`createdTime`
-|`Long`
-|The time the user was created
-
-|`lastUpdatedTime`
-|`Long`
-|The time the user was updated
-
-|`updatedBy`
-|`String`
-|The one who updated the user
+|ID list of users who this user is sponsoring
 
 |===
