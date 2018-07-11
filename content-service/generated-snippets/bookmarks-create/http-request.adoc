@@ -1,0 +1,20 @@
+[source,http,options="nowrap"]
+----
+POST /bookmarks HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 310
+
+{
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "c9d26f3c-aaba-470a-9b10-250279e291b1",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}
+----

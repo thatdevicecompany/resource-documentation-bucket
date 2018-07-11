@@ -1,0 +1,436 @@
+The Groups API is used to create and list 'Groups'. A Group is a representation of a collection of
+items, be it a Bookmark, Application, Feed, Contact etc. One of the aforementioned resources will always belong to a Group,
+therefore you can receive the content of a Group once you know the Group's information. It can be helpful to think of the Groups API as a collection of
+specific resources. The Group itself also holds all of the access control for resources within it.
+
+In the context of a Breezie tablet device, Groups will appear as categories within the Interests application, with their content
+appearing within each category.
+
+* <<group-structure, Structure>>
+* <<groups-api, Groups API>>
+** <<resources-group-list, Listing groups>>
+** <<resources-group-get, Retrieve a group>>
+** <<resources-group-create, Create a group>>
+** <<resources-group-update, Replace a group>>
+** <<resources-group-patch, Update a group>>
+** <<resources-group-delete, Delete a group>>
+** <<resources-user_group-list, Get users from a group>>
+** <<resources-user_group-add, Add users to a group>>
+** <<resources-user_group-remove, Remove user from a group>>
+
+[[group-structure]]
+==== Structure
+include::{content-snippets}/groups-get/response-fields.adoc[]
+
+[[groups-api]]
+==== Groups API
+
+[[resources-group-list]]
+===== Listing Groups
+
+A `GET` request to `/groups` will list all Groups accessible by the User who make the request that are not personal Groups.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-get-list/http-response.adoc[]
+
+
+===== Listing Groups in an Organization
+
+A `GET` request to `/groups/search/findByOrganizationId?id=[organization-id]` will list all of the Groups
+in the Organization specified.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list-by-organization/curl-request.adoc[]
+
+===== Listing Groups in a Region
+
+A `GET` request to `/groups/search/findByRegionId?id=[region-id]` will list all of the Groups
+in the Region specified.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list-by-region/curl-request.adoc[]
+
+===== Listing Groups in a Campus
+
+A `GET` request to `/groups/search/findByCampusId?id=[campus-id]` will list all of the Groups
+in the Campus specified.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list-by-campus/curl-request.adoc[]
+
+
+===== Listing Groups in a Facility
+
+A `GET` request to `/groups/search/findByFacilityId?id=[facility-id]` will list all of the Groups
+in the Facility specified.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list-by-facility/curl-request.adoc[]
+
+===== Listing Groups for a User
+
+A `GET` request to `/groups/search/findByUserId?id=[user-id]` will list all of the Groups that
+the User specified belongs to.
+
+====== Example request
+
+include::{content-snippets}/groups-get-list-by-facility/curl-request.adoc[]
+
+
+[[resources-group-get]]
+===== Retrieve a Group
+
+A `GET` request to `/groups/{id}` will retrieve the Group identified by `id`.
+
+====== Example request
+
+include::{content-snippets}/groups-get/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-get/http-response.adoc[]
+
+
+[[resources-group-create]]
+===== Creating a group
+
+A `POST` request to `/groups` will save a new Group and return the created resource.
+
+====== Example request
+
+include::{content-snippets}/groups-create/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-create/http-response.adoc[]
+
+
+[[resources-group-update]]
+===== Replace a Group
+
+A `PUT` request to `/groups/{id}` is used to update a Group completely.
+
+====== Example request
+
+include::{content-snippets}/groups-update/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-update/http-response.adoc[]
+
+
+[[resources-group-patch]]
+===== Update a Group
+
+A `PATCH` request to `/groups/{id}` is used to update a Group partially.
+
+====== Example request
+
+include::{content-snippets}/groups-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-patch/http-response.adoc[]
+
+
+[[resources-group-delete]]
+===== Delete a Group
+
+A `DELETE` request to `/groups/{id}` is used to delete a Group.
+
+====== Example request
+
+include::{content-snippets}/groups-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/groups-delete/http-response.adoc[]
+
+
+[[resources-user_group-list]]
+===== Get Users from Group
+
+A `GET` request to `/groups/{id}/users` will retrieve the list of Users subscribed to the Group.
+
+[[user-structure]]
+====== User Structure
+include::{content-snippets}/user_groups-get-list/response-fields.adoc[]
+
+====== Example request
+
+include::{content-snippets}/user_groups-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/user_groups-get-list/http-response.adoc[]
+
+
+[[resources-user_group-add]]
+===== Add Users to a Group
+
+A `PUT` request to `/groups/{id}/users` will add a set of <<user-structure, users>> Users to the specified group. The body has
+to contain the list of User ID (line separator).
+
+====== Example request
+
+include::{content-snippets}/user_groups-add/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/user_groups-add/http-response.adoc[]
+
+
+[[resources-user_group-remove]]
+===== Remove a User from a Group
+
+A `DELETE` request to `/groups/{id}/users/{userId}` will remove the specified <<user-structure, user>> from the specified Group.
+
+====== Example request
+
+include::{content-snippets}/user_groups-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/user_groups-delete/http-response.adoc[]
+
+
+=== Applications
+
+The Applications API is used to create and list 'Applications'. An Application an
+Android Play Store application which is represented with a title, description, image and a package name.
+An Application is always assigned to a Group.
+
+In the context of the Breezie tablet device, Applications appear on the StartScreen and within the Interests application.
+
+
+* <<applications-structure, Structure>>
+* <<applications-api, Applications API>>
+** <<resources-applications-list, Listing applications by group>>
+** <<resources-applications-list-by-user, Listing applications by user>>
+** <<resources-applications-get, Retrieve an application>>
+** <<resources-applications-create, Create an application>>
+** <<resources-applications-update, Replace an application>>
+** <<resources-applications-patch, Update an application>>
+** <<resources-applications-delete, Delete an application>>
+
+[[applications-structure]]
+==== Structure
+include::{content-snippets}/applications-get/response-fields.adoc[]
+
+[[applications-api]]
+==== Applications API
+
+[[resources-applications-list]]
+===== Listing Applications by Group
+
+A `GET` request to `/applications/search/findByGroupId?id=[group-id]` will list all of the Applications
+in the Group specified.
+
+====== Example request
+
+include::{content-snippets}/applications-by-group-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-by-group-get-list/http-response.adoc[]
+
+[[resources-applications-list-by-user]]
+===== Listing Applications by User
+
+A `GET` request to `/applications/search/findByUserId?id=[user-id]` will list all of the Applications that a
+particular User has.
+
+====== Example request
+
+include::{content-snippets}/applications-by-group-get-list/curl-request.adoc[]
+
+
+[[resources-applications-get]]
+===== Retrieve an Application
+
+A `GET` request to `/applications/{id}` will retrieve the Application identified by `id`.
+
+====== Example request
+
+include::{content-snippets}/applications-get/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-get/http-response.adoc[]
+
+
+[[resources-applications-create]]
+===== Creating an Application
+
+A `POST` request to `/applications/{id}` will save a new Application and return the created resource.
+
+====== Example request
+
+include::{content-snippets}/applications-create/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-create/http-response.adoc[]
+
+[[resources-applications-update]]
+===== Replace an Application
+
+A `PUT` request to `/applications/{id}` is used to update an Application completely.
+
+====== Example request
+
+include::{content-snippets}/applications-update/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-update/http-response.adoc[]
+
+[[resources-applications-patch]]
+===== Update an Application
+
+A `PATCH` request to `/applications/{id}` is used to update an Application partially.
+
+====== Example request
+
+include::{content-snippets}/applications-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-patch/http-response.adoc[]
+
+[[resources-applications-delete]]
+===== Delete an Application
+
+A `DELETE` request to `/applications/{id}` is used to update an Application.
+
+====== Example request
+
+include::{content-snippets}/applications-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/applications-delete/http-response.adoc[]
+
+
+=== Bookmarks
+
+The Bookmarks API is used to create and list 'Bookmarks'. A Bookmark is a
+hyperlink to a resource or a web page and is represented with a name, URL, image and a description.
+A Bookmark is always assigned to a Group.
+
+In the context of the Breezie tablet device, Bookmarks appear on the StartScreen and within the Interests application.
+They act as shortcuts to links on the web and are grouped within Categories in the interests by their category.
+
+* <<bookmarks-structure, Structure>>
+* <<bookmarks-api, Bookmarks API>>
+** <<resources-bookmarks-list, Listing bookmarks by group>>
+** <<resources-bookmarks-list-by-user, Listing bookmarks by user>>
+** <<resources-bookmarks-get, Retrieve a bookmark>>
+** <<resources-bookmarks-create, Create a bookmark>>
+** <<resources-bookmarks-update, Replace a bookmark>>
+** <<resources-bookmarks-patch, Update a bookmark>>
+** <<resources-bookmarks-delete, Delete a bookmark>>
+
+[[bookmarks-structure]]
+==== Structure
+include::{content-snippets}/bookmarks-get/response-fields.adoc[]
+
+[[bookmarks-api]]
+==== Bookmarks API
+
+[[resources-bookmarks-list]]
+===== Listing Bookmarks by Group
+
+A `GET` request to `/bookmarks/search/findByGroupId?id=[group-id]` will list all of the bookmarks in the Group specified.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/bookmarks-get-list/http-response.adoc[]
+
+[[resources-bookmarks-list-by-user]]
+===== Listing Bookmarks by User
+
+A `GET` request to `/bookmarks/search/findByUserId?id=[user-id]` will list all of the Bookmarks for the User specified.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-by-group-get-list/curl-request.adoc[]
+
+[[resources-bookmarks-get]]
+===== Retrieve a Bookmark
+
+A `GET` request to `/bookmarks/{id}` will retrieve the Bookmark identified by `id`.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-get/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/bookmarks-get/http-response.adoc[]
+
+
+[[resources-bookmarks-create]]
+===== Creating a Bookmark
+
+A `POST` request to `/bookmarks` will save a new Bookmark and return the created resource.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-create/curl-request.adoc[]
+
+==== Example response
+
+include::{content-snippets}/bookmarks-create/http-response.adoc[]
+
+[[resources-bookmarks-update]]
+==== Replace a bookmark
+
+A `PUT` request to `/bookmarks/{id}` is used to update a Bookmark completely.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-update/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/bookmarks-update/http-response.adoc[]
+
+[[resources-bookmarks-patch]]
+===== Update a Bookmark
+
+A `PATCH` request to `/bookmarks/{id}` is used to update a Bookmark partially.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/bookmarks-patch/http-response.adoc[]
+
+[[resources-bookmarks-delete]]
+===== Delete a Bookmark
+
+A `DELETE` request to `/bookmarks/{id}` is used to delete a Bookmark.
+
+====== Example request
+
+include::{content-snippets}/bookmarks-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/bookmarks-delete/http-response.adoc[]

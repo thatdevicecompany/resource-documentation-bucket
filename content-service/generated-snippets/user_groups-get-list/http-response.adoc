@@ -1,0 +1,41 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 958
+
+[ {
+  "id" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+  "username" : "nicole.snow@breezie.com",
+  "firstName" : "Nicole",
+  "lastName" : "Snow",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "groupIds" : [ "a2eb355d-ffd5-4e1c-8ffa-91afc45bd8f1" ]
+}, {
+  "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
+  "username" : "david.jones@breezie.com",
+  "firstName" : "David",
+  "lastName" : "Jones",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "groupIds" : [ "a2eb355d-ffd5-4e1c-8ffa-91afc45bd8f1" ]
+} ]
+----

@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+DELETE /groups/3c053f92-56d4-462e-89a3-a94babaef38e HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Host: api.breezie.com
+
+----
