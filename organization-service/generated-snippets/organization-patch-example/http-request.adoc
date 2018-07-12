@@ -1,0 +1,14 @@
+[source,http,options="nowrap"]
+----
+PATCH /organizations/1488a509-0542-44a9-b431-d08ac68a82a3 HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Accept: application/json
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 46
+
+{
+  "name" : "Audi",
+  "country" : "Austria"
+}
+----

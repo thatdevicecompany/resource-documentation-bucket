@@ -1,0 +1,24 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 279
+
+{
+  "id" : "24a8392a-061b-4446-8f3c-87c95eb8806f",
+  "name" : "Maramures",
+  "country" : "Romania",
+  "organizationId" : "2297e556-5a0c-4c29-a4bf-9604f4ef10f3",
+  "createdTime" : 1531411684401,
+  "lastUpdatedTime" : 1531411684434,
+  "createdBy" : "user",
+  "updatedBy" : "user"
+}
+----

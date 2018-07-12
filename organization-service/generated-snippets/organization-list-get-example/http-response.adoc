@@ -1,0 +1,45 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 815
+
+[ {
+  "name" : "Kaufland",
+  "country" : "Germany",
+  "addressLine1" : "Auckan Street 7",
+  "addressLine2" : "Floor 3",
+  "zipCode" : "9AS 7U1",
+  "demo" : true,
+  "disabled" : false,
+  "customTC" : false,
+  "id" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+  "createdTime" : 1531411469108,
+  "lastUpdatedTime" : 1531411469108,
+  "createdBy" : "user",
+  "updatedBy" : "user",
+  "validCredentials" : true
+}, {
+  "name" : "Pearson",
+  "country" : "New Zeland",
+  "addressLine1" : "Clarance Lane 34",
+  "addressLine2" : "Apartment 12",
+  "zipCode" : "W1Q YU7",
+  "demo" : true,
+  "disabled" : false,
+  "customTC" : false,
+  "id" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
+  "createdTime" : 1531411469100,
+  "lastUpdatedTime" : 1531411469100,
+  "createdBy" : "user",
+  "updatedBy" : "user",
+  "validCredentials" : false
+} ]
+----

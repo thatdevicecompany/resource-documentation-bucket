@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+GET /organizations HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Accept: application/json
+Host: api.breezie.com
+
+----

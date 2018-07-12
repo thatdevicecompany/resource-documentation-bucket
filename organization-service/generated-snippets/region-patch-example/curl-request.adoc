@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/regions/12de7d64-aff1-4fd7-909f-92f7dab14fc8' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+  "name" : "Kensington",
+  "country" : "UK"
+}'
+----

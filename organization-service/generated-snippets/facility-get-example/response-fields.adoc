@@ -1,0 +1,60 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|The facility id
+
+|`name`
+|`String`
+|The name of the facility
+
+|`addressLine1`
+|`String`
+|The first line of the facility address
+
+|`addressLine2`
+|`String`
+|The second line of the facility address
+
+|`city`
+|`String`
+|The city the facility is located in
+
+|`country`
+|`String`
+|The country the facility is located in
+
+|`zipCode`
+|`String`
+|The zip code of the facility
+
+|`organizationId`
+|`String`
+|The identifier of organization which the facility belongs to
+
+|`regionId`
+|`String`
+|The identifier of the region which the facility belongs to
+
+|`campusId`
+|`String`
+|The identifier of the campus which the facility belongs to
+
+|`createdBy`
+|`String`
+|The one who created the facility
+
+|`createdTime`
+|`Long`
+|The time (Unix timestamp) the facility was created
+
+|`lastUpdatedTime`
+|`Long`
+|The time (Unix timestamp) the facility was updated
+
+|`updatedBy`
+|`String`
+|The one who updated the facility
+
+|===
