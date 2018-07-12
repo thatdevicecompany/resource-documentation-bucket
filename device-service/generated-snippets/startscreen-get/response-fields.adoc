@@ -1,0 +1,72 @@
+|===
+|Path|Type|Description
+
+|`numberOfItems`
+|`Number`
+|Maximum number of items to be shown on the device's screen
+
+|`items`
+|`Array`
+|Sorted list of items candidates to be shown on the device's screen
+
+|`items[].title`
+|`String`
+|Item title
+
+|`items[].imageUrl`
+|`Varies`
+|Item image url
+
+|`items[].type`
+|`String`
+|Type of the item: APP, BOOKARK, GROUP or EXCEPTIONAL
+
+|`items[].action`
+|`String`
+|Item action to realize when item is clicked on the device
+
+|`items[].forced`
+|`Boolean`
+|Flag that indicates if the item is forced or not
+
+|`items[].settled`
+|`Boolean`
+|Flag that indicates if the item has been manually settled or not
+
+|`items[].promoted`
+|`Boolean`
+|Flag that indicates if the item has been promoted or not
+
+|`items[].ignored`
+|`Boolean`
+|Flag that indicates if the item has been manually ignored or not
+
+|`items[].hidden`
+|`Boolean`
+|Flag that indicates if the item is hidden on the device or not
+
+|`items[].scope`
+|`Varies`
+|Item scope
+
+|`items[].scope.organizationId`
+|`String`
+|Organization id which item belogs to
+
+|`items[].scope.regionId`
+|`String`
+|Region id which item belogs to
+
+|`items[].scope.campusId`
+|`String`
+|Campus id which item belogs to
+
+|`items[].scope.facilityId`
+|`String`
+|Facility id which item belogs to
+
+|`items[].scope.userId`
+|`String`
+|User id which item belogs to
+
+|===

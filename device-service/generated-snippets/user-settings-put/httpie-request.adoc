@@ -7,5 +7,5 @@ $ echo '{
   "volume" : 50,
   "screenBrightness" : 7,
   "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ]
-}' | http PUT 'https://breezie.com/users/067e6162-3b6f-4ae2-a171-2470b63dff00/settings' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'version:1.0' 'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/users/067e6162-3b6f-4ae2-a171-2470b63dff00/settings' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'version:1.0' 'Content-Type:application/json'
 ----

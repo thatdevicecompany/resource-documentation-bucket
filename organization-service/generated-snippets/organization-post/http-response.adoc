@@ -1,0 +1,30 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 400
+
+{
+  "name" : "Breezie",
+  "country" : "UK",
+  "addressLine1" : "3 Loughborough Street",
+  "addressLine2" : "Nr. 15",
+  "zipCode" : "TW71AB",
+  "demo" : false,
+  "disabled" : false,
+  "customTC" : false,
+  "id" : "79802c6e-aa6a-4b3d-b58d-996fd349e0c3",
+  "createdTime" : 1531411468413,
+  "lastUpdatedTime" : 1531411468413,
+  "createdBy" : "user",
+  "updatedBy" : "user",
+  "validCredentials" : false
+}
+----

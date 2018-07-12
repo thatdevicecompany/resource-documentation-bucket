@@ -1,0 +1,23 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 348
+
+{
+  "timestamp" : 1531319354967,
+  "code" : 404,
+  "status" : 404,
+  "message" : "User could not be found",
+  "description" : "A user with id 17d19fc4-31d6-43ef-8d4c-04405540656e could not be found",
+  "path" : "null/bookmarks/search/findByUserId?id=17d19fc4-31d6-43ef-8d4c-04405540656e",
+  "exception" : "com.breezie.exception.NotFoundException"
+}
+----

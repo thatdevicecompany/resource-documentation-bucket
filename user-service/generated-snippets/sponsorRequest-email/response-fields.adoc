@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`response`
+|`String`
+|Response message
+
+|===

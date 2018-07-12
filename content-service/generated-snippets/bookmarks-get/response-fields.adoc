@@ -1,0 +1,44 @@
+|===
+|Path|Type|Description
+
+|`id`
+|`String`
+|Bookmark identifier
+
+|`url`
+|`String`
+|Bookmark url
+
+|`name`
+|`String`
+|Name of the bookmark
+
+|`imageUrl`
+|`String`
+|Image url of the bookmark
+
+|`note`
+|`String`
+|A descriptive note related to the bookmark
+
+|`groupId`
+|`String`
+|ID of the group in which this bookmark belongs
+
+|`forced`
+|`Boolean`
+|Whether this bookmark should be forced on StartScreen
+
+|`promote`
+|`Boolean`
+|Whether this bookmark should be promoted on StartScreen
+
+|`hidden`
+|`Boolean`
+|Whether this bookmark should be hidden in Interests
+
+|`breezieAuthenticationRequired`
+|`Boolean`
+|Whether this bookmark should first authenticate with the Breezie system before loading
+
+|===

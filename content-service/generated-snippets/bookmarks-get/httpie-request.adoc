@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'https://api.breezie.com/bookmarks/af8757b9-1674-4055-bba6-96fb0572b1ed' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----

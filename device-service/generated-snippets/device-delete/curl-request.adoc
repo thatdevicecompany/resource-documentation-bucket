@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/devices/119fd905-d84a-4b71-be78-1723f7f43bd3' -i -X DELETE -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+----

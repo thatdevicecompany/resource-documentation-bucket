@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/sponsorRequests/fd5089b2-e7e3-44ee-9b01-95556f2d9598/email' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+  "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
+  "email" : "mike.owen@email.com",
+  "firstName" : "Mike",
+  "lastName" : "Owen",
+  "message" : "Hi Mike, Would you mind to help me with Breezie?",
+  "redirectUri" : "https://manage.breezie.com"
+}'
+----
