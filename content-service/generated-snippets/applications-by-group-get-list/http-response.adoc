@@ -12,26 +12,26 @@ X-Frame-Options: DENY
 Content-Length: 991
 
 [ {
-  "id" : "d9093705-7ac5-4eee-934d-33f8f8acbef4",
-  "title" : "Gardening",
-  "description" : "Helpful app, informing you when best to water those flowers",
-  "productId" : "co.uk.demo.gardening",
-  "iconUrl" : "https://www.gardening.com/image",
-  "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "b1c67afc-1e56-423b-be71-736531d064a9",
-  "forced" : false,
-  "promote" : false,
-  "hidden" : false,
-  "blockUninstall" : false,
-  "blockNotification" : false
-}, {
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "title" : "Winter Gardening",
   "description" : "Helpful app, informing you when best to water those flowers when it gets cold",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "b1c67afc-1e56-423b-be71-736531d064a9",
+  "groupId" : "e06a0737-88be-4d7d-aee4-e94c09ff8aab",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "blockUninstall" : false,
+  "blockNotification" : false
+}, {
+  "id" : "f27ab88d-ea5f-4ccf-9ff7-099a3c9176bf",
+  "title" : "Gardening",
+  "description" : "Helpful app, informing you when best to water those flowers",
+  "productId" : "co.uk.demo.gardening",
+  "iconUrl" : "https://www.gardening.com/image",
+  "smallIconUrl" : "https://www.gardening.com/image/small",
+  "groupId" : "e06a0737-88be-4d7d-aee4-e94c09ff8aab",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/groups/193ae5ff-bba5-4295-9fc8-f0326f54a300/users' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: text/uri-list' -d '4809459f-3d27-46fd-8a59-b6b8204d2838
+$ curl 'https://api.breezie.com/groups/24c127af-e44a-4264-885b-12af395a6ef8/users' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: text/uri-list' -d '4809459f-3d27-46fd-8a59-b6b8204d2838
 dft54er4-8709-9iyt-ht5r67ytg4df'
 ----

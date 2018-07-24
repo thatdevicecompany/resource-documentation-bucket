@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 573
 
 {
-  "id" : "9fd63064-7d26-442a-82d2-45920e2f8b7a",
+  "id" : "ccb29b94-f26e-4f5f-8427-f53d48e67e7a",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",

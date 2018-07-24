@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1183
 
 [ {
-  "id" : "68d6a171-701c-4686-81a8-d9ebf296cd94",
+  "id" : "094b2312-bd33-452d-93aa-da3981c831a6",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -30,7 +30,7 @@ Content-Length: 1183
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "b79882bd-5a1f-471d-8dc7-7a24b465811a",
+  "id" : "33a620ec-61ad-478c-9439-27f81857133e",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
