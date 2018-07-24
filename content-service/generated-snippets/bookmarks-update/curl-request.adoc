@@ -1,11 +1,11 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/bookmarks/a9903de7-6b8b-40a4-863e-0594ad105a8b' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/bookmarks/39606dbd-9ba3-41d1-8416-bdb9d0ed2743' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "url" : "www.gardening.com",
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "62ed0892-b332-4870-aa38-bb1ed2c169e2",
+  "groupId" : "1e51768e-0ad0-469c-8676-e140d0fa9034",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
