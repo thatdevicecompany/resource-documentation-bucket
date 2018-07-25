@@ -5,10 +5,10 @@ $ echo '{
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "1e51768e-0ad0-469c-8676-e140d0fa9034",
+  "groupId" : "c7089093-fd71-4d57-96d8-e25717a56a18",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false
-}' | http PUT 'https://api.breezie.com/bookmarks/39606dbd-9ba3-41d1-8416-bdb9d0ed2743' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/bookmarks/d299ca62-a70f-4f96-998b-66ab2cc94e2f' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----

@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /applications/c6e955f0-4cc3-4295-a60e-febbc9932061 HTTP/1.1
+PUT /applications/599ff9e4-24fa-4229-b285-5fa4c60d3858 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: api.breezie.com
@@ -12,7 +12,7 @@ Content-Length: 431
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "fceabbb7-6a0d-4b5c-8678-fdde8f1a8206",
+  "groupId" : "a6b0b917-91f3-4f48-b129-4bcea3ef6df0",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
