@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/bookmarks/180a8980-b75c-4ba9-8467-df240a4dfb34' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/bookmarks/be818360-c4fe-4d4c-a3ab-d3a8b3bf1e1d' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "url" : "www.gardening.com/summer",
   "name" : "Summer Gardening"
 }'
