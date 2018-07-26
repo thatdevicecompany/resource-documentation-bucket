@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1747
 
 [ {
-  "id" : "db8b50d4-d3ad-4c4c-aa58-b5a65e3f6fd3",
+  "id" : "c0d7f0d0-3ccd-4f06-968e-840191c0a5d7",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -30,7 +30,7 @@ Content-Length: 1747
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "432aa8ca-a2e2-4459-bec4-5d8017fd52ef",
+  "id" : "fa9de349-3fa9-415b-a09e-16c8c58b0e90",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -48,7 +48,7 @@ Content-Length: 1747
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "bebb488f-2c46-4ae2-af5a-09f2ee345145",
+  "id" : "c80da76f-3ffc-44e3-8b5e-1b73c309f459",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",

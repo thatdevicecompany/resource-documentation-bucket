@@ -5,7 +5,7 @@ $ curl 'https://api.breezie.com/bookmarks' -i -X POST -H 'Authorization: Bearer:
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "032b1315-b80a-409f-a073-7b8e0df641e5",
+  "groupId" : "5ee0fb60-977c-4e80-b236-4019a7d629ce",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
