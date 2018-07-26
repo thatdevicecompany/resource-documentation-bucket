@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 606
 
 {
-  "id" : "50166091-6f7e-4a24-a4b6-329400e0f514",
+  "id" : "32345a73-454d-42ed-a222-ee8c4e8417c8",
   "name" : "Summer Gardening",
   "description" : "A group for those intersted in summer gardening",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
