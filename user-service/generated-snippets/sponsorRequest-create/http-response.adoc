@@ -4,15 +4,12 @@ HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Length: 300
 
 {
-  "id" : "f463fb9f-5607-4816-8cfe-ae78f4132515",
+  "id" : "ea2115e0-b6e2-4a39-a456-473e5efaa126",
   "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
   "email" : "mike.owen@email.com",
   "firstName" : "Mike",

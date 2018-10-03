@@ -4,9 +4,6 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Length: 1390
@@ -45,7 +42,7 @@ Content-Length: 1390
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "4e749799-a13c-4ff4-b8b6-896e92bd1d95" ],
+  "sponsors" : [ "75a414ec-a47d-4b32-842c-e4b139b0e4aa" ],
   "sponsees" : [ ]
 } ]
 ----
