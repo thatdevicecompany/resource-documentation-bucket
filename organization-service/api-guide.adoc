@@ -24,7 +24,7 @@ include::{organizations-snippets}/organization-get-example/response-fields.adoc[
 [[resources-organization-list]]
 ===== Listing organizations
 
-A `GET` request to `/organizations` will retrieve all organizations accessible by the user who make the request.
+A `GET` request to `/organizations` will retrieve all organizations accessible by the user who made the request.
 
 ====== Example request
 
@@ -38,7 +38,7 @@ include::{organizations-snippets}/organization-list-get-example/http-response.ad
 [[resources-organization-retrieve]]
 ===== Retrieve an organization
 
-A `GET` request to `/organizations/{id}` will retrieve all metadata about a specific organization
+A `GET` request to `/organizations/{id}` will retrieve all metadata about a specific organization.
 
 ====== Example request
 
@@ -67,7 +67,7 @@ include::{organizations-snippets}/organization-update-example/http-response.adoc
 ===== Update an organization
 
 A `PATCH` request to `/organizations/{id}` will update the organization partially. This will only update the fields
-you request be changed.
+you requested to be changed.
 
 ====== Example request
 
@@ -83,8 +83,8 @@ include::{organizations-snippets}/organization-patch-example/http-response.adoc[
 `Settings` is a representation of a set of properties that define the device behaviour.
 
 [NOTE]
-The set of properties that can be settled to a device are defined in a `schema` that can be found on
-`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
+The set of properties that can be set on a device is defined in a `schema` available on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and their
 restrictions.
 
 [NOTE]
@@ -95,7 +95,7 @@ set at organization level can be overwritten at user level.
 [NOTE]
 The `Settings` applied to a <<device-micro-service,device>> is the combination of breezie settings, organizations settings
 and user settings. In case the same property is defined at different levels, user level
-has the highest priority and breezie level the lowest.
+has the highest priority and Breezie level the lowest.
 
 
 [[resources-orgSettings-retrieve]]
@@ -161,7 +161,7 @@ include::{organizations-snippets}/region-list-get-example/http-response.adoc[]
 
 
 [[resources-region-retrieve]]
-===== Retrieve a region
+===== Retrieve a Region
 
 A `GET` request to `/regions/{id}` will retrieve all metadata of the specified region.
 
@@ -175,9 +175,9 @@ include::{organizations-snippets}/region-get-example/http-response.adoc[]
 
 
 [[resources-region-create]]
-===== Create a region
+===== Create a Region
 
-A `POST` request to `/regions` will create a new region an return the metadata of the resource created.
+A `POST` request to `/regions` will create a new Region an return the metadata of the resource created.
 
 ====== Request structure
 
@@ -193,9 +193,9 @@ include::{organizations-snippets}/region-post-example/http-response.adoc[]
 
 
 [[resources-region-update]]
-===== Replace a region
+===== Replace a Region
 
-A `PUT` request to `/regions/{id}` is used to replace completely a region. `organizationId` can not be modified.
+A `PUT` request to `/regions/{id}` is used to replace completely a Region. `organizationId` can not be modified.
 
 ====== Example request
 
@@ -207,9 +207,9 @@ include::{organizations-snippets}/region-update-example/http-response.adoc[]
 
 
 [[resources-region-patch]]
-===== Update a region
+===== Update a Region
 
-A `PATCH` request to `/regions/{id}` will update the specified region partially. This will only update the fields
+A `PATCH` request to `/regions/{id}` will update the specified Region partially. This will only update the fields
  you request be changed. `organizationId, can not be modified.
 
 ====== Example request
@@ -222,7 +222,7 @@ include::{organizations-snippets}/region-patch-example/http-response.adoc[]
 
 
 [[resources-region-delete]]
-===== Delete a region
+===== Delete a Region
 
 A `DELETE` request to `/regions/{id}` will delete the specified region.
 
@@ -285,9 +285,9 @@ include::{organizations-snippets}/campus-get-example/http-response.adoc[]
 
 
 [[resources-campus-create]]
-===== Create a campus
+===== Create a Campus
 
-A `POST` request to `/campuses` will create a new campus and return the created resource metadata.
+A `POST` request to `/campuses` will create a new Campus and return the created resource metadata.
 
 ====== Request structure
 
@@ -305,7 +305,7 @@ include::{organizations-snippets}/campus-post-example/http-response.adoc[]
 [[resources-campus-update]]
 ===== Replace a campus
 
-A `PUT` request to `/campuses/{id}` will do a complete replace of the campus. `regionId` can not be modified.
+A `PUT` request to `/campuses/{id}` will do a complete replace of the Campus. `regionId` can not be modified.
 
 ====== Example request
 
@@ -317,10 +317,10 @@ include::{organizations-snippets}/campus-update-example/http-response.adoc[]
 
 
 [[resources-campus-patch]]
-===== Update a campus
+===== Update a Campus
 
-A `PATCH` request to `/campuses/{id}` will update the campus partially. This will only update the fields
-you request be changed.
+A `PATCH` request to `/campuses/{id}` will update the Campus partially. This will only update the fields
+you requested to be changed.
 
 ====== Example request
 
@@ -333,7 +333,7 @@ include::{organizations-snippets}/campus-patch-example/http-response.adoc[]
 [[resources-campus-delete]]
 ===== Delete a campus
 
-A `DELETE` request to `/campuses/{id}` will delete the campus.
+A `DELETE` request to `/campuses/{id}` will delete the Campus.
 
 ====== Example request
 
@@ -345,7 +345,7 @@ include::{organizations-snippets}/campus-delete-example/http-response.adoc[]
 
 
 === Facilities
-A `facility` is a representation of a part of a campus. It is used to allocate other resources of the system like `users`,
+A `facility` is a representation of a part of a Campus. It is used to allocate other resources of the system like `users`,
 `devices`, `contents`... This resource is the base of an pyramidal structure (<<scope,scope>>) composed by `facilities`, `campuses`,
 `regions` and `organizations`.
 
@@ -366,9 +366,9 @@ include::{organizations-snippets}/facility-get-example/response-fields.adoc[]
 ==== Facilities API
 
 [[resources-facility-list]]
-===== Listing facilities
+===== Listing Facilities
 
-A `GET` request to `/facilities` will retrieve all facilities accessible by the user who make the request.
+A `GET` request to `/facilities` will retrieve all Facilities accessible by the User who made the request.
 
 ====== Example request
 
@@ -380,9 +380,9 @@ include::{organizations-snippets}/facility-list-get-example/http-response.adoc[]
 
 
 [[resources-facility-retrieve]]
-===== Retrieve a facility
+===== Retrieve a Facility
 
-A `GET` request to `/facilities/{id}` will retrieve all metadata about the specified facility.
+A `GET` request to `/facilities/{id}` will retrieve all metadata about the specified Facility.
 
 ====== Example request
 
@@ -394,7 +394,7 @@ include::{organizations-snippets}/facility-get-example/http-response.adoc[]
 
 
 [[resources-facility-create]]
-===== Create a facility
+===== Create a Facility
 
 A `POST` request to `/facilities` will create a new facility and return the created resource metadata
 
@@ -412,9 +412,9 @@ include::{organizations-snippets}/facility-post-example/http-response.adoc[]
 
 
 [[resources-facility-update]]
-===== Replace a facility
+===== Replace a Facility
 
-A `PUT` request to `/facilities/{id}` will do a complete replace of the facility. `campusId` can not be modified.
+A `PUT` request to `/facilities/{id}` will do a complete replace of the Facility. `campusId` can not be modified.
 
 ====== Example request
 
@@ -426,10 +426,10 @@ include::{organizations-snippets}/facility-update-example/http-response.adoc[]
 
 
 [[resources-facility-patch]]
-===== Update a facility
+===== Update a Facility
 
-A `PATCH` request to `/facilities/{id}` will update the facility partially. This will only update the fields
-you request be changed.
+A `PATCH` request to `/facilities/{id}` will update the Facility partially. This will only update the fields
+you requested to be changed.
 
 ====== Example request
 
@@ -441,9 +441,9 @@ include::{organizations-snippets}/facility-patch-example/http-response.adoc[]
 
 
 [[resources-facility-delete]]
-===== Delete a facility
+===== Delete a Facility
 
-A `DELETE` request to `/facilities/{id}` will delete the specified facility.
+A `DELETE` request to `/facilities/{id}` will delete the specified Facility.
 
 ====== Example request
 
