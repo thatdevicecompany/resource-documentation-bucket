@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/sponsorRequests/60b0ea8a-30e9-48ed-9175-2fba169c6ab2/email' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/sponsorRequests/627b1a6a-6bd5-460c-806a-2ba7bff25981/email' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
   "email" : "mike.owen@email.com",
   "firstName" : "Mike",
