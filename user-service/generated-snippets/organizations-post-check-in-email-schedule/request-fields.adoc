@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`receivers`
+|`String`
+|List of email addresses to send the Check-in Email report (coma separated)
+
+|`hour`
+|`Number`
+|Hour which the email will be sent daily
+
+|`minute`
+|`Number`
+|Minute of the hour which the email will be sent daily
+
+|`timeZone`
+|`String`
+|Time Zone which hour and minute is specified
+
+|===

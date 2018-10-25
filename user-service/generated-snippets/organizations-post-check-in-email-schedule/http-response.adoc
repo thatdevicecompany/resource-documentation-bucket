@@ -1,0 +1,18 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 178
+
+{
+  "scheduleId" : "d0fb8fa8-1e37-4837-9791-44f7c2c957db",
+  "receivers" : "test1@breezie.com,test2@breezie.com",
+  "hour" : 9,
+  "minute" : 30,
+  "timeZone" : "time-zone-test"
+}
+----
