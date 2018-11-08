@@ -9,7 +9,7 @@ X-Frame-Options: DENY
 Content-Length: 178
 
 {
-  "scheduleId" : "d0fb8fa8-1e37-4837-9791-44f7c2c957db",
+  "scheduleId" : "9a33b9a3-e1cc-4e17-8732-248147a6233e",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
