@@ -9,16 +9,16 @@ X-Frame-Options: DENY
 Content-Length: 362
 
 [ {
-  "scheduleId" : "a1a64c28-d1c2-4a56-be2a-1632eaff9c19",
-  "receivers" : "test1@breezie.com,test2@breezie.com",
-  "hour" : 13,
-  "minute" : 0,
-  "timeZone" : "time-zone-test"
-}, {
-  "scheduleId" : "ce1fb0db-dba4-473e-9874-d065a36a3db2",
+  "scheduleId" : "800c6df0-b522-49ef-80fe-8a0e1958f517",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
+  "timeZone" : "time-zone-test"
+}, {
+  "scheduleId" : "b601b3f2-42c0-483e-9b73-003cb0fac051",
+  "receivers" : "test1@breezie.com,test2@breezie.com",
+  "hour" : 13,
+  "minute" : 0,
   "timeZone" : "time-zone-test"
 } ]
 ----
