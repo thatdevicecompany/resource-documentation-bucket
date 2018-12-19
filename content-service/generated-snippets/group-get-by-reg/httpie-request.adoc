@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'https://api.breezie.com/groups/search/findByRegionId?id=ee99aed2-acb8-4559-a1c3-e605ea3a653b' \
+    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----
