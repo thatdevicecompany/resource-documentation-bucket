@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "e49eb74e-e3cd-406d-83ed-60edbdca2f1a",
+  "id" : "6af20355-c0e5-477f-bc6b-840e4f1f9aa2",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -19,7 +19,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "eb36cb0c-d6fd-4cf3-877f-43479cb4048e",
+  "id" : "6d3bb599-7666-4320-ac20-90e3bc223076",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",

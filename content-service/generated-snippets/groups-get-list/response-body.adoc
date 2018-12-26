@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "5fb4d316-bd26-49a0-9eb1-9c46beaf16a2",
+  "id" : "a8f7bee8-96a0-4553-b004-6020b0f67a30",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -19,15 +19,15 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "f985f75e-bb7b-4520-945f-2ea2d175dac0",
-  "name" : "Travelling",
-  "description" : "A group for all the travelling enthusiasts",
-  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
+  "id" : "61aa89b2-e5a5-45a8-9c18-c27a3afe0ad0",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : null,
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
   "isDefault" : true,
@@ -37,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "97142344-c15a-402c-b766-ff8416f3957e",
+  "id" : "e57e64c7-b371-4a8f-abd7-4dc45da50089",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
@@ -55,15 +55,15 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "9ad15883-e9b2-4bac-a8e9-54fbd2f21519",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "95af04bf-a067-4c18-b865-dadfd367c5d9",
+  "name" : "Travelling",
+  "description" : "A group for all the travelling enthusiasts",
+  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : null,
     "userId" : null
   },
   "isDefault" : true,
