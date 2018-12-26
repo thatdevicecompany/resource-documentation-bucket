@@ -1,25 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "ae01fb4a-7196-4251-be8c-6f68e021e079",
-  "name" : "Games",
-  "description" : "Master the art of board games",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : null,
-    "campusId" : null,
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "d2d25255-d554-498a-affa-592881089161",
+  "id" : "28ed3535-54c6-4430-8d33-8b8b853f66cf",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -37,7 +19,25 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "e1451dc6-aba1-4210-b56f-319385ca7755",
+  "id" : "0900e5a3-8577-4f17-9e2c-7b3fcfc08ec8",
+  "name" : "Games",
+  "description" : "Master the art of board games",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "340746df-45cd-4874-a0d6-e11e1a98878b",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -55,13 +55,13 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "aed59268-14fc-4336-9925-15b1dba83fe5",
-  "name" : "Biographies",
-  "description" : "Read about the life stories of famous figures throughout history",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
+  "id" : "260e97af-6d38-4c50-9db1-969ef32ae657",
+  "name" : "Breezie",
+  "description" : "Default content for Breezie users",
+  "imageUrl" : "https://breezie.com/logo",
   "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "organizationId" : null,
+    "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "userId" : null
@@ -73,13 +73,13 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "8da2cd60-145f-4526-803b-0f39d6978486",
-  "name" : "Breezie",
-  "description" : "Default content for Breezie users",
-  "imageUrl" : "https://breezie.com/logo",
+  "id" : "a3d5d3b4-0cea-4ce0-ab2e-c3dbdc56a385",
+  "name" : "Biographies",
+  "description" : "Read about the life stories of famous figures throughout history",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
   "scope" : {
-    "organizationId" : null,
-    "regionId" : null,
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : null,
     "facilityId" : null,
     "userId" : null

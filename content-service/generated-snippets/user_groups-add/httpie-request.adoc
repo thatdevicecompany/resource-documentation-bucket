@@ -1,7 +1,7 @@
 [source,bash]
 ----
 $ echo '4809459f-3d27-46fd-8a59-b6b8204d2838
-dft54er4-8709-9iyt-ht5r67ytg4df' | http PUT 'https://api.breezie.com/groups/9ad906b4-c49a-40c1-8e88-70fdde310ec4/users' \
+dft54er4-8709-9iyt-ht5r67ytg4df' | http PUT 'https://api.breezie.com/groups/5f8fa616-6c72-4589-a4bb-80f616e61cb6/users' \
     'Content-Type:text/uri-list' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
