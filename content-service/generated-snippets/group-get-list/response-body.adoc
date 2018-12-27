@@ -1,7 +1,25 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "81d5f3c2-5dc5-465b-97d3-db76850236ea",
+  "id" : "e5422597-ee84-4207-9e8a-0c16f726cc46",
+  "name" : "Breezie",
+  "description" : "Default content for Breezie users",
+  "imageUrl" : "https://breezie.com/logo",
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "ea97fb1a-3c64-4606-a27c-8993e8d937fc",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -19,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "d68a4085-d354-453d-9a60-c952e1144689",
+  "id" : "e4a9a47f-ee88-4d91-ba44-b1a36a0b3f91",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -37,7 +55,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "d306d4a3-5feb-4b8e-85df-97a68121b48c",
+  "id" : "0bd94804-70e0-46f2-9b0a-415edac35ce7",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -55,30 +73,12 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "2b3db619-bf2a-411a-a190-d819603014b5",
+  "id" : "5cbc8803-e835-420c-ad45-c4903a8193c4",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : null,
-    "campusId" : null,
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "57dd2a4f-4422-47d6-a530-088f028e7c3f",
-  "name" : "Breezie",
-  "description" : "Default content for Breezie users",
-  "imageUrl" : "https://breezie.com/logo",
-  "scope" : {
-    "organizationId" : null,
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
