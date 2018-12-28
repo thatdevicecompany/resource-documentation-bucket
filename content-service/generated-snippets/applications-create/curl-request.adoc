@@ -9,7 +9,7 @@ $ curl 'https://api.breezie.com/applications' -i -X POST \
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "18a412a2-87ea-46b6-a5a5-66ac7ac9ba81",
+  "groupId" : "b0259558-01a6-436c-940b-6de6c03268fe",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
