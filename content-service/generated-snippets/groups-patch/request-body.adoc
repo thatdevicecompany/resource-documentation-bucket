@@ -1,0 +1,7 @@
+[source,options="nowrap"]
+----
+{
+  "name" : "Summer Gardening",
+  "description" : "A group for those intersted in summer gardening"
+}
+----

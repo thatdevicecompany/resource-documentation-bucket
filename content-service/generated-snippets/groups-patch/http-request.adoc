@@ -1,8 +1,8 @@
 [source,http,options="nowrap"]
 ----
-PATCH /groups/32345a73-454d-42ed-a222-ee8c4e8417c8 HTTP/1.1
-Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+PATCH /groups/b29a0ce5-0616-421a-b97e-98019be3e2e2 HTTP/1.1
 Content-Type: application/json
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 Content-Length: 102
 

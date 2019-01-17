@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 958
+Content-Length: 1026
 
 [ {
   "id" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -21,9 +21,9 @@ Content-Length: 958
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a"
   },
-  "groupIds" : [ "1ad6e837-1cd3-4c93-ad60-83d4052ea01e" ]
+  "groupIds" : [ "9a6107b7-10bd-48f3-b328-0db1d16d8ea9" ]
 }, {
   "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
   "username" : "david.jones@breezie.com",
@@ -34,8 +34,8 @@ Content-Length: 958
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
+    "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
-  "groupIds" : [ "1ad6e837-1cd3-4c93-ad60-83d4052ea01e" ]
+  "groupIds" : [ "9a6107b7-10bd-48f3-b328-0db1d16d8ea9" ]
 } ]
 ----

@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ echo '{
-  "url" : "www.gardening.com/summer",
-  "name" : "Summer Gardening"
-}' | http PATCH 'https://api.breezie.com/bookmarks/fa80a79c-59ee-42b0-b06f-856a245603eb' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
-----
