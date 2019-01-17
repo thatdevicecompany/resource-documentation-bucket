@@ -1,52 +1,52 @@
 |===
 |Path|Type|Description
 
-|`id`
-|`String`
+|`+id+`
+|`+String+`
 |Application identifier
 
-|`title`
-|`String`
+|`+title+`
+|`+String+`
 |Title of the application
 
-|`description`
-|`String`
+|`+description+`
+|`+String+`
 |Description of the application
 
-|`iconUrl`
-|`String`
+|`+iconUrl+`
+|`+String+`
 |Image for the icon of the application
 
-|`smallIconUrl`
-|`String`
+|`+smallIconUrl+`
+|`+String+`
 |Small image for the icon of the application (128 * 128)
 
-|`productId`
-|`String`
+|`+productId+`
+|`+String+`
 |Package Name of the application
 
-|`groupId`
-|`String`
+|`+groupId+`
+|`+String+`
 |ID of the group in which this application belongs
 
-|`forced`
-|`Boolean`
+|`+forced+`
+|`+Boolean+`
 |Whether this application should be forced on StartScreen
 
-|`promote`
-|`Boolean`
+|`+promote+`
+|`+Boolean+`
 |Whether this application should be promoted on StartScreen
 
-|`hidden`
-|`Boolean`
+|`+hidden+`
+|`+Boolean+`
 |Whether this application should be hidden in Interests
 
-|`blockUninstall`
-|`Boolean`
+|`+blockUninstall+`
+|`+Boolean+`
 |Whether to block this application being uninstalled
 
-|`blockNotification`
-|`Boolean`
+|`+blockNotification+`
+|`+Boolean+`
 |Whether to block this application from showing notifications
 
 |===

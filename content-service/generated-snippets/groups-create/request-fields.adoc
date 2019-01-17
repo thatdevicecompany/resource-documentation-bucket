@@ -1,40 +1,40 @@
 |===
 |Path|Type|Description
 
-|`name`
-|`String`
+|`+name+`
+|`+String+`
 |Name the group
 
-|`imageUrl`
-|`String`
+|`+imageUrl+`
+|`+String+`
 |Image url of the group
 
-|`description`
-|`String`
+|`+description+`
+|`+String+`
 |A descriptive note related to the group
 
-|`scope`
-|`Object`
+|`+scope+`
+|`+Object+`
 |Scope object holding the access control for the resource
 
-|`scope.organizationId`
-|`String`
+|`+scope.organizationId+`
+|`+String+`
 |ID of the organization owning the group
 
-|`scope.regionId`
-|`String`
+|`+scope.regionId+`
+|`+String+`
 |ID of the region owning the group
 
-|`scope.facilityId`
-|`String`
+|`+scope.facilityId+`
+|`+String+`
 |ID of the facility owning the group
 
-|`scope.campusId`
-|`String`
+|`+scope.campusId+`
+|`+String+`
 |ID of the campus owning the group
 
-|`scope.userId`
-|`String`
+|`+scope.userId+`
+|`+String+`
 |ID of the user owning the group
 
 |===

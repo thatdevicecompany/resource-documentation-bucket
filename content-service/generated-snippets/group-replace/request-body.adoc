@@ -1,0 +1,15 @@
+[source,options="nowrap"]
+----
+{
+  "name" : null,
+  "description" : null,
+  "imageUrl" : null,
+  "scope" : null,
+  "isDefault" : true,
+  "promote" : true,
+  "forced" : null,
+  "hidden" : null,
+  "personal" : null,
+  "hideOnHub" : null
+}
+----

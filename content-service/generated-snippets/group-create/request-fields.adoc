@@ -1,0 +1,64 @@
+|===
+|Path|Type|Description
+
+|`+name+`
+|`+String+`
+|Name of the group
+
+|`+description+`
+|`+String+`
+|Description of the group
+
+|`+imageUrl+`
+|`+String+`
+|Url of the group logo
+
+|`+imageUrl+`
+|`+String+`
+|Url of the group logo
+
+|`+isDefault+`
+|`+Boolean+`
+|Define if a group is 'default' or not
+
+|`+promote+`
+|`+Boolean+`
+|Define if a group has been 'promoted' on the Start Screen
+
+|`+forced+`
+|`+Boolean+`
+|Define if a group has been 'forced' on the Start Screen
+
+|`+hidden+`
+|`+Boolean+`
+|Define if a group is hidden for the user
+
+|`+personal+`
+|`+Boolean+`
+|Define if the group belong to a user
+
+|`+hideOnHub+`
+|`+Boolean+`
+|Define if a group is visible on the Breezie Hub
+
+|`+scope.organizationId+`
+|`+String+`
+|ID of the organization that the group belongs to
+
+|`+scope.regionId+`
+|`+String+`
+|ID of the region that the group belongs to
+
+|`+scope.campusId+`
+|`+Null+`
+|ID of the campus that the group belongs to
+
+|`+scope.facilityId+`
+|`+Null+`
+|ID of the facility that the group belongs to
+
+|`+scope.userId+`
+|`+Null+`
+|ID of the user that the group belongs to
+
+|===

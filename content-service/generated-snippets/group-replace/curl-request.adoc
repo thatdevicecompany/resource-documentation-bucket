@@ -1,0 +1,18 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/groups/cf3e5662-9f53-47ae-a528-9d59dc277165' -i -X PATCH \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -d '{
+  "name" : null,
+  "description" : null,
+  "imageUrl" : null,
+  "scope" : null,
+  "isDefault" : true,
+  "promote" : true,
+  "forced" : null,
+  "hidden" : null,
+  "personal" : null,
+  "hideOnHub" : null
+}'
+----
