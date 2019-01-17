@@ -12,7 +12,7 @@
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a"
   },
-  "groupIds" : [ "04f2d934-e2f7-4aeb-895e-a41fd14b2488" ]
+  "groupIds" : [ "80857623-ed99-4edc-9ff5-3e3b8b1e4421" ]
 }, {
   "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
   "username" : "david.jones@breezie.com",
@@ -25,6 +25,6 @@
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
-  "groupIds" : [ "04f2d934-e2f7-4aeb-895e-a41fd14b2488" ]
+  "groupIds" : [ "80857623-ed99-4edc-9ff5-3e3b8b1e4421" ]
 } ]
 ----

@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ http GET 'https://api.breezie.com/groups/04f2d934-e2f7-4aeb-895e-a41fd14b2488/users' \
+$ http GET 'https://api.breezie.com/groups/80857623-ed99-4edc-9ff5-3e3b8b1e4421/users' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
