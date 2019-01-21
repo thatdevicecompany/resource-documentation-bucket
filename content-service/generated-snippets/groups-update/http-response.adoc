@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 590
 
 {
-  "id" : "3be72ea4-1097-4cfb-bf25-2481f6036e76",
+  "id" : "fa86cde9-6675-4cec-8b4b-5ab776609bbc",
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",

@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "d3e6eba5-15d1-43a6-887e-a61207bf7c26",
+  "id" : "a40e6da7-6431-4a5f-8f24-1f27cba49793",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",

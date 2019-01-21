@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "b79f5bae-6da4-4ccd-a122-a728d6cf76d8",
+  "id" : "53162adf-df7c-406f-91cf-e5fc87930cb6",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
