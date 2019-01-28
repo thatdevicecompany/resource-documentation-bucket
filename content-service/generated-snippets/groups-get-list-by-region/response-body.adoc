@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "ad7a5149-60f2-43c1-b83f-d69120ad0959",
+  "id" : "63c4700f-ff2a-4f39-82b5-d14c656ee79a",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
