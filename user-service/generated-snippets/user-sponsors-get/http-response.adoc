@@ -1,15 +1,17 @@
 [source,http,options="nowrap"]
 ----
 HTTP/1.1 200 OK
+X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
+ETag: "0a5189723c00295fa054b3dad6178443d"
+Content-Length: 556
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 556
 
 [ {
-  "id" : "3db393c6-e1bf-4797-a501-35544dae0183",
+  "id" : "022fbfd6-0a45-4d57-908c-44643f2ca0fa",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",

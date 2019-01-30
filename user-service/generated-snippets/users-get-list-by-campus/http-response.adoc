@@ -1,12 +1,14 @@
 [source,http,options="nowrap"]
 ----
 HTTP/1.1 200 OK
+X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
+ETag: "0f460d84c0b6b5a9c2344f4701a35fb4c"
+Content-Length: 1390
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 1390
 
 [ {
   "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -42,7 +44,7 @@ Content-Length: 1390
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "2a47e044-06a9-4688-b652-6982c2f38db7" ],
+  "sponsors" : [ "d6e05e54-659f-4dff-933d-e904ea1f5e7f" ],
   "sponsees" : [ ]
 } ]
 ----
