@@ -3,7 +3,7 @@
 $ echo '{
   "name" : "Summer Gardening",
   "description" : "A group for those intersted in summer gardening"
-}' | http PATCH 'https://api.breezie.com/groups/a55f7b68-2392-4d06-bd45-49a09b061caa' \
+}' | http PATCH 'https://api.breezie.com/groups/bd16c871-2a1a-4d28-9969-d57d1f441d35' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
