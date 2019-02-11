@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PATCH /sponsorRequests/1fecc45a-e9ef-4cef-bb4d-bf5f23c68df3 HTTP/1.1
+PATCH /sponsorRequests/9625d8a1-70e0-4128-a661-812770595e88 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json;charset=UTF-8
 Host: api.breezie.com
