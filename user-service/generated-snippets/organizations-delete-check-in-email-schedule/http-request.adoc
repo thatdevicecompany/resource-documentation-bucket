@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /organizations/test-organization-id/check-in-email-schedules/6a3f782d-637e-4657-9d73-9fbabd97b6a5 HTTP/1.1
+DELETE /organizations/test-organization-id/check-in-email-schedules/bc5e8e78-6c0e-4407-a59b-17edcefac709 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 
