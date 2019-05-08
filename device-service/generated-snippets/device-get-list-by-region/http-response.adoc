@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "7bcbacd9-fb2a-45c7-b463-1c116ca40ece",
+  "id" : "93c000da-2a5a-4a83-a828-b225a70dec66",
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -28,7 +28,7 @@ Content-Length: 1248
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   }
 }, {
-  "id" : "c5c9c7d7-537d-466b-81c6-7cc1e2f54a08",
+  "id" : "0e15f732-3853-4365-a527-51049e347082",
   "serialNumber" : "R52G5ABX16XV",
   "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
