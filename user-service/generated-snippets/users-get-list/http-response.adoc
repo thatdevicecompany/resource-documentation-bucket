@@ -3,7 +3,7 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "0f6a82b7b2b9cc2e8d401f510763c5be2"
+ETag: "0181e8d2d95a7749c8cd98a5522689ffa"
 Content-Length: 2372
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -11,7 +11,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "id" : "439acd86-3c93-42f6-b9e1-433f3de8598a",
+  "id" : "73d84d61-dd7d-4b7e-b235-59fe5b533582",
   "username" : "sarah.francis@email.com",
   "firstName" : "Sarah",
   "lastName" : "Francis",
@@ -44,7 +44,7 @@ X-Frame-Options: DENY
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "a09ff6f9-135e-4f56-9c4c-be10af12133d" ],
+  "sponsors" : [ "213f7c5e-7e8b-45ea-b37b-6e5d2a4ea852" ],
   "sponsees" : [ ]
 }, {
   "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -65,7 +65,7 @@ X-Frame-Options: DENY
   "sponsors" : [ ],
   "sponsees" : [ ]
 }, {
-  "id" : "a09ff6f9-135e-4f56-9c4c-be10af12133d",
+  "id" : "213f7c5e-7e8b-45ea-b37b-6e5d2a4ea852",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",

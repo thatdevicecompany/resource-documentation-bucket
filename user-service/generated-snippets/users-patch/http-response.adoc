@@ -25,7 +25,7 @@ X-Frame-Options: DENY
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "359d68c6-2519-447a-9943-0d838019860f" ],
+  "sponsors" : [ "2e0a764f-4bae-4f68-8807-1e76bc643644" ],
   "sponsees" : [ ]
 }
 ----
