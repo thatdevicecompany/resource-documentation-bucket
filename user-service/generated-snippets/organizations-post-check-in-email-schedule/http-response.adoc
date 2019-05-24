@@ -3,17 +3,18 @@
 HTTP/1.1 201 Created
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-Content-Length: 178
+Content-Length: 223
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 {
-  "scheduleId" : "ae1311fc-09a7-46a7-927c-4e111ddf01e2",
+  "scheduleId" : "7baddf87-e043-4667-bc8a-0e2fbb95b4df",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
-  "timeZone" : "time-zone-test"
+  "timeZone" : "time-zone-test",
+  "timeZoneDisplay" : "Greenwich Mean Time"
 }
 ----

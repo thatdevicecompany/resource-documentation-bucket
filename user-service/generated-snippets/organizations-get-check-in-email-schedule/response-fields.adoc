@@ -21,4 +21,8 @@
 |`String`
 |Time Zone which hour and minute is specified
 
+|`[].timeZoneDisplay`
+|`String`
+|Time Zone which hour and minute is specified
+
 |===

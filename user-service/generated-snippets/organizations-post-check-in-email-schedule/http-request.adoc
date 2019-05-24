@@ -4,12 +4,13 @@ POST /organizations/test-organization-id/check-in-email-schedules HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json;charset=UTF-8
 Host: api.breezie.com
-Content-Length: 121
+Content-Length: 149
 
 {
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
-  "timeZone" : "time-zone-test"
+  "timeZone" : "time-zone-test",
+  "timeZoneDisplay" : null
 }
 ----
