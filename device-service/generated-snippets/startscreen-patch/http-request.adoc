@@ -1,0 +1,15 @@
+[source,http,options="nowrap"]
+----
+PATCH /devices/b6429b93-0f3e-4079-9db2-385560fa61dd/startscreen HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json
+Host: api.breezie.com
+Content-Length: 204
+
+{
+  "title" : "Candy Crash Saga",
+  "imageUrl" : "https://lh5.ggpht.com/81M05pEyFiOqKt8CashUoz66iJAhL-3PHHbAil108QkU9sKeVZBuZaNJiV7b0gZ2GFU",
+  "type" : "APP",
+  "action" : "app:com.king.candycrushsaga"
+}
+----

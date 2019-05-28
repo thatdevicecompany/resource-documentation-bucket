@@ -18,7 +18,8 @@ behave.
 *** <<resources-deviceSettings-update, Replace settings for a devices>>
 ** <<resources-device-startscreen, Start Screen>>
 *** <<resources-device-startscreen-get, Retrieve StartScreen>>
-*** <<resources-device-startscreen-put, Update StartScreen>>
+*** <<resources-device-startscreen-put, Replace StartScreen>>
+*** <<resources-device-startscreen-patch, Update StartScreen>>
 
 
 [[device-structure]]
@@ -236,7 +237,7 @@ include::{device-snippets}/startscreen-get/http-response.adoc[]
 
 
 [[resources-device-startscreen-put]]
-====== Update StartScreen
+====== Replace StartScreen
 A `PUT` request to `/devices/{id}/startscreen` will update the Start Screen configuration of the
 Device identified by `id`.
 
@@ -252,6 +253,23 @@ include::{device-snippets}/startscreen-put/curl-request.adoc[]
 
 include::{device-snippets}/startscreen-put/http-response.adoc[]
 
+
+[[resources-device-startscreen-patch]]
+====== Update StartScreen
+A `PATCH` request to `/devices/{id}/startscreen` will add an item to the existed  startscreen configuration of the
+device identified by `id`.
+
+====== Structure
+
+include::{device-snippets}/startscreen-patch/request-fields.adoc[]
+
+====== Example request
+
+include::{device-snippets}/startscreen-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/startscreen-patch/http-response.adoc[]
 
 
 
