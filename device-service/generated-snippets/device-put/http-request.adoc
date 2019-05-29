@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /devices/5397f521-16f9-4f9b-bd85-31828564fdeb HTTP/1.1
+PUT /devices/c6c65049-1e61-4394-9e21-8405b034cc79 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: api.breezie.com
