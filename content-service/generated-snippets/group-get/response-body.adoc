@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "db1f479c-ef67-4fe4-acb2-b1a032f2854b",
+  "id" : "a8219712-7f39-4473-a931-59ddd33c346f",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",

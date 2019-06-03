@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 991
+Content-Length: 1065
 
 [ {
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
@@ -18,24 +18,28 @@ Content-Length: 991
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "3121dbf8-2da3-4665-af29-5f994337631a",
+  "groupId" : "23aac2b2-efd4-4c35-a31c-29aead7a917c",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
-  "blockNotification" : false
+  "blockNotification" : false,
+  "tags" : null,
+  "aliases" : null
 }, {
-  "id" : "ee1d22de-4e0d-4057-8bff-938e9cfdeb16",
+  "id" : "640d45f5-36be-43b3-afb0-2d1ae0ca93ae",
   "title" : "Gardening",
   "description" : "Helpful app, informing you when best to water those flowers",
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "3121dbf8-2da3-4665-af29-5f994337631a",
+  "groupId" : "23aac2b2-efd4-4c35-a31c-29aead7a917c",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
-  "blockNotification" : false
+  "blockNotification" : false,
+  "tags" : null,
+  "aliases" : null
 } ]
 ----

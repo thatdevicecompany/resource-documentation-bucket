@@ -11,7 +11,7 @@ $ echo '{
   "hidden" : null,
   "personal" : null,
   "hideOnHub" : null
-}' | http PATCH 'https://api.breezie.com/groups/81d3407d-9766-4b4c-a4eb-48aadfb988d1' \
+}' | http PATCH 'https://api.breezie.com/groups/1aea3b2d-ef74-46f4-a3fe-c31c3f60fd57' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
