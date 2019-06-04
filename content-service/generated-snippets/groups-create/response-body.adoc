@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "5a6e66aa-024f-4896-a0d3-b285f7a7cb66",
+  "id" : "f9d1054d-5aa1-4acd-a992-5c63e6eea2de",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",

@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ http GET 'https://api.breezie.com/applications/search/findByGroupId?id=b2162049-f07e-4242-a318-e5dbc7f6c85b' \
+$ http GET 'https://api.breezie.com/applications/search/findByGroupId?id=c48bcdac-9ad6-4585-a424-a57295fb0c99' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

@@ -53,8 +53,4 @@
 |`+Null+`
 |Semantic tags associated to the application
 
-|`+aliases+`
-|`+Null+`
-|Semantic aliases associated to the application
-
 |===
