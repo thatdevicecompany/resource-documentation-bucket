@@ -50,7 +50,7 @@
 |Whether to block this application from showing notifications
 
 |`+tags+`
-|`+Null+`
+|`+Array+`
 |Semantic tags associated to the application
 
 |===

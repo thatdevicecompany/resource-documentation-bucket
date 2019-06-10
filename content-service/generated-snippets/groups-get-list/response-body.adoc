@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "f402ac49-a07b-4738-a09e-802944584fa2",
+  "id" : "ab19d08e-d2b4-4a3d-a5ae-1682e27ba80a",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
@@ -19,7 +19,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "2d3841d1-d51b-4478-8956-408d3c563883",
+  "id" : "1574c74b-51d3-4c6e-9b68-a969cb1bf73e",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -37,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "a49ae06e-af84-497b-9582-e98866713557",
+  "id" : "2409ffeb-f0af-4406-8f51-7ea038cab7b7",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -55,7 +55,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "32094e15-585d-446f-b2f6-d4492926104c",
+  "id" : "8e7caca5-eb3d-41aa-b224-0ae79090f14f",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",

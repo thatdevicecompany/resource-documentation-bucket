@@ -4,7 +4,7 @@ POST /applications HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
-Content-Length: 431
+Content-Length: 456
 
 {
   "title" : "Gardening",
@@ -12,11 +12,12 @@ Content-Length: 431
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "03b757e1-64b2-4e83-adc9-17ab7b0e78a3",
+  "groupId" : "94e227f9-7232-47db-a339-a35ce3cf379a",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
-  "blockNotification" : false
+  "blockNotification" : false,
+  "tags" : [ "garden" ]
 }
 ----
