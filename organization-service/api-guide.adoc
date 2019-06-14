@@ -1,4 +1,4 @@
-:device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/candidates/device-service
+:device-service-source: https://raw.githubusercontent.com/thatdevicecompany/resource-documentation-bucket/master/device-service
 
 An `organization` is a representation of an institution where other resources of the system like `users`, `devices`,
 `contents`... will be allocated. This resource is the top of an pyramidal structure called <<scope,scope>> composed by
