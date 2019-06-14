@@ -49,4 +49,8 @@
 |`+Boolean+`
 |Whether to block this application from showing notifications
 
+|`+tags+`
+|`+Array+`
+|Semantic tags associated to the application
+
 |===
