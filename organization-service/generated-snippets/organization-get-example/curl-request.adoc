@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/organizations/092c47fc-fbcd-4601-b315-c59908fe04f3' -i -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json'
+$ curl 'https://api.breezie.com/organizations/44f8c70d-0483-412e-a971-87d4e98b5117' -i -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json'
 ----

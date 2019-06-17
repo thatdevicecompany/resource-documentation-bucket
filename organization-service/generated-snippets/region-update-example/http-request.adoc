@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /regions/7079414d-5b13-4540-a976-f526b1f0aeb1 HTTP/1.1
+PUT /regions/711fe02a-4868-4fd0-9f9e-5655f3766607 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
@@ -10,6 +10,6 @@ Content-Length: 112
 {
   "name" : "Maramures",
   "country" : "Romania",
-  "organizationId" : "b9c94d5c-a177-4499-ae10-53ec58aedd6a"
+  "organizationId" : "c75c6cbe-52f9-464e-9c3d-0fd12aef9098"
 }
 ----
