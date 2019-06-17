@@ -1,0 +1,20 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+X-Application-Context: application:test:-1
+Content-Type: application/json;charset=UTF-8
+Content-Length: 223
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+
+{
+  "scheduleId" : "778329d6-30fb-44d0-aca4-85b37eee67b6",
+  "receivers" : "test1@breezie.com,test2@breezie.com",
+  "hour" : 9,
+  "minute" : 30,
+  "timeZone" : "time-zone-test",
+  "timeZoneDisplay" : "Greenwich Mean Time"
+}
+----

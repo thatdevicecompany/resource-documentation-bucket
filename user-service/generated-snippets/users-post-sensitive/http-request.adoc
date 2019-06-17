@@ -2,7 +2,7 @@
 ----
 POST /users/dft54er4-8709-9iyt-ht5r67ytg4df/sensitive HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
-Content-Type: application/json
+Content-Type: application/json;charset=UTF-8
 Host: api.breezie.com
 Content-Length: 139
 
