@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 869
+Content-Length: 927
 
 [ {
   "name" : "Kaufland",
@@ -21,9 +21,10 @@ Content-Length: 869
   "disabled" : false,
   "customTC" : false,
   "checkInActive" : false,
-  "id" : "4d79170c-f442-469f-ae0f-aca398c5349f",
-  "createdTime" : 1560757836506,
-  "lastUpdatedTime" : 1560757836506,
+  "videoCallActive" : false,
+  "id" : "2964eb8e-c976-4bec-9425-dff75264f636",
+  "createdTime" : 1562583171457,
+  "lastUpdatedTime" : 1562583171457,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : true
@@ -37,9 +38,10 @@ Content-Length: 869
   "disabled" : false,
   "customTC" : false,
   "checkInActive" : false,
-  "id" : "6d46fc66-6aa4-42bd-9196-67421239c3ab",
-  "createdTime" : 1560757836505,
-  "lastUpdatedTime" : 1560757836505,
+  "videoCallActive" : false,
+  "id" : "942e360e-6025-4ccc-8196-07694a3efd0a",
+  "createdTime" : 1562583171455,
+  "lastUpdatedTime" : 1562583171455,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false

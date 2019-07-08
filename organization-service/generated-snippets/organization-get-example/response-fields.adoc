@@ -29,6 +29,14 @@
 |`String`
 |Flag indicating if the organization is a demo one or not
 
+|`checkInActive`
+|`Boolean`
+|Flag indicating if the organization support user's check-in feature
+
+|`videoCallActive`
+|`Boolean`
+|Flag indicating if the organization support video call feature
+
 |`createdBy`
 |`String`
 |The one who created the organization
