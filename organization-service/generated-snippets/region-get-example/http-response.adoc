@@ -12,12 +12,12 @@ X-Frame-Options: DENY
 Content-Length: 282
 
 {
-  "id" : "4d91299e-2be8-409c-8827-1ee72f1545ef",
+  "id" : "991a82a6-45cd-4850-a8ce-44295227f0d0",
   "name" : "Auckland",
   "country" : "New Zealand",
-  "organizationId" : "0d4d6d39-2a35-4499-a65f-cb17b625fb26",
-  "createdTime" : 1560757933360,
-  "lastUpdatedTime" : 1560757933360,
+  "organizationId" : "9e8f8eeb-ef2e-487a-90e1-bfec7d078ada",
+  "createdTime" : 1562656266910,
+  "lastUpdatedTime" : 1562656266910,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
