@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 456
+Content-Length: 427
 
 {
   "name" : "Breezie",
@@ -21,10 +21,9 @@ Content-Length: 456
   "disabled" : false,
   "customTC" : false,
   "checkInActive" : false,
-  "videoCallActive" : false,
-  "id" : "dd32a4bf-1d51-43b0-b9c1-0dab4a88ed2b",
-  "createdTime" : 1562656215219,
-  "lastUpdatedTime" : 1562656215219,
+  "id" : "87aaf48f-3787-4218-bcc4-b7eaafc586b6",
+  "createdTime" : 1564072635379,
+  "lastUpdatedTime" : 1564072635379,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false

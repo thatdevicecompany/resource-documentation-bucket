@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 512
 
 {
-  "id" : "5e277c6b-855a-4842-b1ec-ecc9f27e97e4",
+  "id" : "af2951f9-0fba-4232-9601-5bd63a9a44d2",
   "name" : "Robertson",
   "addressLine1" : "Dowson Lake street nr 5",
   "addressLine2" : "Floor nr. 4",
@@ -23,8 +23,8 @@ Content-Length: 512
   "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
   "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
   "createdBy" : "user",
-  "createdTime" : 1562656254333,
+  "createdTime" : 1564072714237,
   "updatedBy" : "user",
-  "lastUpdatedTime" : 1562656254333
+  "lastUpdatedTime" : 1564072714237
 }
 ----

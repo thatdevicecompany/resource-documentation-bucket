@@ -12,12 +12,12 @@ X-Frame-Options: DENY
 Content-Length: 310
 
 {
-  "id" : "22c90ec2-bcc9-4d07-baee-1aa3ba4dceff",
+  "id" : "270b9969-24c4-408d-b981-0facc42da27e",
   "name" : "Wellington",
   "organizationId" : "58ioa3fg-703e-49b3-8670-b1c468f47f1f",
   "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-  "createdTime" : 1562656257096,
-  "lastUpdatedTime" : 1562656257096,
+  "createdTime" : 1564072717463,
+  "lastUpdatedTime" : 1564072717463,
   "createdBy" : "user",
   "updatedBy" : "user"
 }
