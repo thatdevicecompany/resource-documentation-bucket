@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /regions/25b6a60b-097e-45a8-8e8e-cbe972f1ae46 HTTP/1.1
+DELETE /regions/302b96a4-0e7b-49b1-bdb2-9d6c2f413994 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 

@@ -3,5 +3,5 @@
 $ echo '{
   "name" : "Kensington",
   "country" : "UK"
-}' | http PATCH 'https://api.breezie.com/regions/8ff71dce-5316-43c0-b8cc-30de837fea9a' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/regions/a5e00d77-d6b8-4388-8024-2dbb391aa267' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
 ----
