@@ -96,6 +96,15 @@ include::{user-snippets}/users-get/curl-request.adoc[]
 
 include::{user-snippets}/users-get/http-response.adoc[]
 
+===== Retrieve a User By Username
+
+A `GET` request to `/users/search/findByUsername?username={username}` will retrieve the User identified by `username`
+
+====== Example request
+
+include::{user-snippets}/users-get-by-username/curl-request.adoc[]
+
+
 [[resources-profile-create]]
 ===== Create a User
 
