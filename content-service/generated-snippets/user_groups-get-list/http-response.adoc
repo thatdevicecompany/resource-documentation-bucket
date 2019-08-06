@@ -23,7 +23,7 @@ Content-Length: 1026
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a"
   },
-  "groupIds" : [ "f7f2e344-644a-4dfe-a0ff-9a4c6be47729" ]
+  "groupIds" : [ "05af8fb3-c64e-401d-bc44-fda4dfe04f57" ]
 }, {
   "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
   "username" : "david.jones@breezie.com",
@@ -36,6 +36,6 @@ Content-Length: 1026
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
-  "groupIds" : [ "f7f2e344-644a-4dfe-a0ff-9a4c6be47729" ]
+  "groupIds" : [ "05af8fb3-c64e-401d-bc44-fda4dfe04f57" ]
 } ]
 ----
