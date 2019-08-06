@@ -12,25 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 2262
 
 [ {
-  "id" : "e0cc0fa0-ee6b-46c9-8d43-d2f331da596c",
-  "name" : "Games",
-  "description" : "A group for all the games enthusiasts",
-  "imageUrl" : "www.games-group.co.uk/logo.jpg",
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : null,
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "bb6b1317-d668-4458-a3bf-71f871e53238",
+  "id" : "73c00ce0-0cb6-4620-8f77-f3e07b57e196",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -48,7 +30,25 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "36b559b8-5bf6-4e15-b84b-47d34c07f15b",
+  "id" : "0e6234f3-96d4-4f9d-9e3d-b4a4b77bc8f0",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "3498db20-0234-4037-b2aa-3315c12f7458",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
@@ -66,15 +66,15 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "d55780dd-14b9-4ae0-83bb-428c2182f7ca",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "95779a3f-a2b8-4a2c-8b92-9a1ee642aaa2",
+  "name" : "Games",
+  "description" : "A group for all the games enthusiasts",
+  "imageUrl" : "www.games-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "campusId" : null,
+    "facilityId" : null,
     "userId" : null
   },
   "isDefault" : true,

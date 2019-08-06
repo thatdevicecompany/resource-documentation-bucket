@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 2865
 
 [ {
-  "id" : "068b5f77-5835-4b54-ab9f-4a1afdf6d36f",
+  "id" : "cbecf72b-8059-4756-a91f-accae43796e7",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -30,7 +30,7 @@ Content-Length: 2865
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "42f24cdd-1564-4e78-954e-300b19565e15",
+  "id" : "8d720157-633d-47ea-9ff3-750c6eb60d73",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -48,25 +48,7 @@ Content-Length: 2865
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "019b7718-eba5-443b-a526-bfe1bbbd80ad",
-  "name" : "Books",
-  "description" : "Discover a library of diverse books",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "657bfc12-6d82-4d4d-85cb-03176599f28e",
+  "id" : "36e9754e-62fb-4c07-bcaf-8257e57db015",
   "name" : "Breezie",
   "description" : "Default content for Breezie users",
   "imageUrl" : "https://breezie.com/logo",
@@ -84,7 +66,25 @@ Content-Length: 2865
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "8f39de6c-a097-4b63-bae1-7bd668392c51",
+  "id" : "945266d4-8416-4c8f-84a0-5382c4179845",
+  "name" : "Books",
+  "description" : "Discover a library of diverse books",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "facilityId" : null,
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "37ea0285-d353-4cb6-9fbc-c63ac1a87030",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",

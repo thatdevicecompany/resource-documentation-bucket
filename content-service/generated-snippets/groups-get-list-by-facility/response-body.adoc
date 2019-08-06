@@ -1,25 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "12daf576-5a8f-415a-9895-16670506d4ee",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "863261e1-b36e-49c2-8d82-135ff7e0df6f",
+  "id" : "92fb059b-8629-4637-b128-c6ff3e5a4145",
   "name" : "Personal",
   "description" : "Personal group",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -37,10 +19,28 @@
   "personal" : true,
   "hideOnHub" : false
 }, {
-  "id" : "3d028ca4-6b30-4dea-b997-3ade8cab759f",
+  "id" : "828baf8b-14ce-4ff6-94cf-1bb50b0c5fde",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "f9b95ca2-e998-4511-9c6f-8393dffa7d7e",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
