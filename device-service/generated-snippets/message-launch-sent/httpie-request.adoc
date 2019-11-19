@@ -1,0 +1,9 @@
+[source,bash]
+----
+$ echo '{
+  "messageType" : "launch",
+  "data" : {
+    "packageName" : "app:com.breezie.apps.video.VideoCall"
+  }
+}' | http POST 'https://api.breezie.com/devices/fdc33fb2-ae9d-4447-b40e-1fc7f76351ba/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+----
