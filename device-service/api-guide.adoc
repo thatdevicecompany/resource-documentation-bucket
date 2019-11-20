@@ -1,4 +1,4 @@
-A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
+BREEZIETEST A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
 by the User who owns the Device. The resources have a set of configurations (`settings`) that can alter how they
 behave.
 
