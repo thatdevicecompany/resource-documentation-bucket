@@ -20,11 +20,10 @@ behave.
 *** <<resources-device-startscreen-get, Retrieve StartScreen>>
 *** <<resources-device-startscreen-put, Replace StartScreen>>
 *** <<resources-device-startscreen-patch, Update StartScreen>>
-
-
 ** <<resources-device-messages, Messages>>
 *** <<resources-device-messages-all, Send synchronization message>>
 *** <<resources-device-messages-launch, Send 'launch-app' message>>
+*** <<resources-device-messages-multiple, Send message to multiple devices>>
 
 [[device-structure]]
 ==== Structure
@@ -332,26 +331,6 @@ include::{device-snippets}/breezie-settings-put/curl-request.adoc[]
 include::{device-snippets}/breezie-settings-put/http-response.adoc[]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[resources-device-messages]]
 ==== Messages
 Messages are data structure that can be sent to a device. The device will act in different ways depends on the nature of
@@ -400,6 +379,7 @@ the message
 Notifications are `broadcast` messages managed by our notification app on the device
 
 
+[[resources-device-messages-all]]
 ===== Send message
 A `POST` request to `/devices/{id}/messages` will send an asynchronous message to the Device identified by `id`. The action
 the device will trigger depends on the type of message and the data associated.
@@ -416,7 +396,7 @@ include::{device-snippets}/message-all-sent/curl-request.adoc[]
 
 include::{device-snippets}/message-all-sent/http-response.adoc[]
 
-
+[[resources-device-messages-launch]]
 ====== Example request (launch app message)
 
 include::{device-snippets}/message-launch-sent/curl-request.adoc[]
@@ -426,6 +406,7 @@ include::{device-snippets}/message-launch-sent/curl-request.adoc[]
 include::{device-snippets}/message-launch-sent/http-response.adoc[]
 
 
+[[resources-device-messages-multiple]]
 ===== Send message to multiple devices
 A `POST` request to `/devices/messages` will send an asynchronous message to a set of device specified in the body. The action
 the device will trigger depends on the type of message and the data associated.
