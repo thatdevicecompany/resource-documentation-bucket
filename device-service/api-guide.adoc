@@ -344,7 +344,7 @@ the message
 
 
 |launch
-|Opens the app specified in the `Payload`.
+|Opens the app specified in the `payload` on the device.
 
 |wipe
 |Starts the `factory reset` process on the device.
@@ -386,15 +386,15 @@ the device will trigger depends on the type of message and the data associated.
 
 ====== Structure
 
-include::{device-snippets}/message-all-sent/request-fields.adoc[]
+include::{device-snippets}/message-broadcast-sent/request-fields.adoc[]
 
-====== Example request (sync message)
+====== Example request (notification message)
 
-include::{device-snippets}/message-all-sent/curl-request.adoc[]
+include::{device-snippets}/message-broadcast-sent/curl-request.adoc[]
 
-====== Example response (sync message)
+====== Example response (notification message)
 
-include::{device-snippets}/message-all-sent/http-response.adoc[]
+include::{device-snippets}/message-broadcast-sent/http-response.adoc[]
 
 [[resources-device-messages-launch]]
 ====== Example request (launch app message)

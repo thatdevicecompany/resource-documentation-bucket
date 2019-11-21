@@ -1,7 +1,7 @@
 [source,bash]
 ----
 $ curl 'https://api.breezie.com/devices/messages' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json;charset=UTF-8' -d '{
-  "devices" : [ "285ad020-ed72-4128-914c-ee362074c413", "d8ffeba9-c0b5-4c91-af7e-80eaa9397d4e" ],
+  "devices" : [ "f878f570-ae37-4a44-ad1d-9d65db6aa861", "e3fd6958-bdec-4922-b552-8095a4fb4225" ],
   "messageType" : "all",
   "data" : { }
 }'

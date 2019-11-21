@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`messageType`
+|`String`
+|type of message to send
+
+|`data`
+|`Object`
+|json object with data required depending on the type of message sent
+
+|===
