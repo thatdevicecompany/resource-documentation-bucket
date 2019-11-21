@@ -1,0 +1,424 @@
+A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
+by the User who owns the Device. The resources have a set of configurations (`settings`) that can alter how they
+behave.
+
+`StartScreen` is a sub-resource of `device` that represents the configuration of the initial screen on the
+ Device. This resource is used to manage the apps, bookmarks, categories... that the Device will show on its screen.
+
+* <<device-structure, Structure>>
+* <<devices-api, devices API>>
+** <<resources-device-list, Listing devices>>
+** <<resources-device-get, Retrieve a device>>
+** <<resources-device-create, Create a device>>
+** <<resources-device-update, Replace a device>>
+** <<resources-device-patch, Update a device>>
+** <<resources-device-delete, Delete a device>>
+** <<resources-deviceSettings, Settings>>
+*** <<resources-deviceSettings-retrieve, Retrieve settings for a devices>>
+*** <<resources-deviceSettings-update, Replace settings for a devices>>
+** <<resources-device-startscreen, Start Screen>>
+*** <<resources-device-startscreen-get, Retrieve StartScreen>>
+*** <<resources-device-startscreen-put, Replace StartScreen>>
+*** <<resources-device-startscreen-patch, Update StartScreen>>
+** <<resources-device-messages, Messages>>
+*** <<resources-device-messages-all, Send synchronization message>>
+*** <<resources-device-messages-launch, Send 'launch-app' message>>
+*** <<resources-device-messages-multiple, Send message to multiple devices>>
+
+[[device-structure]]
+==== Structure
+include::{device-snippets}/device-get/response-fields.adoc[]
+
+[[devices-api]]
+==== Devices API
+
+[[resources-device-list]]
+===== Listing devices
+
+A `GET` request to `/devices` will list all Devices accessible by the User who made the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-get-list/http-response.adoc[]
+
+===== Listing Devices by Organization
+
+A `GET` request to `/devices/search/findByOrganizationId?id=[organization-id]` will list all the Devices belonging
+to the Organization chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-organization/curl-request.adoc[]
+
+===== Listing Devices by Region
+
+A `GET` request to `/devices/search/findByRegionId?id=[region-id]` will list all the Devices belonging
+to the Region chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-region/curl-request.adoc[]
+
+===== Listing devices by Campus
+
+A `GET` request to `/devices/search/findByCampusId?id=[campus-id]` will list all the Devices belonging
+to the Campus chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-campus/curl-request.adoc[]
+
+===== Listing Devices by Facility
+
+A `GET` request to `/devices/search/findByFacilityId?id=[facility-id]` will list all the Devices belonging
+to the Facility chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-facility/curl-request.adoc[]
+
+[[resources-device-get]]
+===== Retrieve a Device
+
+A `GET` request to `/devices/{id}` will retrieve the Device identified by `id`.
+
+====== Example request
+
+include::{device-snippets}/device-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-get/http-response.adoc[]
+
+===== Retrieve Device by Serial Number
+
+A `GET` request to `/devices/search/findBySerialNumber?id=[serial-number]` will show the Device with the Serial Number chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-sn/curl-request.adoc[]
+
+===== Retrieve device by Android ID
+
+A `GET` request to `/devices/search/findByAndroidId?id=[android-id]` will show the Device with the Android ID chosen in the request.
+
+====== Example request
+
+include::{device-snippets}/device-get-list-by-androidId/curl-request.adoc[]
+
+
+[[resources-device-create]]
+===== Create a Device
+
+A `POST` request to `/devices` will save a new Device and return the created representation.
+
+====== Example request
+
+include::{device-snippets}/device-create/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-create/http-response.adoc[]
+
+[[resources-device-update]]
+===== Replace a Device
+
+A `PUT` request to `/devices/{id}` will update the Device identified by `id` completely.
+
+====== Example request
+
+include::{device-snippets}/device-put/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-put/http-response.adoc[]
+
+[[resources-device-patch]]
+===== Update a Device
+
+A `PATCH` request to `/devices/{id}` will update the Device identified by `id` partially.
+
+====== Example request
+
+include::{device-snippets}/device-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-patch/http-response.adoc[]
+
+[[resources-device-delete]]
+===== Delete a Device
+
+A `DELETE` request to `/devices/{id}` will delete the Device identified by `id`.
+
+====== Example request
+
+include::{device-snippets}/device-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-delete/http-response.adoc[]
+
+[[resources-deviceSettings]]
+==== Settings
+`Settings` represents a set of properties that define the Device behaviour.
+
+[NOTE]
+The set of properties that can be set on a device is defined in a `schema` that can be found on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and their restrictions.
+
+[NOTE]
+`Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
+and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at Organization and User level and properties
+set at Organization level can be overwritten at User level.
+
+[NOTE]
+The `Settings` applied to a Device is the combination of Breezie Settings, Organizations Settings
+and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
+
+[[resources-deviceSettings-retrieve]]
+===== Retrieve Settings for a Device
+A `GET` request to `/devices/{id}/settings` will list all of the the Settings applied to a particular Device. These Settings are a combination of
+Breezie Settings, Organization Settings and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
+
+====== Example request
+
+include::{device-snippets}/device-settings-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-settings-get/http-response.adoc[]
+
+
+[[resources-deviceSettings-update]]
+===== Replace Device Settings
+
+A `PUT` request to `/devices/{id}/settings` is used to save the Device Settings. This information cannot be requested from
+the API and it is stored to have the knowledge of the status of the Device.
+====== Example request
+
+include::{device-snippets}/device-settings-put/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/device-settings-put/http-response.adoc[]
+
+
+
+[[resources-device-startscreen]]
+==== Start Screen
+The Start Screen resource is composed of two attributes: the maximum number of items that can be displayed
+on the Device's screen and a sorted list of items which are candidates to show on the screen. This list of items is
+composed of the items `forced` by an admin to be on the Start Screen, the items manually `settled` on the
+screen, the items `promoted` by admins and finally the rest of items candidates to be on the screen.
+
+It is a Device job to calculate the items to show in the screen from the information provided in this endpoint.
+
+
+[[resources-device-startscreen-get]]
+===== Retrieve StartScreen
+A `GET` request to `/devices/{id}/startscreen` will return the Start Screen configuration of the
+Device identified by `id`.
+
+====== Structure
+
+include::{device-snippets}/startscreen-get/response-fields.adoc[]
+
+====== Example request
+
+include::{device-snippets}/startscreen-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/startscreen-get/http-response.adoc[]
+
+
+[[resources-device-startscreen-put]]
+====== Replace StartScreen
+A `PUT` request to `/devices/{id}/startscreen` will update the Start Screen configuration of the
+Device identified by `id`.
+
+====== Structure
+
+include::{device-snippets}/startscreen-put/request-fields.adoc[]
+
+====== Example request
+
+include::{device-snippets}/startscreen-put/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/startscreen-put/http-response.adoc[]
+
+
+[[resources-device-startscreen-patch]]
+====== Update StartScreen
+A `PATCH` request to `/devices/{id}/startscreen` will add an item to the existed  startscreen configuration of the
+device identified by `id`.
+
+====== Structure
+
+include::{device-snippets}/startscreen-patch/request-fields.adoc[]
+
+====== Example request
+
+include::{device-snippets}/startscreen-patch/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/startscreen-patch/http-response.adoc[]
+
+
+
+[[resources-device-settings]]
+=== Settings
+`Settings` represents a set of properties that define the Device behaviour.
+
+[NOTE]
+The set of properties that can be settled to a device are defined in a `schema` that can be found on
+`https://api.breezie.com/devices/schema.json`. This json document describes all the properties available and its
+restrictions.
+
+[NOTE]
+`Settings` can be defined at different levels: <<resources-device-settings, breezie level>>, <<organizations-micro-service, organization level>>
+and <<users-micro-service,user level>>. Properties defined at Breezie level can be overwritten at Organization and User level and properties set at Organization level can be overwritten at User level.
+
+[NOTE]
+The `Settings` applied to a Device is the combination of Breezie Settings, Organizations Settings
+and User Settings. In case the same property is defined at different levels, User level
+has the highest priority and Breezie level the lowest.
+
+* <<settings-api, Settings API>>
+** <<resources-settings-retrieve-by-breezie, Retrieve Settings for all devices>>
+** <<resources-settings-update-by-breezie, Replace settings for all devices>>
+
+
+[[settings-api]]
+==== Settings API
+
+
+[[resources-settings-retrieve-by-breezie]]
+===== Retrieve settings for all devices
+
+A `GET` request to `/breezie-settings` will update the set of properties settled at Breezie level.
+
+====== Example request
+
+include::{device-snippets}/breezie-settings-get/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/breezie-settings-get/http-response.adoc[]
+
+[[resources-settings-update-by-breezie]]
+===== Replace Settings for all Devices
+
+A `PUT` request to `/breezie-settings` will update the set of properties settled at Breezie level. This
+properties will be applied for all users.
+
+====== Example request
+
+include::{device-snippets}/breezie-settings-put/curl-request.adoc[]
+
+====== Example response
+
+include::{device-snippets}/breezie-settings-put/http-response.adoc[]
+
+
+[[resources-device-messages]]
+==== Messages
+Messages are data structure that can be sent to a device. The device will act in different ways depends on the nature of
+the message
+
+
+===== Message Types
+
+|===
+|Message |Description
+
+
+|launch
+|Opens the app specified in the `Payload`.
+
+|wipe
+|Starts the `factory reset` process on the device.
+
+|lock
+|It will `shut down` the device screen.
+
+|all
+|Synchronizes all the data in the device: `Settings`, Groups`, `Apps`, `Bookmarks` and `Start Screen`
+
+|settings
+|Synchronizes the device settings.
+
+|groups
+|Synchronizes the `groups` the user belongs to.
+
+|apps
+|Synchronizes the `apps` installed on the device.
+
+|bookmarks
+|Synchronizes the `bookmarks` pushed to the device.
+
+|start_screen
+|Synchronizes the home screen of the device.
+
+|broadcast
+|It will send a 'broadcast' message that will be managed in the device by the app specified in the 'payload'.
+
+|===
+
+[NOTE]
+Notifications are `broadcast` messages managed by our notification app on the device
+
+
+[[resources-device-messages-all]]
+===== Send message
+A `POST` request to `/devices/{id}/messages` will send an asynchronous message to the Device identified by `id`. The action
+the device will trigger depends on the type of message and the data associated.
+
+====== Structure
+
+include::{device-snippets}/message-all-sent/request-fields.adoc[]
+
+====== Example request (sync message)
+
+include::{device-snippets}/message-all-sent/curl-request.adoc[]
+
+====== Example response (sync message)
+
+include::{device-snippets}/message-all-sent/http-response.adoc[]
+
+[[resources-device-messages-launch]]
+====== Example request (launch app message)
+
+include::{device-snippets}/message-launch-sent/curl-request.adoc[]
+
+====== Example response (launch app message)
+
+include::{device-snippets}/message-launch-sent/http-response.adoc[]
+
+
+[[resources-device-messages-multiple]]
+===== Send message to multiple devices
+A `POST` request to `/devices/messages` will send an asynchronous message to a set of device specified in the body. The action
+the device will trigger depends on the type of message and the data associated.
+
+====== Structure
+
+include::{device-snippets}/multi-message-all-sent/request-fields.adoc[]
+
+====== Example request (sync message)
+
+include::{device-snippets}/multi-message-all-sent/curl-request.adoc[]
+
+====== Example response (sync message)
+
+include::{device-snippets}/multi-message-all-sent/http-response.adoc[]
