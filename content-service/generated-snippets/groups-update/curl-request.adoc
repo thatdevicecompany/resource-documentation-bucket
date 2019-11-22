@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/groups/1cfb4a1b-8ead-426a-b331-d4117786e010' -i -X PUT \
+$ curl 'https://api.breezie.com/groups/14cff501-4c10-400c-bd61-c543668ba545' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{

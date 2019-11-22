@@ -1,0 +1,28 @@
+[source,options="nowrap"]
+----
+[ {
+  "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
+  "url" : "www.wintergardening.com",
+  "name" : "Winter Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "3eda823d-762c-401a-9900-b0fd6208c8b2",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}, {
+  "id" : "1e8ed9e5-1897-4df2-ba73-48bb7a79422c",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "3eda823d-762c-401a-9900-b0fd6208c8b2",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+} ]
+----

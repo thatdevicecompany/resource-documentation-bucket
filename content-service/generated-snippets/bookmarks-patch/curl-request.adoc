@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/bookmarks/b8c4d6fb-2323-4fa3-a269-b08a435581f9' -i -X PATCH \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -d '{
+  "url" : "www.gardening.com/summer",
+  "name" : "Summer Gardening"
+}'
+----

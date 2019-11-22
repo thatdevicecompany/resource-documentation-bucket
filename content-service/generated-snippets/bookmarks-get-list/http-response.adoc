@@ -1,0 +1,39 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 787
+
+[ {
+  "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
+  "url" : "www.wintergardening.com",
+  "name" : "Winter Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "3eda823d-762c-401a-9900-b0fd6208c8b2",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}, {
+  "id" : "1e8ed9e5-1897-4df2-ba73-48bb7a79422c",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "3eda823d-762c-401a-9900-b0fd6208c8b2",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+} ]
+----

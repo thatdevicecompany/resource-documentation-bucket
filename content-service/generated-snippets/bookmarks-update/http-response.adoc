@@ -1,0 +1,27 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 391
+
+{
+  "id" : "cc4a1e6f-e512-4cb0-b9f8-ee3ad3dbcd3d",
+  "url" : "www.gardening.com",
+  "name" : "Summer Gardering",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "e71fed08-f02c-417c-a5af-4cf963f36cfa",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}
+----
