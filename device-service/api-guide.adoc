@@ -21,7 +21,7 @@ behave.
 *** <<resources-device-startscreen-put, Replace StartScreen>>
 *** <<resources-device-startscreen-patch, Update StartScreen>>
 ** <<resources-device-messages, Messages>>
-*** <<resources-device-messages-all, Send synchronization message>>
+*** <<resources-device-messages-all, Send notification message>>
 *** <<resources-device-messages-launch, Send 'launch-app' message>>
 *** <<resources-device-messages-multiple, Send message to multiple devices>>
 
@@ -353,7 +353,7 @@ the message
 |It will `shut down` the device screen.
 
 |all
-|Synchronizes all the data in the device: `Settings`, Groups`, `Apps`, `Bookmarks` and `Start Screen`
+|Synchronizes all the data in the device: `Settings`, `Groups`, `Apps`, `Bookmarks` and `Start Screen`
 
 |settings
 |Synchronizes the device settings.
@@ -400,10 +400,6 @@ include::{device-snippets}/message-broadcast-sent/http-response.adoc[]
 ====== Example request (launch app message)
 
 include::{device-snippets}/message-launch-sent/curl-request.adoc[]
-
-====== Example response (launch app message)
-
-include::{device-snippets}/message-launch-sent/http-response.adoc[]
 
 
 [[resources-device-messages-multiple]]

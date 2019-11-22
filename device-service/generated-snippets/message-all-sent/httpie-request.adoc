@@ -3,5 +3,5 @@
 $ echo '{
   "messageType" : "all",
   "data" : { }
-}' | http POST 'https://api.breezie.com/devices/6680aac9-b6ea-4950-bfbf-2a4405c2b102/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+}' | http POST 'https://api.breezie.com/devices/f07bccd8-d4df-4b2c-8b18-edb3d05444a8/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
 ----
