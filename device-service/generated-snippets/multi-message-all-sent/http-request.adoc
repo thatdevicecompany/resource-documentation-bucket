@@ -1,0 +1,14 @@
+[source,http,options="nowrap"]
+----
+POST /devices/messages HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json;charset=UTF-8
+Host: api.breezie.com
+Content-Length: 141
+
+{
+  "devices" : [ "9b035f5e-acec-4fcc-bcf7-0c6a47480e98", "7239ba24-c47d-42b3-afe5-a7d15e6d9e8e" ],
+  "messageType" : "all",
+  "data" : { }
+}
+----

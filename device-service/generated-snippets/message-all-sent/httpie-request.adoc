@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "messageType" : "all",
+  "data" : { }
+}' | http POST 'https://api.breezie.com/devices/18700dcd-3582-47e9-9c15-dd126a202317/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+----

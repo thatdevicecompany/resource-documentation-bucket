@@ -1,0 +1,18 @@
+[source,http,options="nowrap"]
+----
+POST /devices/c4f8b5b9-e625-4472-865c-1beb1dfa2cb0/messages HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Content-Type: application/json;charset=UTF-8
+Host: api.breezie.com
+Content-Length: 499
+
+{
+  "messageType" : "broadcast",
+  "data" : {
+    "intentAction" : "notification",
+    "payload" : "{\"body\":\"This is a test notification\",\"subject\":\"Test Notification\",\"id\":\"c72099ef-aca3-5966-ba90-b3ba6d6bbdc5\",\"ts\":1574176240291,\"actionName\":\"triggerNotification\",\"imageUrl\":\"http://static.breezie.com/assets/breezie/Breezie_B_120x120.png\",\"volume\":50}",
+    "className" : "com.breezie.client.notifier.FutureEvent",
+    "packageName" : "app:com.breezie.apps.notifier"
+  }
+}
+----

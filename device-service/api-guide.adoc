@@ -1,4 +1,4 @@
-BREEZIETEST A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
+A `device` represents a Breezie tablet. A `device` belongs to a User, so the accessibility is defined
 by the User who owns the Device. The resources have a set of configurations (`settings`) that can alter how they
 behave.
 
@@ -20,7 +20,10 @@ behave.
 *** <<resources-device-startscreen-get, Retrieve StartScreen>>
 *** <<resources-device-startscreen-put, Replace StartScreen>>
 *** <<resources-device-startscreen-patch, Update StartScreen>>
-
+** <<resources-device-messages, Messages>>
+*** <<resources-device-messages-all, Send notification message>>
+*** <<resources-device-messages-launch, Send 'launch-app' message>>
+*** <<resources-device-messages-multiple, Send message to multiple devices>>
 
 [[device-structure]]
 ==== Structure
@@ -327,3 +330,91 @@ include::{device-snippets}/breezie-settings-put/curl-request.adoc[]
 
 include::{device-snippets}/breezie-settings-put/http-response.adoc[]
 
+
+[[resources-device-messages]]
+==== Messages
+Messages are data structure that can be sent to a device. The device will act in different ways depends on the nature of
+the message
+
+
+===== Message Types
+
+|===
+|Message |Description
+
+
+|launch
+|Opens the app specified in the `payload` on the device.
+
+|wipe
+|Starts the `factory reset` process on the device.
+
+|lock
+|It will `shut down` the device screen.
+
+|all
+|Synchronizes all the data in the device: `Settings`, `Groups`, `Apps`, `Bookmarks` and `Start Screen`
+
+|settings
+|Synchronizes the device settings.
+
+|groups
+|Synchronizes the `groups` the user belongs to.
+
+|apps
+|Synchronizes the `apps` installed on the device.
+
+|bookmarks
+|Synchronizes the `bookmarks` pushed to the device.
+
+|start_screen
+|Synchronizes the home screen of the device.
+
+|broadcast
+|It will send a 'broadcast' message that will be managed in the device by the app specified in the 'payload'.
+
+|===
+
+[NOTE]
+Notifications are `broadcast` messages managed by our notification app on the device
+
+
+[[resources-device-messages-all]]
+===== Send message
+A `POST` request to `/devices/{id}/messages` will send an asynchronous message to the Device identified by `id`. The action
+the device will trigger depends on the type of message and the data associated.
+
+====== Structure
+
+include::{device-snippets}/message-broadcast-sent/request-fields.adoc[]
+
+====== Example request (notification message)
+
+include::{device-snippets}/message-broadcast-sent/curl-request.adoc[]
+
+====== Example response (notification message)
+
+include::{device-snippets}/message-broadcast-sent/http-response.adoc[]
+
+[[resources-device-messages-launch]]
+====== Example request (launch app message)
+
+include::{device-snippets}/message-launch-sent/curl-request.adoc[]
+
+
+[[resources-device-messages-multiple]]
+===== Send message to multiple devices
+A `POST` request to `/devices/messages` will send an asynchronous message to a set of device specified in the body. The action
+the device will trigger depends on the type of message and the data associated.
+
+====== Structure
+
+include::{device-snippets}/multi-message-all-sent/request-fields.adoc[]
+
+====== Example request (sync message)
+
+include::{device-snippets}/multi-message-all-sent/curl-request.adoc[]
+
+====== Example response (sync message)
+
+include::{device-snippets}/multi-message-all-sent/http-response.adoc[]

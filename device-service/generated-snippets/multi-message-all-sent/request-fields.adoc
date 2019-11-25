@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`devices`
+|`Array`
+|List of devices where the message will be sent
+
+|`messageType`
+|`String`
+|type of message to send
+
+|`data`
+|`Object`
+|json object with data required depending on the type of message sent
+
+|===
