@@ -1,0 +1,16 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "514c9de6-464e-4de7-96d3-bf326517f724",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "918ecf10-a598-4c21-8ad8-578944a96745",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false
+}
+----

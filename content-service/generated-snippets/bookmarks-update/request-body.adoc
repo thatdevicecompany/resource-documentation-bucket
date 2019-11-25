@@ -1,0 +1,15 @@
+[source,options="nowrap"]
+----
+{
+  "url" : "www.gardening.com",
+  "name" : "Summer Gardering",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "f4300fea-291b-4043-87d9-1a4612fba059",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false,
+  "tags" : [ "garden" ]
+}
+----

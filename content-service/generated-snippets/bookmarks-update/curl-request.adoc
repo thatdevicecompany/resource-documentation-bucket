@@ -1,0 +1,18 @@
+[source,bash]
+----
+$ curl 'https://api.breezie.com/bookmarks/7aeed39c-8a95-4191-a4c6-3695523489f6' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
+    -d '{
+  "url" : "www.gardening.com",
+  "name" : "Summer Gardering",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "f4300fea-291b-4043-87d9-1a4612fba059",
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false,
+  "tags" : [ "garden" ]
+}'
+----

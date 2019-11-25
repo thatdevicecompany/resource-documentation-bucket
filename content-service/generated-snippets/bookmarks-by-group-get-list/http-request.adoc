@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+GET /bookmarks/search/findByUserId?id=17d19fc4-31d6-43ef-8d4c-04405540656e HTTP/1.1
+Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
+Host: api.breezie.com
+
+----
