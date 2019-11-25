@@ -16,7 +16,7 @@ $ echo '{
   "hidden" : true,
   "personal" : false,
   "hideOnHub" : false
-}' | http PUT 'https://api.breezie.com/groups/f5803db3-a43c-4b69-9094-669b030ac48e' \
+}' | http PUT 'https://api.breezie.com/groups/d1180cae-c67c-4dc7-8576-5b1dba9f87ed' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

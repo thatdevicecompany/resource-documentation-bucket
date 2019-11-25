@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 617
 
 {
-  "id" : "c7ed5ed3-9746-4787-82c0-83caf613af82",
+  "id" : "66d4183e-b62d-4377-aada-7d5dbc46582b",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
