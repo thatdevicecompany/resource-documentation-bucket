@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /applications/search/findByGroupId?id=10ef9d02-4fe5-45d9-8975-70fd050c4578 HTTP/1.1
+GET /applications/search/findByGroupId?id=4d00cbbf-b28b-426d-9575-3c1e0f49c2df HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 
