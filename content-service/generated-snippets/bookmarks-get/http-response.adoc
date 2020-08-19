@@ -12,12 +12,12 @@ X-Frame-Options: DENY
 Content-Length: 384
 
 {
-  "id" : "84dbfe81-724d-47b0-ae4f-f20ef1eeff40",
+  "id" : "68983ca7-7fbd-4107-8a83-bb644925df9d",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "2e35dc19-9477-438d-a7b4-fe9525fc7b8a",
+  "groupId" : "5018d196-aaa3-452e-88d2-f791c26f6574",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
