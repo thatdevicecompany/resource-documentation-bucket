@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/applications/bfa67432-a494-421b-9628-1258c954505e' -i -X PUT \
+$ curl 'https://api.breezie.com/applications/5a0a2a34-fef4-4554-8ed0-628cc81ff164' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
@@ -9,7 +9,7 @@ $ curl 'https://api.breezie.com/applications/bfa67432-a494-421b-9628-1258c954505
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "4b8e7c26-c463-4687-8355-a5a8e320bf2c",
+  "groupId" : "5b1e3dc3-9b25-4a7c-a06d-53543a7d093f",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
