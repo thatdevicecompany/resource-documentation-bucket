@@ -6,14 +6,14 @@ $ echo '{
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "5b1e3dc3-9b25-4a7c-a06d-53543a7d093f",
+  "groupId" : "9dd0ec74-394a-4649-94d3-f9dbca621dcf",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "blockUninstall" : false,
   "blockNotification" : false,
   "tags" : [ "garden" ]
-}' | http PUT 'https://api.breezie.com/applications/5a0a2a34-fef4-4554-8ed0-628cc81ff164' \
+}' | http PUT 'https://api.breezie.com/applications/e00ebf88-4849-474a-8cb1-7b94b4902138' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
