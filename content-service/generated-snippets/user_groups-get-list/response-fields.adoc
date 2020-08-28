@@ -21,6 +21,10 @@
 |`+Array+`
 |Ids of the groups which the user is subscribed
 
+|`+[].unsubscribedDefaultGroupIds+`
+|`+Array+`
+|Ids of the default groups which the user is un-subscribed
+
 |`+[].scope+`
 |`+Object+`
 |Scope object holding the access control for the resource
