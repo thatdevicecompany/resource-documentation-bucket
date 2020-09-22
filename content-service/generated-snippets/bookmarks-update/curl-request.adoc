@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/bookmarks/a2bdabdd-0155-4f76-ab2c-3286ea8d6f96' -i -X PUT \
+$ curl 'https://api.breezie.com/bookmarks/ec2d1ee4-9847-490c-9912-2b68f1025704' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
@@ -8,7 +8,7 @@ $ curl 'https://api.breezie.com/bookmarks/a2bdabdd-0155-4f76-ab2c-3286ea8d6f96' 
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "3059ffb6-31ff-4d2d-aff3-e43660c4540c",
+  "groupId" : "fa3e2046-ca6f-4d22-9522-702487b4ecc1",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

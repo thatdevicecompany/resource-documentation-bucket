@@ -12,7 +12,7 @@ Content-Length: 456
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "1ea2c6fc-fc0b-49f7-a9c8-41daf6fbaed1",
+  "groupId" : "bc053522-df8e-4786-b69e-39f6c8a312bf",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
