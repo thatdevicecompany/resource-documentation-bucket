@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "e9c7a81e-7f76-4948-a882-a064aa54f7e6",
+  "id" : "ad400c55-b583-4474-b551-a3819642bfea",
   "name" : "Summer Gardening",
   "description" : "A group for those intersted in summer gardening",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",

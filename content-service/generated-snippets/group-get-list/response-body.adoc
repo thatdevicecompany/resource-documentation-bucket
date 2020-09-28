@@ -1,7 +1,25 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "edf85d51-1255-47fb-bf9d-7bac6682e271",
+  "id" : "269b63ee-caeb-45c3-a416-addb4fde6787",
+  "name" : "Books",
+  "description" : "Discover a library of diverse books",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "facilityId" : null,
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "a6e6d18f-79dc-48fc-8a52-f0f6d6e81855",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
@@ -19,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "f1ee70e3-6c61-4403-83ec-24b8f98e76fe",
+  "id" : "addefb5c-0bbc-4d18-82f1-d5279de7efb8",
   "name" : "Breezie",
   "description" : "Default content for Breezie users",
   "imageUrl" : "https://breezie.com/logo",
@@ -37,25 +55,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "967012af-605c-4fac-ad26-3b8bb0f59efd",
-  "name" : "Entertainment",
-  "description" : "Entertainment",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "83d97a52-7ecf-4848-8014-b78cc48451ce",
+  "id" : "79c508dc-c07f-4396-923c-4656bc820518",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -73,15 +73,15 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "caa0c02a-d4ae-4273-90dc-522458bb6094",
-  "name" : "Books",
-  "description" : "Discover a library of diverse books",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
+  "id" : "9f8053d6-2241-4aaa-901d-c999a1c605bb",
+  "name" : "Entertainment",
+  "description" : "Entertainment",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : null,
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
   "isDefault" : false,
