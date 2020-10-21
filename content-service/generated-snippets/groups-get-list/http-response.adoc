@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 2262
 
 [ {
-  "id" : "2aba0730-d468-4f1b-9c32-e868a84b21f3",
+  "id" : "6cb8c2e6-fd78-4426-8f74-9fc27e6c6d46",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
@@ -30,7 +30,7 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "e3e0469d-fa61-401d-85f0-9600a521045c",
+  "id" : "3820233c-92a3-4551-8660-462a5566b1a5",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -48,15 +48,15 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "3b7aa3a6-7b30-44a3-81a4-e88b7450f062",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "b40cf26b-bcdd-4679-b9ce-1dbf9b6578e5",
+  "name" : "Travelling",
+  "description" : "A group for all the travelling enthusiasts",
+  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : null,
     "userId" : null
   },
   "isDefault" : true,
@@ -66,15 +66,15 @@ Content-Length: 2262
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "8755bd65-590b-4b0c-8f41-3e0e9f2f63bb",
-  "name" : "Travelling",
-  "description" : "A group for all the travelling enthusiasts",
-  "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
+  "id" : "3b96f3a9-bc71-4cf0-9c6f-35fa555f9d26",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : null,
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
   "isDefault" : true,

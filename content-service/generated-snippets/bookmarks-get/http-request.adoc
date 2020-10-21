@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /bookmarks/ea837410-d13d-49ff-ba69-fb1ed2ca15e9 HTTP/1.1
+GET /bookmarks/705694b1-860c-4236-88b5-bd29aa8904ff HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 

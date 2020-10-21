@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "ac5bd53f-cdf7-445e-a050-ed0071a7932a",
+  "id" : "243056f0-08d8-4795-ae49-c3a25c4fec3e",
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
