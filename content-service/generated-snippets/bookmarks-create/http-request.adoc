@@ -11,7 +11,7 @@ Content-Length: 335
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "98046b34-b9cb-4f59-a318-b603640f87e7",
+  "groupId" : "d1599590-d9d5-428f-8a45-2f1c6df13354",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
