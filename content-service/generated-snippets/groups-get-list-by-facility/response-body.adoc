@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "c747a6d4-a728-4d72-bd0c-1f3ae30444ba",
+  "id" : "a0ada911-54be-4ada-ae9f-0ff799f9b2cd",
   "name" : "Personal",
   "description" : "Personal group",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -19,7 +19,7 @@
   "personal" : true,
   "hideOnHub" : false
 }, {
-  "id" : "aae3128a-84ad-412f-a8f0-fc4f322e934e",
+  "id" : "704c3cc9-b186-4204-a707-dd84ca73c4bb",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -37,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "07558f4d-4fff-47c2-9ce7-0932c3bd5ac3",
+  "id" : "9feefbee-7420-4879-8d82-8289e06a087e",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
