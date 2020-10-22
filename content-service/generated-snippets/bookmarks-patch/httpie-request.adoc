@@ -3,7 +3,7 @@
 $ echo '{
   "url" : "www.gardening.com/summer",
   "name" : "Summer Gardening"
-}' | http PATCH 'https://api.breezie.com/bookmarks/0de0d688-3006-4eeb-8945-b36dc9744e23' \
+}' | http PATCH 'https://api.breezie.com/bookmarks/c33ecf56-a270-452b-a6c0-5e8c8f92a7d7' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

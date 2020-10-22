@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /bookmarks/cf016ada-7aa3-400c-ae17-645e7884d6f0 HTTP/1.1
+PUT /bookmarks/1061f45d-884e-4f17-9813-7b4ffc58f98f HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
@@ -11,7 +11,7 @@ Content-Length: 342
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "ce4fcbe0-83b2-4314-877d-e8caeefa01e8",
+  "groupId" : "59455930-9626-4bed-8238-1142f8fc43b2",
   "forced" : false,
   "promote" : false,
   "hidden" : false,
