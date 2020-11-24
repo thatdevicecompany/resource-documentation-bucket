@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'https://api.breezie.com/group-templates/1252553d-844b-4810-b116-4d6ae52b2c9b' \
+    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----

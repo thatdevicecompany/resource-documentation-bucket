@@ -1,25 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "6c915b54-70ff-4768-b683-0e3260f9e832",
-  "name" : "Games",
-  "description" : "Master the art of board games",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : null,
-    "campusId" : null,
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false
-}, {
-  "id" : "6bde9643-a441-4c69-a01e-ee146fed05ba",
+  "id" : "6cf5007a-7ed7-4698-b095-40f34998cac2",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -37,7 +19,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "ff205151-ed84-4070-9bb3-24ac4be86633",
+  "id" : "1a58a2c0-ee56-46a7-ac05-81856e58b3bb",
   "name" : "Breezie",
   "description" : "Default content for Breezie users",
   "imageUrl" : "https://breezie.com/logo",
@@ -55,7 +37,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "19732b7c-5dce-4e55-a45a-a4db2c2b273e",
+  "id" : "50757f62-0637-4a7c-8f17-96f7c2da1490",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -73,7 +55,7 @@
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "9bed978a-d031-421c-89ec-d2867826b86c",
+  "id" : "a65d887e-7466-42bb-a24d-8b94aeaac8df",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -82,6 +64,24 @@
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false
+}, {
+  "id" : "22b6ff8f-c39b-4a4e-8ac8-cdef983481b2",
+  "name" : "Games",
+  "description" : "Master the art of board games",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
     "userId" : null
   },
   "isDefault" : false,

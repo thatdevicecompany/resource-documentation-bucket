@@ -203,6 +203,97 @@ include::{content-snippets}/user_groups-delete/curl-request.adoc[]
 include::{content-snippets}/user_groups-delete/http-response.adoc[]
 
 
+=== Templates
+
+A Template is a representation of a collection of <<group-structure, groups>>. Templates could be used by admin users to
+organize groups and facilitate subscriptions to a set of groups.
+
+Templates don't have representation in the context of a Breezie tablet device.
+
+* <<group-template-structure, Structure>>
+* <<group-templates-api, Templates API>>
+** <<resources-template-list, Listing templates>>
+** <<resources-template-create, Create a template>>
+** <<resources-template-get, Retrieve a template>>
+** <<resources-template-update, Replace a template>>
+** <<resources-template-delete, Delete a template>>
+
+[[group-template-structure]]
+==== Structure
+include::{content-snippets}/group-templates-get/response-fields.adoc[]
+
+[[group-templates-api]]
+==== Templates API
+
+[[resources-template-list]]
+===== Listing Templates
+
+A `GET` request to `/group-templates` will list all Templates accessible by the User who make the request.
+
+====== Example request
+
+include::{content-snippets}/group-templates-get-list/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/group-templates-get-list/http-response.adoc[]
+
+
+[[resources-template-create]]
+===== Creating a template
+
+A `POST` request to `/group-templates` will save a new Template and return the created resource.
+
+====== Example request
+
+include::{content-snippets}/group-template-create/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/group-template-create/http-response.adoc[]
+
+
+[[resources-template-get]]
+===== Retrieve a Template
+
+A `GET` request to `/group-templates/{id}` will retrieve the Template identified by `id`.
+
+====== Example request
+
+include::{content-snippets}/group-templates-get/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/group-templates-get/http-response.adoc[]
+
+
+[[resources-template-update]]
+===== Replace a Template
+
+A `PUT` request to `/group-templates/{id}` is used to update a Template completely.
+
+====== Example request
+
+include::{content-snippets}/group-templates-update/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/group-templates-update/http-response.adoc[]
+
+[[resources-template-delete]]
+===== Delete a Template
+
+A `DELETE` request to `/group-templates/{id}` is used to delete a Template.
+
+====== Example request
+
+include::{content-snippets}/group-templates-delete/curl-request.adoc[]
+
+====== Example response
+
+include::{content-snippets}/group-templates-delete/http-response.adoc[]
+
+
 === Applications
 
 The Applications API is used to create and list 'Applications'. An Application an

@@ -1,0 +1,39 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 921
+
+[ {
+  "id" : "5a40b817-13f3-46dc-b0dc-34eab45e5d10",
+  "name" : "Initial Breezie Content",
+  "description" : "Basic initial content for a standard device configuration",
+  "groups" : [ "8fd9e213-443a-42c5-9cf7-c667ec4ca64f", "f7c9298c-c3c5-448b-89b2-1f1dd4990633", "7fe33aa9-56d6-45a8-b983-4ecc72d94d07" ],
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+}, {
+  "id" : "7d9fc895-bb4d-4c67-9180-b44f37222382",
+  "name" : "Engagement module groups",
+  "description" : "Groups for all standard users in 'organization A'",
+  "groups" : [ "63f5d95b-af72-4fb9-8961-582033a8093f", "b6122702-02fd-4815-b4b3-c9724d023cc1", "59381b58-73a6-41d7-b936-83ed82de4d85" ],
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+} ]
+----

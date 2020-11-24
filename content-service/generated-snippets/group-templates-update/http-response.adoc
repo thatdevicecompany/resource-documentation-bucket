@@ -1,0 +1,27 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 507
+
+{
+  "id" : "a9eb320d-86dc-4890-a41f-1b5b0ff4e00d",
+  "name" : "Engagenment Template",
+  "description" : "Groups for all standard users in 'organization 1'",
+  "groups" : [ "14c1da39-f690-4667-b028-954c3477dcea", "d9ed061d-beda-4a7a-a37b-d1a7e53ce650", "5438ae66-2569-4682-ab34-b8a4532809f4", "5712d713-457a-42c6-b1c6-0ba4f6f7ecdf" ],
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+}
+----
