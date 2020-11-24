@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 348
 
 {
-  "timestamp" : 1606207439961,
+  "timestamp" : 1606211252456,
   "code" : 404,
   "status" : 404,
   "message" : "User could not be found",
