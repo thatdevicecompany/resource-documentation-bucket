@@ -12,10 +12,10 @@ X-Frame-Options: DENY
 Content-Length: 444
 
 {
-  "id" : "8249b5b5-834f-41c3-a174-8f345656ec72",
+  "id" : "d4ec79d2-922b-4221-bf8f-badd611d1ca6",
   "name" : "Initial Breezie Content",
   "description" : "Basic initial content for a standard device configuration",
-  "groups" : [ "0bfcd194-d711-494a-8fa5-27a67b9cb1f0", "4bd1cab2-79ed-41f5-9b0f-cb9eb518a4c9", "496bb5fb-e6a7-42d2-b6d3-51f2f837464b" ],
+  "groups" : [ "dc367fe0-da58-4f6f-b982-cc41eb64e598", "2eda5604-29b9-465a-967d-f419f76a0e55", "a2228532-c9b0-462e-a448-815088f31188" ],
   "scope" : {
     "organizationId" : null,
     "regionId" : null,

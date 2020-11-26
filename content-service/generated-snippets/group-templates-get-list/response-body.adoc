@@ -1,24 +1,24 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "a11a6ddb-6d1a-49b5-9400-84ec5bde068f",
-  "name" : "Engagement module groups",
-  "description" : "Groups for all standard users in 'organization A'",
-  "groups" : [ "bd6dd554-d690-4e56-b2ae-e9abc4505f43", "42a495b9-d1b2-45f5-898d-133b7c7ecb27", "cbed266b-6b5a-4f4b-b1aa-eedebd2e7407" ],
+  "id" : "81931cf8-3595-451b-b6f7-d7a322571914",
+  "name" : "Initial Breezie Content",
+  "description" : "Basic initial content for a standard device configuration",
+  "groups" : [ "c7733429-87aa-4c86-96c1-f85ef108fce4", "30be34b5-85be-4fe0-b843-60b5f674cb23", "8f41068e-24c0-4520-b064-f4277e7321b8" ],
   "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "organizationId" : null,
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "userId" : null
   }
 }, {
-  "id" : "d650fb69-22fb-4ba0-b76d-4e894fb9ef86",
-  "name" : "Initial Breezie Content",
-  "description" : "Basic initial content for a standard device configuration",
-  "groups" : [ "6120632f-d8cf-445e-9821-2ac1a2738ccc", "3c9feace-7626-4a30-a07d-99c24607012d", "0709c629-eaa6-4a5b-adfa-fb1c25b460d6" ],
+  "id" : "2521d154-0453-48ed-a0ff-8ce23a71c7f7",
+  "name" : "Engagement module groups",
+  "description" : "Groups for all standard users in 'organization A'",
+  "groups" : [ "635d8244-e6b1-4b18-80d4-29dc645c1402", "6b6451c5-dc5f-4410-a9ef-dcf55093a8d1", "7e80a81a-85d3-445c-831b-2b9095ffc969" ],
   "scope" : {
-    "organizationId" : null,
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,

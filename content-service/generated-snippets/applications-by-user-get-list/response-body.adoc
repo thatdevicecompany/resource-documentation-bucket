@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "timestamp" : 1606211246743,
+  "timestamp" : 1606421136442,
   "code" : 404,
   "status" : 404,
   "message" : "User could not be found",
