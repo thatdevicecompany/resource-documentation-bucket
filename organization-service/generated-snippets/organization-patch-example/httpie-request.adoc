@@ -3,5 +3,5 @@
 $ echo '{
   "name" : "Audi",
   "country" : "Austria"
-}' | http PATCH 'https://api.breezie.com/organizations/fd01b5dc-de32-455e-9797-46fb40fa79e6' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/organizations/01b8b0a0-b6c7-401b-bffc-5fbdd3bca1d3' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
 ----
