@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 425
+Content-Length: 448
 
 {
   "name" : "Steam Engine",
@@ -21,9 +21,10 @@ Content-Length: 425
   "disabled" : true,
   "customTC" : false,
   "checkInActive" : false,
-  "id" : "3fca6ecf-0a7c-459c-93d7-ab9abb3e237e",
-  "createdTime" : 1564051689252,
-  "lastUpdatedTime" : 1564051689265,
+  "vitalCare" : false,
+  "id" : "842f78f3-c8c9-45c6-8739-751d840ee690",
+  "createdTime" : 1608650767397,
+  "lastUpdatedTime" : 1608650767407,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false

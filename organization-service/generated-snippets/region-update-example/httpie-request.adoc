@@ -3,6 +3,6 @@
 $ echo '{
   "name" : "Maramures",
   "country" : "Romania",
-  "organizationId" : "bb431141-a993-446d-8ccc-8f0baa362e72"
-}' | http PUT 'https://api.breezie.com/regions/08dd5568-439a-48c5-9ed7-88a23ececbb9' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
+  "organizationId" : "c7e77383-9875-49f8-afb5-3f17f3487179"
+}' | http PUT 'https://api.breezie.com/regions/f9a74fe2-3a66-4173-9885-6389de1de78a' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Accept:application/json' 'Content-Type:application/json'
 ----
