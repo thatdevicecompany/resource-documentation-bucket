@@ -7,5 +7,5 @@ $ echo '{
   "lastName" : "Owen",
   "message" : "Hi Mike, Would you mind to help me with Breezie?",
   "redirectUri" : "https://manage.breezie.com"
-}' | http POST 'https://api.breezie.com/sponsorRequests/2a68a0e8-df09-4927-9753-7afb6e067ebe/email' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+}' | http POST 'https://api.breezie.com/sponsorRequests/024a1dcf-b431-40d3-b0e1-6e0ccdcab5fe/email' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
 ----
