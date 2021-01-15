@@ -17,10 +17,6 @@
 |`+String+`
 |Url of the group logo
 
-|`+[].imageUrl+`
-|`+String+`
-|Url of the group logo
-
 |`+[].isDefault+`
 |`+Boolean+`
 |Define if a group is 'default' or not

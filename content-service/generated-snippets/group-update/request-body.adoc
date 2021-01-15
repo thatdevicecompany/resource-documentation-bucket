@@ -4,6 +4,7 @@
   "name" : null,
   "description" : null,
   "imageUrl" : null,
+  "backgroundImageUrl" : null,
   "scope" : null,
   "isDefault" : null,
   "promote" : null,

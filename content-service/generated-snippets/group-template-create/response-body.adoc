@@ -1,10 +1,10 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "649b82ca-f4aa-4054-b20d-1e4cdaa7466e",
+  "id" : "96de8589-c290-41e5-b509-a1a3dbe45ece",
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "dba4b373-647b-4b37-981f-3562894b7fae", "61f6ed32-bdce-48f8-ab3b-c0843f066b81", "3b162921-f382-4630-90f6-2d46e8a40099", "dab22468-e15c-433f-a250-1ff45f5ce0cf" ],
+  "groups" : [ "040a995f-446a-43c2-88b1-7b906c29b3ff", "8c21a5d0-1f2f-4a45-930f-6059b5ce0da0", "a44f48ae-a9e1-423d-b78b-eeabd0f6ee1b", "27301d68-cebb-4f6a-9710-c632fc774beb" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,
