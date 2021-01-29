@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-POST /devices/7c410fcb-2ab2-4a6d-960c-9206cc98014e/messages HTTP/1.1
+POST /devices/8fc3a28b-a9e2-4f61-beb6-3a49ad80c6ef/messages HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json;charset=UTF-8
 Host: api.breezie.com
