@@ -12,23 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "dceac715-271a-45a6-9c2b-0fde18c6e8f1",
-  "serialNumber" : "R52G5ABX16XV",
-  "androidId" : "3e4d311d6223dge4",
-  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-  "model" : "SM-T550",
-  "manufacturer" : "samsung",
-  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
-  "enabled" : true,
-  "scope" : {
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
-  }
-}, {
-  "id" : "92d77156-f117-4eef-9a43-9d78a5af826b",
+  "id" : "0941f847-26c5-49cb-9cdb-4380073174fe",
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -37,11 +21,27 @@ Content-Length: 1248
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
   "scope" : {
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
+  }
+}, {
+  "id" : "7600d307-0de2-4924-a872-e67d43d8c8a1",
+  "serialNumber" : "R52G5ABX16XV",
+  "androidId" : "3e4d311d6223dge4",
+  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+  "model" : "SM-T550",
+  "manufacturer" : "samsung",
+  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
+  "enabled" : true,
+  "scope" : {
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823"
   }
 } ]
 ----
