@@ -1,0 +1,16 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "870af531-b006-4e79-920a-6d071d95477d",
+  "name" : "Initial Breezie Content",
+  "description" : "Basic initial content for a standard device configuration",
+  "groups" : [ "b8464f03-bc30-4ca7-ba45-ab357b38ca2e", "97bab241-a9de-4e99-aa46-81ad5bdcda43", "fb51a265-60f1-4db7-b5a6-388dc2da5fb0" ],
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+}
+----

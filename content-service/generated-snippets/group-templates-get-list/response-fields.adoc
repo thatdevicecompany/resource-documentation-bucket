@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`+[].id+`
+|`+String+`
+|Group Template identifier
+
+|`+[].name+`
+|`+String+`
+|Name of the template
+
+|`+[].description+`
+|`+String+`
+|Description of the template
+
+|`+[].groups+`
+|`+Array+`
+|List of group IDs that belong to the template
+
+|`+[].scope.organizationId+`
+|`+String+`
+|ID of the organization that the template belongs to
+
+|`+[].scope.regionId+`
+|`+Null+`
+|ID of the region that the template belongs to
+
+|`+[].scope.campusId+`
+|`+Null+`
+|ID of the campus that the template belongs to
+
+|`+[].scope.facilityId+`
+|`+Null+`
+|ID of the facility that the template belongs to
+
+|`+[].scope.userId+`
+|`+Null+`
+|Not used on this resource. Templates can't belong to a user
+
+|===

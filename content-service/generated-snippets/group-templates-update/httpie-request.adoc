@@ -1,0 +1,18 @@
+[source,bash]
+----
+$ echo '{
+  "id" : null,
+  "name" : "Engagenment Template",
+  "description" : "Groups for all standard users in 'organization 1'",
+  "groups" : [ "8e3c7360-d05e-4883-8782-b59cdeff618c", "20b14d38-cf39-4edc-b6cd-1205bb47d343", "8dd29905-6436-4587-a831-4248ac917493", "cf51024f-afb0-4c4c-baf4-abf258dfa567" ],
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+}' | http PUT 'https://api.breezie.com/group-templates/49468be3-08cc-4156-89ce-ca489bc59140' \
+    'Content-Type:application/json' \
+    'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+----

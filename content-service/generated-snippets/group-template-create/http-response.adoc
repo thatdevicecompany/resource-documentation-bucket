@@ -1,0 +1,27 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Length: 529
+
+{
+  "id" : "210a6d06-5347-49a0-bb2d-03b110cbb65f",
+  "name" : "Entertainment",
+  "description" : "All groups that contains entertainment contents: books, audio, video, games...",
+  "groups" : [ "b17064d4-b113-4317-adfe-1be0c15c3a4c", "2b9c1f77-5082-40c7-b823-9f19a1f512b6", "50962368-debc-4230-8764-56b0c517b4c0", "f404382b-51c6-48a7-ba47-cd8d7d6552f7" ],
+  "scope" : {
+    "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  }
+}
+----
