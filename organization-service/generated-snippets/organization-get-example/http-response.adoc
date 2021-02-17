@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 459
+Content-Length: 492
 
 {
   "name" : "Pearson",
@@ -22,9 +22,10 @@ Content-Length: 459
   "customTC" : false,
   "checkInActive" : false,
   "vitalCare" : false,
-  "id" : "b49f02da-a64e-4b91-bb01-120048b05571",
-  "createdTime" : 1610364089274,
-  "lastUpdatedTime" : 1610364089274,
+  "scopeLevelsAvailable" : null,
+  "id" : "1a6fae93-d690-4f4d-a609-5d611c123eea",
+  "createdTime" : 1613590812205,
+  "lastUpdatedTime" : 1613590812205,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false
