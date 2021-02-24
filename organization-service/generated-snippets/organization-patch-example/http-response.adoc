@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 529
+Content-Length: 526
 
 {
   "name" : "Audi",
@@ -23,11 +23,11 @@ Content-Length: 529
   "checkInActive" : false,
   "vitalCare" : false,
   "scopeLevelsAvailable" : null,
-  "colorTheme" : null,
+  "themeId" : null,
   "logoUrl" : null,
-  "id" : "98a4f354-0c8e-44b8-87c6-cd9c45f11839",
-  "createdTime" : 1614165644805,
-  "lastUpdatedTime" : 1614165644815,
+  "id" : "625f7fb8-d4f1-42e0-828a-acba4e7fb798",
+  "createdTime" : 1614183533488,
+  "lastUpdatedTime" : 1614183533504,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false
