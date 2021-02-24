@@ -25,9 +25,9 @@ Content-Length: 535
   "scopeLevelsAvailable" : null,
   "colorTheme" : null,
   "logoUrl" : null,
-  "id" : "379ff5af-85a5-483c-adf1-334a7f60ba60",
-  "createdTime" : 1614007815946,
-  "lastUpdatedTime" : 1614007815946,
+  "id" : "f41d3dca-50fd-4168-8841-052e131694bc",
+  "createdTime" : 1614165644609,
+  "lastUpdatedTime" : 1614165644609,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false

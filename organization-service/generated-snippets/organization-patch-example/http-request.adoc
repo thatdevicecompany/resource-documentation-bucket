@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PATCH /organizations/5df39250-cad2-4fd1-b69a-0ea3954d6082 HTTP/1.1
+PATCH /organizations/98a4f354-0c8e-44b8-87c6-cd9c45f11839 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json

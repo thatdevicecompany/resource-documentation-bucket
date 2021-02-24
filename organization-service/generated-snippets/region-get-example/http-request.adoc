@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /regions/5340c0c2-a587-4c24-ac14-d759c9fa264a HTTP/1.1
+GET /regions/8e4caa59-0931-4d5c-9f79-dca219b0fa5a HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Host: api.breezie.com
