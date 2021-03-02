@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 526
+Content-Length: 666
 
 {
   "name" : "Audi",
@@ -25,9 +25,13 @@ Content-Length: 526
   "scopeLevelsAvailable" : null,
   "themeId" : null,
   "logoUrl" : null,
-  "id" : "625f7fb8-d4f1-42e0-828a-acba4e7fb798",
-  "createdTime" : 1614183533488,
-  "lastUpdatedTime" : 1614183533504,
+  "organizationLevelReference" : null,
+  "regionLevelReference" : null,
+  "campusLevelReference" : null,
+  "facilityLevelReference" : null,
+  "id" : "6003354c-1647-40ae-924e-6797a2b67802",
+  "createdTime" : 1614710889316,
+  "lastUpdatedTime" : 1614710889346,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false
