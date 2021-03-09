@@ -1,16 +1,18 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "a99377dd-e2b9-42f9-bb30-89f0f7eceef4",
+  "id" : "0b147274-cc91-4c7f-8432-9f2bcb5a88fa",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "87b6cad2-7b97-4ce2-ba33-1b04a83b8299",
+  "groupId" : "b2f7ce46-524f-49df-9b2d-2fe002afeb82",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
-  "breezieAuthenticationRequired" : false
+  "breezieAuthenticationRequired" : false,
+  "showInGroup" : null,
+  "originalGroup" : null
 }
 ----

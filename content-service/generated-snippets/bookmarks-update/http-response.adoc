@@ -9,19 +9,21 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 391
+Content-Length: 441
 
 {
-  "id" : "7eed764f-4300-4995-8c1b-ccc59c5e06cf",
+  "id" : "8095d351-952a-4d14-8c4e-406de038cdc2",
   "url" : "www.gardening.com",
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "51db7104-129f-430d-a0ab-c6c0c5fbeff3",
+  "groupId" : "e5d39cb4-2743-421e-86af-cff51323646d",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
-  "breezieAuthenticationRequired" : false
+  "breezieAuthenticationRequired" : false,
+  "showInGroup" : null,
+  "originalGroup" : null
 }
 ----

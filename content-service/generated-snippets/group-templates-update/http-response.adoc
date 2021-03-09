@@ -12,10 +12,10 @@ X-Frame-Options: DENY
 Content-Length: 507
 
 {
-  "id" : "39bbdf3d-f0d0-43cc-a5b0-6d250e071362",
+  "id" : "fcb4cf3d-93d5-4491-b083-3cbe1459f988",
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "446fad73-0cf8-48ab-9286-442fd8be4790", "ff6f5f32-b71f-425f-989b-b2114de3ea53", "0f766463-308d-4741-852e-9b9945235dff", "f7a9557c-61a6-4b12-8ab1-95c9bfaad618" ],
+  "groups" : [ "70cf68fb-971a-4051-ba7a-9478ec1910e0", "4670a6d2-1115-421e-b603-076a5ebe7b7a", "f5fbd71c-ce3c-4ced-850b-00a4c330bb84", "88bfb6c4-fc31-4d2d-8d3f-57607a3aac5b" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
