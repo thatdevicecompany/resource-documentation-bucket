@@ -23,7 +23,7 @@ Content-Length: 1104
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a"
   },
-  "groupIds" : [ "fba9d926-30c5-45e8-a1cc-5d55394a26e7" ],
+  "groupIds" : [ "b7709da9-cd6f-46ef-a171-3785cac4789e" ],
   "unsubscribedDefaultGroupIds" : [ ]
 }, {
   "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
@@ -37,7 +37,7 @@ Content-Length: 1104
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
-  "groupIds" : [ "fba9d926-30c5-45e8-a1cc-5d55394a26e7" ],
+  "groupIds" : [ "b7709da9-cd6f-46ef-a171-3785cac4789e" ],
   "unsubscribedDefaultGroupIds" : [ ]
 } ]
 ----

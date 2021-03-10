@@ -29,6 +29,14 @@
 |`+String+`
 |ID of the group in which this application belongs
 
+|`+showInGroup+`
+|`+Null+`
+|ID of the group in which this application will be shown
+
+|`+originalGroup+`
+|`+Null+`
+|ID of the group this application belongs to
+
 |`+forced+`
 |`+Boolean+`
 |Whether this application should be forced on StartScreen

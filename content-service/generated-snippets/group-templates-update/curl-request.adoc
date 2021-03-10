@@ -1,13 +1,13 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/group-templates/fcb4cf3d-93d5-4491-b083-3cbe1459f988' -i -X PUT \
+$ curl 'https://api.breezie.com/group-templates/bb89e1bd-5ade-4374-ba8e-44eb9f257210' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
   "id" : null,
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "70cf68fb-971a-4051-ba7a-9478ec1910e0", "4670a6d2-1115-421e-b603-076a5ebe7b7a", "f5fbd71c-ce3c-4ced-850b-00a4c330bb84", "88bfb6c4-fc31-4d2d-8d3f-57607a3aac5b" ],
+  "groups" : [ "cc2ea240-db6a-46ea-8043-59dd75791c03", "1f008367-4cbd-447a-b87d-5d014299a998", "4f950972-6dd3-4827-8057-2801f30cc69a", "d8e80f02-f027-4e47-892a-a0d9c124284c" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
