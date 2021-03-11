@@ -9,21 +9,22 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 434
+Content-Length: 462
 
 {
-  "id" : "f7855be4-dba0-486d-9197-1b407c4b52a7",
+  "id" : "150eb4b0-3472-47f4-be9f-c2bb5089e007",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "b0fed0e4-691d-4f67-a6de-8080ce19bfb7",
+  "groupId" : "c92bfd37-1ebf-4190-91ad-64e48a176a74",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false,
   "showInGroup" : null,
-  "originalGroup" : null
+  "originalGroup" : null,
+  "backgroundColor" : null
 }
 ----

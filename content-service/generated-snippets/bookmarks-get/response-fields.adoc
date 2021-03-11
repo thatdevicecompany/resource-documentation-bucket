@@ -17,6 +17,10 @@
 |`+String+`
 |Image url of the bookmark
 
+|`+backgroundColor+`
+|`+Null+`
+|Color to show as background for the image icon
+
 |`+note+`
 |`+String+`
 |A descriptive note related to the bookmark

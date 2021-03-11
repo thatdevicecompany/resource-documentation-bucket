@@ -9,35 +9,37 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 887
+Content-Length: 943
 
 [ {
-  "id" : "9899f25b-ba5c-455b-95e2-0c5c5eda4c00",
+  "id" : "95ea6108-fbd4-46c7-93ad-8ec0c860a3b6",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "6756a4d8-6b84-4ddb-8dd9-014d753332dd",
+  "groupId" : "ea970625-9663-4db5-b4e4-2dfddee3d061",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false,
   "showInGroup" : null,
-  "originalGroup" : null
+  "originalGroup" : null,
+  "backgroundColor" : null
 }, {
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "url" : "www.wintergardening.com",
   "name" : "Winter Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "6756a4d8-6b84-4ddb-8dd9-014d753332dd",
+  "groupId" : "ea970625-9663-4db5-b4e4-2dfddee3d061",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false,
   "showInGroup" : null,
-  "originalGroup" : null
+  "originalGroup" : null,
+  "backgroundColor" : null
 } ]
 ----

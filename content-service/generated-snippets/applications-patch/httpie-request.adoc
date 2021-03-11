@@ -3,7 +3,7 @@
 $ echo '{
   "title" : "Summer Gardening",
   "description" : "Helpful app, informing you when best to water those flowers"
-}' | http PATCH 'https://api.breezie.com/applications/6555f733-b63b-4d2d-bafe-1a3175db6b7d' \
+}' | http PATCH 'https://api.breezie.com/applications/6e7026be-0145-4c71-9dd8-48831bab7ae1' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
