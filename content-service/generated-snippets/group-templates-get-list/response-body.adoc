@@ -1,24 +1,24 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "cefff6f5-c388-4dd5-ba93-b7bbeeefa924",
-  "name" : "Engagement module groups",
-  "description" : "Groups for all standard users in 'organization A'",
-  "groups" : [ "651acfc1-196e-47d3-8fe1-c524374a30b1", "11b813b1-9b0b-40e3-b239-0df030b4e015", "bdeaa1b3-bf8d-497e-951f-ed18f41d7f60" ],
+  "id" : "9a451bdd-e6d8-4bd1-a055-5458028f3061",
+  "name" : "Initial Breezie Content",
+  "description" : "Basic initial content for a standard device configuration",
+  "groups" : [ "a3bc6101-a8fd-4f54-9f56-db82b518bd9c", "8a201630-f50d-48fd-954e-074ade6772db", "12957ab8-a9d1-4224-9129-565441ed1156" ],
   "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "organizationId" : null,
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "userId" : null
   }
 }, {
-  "id" : "8c2ad38b-d0ef-45fe-9ea7-5a36c9475404",
-  "name" : "Initial Breezie Content",
-  "description" : "Basic initial content for a standard device configuration",
-  "groups" : [ "6b38155e-ff5a-465f-bb40-cbb480426a30", "eb57c016-a617-4de2-83bb-8832fcc549c9", "5c6f1fd6-180e-48a3-81b4-202952cf4f02" ],
+  "id" : "37bbd789-584e-4358-b457-91600712bec7",
+  "name" : "Engagement module groups",
+  "description" : "Groups for all standard users in 'organization A'",
+  "groups" : [ "7e4eff97-0e62-49fa-9d9a-8e20a3b24f73", "524762ce-c2d2-41fc-b38f-1de89f187269", "b2a29c8a-0b37-4099-8928-7b5be7b46be7" ],
   "scope" : {
-    "organizationId" : null,
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,

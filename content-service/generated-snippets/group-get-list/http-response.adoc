@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 3020
 
 [ {
-  "id" : "31d4a315-0d89-4bad-9722-32186a2ce9d7",
+  "id" : "fe400de7-04a7-4076-8fd0-20b0857ed9e7",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -31,16 +31,16 @@ Content-Length: 3020
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "ab3b8ae8-3572-4100-830d-273a6f996bb5",
-  "name" : "Entertainment",
-  "description" : "Entertainment",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
+  "id" : "1a736a89-fc1f-4b22-8ba0-e267c3cbf822",
+  "name" : "Games",
+  "description" : "Master the art of board games",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
   "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
     "userId" : null
   },
   "isDefault" : false,
@@ -50,7 +50,7 @@ Content-Length: 3020
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "f6c6f4b3-d532-4090-bf52-d992346e37ec",
+  "id" : "08399c55-e110-4a94-9f6b-f24727f2e0aa",
   "name" : "Breezie",
   "description" : "Default content for Breezie users",
   "imageUrl" : "https://breezie.com/logo",
@@ -69,7 +69,7 @@ Content-Length: 3020
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "397f550c-6dc9-4e53-bf8b-33b812a478b8",
+  "id" : "6e8a83df-bbc7-4895-a5b9-06a201e0ee44",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -88,16 +88,16 @@ Content-Length: 3020
   "personal" : false,
   "hideOnHub" : false
 }, {
-  "id" : "6fdd3462-144c-47c9-af9d-74ca26e8b3cd",
-  "name" : "Games",
-  "description" : "Master the art of board games",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
+  "id" : "8c85455f-801c-46a4-b7e0-143ed2320eaa",
+  "name" : "Entertainment",
+  "description" : "Entertainment",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
   "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : null,
-    "campusId" : null,
-    "facilityId" : null,
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : null
   },
   "isDefault" : false,
