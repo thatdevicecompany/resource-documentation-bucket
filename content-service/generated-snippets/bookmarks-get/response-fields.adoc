@@ -23,7 +23,15 @@
 
 |`+groupId+`
 |`+String+`
-|ID of the group in which this bookmark belongs
+|ID of the group in which this bookmark belongs to. It will be overwritten if 'showInGroup' is present§
+
+|`+showInGroup+`
+|`+Null+`
+|ID of the group in which this bookmark will be shown
+
+|`+originalGroup+`
+|`+Null+`
+|ID of the group in which this bookmark belongs to
 
 |`+forced+`
 |`+Boolean+`

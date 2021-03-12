@@ -1,16 +1,18 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "d26cd950-9071-41a2-b446-bb21c3be3320",
+  "id" : "8e2401b6-cbbe-4142-94d9-d0cb28476d49",
   "url" : "www.gardening.com",
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "744c81ca-bee5-47e1-a6e3-7f3de21397d3",
+  "groupId" : "f2cbd66c-a8f9-4727-b610-382eeebf7431",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
-  "breezieAuthenticationRequired" : false
+  "breezieAuthenticationRequired" : false,
+  "showInGroup" : null,
+  "originalGroup" : null
 }
 ----

@@ -4,6 +4,7 @@ $ echo '{
   "name" : null,
   "description" : null,
   "imageUrl" : null,
+  "backgroundImageUrl" : null,
   "scope" : null,
   "isDefault" : null,
   "promote" : null,
@@ -11,7 +12,7 @@ $ echo '{
   "hidden" : null,
   "personal" : null,
   "hideOnHub" : null
-}' | http PATCH 'https://api.breezie.com/groups/41abe4b1-4a2b-41b9-a039-5b2e857d7516' \
+}' | http PATCH 'https://api.breezie.com/groups/b1bb086a-7677-4853-ad6f-d24f59026049' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

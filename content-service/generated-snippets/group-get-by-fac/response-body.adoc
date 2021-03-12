@@ -1,10 +1,11 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "a031716f-9896-4445-bfee-cfefe6d1db31",
+  "id" : "4e1fed58-6999-4edd-b5cd-347b0f15d370",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
+  "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
