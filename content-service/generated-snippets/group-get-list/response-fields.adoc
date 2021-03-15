@@ -17,6 +17,10 @@
 |`+String+`
 |Url of the group logo
 
+|`+[].backgroundColor+`
+|`+Null+`
+|Color to show as background for the image icon
+
 |`+[].isDefault+`
 |`+Boolean+`
 |Define if a group is 'default' or not

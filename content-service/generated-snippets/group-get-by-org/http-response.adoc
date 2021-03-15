@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 575
+Content-Length: 603
 
 [ {
-  "id" : "9fda9525-2f07-4e63-9220-311125c8334a",
+  "id" : "3d6f1d0f-cfe9-4c4b-a90b-0d65148aec7b",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
@@ -29,6 +29,7 @@ Content-Length: 575
   "forced" : false,
   "hidden" : false,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 } ]
 ----

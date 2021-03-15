@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 649
+Content-Length: 677
 
 [ {
-  "id" : "02d3003c-e888-4fbb-819c-dddc90197f98",
+  "id" : "0f4b1f3e-2003-4e65-93d3-815f2025b3a8",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -29,6 +29,7 @@ Content-Length: 649
   "forced" : false,
   "hidden" : false,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 } ]
 ----

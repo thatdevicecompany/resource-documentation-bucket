@@ -1,10 +1,10 @@
 [source,http,options="nowrap"]
 ----
-PATCH /groups/62269443-84b6-447c-91ff-6e4e56dc2255 HTTP/1.1
+PATCH /groups/258170e3-c1b3-4c2b-a3dd-b0656a9dce83 HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
-Content-Length: 236
+Content-Length: 264
 
 {
   "name" : null,
@@ -17,6 +17,7 @@ Content-Length: 236
   "forced" : true,
   "hidden" : null,
   "personal" : null,
-  "hideOnHub" : null
+  "hideOnHub" : null,
+  "backgroundColor" : null
 }
 ----

@@ -13,6 +13,10 @@
 |`+String+`
 |Image url of the group
 
+|`+backgroundColor+`
+|`+Null+`
+|Color to show as background for the image icon
+
 |`+description+`
 |`+String+`
 |A descriptive note related to the group

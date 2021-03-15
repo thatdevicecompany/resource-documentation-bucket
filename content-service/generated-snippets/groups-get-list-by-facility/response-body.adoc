@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "253e2761-afaa-41de-a17b-0b033aedb645",
+  "id" : "78c58661-f177-4e71-91f5-d6a3d5ba7017",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -18,9 +18,10 @@
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }, {
-  "id" : "9ca95a8a-2b92-4e20-b4c9-74c260cf2e4e",
+  "id" : "556a2775-8fdc-4671-832a-f44c34ae9111",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -37,9 +38,10 @@
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }, {
-  "id" : "dca79d36-de48-4797-bd29-36be688d104b",
+  "id" : "f1901b92-561b-431f-b0e9-81ec58a2c051",
   "name" : "Personal",
   "description" : "Personal group",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -56,6 +58,7 @@
   "forced" : false,
   "hidden" : true,
   "personal" : true,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 } ]
 ----

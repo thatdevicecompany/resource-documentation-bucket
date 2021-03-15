@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 621
+Content-Length: 649
 
 {
-  "id" : "2dd804a6-2e93-4383-ae8a-0abeaf88a9ac",
+  "id" : "c5a3d0f0-322f-4f89-86c4-c4813cf6136b",
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -29,6 +29,7 @@ Content-Length: 621
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }
 ----

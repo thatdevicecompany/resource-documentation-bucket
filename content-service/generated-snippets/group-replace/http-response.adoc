@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 648
+Content-Length: 676
 
 {
-  "id" : "0247f24c-1ad5-43d8-8bb3-eb1d1a15ed87",
+  "id" : "c77360e9-d1d6-4ec6-a275-2c96cb132ef2",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -29,6 +29,7 @@ Content-Length: 648
   "forced" : false,
   "hidden" : false,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }
 ----
