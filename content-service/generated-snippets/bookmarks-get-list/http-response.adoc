@@ -17,7 +17,7 @@ Content-Length: 943
   "name" : "Winter Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "7ba02a84-3eab-4971-b845-64fd24e8936d",
+  "groupId" : "ea2737e7-850f-4f36-82a4-dbd4bd56c918",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
@@ -27,12 +27,12 @@ Content-Length: 943
   "originalGroup" : null,
   "backgroundColor" : null
 }, {
-  "id" : "6d931b53-5fe5-48ae-8d8d-eb6a1d20ef56",
+  "id" : "6b28b548-c779-4a5c-aa50-2c929b79f4df",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "7ba02a84-3eab-4971-b845-64fd24e8936d",
+  "groupId" : "ea2737e7-850f-4f36-82a4-dbd4bd56c918",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,

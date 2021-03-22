@@ -5,7 +5,7 @@ $ echo '{
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "59364089-8135-4aa6-beb5-1a3aa943664f",
+  "groupId" : "8398511f-6c73-43e2-96cf-4f5cf1a7d781",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

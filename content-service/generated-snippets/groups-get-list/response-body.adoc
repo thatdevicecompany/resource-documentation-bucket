@@ -1,27 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "98a4dbce-65f9-4cfc-9f75-0b86641857ce",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null
-}, {
-  "id" : "47b444e6-82fc-4a42-bf95-6fb5744d85de",
+  "id" : "f8dc8c38-75cc-41ca-a480-b71e018ca98d",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
@@ -41,7 +21,7 @@
   "hideOnHub" : false,
   "backgroundColor" : null
 }, {
-  "id" : "503e8fbc-681f-4b47-9c1d-c509a31e540e",
+  "id" : "3c5f57a7-7819-4297-8fbf-b4e7fcd99e58",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
@@ -61,7 +41,27 @@
   "hideOnHub" : false,
   "backgroundColor" : null
 }, {
-  "id" : "62f4c299-0724-451d-b0a8-894ee8314052",
+  "id" : "2281bfb3-8c7a-4df9-993b-2b783f408e86",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null
+}, {
+  "id" : "d09c332b-5e38-4f7a-bb24-d1e61c8fe67d",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",

@@ -1,10 +1,10 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "987d451c-f4ff-4d54-897b-be17afae71ec",
+  "id" : "d28020b1-5c24-4c88-884e-09fb7cda8788",
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "34ac2bf0-7c2e-4b88-8095-0a27f829eee1", "24ff6c39-ffbd-44c5-9880-f588abcc6b08", "5b8f0c3d-07de-4a57-b8e4-3dbed1ce0465", "32a333e9-15aa-49bf-b814-d37b5399ab88" ],
+  "groups" : [ "e197f930-8e24-4a9c-b881-46a8ab227454", "7e6d2aa8-0402-4d5a-9605-154cc44ded0f", "5f54f1d4-8a99-4c6b-aa57-8671438ca42b", "8072b03d-e296-468f-8f90-b9f8ad066788" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
