@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/bookmarks/search/findByGroupId?id=ea2737e7-850f-4f36-82a4-dbd4bd56c918' -i -X GET \
+$ curl 'https://api.breezie.com/bookmarks/search/findByGroupId?id=fac6db6d-256d-47fd-a1b5-fb6b4615354d' -i -X GET \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

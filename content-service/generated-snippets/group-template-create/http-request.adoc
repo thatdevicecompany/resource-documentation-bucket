@@ -10,7 +10,7 @@ Content-Length: 495
   "id" : null,
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "582ec3fc-2450-4c29-8e67-c2e06dc22a0c", "165740be-a236-4bb4-9cbe-75c3bd01458e", "c46b890e-32d0-41ee-9b20-2503951eb661", "39de9ab4-fe4d-48fb-8021-d88c38879824" ],
+  "groups" : [ "9be8e3f2-c7a7-4617-b914-04adb7b5d0fa", "7c4fbe4c-78c1-429a-abdb-44709818382d", "9c88fbd9-c54d-4c33-89d0-401dd9f9ecc8", "f99ed0fa-9139-45d8-b223-bf2afb2e75cc" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,
