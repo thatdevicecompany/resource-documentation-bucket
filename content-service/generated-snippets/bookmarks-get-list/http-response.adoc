@@ -12,12 +12,12 @@ X-Frame-Options: DENY
 Content-Length: 943
 
 [ {
-  "id" : "db9f23e3-eec8-4cbb-bed5-8d750d592f94",
+  "id" : "99a8a7cf-061a-4996-a7cc-ca9603e04d8b",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "fac6db6d-256d-47fd-a1b5-fb6b4615354d",
+  "groupId" : "31aaf98d-b8a8-47fb-a8c7-db003d1af402",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
@@ -32,7 +32,7 @@ Content-Length: 943
   "name" : "Winter Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "fac6db6d-256d-47fd-a1b5-fb6b4615354d",
+  "groupId" : "31aaf98d-b8a8-47fb-a8c7-db003d1af402",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,

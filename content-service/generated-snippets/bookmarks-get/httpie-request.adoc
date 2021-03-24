@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ http GET 'https://api.breezie.com/bookmarks/3170ada0-14d4-4632-aba7-6db6854b89b0' \
+$ http GET 'https://api.breezie.com/bookmarks/bf47079b-705a-4021-ab77-2981f193bb8d' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

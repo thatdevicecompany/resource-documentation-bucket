@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "b1e39727-cabf-4428-8201-60433668677f",
+  "id" : "ffbe28b4-7480-4034-be70-2f8f74b48ab0",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
