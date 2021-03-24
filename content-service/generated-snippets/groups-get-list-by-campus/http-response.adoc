@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 597
+Content-Length: 625
 
 [ {
-  "id" : "135d5415-ef00-4bb8-a0b6-5fe5d7b1ee71",
+  "id" : "c0ff7954-0b65-4f7e-baec-b08b19ce756f",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
@@ -29,6 +29,7 @@ Content-Length: 597
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 } ]
 ----

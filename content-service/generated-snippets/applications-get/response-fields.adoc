@@ -21,6 +21,10 @@
 |`+String+`
 |Small image for the icon of the application (128 * 128)
 
+|`+backgroundColor+`
+|`+Null+`
+|Color to show as background for the icon
+
 |`+productId+`
 |`+String+`
 |Package Name of the application

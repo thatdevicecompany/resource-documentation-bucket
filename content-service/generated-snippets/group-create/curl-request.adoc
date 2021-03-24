@@ -20,6 +20,7 @@ $ curl 'https://api.breezie.com/groups/' -i -X POST \
   "forced" : false,
   "hidden" : false,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }'
 ----

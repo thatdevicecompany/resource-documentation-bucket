@@ -1,32 +1,34 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "a0205859-481e-41c9-8a92-9f93678dfe2a",
-  "url" : "www.gardening.com",
-  "name" : "Gardening",
-  "imageUrl" : "www.gardening.com/image.jpg",
-  "note" : "This is a bookmark about gardening",
-  "groupId" : "3b1b00ce-594d-47bb-b0a4-b84fe92ffba2",
-  "tags" : [ "garden" ],
-  "forced" : false,
-  "promote" : false,
-  "hidden" : false,
-  "breezieAuthenticationRequired" : false,
-  "showInGroup" : null,
-  "originalGroup" : null
-}, {
   "id" : "20f506ed-8d31-4fcd-bc10-59456c437577",
   "url" : "www.wintergardening.com",
   "name" : "Winter Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "3b1b00ce-594d-47bb-b0a4-b84fe92ffba2",
+  "groupId" : "e888a68c-a484-4858-afcc-1e9ccea952c4",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
   "hidden" : false,
   "breezieAuthenticationRequired" : false,
   "showInGroup" : null,
-  "originalGroup" : null
+  "originalGroup" : null,
+  "backgroundColor" : null
+}, {
+  "id" : "e5bc1820-9b30-44ba-85bd-1d69fab8b867",
+  "url" : "www.gardening.com",
+  "name" : "Gardening",
+  "imageUrl" : "www.gardening.com/image.jpg",
+  "note" : "This is a bookmark about gardening",
+  "groupId" : "e888a68c-a484-4858-afcc-1e9ccea952c4",
+  "tags" : [ "garden" ],
+  "forced" : false,
+  "promote" : false,
+  "hidden" : false,
+  "breezieAuthenticationRequired" : false,
+  "showInGroup" : null,
+  "originalGroup" : null,
+  "backgroundColor" : null
 } ]
 ----

@@ -11,6 +11,7 @@
   "forced" : null,
   "hidden" : null,
   "personal" : null,
-  "hideOnHub" : null
+  "hideOnHub" : null,
+  "backgroundColor" : null
 }
 ----

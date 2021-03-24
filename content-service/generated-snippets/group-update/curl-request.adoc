@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/groups/b1bb086a-7677-4853-ad6f-d24f59026049' -i -X PATCH \
+$ curl 'https://api.breezie.com/groups/c9593ccd-cd6e-450b-9e9a-c57f5a8428bc' -i -X PATCH \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
@@ -14,6 +14,7 @@ $ curl 'https://api.breezie.com/groups/b1bb086a-7677-4853-ad6f-d24f59026049' -i 
   "forced" : true,
   "hidden" : null,
   "personal" : null,
-  "hideOnHub" : null
+  "hideOnHub" : null,
+  "backgroundColor" : null
 }'
 ----

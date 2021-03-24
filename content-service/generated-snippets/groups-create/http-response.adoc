@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 604
+Content-Length: 632
 
 {
-  "id" : "3bbbd6bf-52c8-4fe6-b908-2a8f89fc7e97",
+  "id" : "a1cf95a4-d2bb-41dc-87d8-7ccb4252cb63",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
@@ -29,6 +29,7 @@ Content-Length: 604
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : null
 }
 ----
