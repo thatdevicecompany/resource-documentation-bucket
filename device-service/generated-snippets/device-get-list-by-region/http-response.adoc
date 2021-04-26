@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "6e1b63bf-0524-415f-9347-102a0420cb3d",
+  "id" : "e8341523-cdf7-4a2d-9049-5c41f52df577",
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -22,13 +22,13 @@ Content-Length: 1248
   "enabled" : true,
   "scope" : {
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
   }
 }, {
-  "id" : "5c3e73df-ea08-4a0f-87f3-8248d82042e3",
+  "id" : "35c78fc7-4a3e-4dec-b9b2-cd062da31e37",
   "serialNumber" : "R52G5ABX16XV",
   "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -38,8 +38,8 @@ Content-Length: 1248
   "enabled" : true,
   "scope" : {
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
   }
