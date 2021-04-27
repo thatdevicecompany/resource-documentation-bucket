@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/devices/c3c1a134-607f-431b-8866-d02150d40358/messages' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json;charset=UTF-8' -d '{
+$ curl 'https://api.breezie.com/devices/3c68f382-7c44-408f-b20a-6412160b270d/messages' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json;charset=UTF-8' -d '{
   "messageType" : "all",
   "data" : { }
 }'
