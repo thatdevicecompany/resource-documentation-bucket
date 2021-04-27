@@ -12,23 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "3b19071b-3c5e-4ff1-89fd-400a44feefe5",
-  "serialNumber" : "R52K706QYTPZ",
-  "androidId" : "35121d98a70f4140",
-  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-  "model" : "SM-T813",
-  "manufacturer" : "samsung",
-  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
-  "enabled" : true,
-  "scope" : {
-    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
-  }
-}, {
-  "id" : "e20a2f39-b3ea-42c3-9d1c-c7f9132ccb83",
+  "id" : "95e7030b-e680-4c38-a963-85f47380a553",
   "serialNumber" : "R52G5ABX16XV",
   "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -37,9 +21,25 @@ Content-Length: 1248
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
   "scope" : {
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
+  }
+}, {
+  "id" : "426300ef-1080-487e-a450-993cbcf17e34",
+  "serialNumber" : "R52K706QYTPZ",
+  "androidId" : "35121d98a70f4140",
+  "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+  "model" : "SM-T813",
+  "manufacturer" : "samsung",
+  "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
+  "enabled" : true,
+  "scope" : {
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
   }

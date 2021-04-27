@@ -35,9 +35,9 @@ Content-Length: 2772
     "ignored" : false,
     "hidden" : false,
     "scope" : {
+      "regionId" : null,
       "userId" : null,
       "organizationId" : null,
-      "regionId" : null,
       "campusId" : null,
       "facilityId" : null
     }
@@ -52,9 +52,9 @@ Content-Length: 2772
     "ignored" : false,
     "hidden" : false,
     "scope" : {
+      "regionId" : null,
       "userId" : null,
       "organizationId" : null,
-      "regionId" : null,
       "campusId" : null,
       "facilityId" : null
     }
@@ -69,9 +69,9 @@ Content-Length: 2772
     "ignored" : false,
     "hidden" : false,
     "scope" : {
+      "regionId" : null,
       "userId" : null,
       "organizationId" : null,
-      "regionId" : null,
       "campusId" : null,
       "facilityId" : null
     }
@@ -86,9 +86,9 @@ Content-Length: 2772
     "ignored" : true,
     "hidden" : false,
     "scope" : {
+      "regionId" : null,
       "userId" : null,
       "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-      "regionId" : null,
       "campusId" : null,
       "facilityId" : null
     }
@@ -103,9 +103,9 @@ Content-Length: 2772
     "ignored" : false,
     "hidden" : false,
     "scope" : {
+      "regionId" : null,
       "userId" : null,
       "organizationId" : null,
-      "regionId" : null,
       "campusId" : null,
       "facilityId" : null
     }

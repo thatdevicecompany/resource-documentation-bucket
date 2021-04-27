@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /devices/bc70d21e-a21e-478b-b405-d9e5b1faddd5 HTTP/1.1
+PUT /devices/c3122095-688a-499a-bbc8-60886c813e2f HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Content-Type: application/json
 Host: api.breezie.com
@@ -15,9 +15,9 @@ Content-Length: 573
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : false,
   "scope" : {
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
   }

@@ -13,11 +13,11 @@ Content-Length: 238
 
 {
   "results" : [ {
-    "deviceId" : "a7a22980-6600-459c-a4dc-baa2b2846cab",
+    "deviceId" : "4a1d69a4-61d4-41f8-b8b8-29c1c6e65541",
     "success" : true,
     "errorCode" : null
   }, {
-    "deviceId" : "aee20f94-7eed-405f-8bfe-da8909147d2b",
+    "deviceId" : "d66e0e07-521e-4e4b-85c2-bdd4c16b1ece",
     "success" : true,
     "errorCode" : null
   } ]
