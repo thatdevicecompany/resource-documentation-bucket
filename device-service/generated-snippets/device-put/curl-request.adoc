@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/devices/279f3031-9e48-4274-aa1d-2d8f6eb32fae' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/devices/269d4280-7a0b-4bb2-a640-16d15f1dff11' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
@@ -9,11 +9,11 @@ $ curl 'https://api.breezie.com/devices/279f3031-9e48-4274-aa1d-2d8f6eb32fae' -i
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : false,
   "scope" : {
-    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "facilityId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0"
+    "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   }
 }'
 ----
