@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/devices/8d7c32ea-4c40-40f6-90e0-73c319c08041/messages' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json;charset=UTF-8' -d '{
+$ curl 'https://api.breezie.com/devices/ea1e98c0-0fe6-4da7-82c7-0963bf90943a/messages' -i -X POST -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json;charset=UTF-8' -d '{
   "messageType" : "launch",
   "data" : {
     "packageName" : "app:com.breezie.apps.video.VideoCall"
