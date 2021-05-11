@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /devices/ad4c28f8-3ff3-4b64-bdb4-5c73e10f917d HTTP/1.1
+DELETE /devices/67b7f1e4-2a5a-4311-a3ae-66e5ab07edf8 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
 
