@@ -9,7 +9,7 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 640
+Content-Length: 663
 
 {
   "name" : "Breezie",
@@ -28,9 +28,10 @@ Content-Length: 640
   "regionLevelReference" : null,
   "campusLevelReference" : null,
   "facilityLevelReference" : null,
-  "id" : "84f690b3-67f8-42bf-b932-0136546b4cd3",
-  "createdTime" : 1615575063344,
-  "lastUpdatedTime" : 1615575063344,
+  "vitalCare" : false,
+  "id" : "84242b88-d651-4bca-87f7-66bdf681b0ef",
+  "createdTime" : 1621357899222,
+  "lastUpdatedTime" : 1621357899222,
   "createdBy" : "user",
   "updatedBy" : "user",
   "validCredentials" : false
