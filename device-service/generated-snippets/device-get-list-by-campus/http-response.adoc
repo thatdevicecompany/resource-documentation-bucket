@@ -12,11 +12,11 @@ X-Frame-Options: DENY
 Content-Length: 1248
 
 [ {
-  "id" : "fe054192-871e-473c-8572-c6e607e4f6f5",
-  "serialNumber" : "R52K706QYTPZ",
-  "androidId" : "35121d98a70f4140",
+  "id" : "c39f526f-9bea-4162-98a5-e1beec25ce60",
+  "serialNumber" : "R52G5ABX16XV",
+  "androidId" : "3e4d311d6223dge4",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-  "model" : "SM-T813",
+  "model" : "SM-T550",
   "manufacturer" : "samsung",
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
@@ -28,11 +28,11 @@ Content-Length: 1248
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   }
 }, {
-  "id" : "3e18f8ef-354a-4f17-aa43-96f9210ef7db",
-  "serialNumber" : "R52G5ABX16XV",
-  "androidId" : "3e4d311d6223dge4",
+  "id" : "2a4bc408-820b-4e3d-8cac-e51ef18011db",
+  "serialNumber" : "R52K706QYTPZ",
+  "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
-  "model" : "SM-T550",
+  "model" : "SM-T813",
   "manufacturer" : "samsung",
   "fcmToken" : "asdfgh-234r5-afsdg-argq-t6-adst-5srgsdfh-hhye",
   "enabled" : true,
