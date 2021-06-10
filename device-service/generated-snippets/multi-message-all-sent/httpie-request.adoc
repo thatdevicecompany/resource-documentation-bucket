@@ -1,7 +1,7 @@
 [source,bash]
 ----
 $ echo '{
-  "devices" : [ "5f3c1876-8532-4fda-a037-836f7edc7844", "f5975ea9-f8c8-4fdc-9d6d-b4e9b9ac20c0" ],
+  "devices" : [ "37877e5a-2d22-4413-89ab-8fef75f59c63", "40ceca87-654a-46b8-8e72-f92a98e120cc" ],
   "messageType" : "all",
   "data" : { }
 }' | http POST 'https://api.breezie.com/devices/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
