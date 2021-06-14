@@ -12,29 +12,29 @@ X-Frame-Options: DENY
 Content-Length: 2119
 
 [ {
-  "id" : "ccb8847c-cf70-4432-84c9-b73b8ed3410d",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "id" : "4dce4662-1f56-442a-96c3-f628adb26eb2",
+  "name" : "Personal",
+  "description" : "Personal group",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
   "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
+    "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
   "isDefault" : true,
   "promote" : false,
   "forced" : false,
   "hidden" : true,
-  "personal" : false,
+  "personal" : true,
   "hideOnHub" : false,
   "backgroundColor" : null,
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "0909cb62-3a7c-4e52-a58b-cb41a9766fe8",
+  "id" : "cd5d3c34-78cf-4d00-8b67-d72ff63b56d2",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -56,23 +56,23 @@ Content-Length: 2119
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "b85d9587-cc34-40da-9f81-070e21d6fbad",
-  "name" : "Personal",
-  "description" : "Personal group",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "698a8237-a93e-46e4-83bf-78fb2a281a6a",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
     "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
+    "userId" : null
   },
   "isDefault" : true,
   "promote" : false,
   "forced" : false,
   "hidden" : true,
-  "personal" : true,
+  "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : null,
   "parentGroup" : null,

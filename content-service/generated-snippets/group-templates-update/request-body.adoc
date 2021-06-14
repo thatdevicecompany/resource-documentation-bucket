@@ -4,7 +4,7 @@
   "id" : null,
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "b0cc3bc3-723e-410d-b367-6e816cad72de", "e99f87df-d823-4572-9b39-3df279e003ce", "37639c4c-9080-4436-a31c-2faf127a0dbb", "ccd47378-bf71-4f86-927f-ca56ab7df735" ],
+  "groups" : [ "2cac63b6-78d9-41d4-986a-d992674aff69", "daf59d6b-8ef0-4bc0-a419-abad6e105985", "9c511b42-646d-4863-95cc-402ce6a27e03", "2bb6df78-0819-4f25-880f-71090b0d4935" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
