@@ -9,10 +9,10 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 704
+Content-Length: 758
 
 [ {
-  "id" : "15444c33-a9df-4688-b27a-68e3d0decb55",
+  "id" : "f91cc29d-7b07-42e0-be0a-bc33fe1733f5",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -30,6 +30,8 @@ Content-Length: 704
   "hidden" : false,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 } ]
 ----

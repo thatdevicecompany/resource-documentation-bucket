@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "68e10768-4f14-446f-bab4-fe3f06850e7e",
+  "id" : "29a95a61-73d7-4956-852f-368bbf109e33",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
@@ -19,6 +19,8 @@
   "hidden" : true,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 } ]
 ----

@@ -18,7 +18,9 @@ $ echo '{
   "hidden" : false,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 }' | http POST 'https://api.breezie.com/groups/' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'

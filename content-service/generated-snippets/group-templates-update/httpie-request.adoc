@@ -4,7 +4,7 @@ $ echo '{
   "id" : null,
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "6822a8ff-cdca-43f9-9f06-148f2d9883b3", "a3a2e448-6aee-4f98-99c6-eda5fd9e73e4", "bd574845-cde2-4a6f-92c7-4b49bff3f69d", "fb26ed6a-f948-4ce9-b8eb-35da5e6d5e07" ],
+  "groups" : [ "b0cc3bc3-723e-410d-b367-6e816cad72de", "e99f87df-d823-4572-9b39-3df279e003ce", "37639c4c-9080-4436-a31c-2faf127a0dbb", "ccd47378-bf71-4f86-927f-ca56ab7df735" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
@@ -12,7 +12,7 @@ $ echo '{
     "facilityId" : null,
     "userId" : null
   }
-}' | http PUT 'https://api.breezie.com/group-templates/2f5c4cd3-f86d-4c05-a01f-2fd81effd07a' \
+}' | http PUT 'https://api.breezie.com/group-templates/c1e84811-8604-44c0-8ee5-37d6412fc347' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

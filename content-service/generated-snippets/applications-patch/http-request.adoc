@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PATCH /applications/f8d331c5-2927-43a7-9aaf-f5aaa4b7bcdd HTTP/1.1
+PATCH /applications/466d183d-519d-4d50-be91-58cc8734cc5f HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com

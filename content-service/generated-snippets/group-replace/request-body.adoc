@@ -12,6 +12,8 @@
   "hidden" : null,
   "personal" : null,
   "hideOnHub" : null,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 }
 ----

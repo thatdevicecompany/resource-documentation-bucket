@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "27816213-14dd-4182-b25c-3eb1c8fdd206",
+  "id" : "6878764f-1e09-43b5-85a6-1bcc6d574532",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -19,6 +19,8 @@
   "hidden" : false,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 }
 ----
