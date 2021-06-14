@@ -17,8 +17,12 @@
 |`+String+`
 |Url of the group logo
 
+|`+[].backgroundImageUrl+`
+|`+String+`
+|Image to show as background for the image icon
+
 |`+[].backgroundColor+`
-|`+Null+`
+|`+String+`
 |Color to show as background for the image icon
 
 |`+[].isDefault+`

@@ -18,7 +18,7 @@
 |Url of the group logo
 
 |`+backgroundColor+`
-|`+Null+`
+|`+String+`
 |Color to show as background for the image icon
 
 |`+isDefault+`
