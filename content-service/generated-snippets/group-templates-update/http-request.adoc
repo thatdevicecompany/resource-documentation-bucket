@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /group-templates/b09c507c-a4e4-4262-8d81-38b70b836e3f HTTP/1.1
+PUT /group-templates/a4801c91-9871-45dd-81e0-1d7631ada9cb HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
@@ -10,7 +10,7 @@ Content-Length: 473
   "id" : null,
   "name" : "Engagenment Template",
   "description" : "Groups for all standard users in 'organization 1'",
-  "groups" : [ "d663acea-2d56-41fb-8a18-bca873f3de76", "a5348bd7-e255-4e80-b0c3-a73584207acd", "a0e4f3cf-544e-4f18-8b91-ae50bedb1aaa", "5082b01b-7343-4d70-ad64-d5b869a0e8ba" ],
+  "groups" : [ "805878b1-4c31-43ac-82c3-52b070da04f4", "f5730b61-5518-402a-a137-d7c7d75428fd", "77a6d05d-0e69-4f3a-80cd-de333f14a2f9", "d09727dd-c799-4db4-bf3b-0a0b2fde83d2" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
