@@ -1,11 +1,11 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "9fd38d43-2c36-4ae9-b79a-d12dc43d0915",
+  "id" : "bc62c558-5b90-4368-9465-1782bba3604a",
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -19,7 +19,7 @@
   "hidden" : true,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null,
+  "backgroundColor" : "#f1f1f1",
   "parentGroup" : null,
   "removedFromParent" : null
 }

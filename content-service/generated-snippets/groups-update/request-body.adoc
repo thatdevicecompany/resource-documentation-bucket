@@ -4,6 +4,7 @@
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -15,6 +16,9 @@
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "18b10b94-b5da-4a50-8af9-5e046650bad6",
+  "removedFromParent" : [ "fdba3f75-13aa-45da-b46f-158c5843b358", "b6961169-106b-419d-8fe8-369c87de953b" ]
 }
 ----

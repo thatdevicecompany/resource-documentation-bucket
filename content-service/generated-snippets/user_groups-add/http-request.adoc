@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /groups/965d9b1e-1678-4362-9f78-8f621cfc7890/users HTTP/1.1
+PUT /groups/4a481ac4-4597-449c-84ac-dff3a4e01b88/users HTTP/1.1
 Content-Type: text/uri-list
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com

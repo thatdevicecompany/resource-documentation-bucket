@@ -7,6 +7,7 @@ $ curl 'https://api.breezie.com/groups' -i -X POST \
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -18,6 +19,9 @@ $ curl 'https://api.breezie.com/groups' -i -X POST \
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "8f9de402-821f-4224-881d-dd6b0323bce9",
+  "removedFromParent" : [ "35ab3e55-3d29-403c-9b5c-b18e01719a5b", "38a57735-b07f-4702-96f6-798027d268c3" ]
 }'
 ----
