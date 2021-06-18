@@ -4,7 +4,7 @@ $ echo '{
   "id" : null,
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "5a6986c7-2738-4ab3-9091-c88d947015c7", "461d3862-cb36-4d0e-8ae1-66fa9866005f", "438262e1-44bf-4d33-a2a2-e6f72c01d1b7", "af2e6638-6021-4870-b041-7b8807b579a8" ],
+  "groups" : [ "8f12c558-b59d-42e6-a53e-3a18e6c2908f", "e60d28b8-cdbe-4f30-bd0d-ee455f723e7a", "82b1f8de-de44-4c69-bd8e-efbb07d1b00f", "bb5db7a2-0dca-4ea3-9a04-d29fe203f760" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,

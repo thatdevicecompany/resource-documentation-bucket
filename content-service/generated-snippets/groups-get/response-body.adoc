@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "000c191a-72c4-4f65-a0e1-e2ffad3c67a8",
+  "id" : "63cb48ea-fb0f-4ca3-966d-c4ff2e7664f6",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -20,7 +20,7 @@
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : null,
-  "removedFromParent" : null
+  "parentGroup" : "5784c20b-ca9a-41f4-afa1-828d905305ac",
+  "removedFromParent" : [ "396a44c6-d5de-4f06-ad2d-10d89242d360", "678b1810-865c-47e5-979e-23d332660662" ]
 }
 ----

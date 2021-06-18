@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PATCH /bookmarks/da727caa-c2eb-4300-8a9a-42be475d5b44 HTTP/1.1
+PATCH /bookmarks/06917bc0-8123-425b-9ad3-e172ae94b20c HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com

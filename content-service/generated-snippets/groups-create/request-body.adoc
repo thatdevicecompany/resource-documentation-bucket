@@ -18,7 +18,7 @@
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "8f9de402-821f-4224-881d-dd6b0323bce9",
-  "removedFromParent" : [ "35ab3e55-3d29-403c-9b5c-b18e01719a5b", "38a57735-b07f-4702-96f6-798027d268c3" ]
+  "parentGroup" : "973e576d-a8d8-4dd9-868d-1a2aa13426af",
+  "removedFromParent" : [ "6a55a0d4-5e5f-4bd0-a912-a2e9459132e3", "c7a389a1-63ef-431d-8d42-9fa0a3a1f5b8" ]
 }
 ----

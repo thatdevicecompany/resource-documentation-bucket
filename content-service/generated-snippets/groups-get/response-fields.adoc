@@ -26,11 +26,11 @@
 |A descriptive note related to the group
 
 |`+parentGroup+`
-|`+Null+`
+|`+String+`
 |Group identifier from where this group will inherit content
 
 |`+removedFromParent+`
-|`+Null+`
+|`+Array+`
 |List of content identifiers that won't be inherit from the parent
 
 |`+scope+`

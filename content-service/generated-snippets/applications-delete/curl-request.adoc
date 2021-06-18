@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/applications/38f67b16-a270-4089-a7e6-f4c98e961a3e' -i -X DELETE \
+$ curl 'https://api.breezie.com/applications/0c3b8c85-7933-48f0-842d-8c9467b55d63' -i -X DELETE \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
