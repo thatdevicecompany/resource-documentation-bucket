@@ -12,12 +12,12 @@ X-Frame-Options: DENY
 Content-Length: 476
 
 {
-  "id" : "06917bc0-8123-425b-9ad3-e172ae94b20c",
+  "id" : "907ff90d-7517-4dfc-99d2-6d8e5e137d05",
   "url" : "www.gardening.com/summer",
   "name" : "Summer Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "10430c56-40ae-4101-8d95-c27ab541bb13",
+  "groupId" : "fee71dc2-a2a0-4184-b781-d6f980ac84aa",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,

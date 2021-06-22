@@ -18,8 +18,8 @@ $ echo '{
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "973e576d-a8d8-4dd9-868d-1a2aa13426af",
-  "removedFromParent" : [ "6a55a0d4-5e5f-4bd0-a912-a2e9459132e3", "c7a389a1-63ef-431d-8d42-9fa0a3a1f5b8" ]
+  "parentGroup" : "ac32d888-7a1c-4c96-8efd-4ccfa2bf7762",
+  "removedFromParent" : [ "c4dc6ee1-fb89-4a43-a3fe-b28bdaa366e3", "e99e77e5-533a-4375-98fd-13e834f66d2d" ]
 }' | http POST 'https://api.breezie.com/groups' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
