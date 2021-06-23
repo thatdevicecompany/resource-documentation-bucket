@@ -5,5 +5,5 @@ $ echo '{
   "data" : {
     "packageName" : "app:com.breezie.apps.video.VideoCall"
   }
-}' | http POST 'https://api.breezie.com/devices/40a822f7-4b38-44f7-b955-f5abfb1e219f/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+}' | http POST 'https://api.breezie.com/devices/6f2b9552-683b-484e-9bee-5bf4fe48df07/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
 ----
