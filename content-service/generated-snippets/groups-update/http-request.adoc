@@ -1,15 +1,16 @@
 [source,http,options="nowrap"]
 ----
-PUT /groups/db1cd94b-1ed0-47b5-bdf3-72e5188f1eee HTTP/1.1
+PUT /groups/28c4e4e5-9ae3-4c13-a300-456ab6999ad4 HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
-Content-Length: 520
+Content-Length: 788
 
 {
   "name" : "Garden",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -21,6 +22,9 @@ Content-Length: 520
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "3f0ce345-6402-4b43-a9b4-c8c051407e00",
+  "removedFromParent" : [ "cec6f52e-6ffa-4317-a200-55ab09b7a0d7", "be0c7a90-4ff8-4bb6-99cd-73e7dfa88d58" ]
 }
 ----

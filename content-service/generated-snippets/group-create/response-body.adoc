@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "88f1a6b7-b6ee-4228-a54a-e9d9fd790988",
+  "id" : "df2b9dac-2cc9-4512-a7e8-afe0a2bb1c64",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -19,6 +19,8 @@
   "hidden" : false,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 }
 ----

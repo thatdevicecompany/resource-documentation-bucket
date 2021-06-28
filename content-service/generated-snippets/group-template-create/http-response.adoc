@@ -12,10 +12,10 @@ X-Frame-Options: DENY
 Content-Length: 529
 
 {
-  "id" : "88b056dc-0fbb-42ef-ab81-aed4d8d80332",
+  "id" : "00822aca-0dfe-43a9-8e46-ecc6973d3cdc",
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "adec7a1d-9d61-47a4-aa24-494da76adeb7", "3b337fc6-c6d4-40f2-bea7-3428321b5989", "c1e2bcae-0491-4c26-9590-55d6c6314e2f", "830ef7b7-2eb0-40df-9993-89a179c10bbe" ],
+  "groups" : [ "6f37b028-c931-4aa4-9703-be6b4bedec52", "0f17e766-a162-4e66-b91b-a8073a9354a0", "d3e825de-02a3-446e-af0b-b397211d9cd5", "d8182260-b5fd-487b-8afb-4957331f16bd" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,

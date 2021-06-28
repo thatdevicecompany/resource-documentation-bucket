@@ -13,13 +13,25 @@
 |`+String+`
 |Image url of the group
 
+|`+backgroundImageUrl+`
+|`+String+`
+|Image to show as background for the image icon
+
 |`+backgroundColor+`
-|`+Null+`
+|`+String+`
 |Color to show as background for the image icon
 
 |`+description+`
 |`+String+`
 |A descriptive note related to the group
+
+|`+parentGroup+`
+|`+String+`
+|Group identifier from where this group will inherit content
+
+|`+removedFromParent+`
+|`+Array+`
+|List of content identifiers that won't be inherit from the parent
 
 |`+scope+`
 |`+Object+`

@@ -21,6 +21,8 @@ $ curl 'https://api.breezie.com/groups/' -i -X POST \
   "hidden" : false,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
 }'
 ----

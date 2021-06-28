@@ -1,11 +1,11 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "a1cf95a4-d2bb-41dc-87d8-7ccb4252cb63",
+  "id" : "34875bb3-348c-4366-af5b-5bd80c85ea31",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -19,6 +19,8 @@
   "hidden" : true,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "63f36acf-9a2a-4975-86a7-5c6a9dde0807",
+  "removedFromParent" : null
 }
 ----

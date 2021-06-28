@@ -4,6 +4,7 @@ $ echo '{
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -15,7 +16,10 @@ $ echo '{
   "forced" : false,
   "hidden" : true,
   "personal" : false,
-  "hideOnHub" : false
+  "hideOnHub" : false,
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "63f36acf-9a2a-4975-86a7-5c6a9dde0807",
+  "removedFromParent" : [ "20194d6f-43e1-4507-8c74-3d58f8a5696a", "f7c83606-c71f-4d50-8eb4-5b18bc5cf9e5" ]
 }' | http POST 'https://api.breezie.com/groups' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'

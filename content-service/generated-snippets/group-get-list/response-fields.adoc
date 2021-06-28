@@ -17,8 +17,12 @@
 |`+String+`
 |Url of the group logo
 
+|`+[].backgroundImageUrl+`
+|`+String+`
+|Image to show as background for the image icon
+
 |`+[].backgroundColor+`
-|`+Null+`
+|`+String+`
 |Color to show as background for the image icon
 
 |`+[].isDefault+`
@@ -44,6 +48,14 @@
 |`+[].hideOnHub+`
 |`+Boolean+`
 |Define if a group is visible on the Breezie Hub
+
+|`+[].parentGroup+`
+|`+Null+`
+|Group identifier from where this group will inherit content
+
+|`+[].removedFromParent+`
+|`+Null+`
+|List of content identifiers that won't be inherit from the parent
 
 |`+[].scope.organizationId+`
 |`+String+`

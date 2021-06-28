@@ -9,14 +9,14 @@ Pragma: no-cache
 Expires: 0
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
-Content-Length: 652
+Content-Length: 861
 
 {
-  "id" : "4b3d3f35-dd06-4327-bc12-5941c6df40e7",
+  "id" : "d4a0713f-9f30-4596-b7b1-5de335acad37",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
     "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
@@ -30,6 +30,8 @@ Content-Length: 652
   "hidden" : true,
   "personal" : false,
   "hideOnHub" : false,
-  "backgroundColor" : null
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "ec3c0963-9e49-46ce-b422-8bfef6ca12ba",
+  "removedFromParent" : [ "a4dc7966-8776-4f2c-9d97-680050583272", "29b0f08e-c489-4c76-92b1-73ba94fac899" ]
 }
 ----
