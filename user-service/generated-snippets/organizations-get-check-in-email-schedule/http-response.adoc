@@ -3,7 +3,7 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "06d9dd162e5da71c9443f23c1be3ad56f"
+ETag: "0bd919d413c4a9cca04e8980cfdb344a8"
 Content-Length: 452
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -11,17 +11,17 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "scheduleId" : "5cc8658b-57bf-44aa-b75f-5dd1dc6c9e1a",
-  "receivers" : "test1@breezie.com,test2@breezie.com",
-  "hour" : 9,
-  "minute" : 30,
-  "timeZone" : "time-zone-test",
-  "timeZoneDisplay" : "Greenwich Mean Time"
-}, {
-  "scheduleId" : "8e5d3141-56b9-4591-8869-4d9dfd583b21",
+  "scheduleId" : "0df2bef1-e44f-48cb-b5ce-b19862a58b6f",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 13,
   "minute" : 0,
+  "timeZone" : "time-zone-test",
+  "timeZoneDisplay" : "Greenwich Mean Time"
+}, {
+  "scheduleId" : "14e6dafe-d6e9-42b3-8ccd-f0e992b28685",
+  "receivers" : "test1@breezie.com,test2@breezie.com",
+  "hour" : 9,
+  "minute" : 30,
   "timeZone" : "time-zone-test",
   "timeZoneDisplay" : "Greenwich Mean Time"
 } ]
