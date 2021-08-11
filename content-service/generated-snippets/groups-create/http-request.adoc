@@ -24,7 +24,7 @@ Content-Length: 771
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "63f36acf-9a2a-4975-86a7-5c6a9dde0807",
-  "removedFromParent" : [ "20194d6f-43e1-4507-8c74-3d58f8a5696a", "f7c83606-c71f-4d50-8eb4-5b18bc5cf9e5" ]
+  "parentGroup" : "85ae7a5e-a588-428b-be70-d9fdd6bbb727",
+  "removedFromParent" : [ "390df1b1-d3b9-4b29-b5b7-78d25e27bebd", "1c3401dc-7889-47e3-a595-6e130950d766" ]
 }
 ----
