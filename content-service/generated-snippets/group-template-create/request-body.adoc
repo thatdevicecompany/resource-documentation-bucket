@@ -4,7 +4,7 @@
   "id" : null,
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "82057373-d18d-40af-bf80-2cba6b9031b5", "ae915b34-9edd-490f-9139-4159a10bbd52", "bc84a017-d0c7-417f-860e-68d703ed238b", "3280e533-c500-45ae-a132-f5f024fc9359" ],
+  "groups" : [ "ced69c3d-afd3-48a9-ace6-2df585d827cb", "ca723e83-eb19-40c2-b60e-3f05c39fb141", "38316f92-e3ed-4701-8ad8-7a2fa52ac9e0", "13fd4466-af31-4dc3-aa02-ca585885beac" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,
