@@ -3,7 +3,7 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "0bd919d413c4a9cca04e8980cfdb344a8"
+ETag: "0438f789f29a6ee96ef4a4cd5b155ff47"
 Content-Length: 452
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -11,14 +11,14 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "scheduleId" : "0df2bef1-e44f-48cb-b5ce-b19862a58b6f",
+  "scheduleId" : "3c85f253-eab6-4eb8-ac36-208a8d25e9b4",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 13,
   "minute" : 0,
   "timeZone" : "time-zone-test",
   "timeZoneDisplay" : "Greenwich Mean Time"
 }, {
-  "scheduleId" : "14e6dafe-d6e9-42b3-8ccd-f0e992b28685",
+  "scheduleId" : "e62724fe-fa46-4f31-936f-163ac2d735b3",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
