@@ -8,7 +8,7 @@ $ curl 'https://api.breezie.com/bookmarks' -i -X POST \
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "59db4f85-4caf-4263-b037-55f4e174fd43",
+  "groupId" : "544b45b1-bbad-4971-82ad-cfa843f28b3d",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

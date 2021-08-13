@@ -1,10 +1,10 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "a5dcb06f-4605-4faa-8a29-7a9b1ce1807b",
+  "id" : "e49c0719-d7a5-4bd6-bda1-a2252820f0db",
   "name" : "Initial Breezie Content",
   "description" : "Basic initial content for a standard device configuration",
-  "groups" : [ "85ddbb1c-f93a-445e-bc49-7f34a62c1623", "e5f4a2c9-9496-407a-83e6-299901b1ca90", "0f816b0b-76fc-4f4d-99c7-8bee1027dd8a" ],
+  "groups" : [ "41cf12a7-e251-4f2d-8a20-11a4cad6ebea", "67275cbf-afa2-498d-b639-4f1705894f96", "6e7370ae-7ba2-449d-b578-255790240774" ],
   "scope" : {
     "organizationId" : null,
     "regionId" : null,

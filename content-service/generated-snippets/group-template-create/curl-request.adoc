@@ -7,7 +7,7 @@ $ curl 'https://api.breezie.com/group-templates/' -i -X POST \
   "id" : null,
   "name" : "Entertainment",
   "description" : "All groups that contains entertainment contents: books, audio, video, games...",
-  "groups" : [ "ced69c3d-afd3-48a9-ace6-2df585d827cb", "ca723e83-eb19-40c2-b60e-3f05c39fb141", "38316f92-e3ed-4701-8ad8-7a2fa52ac9e0", "13fd4466-af31-4dc3-aa02-ca585885beac" ],
+  "groups" : [ "0659c26f-d3bd-4ac3-8c0e-c8af60614c15", "560b73a0-2a88-4ee6-b5f0-efe29b72ced9", "61352db8-6766-489d-81f3-4e8f1546506e", "1e2de303-0f48-4710-8da0-8e499a6887af" ],
   "scope" : {
     "organizationId" : "18c70b9e-2012-4279-a7ba-fff523d95a12",
     "regionId" : null,

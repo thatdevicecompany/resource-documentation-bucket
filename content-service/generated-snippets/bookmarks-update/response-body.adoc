@@ -1,12 +1,12 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "60372f67-e3bf-438d-8208-23637b3c92d8",
+  "id" : "e52f903e-3af0-4bed-98cb-b1923f63405d",
   "url" : "www.gardening.com",
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "8b2e1d4d-f2e8-4b41-8657-14121545d69e",
+  "groupId" : "00443022-2ce7-4d7b-ab57-ece34581e878",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,

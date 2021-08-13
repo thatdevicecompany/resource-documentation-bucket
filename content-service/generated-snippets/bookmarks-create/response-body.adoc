@@ -1,12 +1,12 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "b6cb9699-26a6-415f-a596-091eb8524fd3",
+  "id" : "6038dcf9-994d-4e69-97da-d6ea581fa13a",
   "url" : "www.gardening.com",
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "59db4f85-4caf-4263-b037-55f4e174fd43",
+  "groupId" : "544b45b1-bbad-4971-82ad-cfa843f28b3d",
   "tags" : [ "garden" ],
   "forced" : false,
   "promote" : false,
