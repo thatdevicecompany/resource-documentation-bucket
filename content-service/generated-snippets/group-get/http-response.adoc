@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 827
 
 {
-  "id" : "91b4090b-b188-4f7c-bfb5-5f4b9142cdf4",
+  "id" : "676d2b5b-895c-4a21-af15-17829aae3bb2",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",

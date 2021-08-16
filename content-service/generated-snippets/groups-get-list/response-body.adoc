@@ -1,7 +1,29 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "47ba0124-4e0c-4f91-a8c4-483165b86108",
+  "id" : "0198fcd3-d10f-4c86-8a8c-f4cb5345273a",
+  "name" : "Cinema",
+  "description" : "A group for all the cinema enthusiasts",
+  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
+}, {
+  "id" : "1697acd0-62b9-4fda-b0cc-f2baaa8a8a15",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
@@ -23,29 +45,7 @@
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "65b50d2e-081c-4ef7-a182-99193c3011a1",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null,
-  "parentGroup" : "faee00fe-0bf8-468e-9a9d-ba373fd3b924",
-  "removedFromParent" : [ "20664b59-5059-4cf2-822c-b3178a102818", "75457b29-7ed8-4ddd-8494-8e1b48d34cbf" ]
-}, {
-  "id" : "cf07e377-5723-4c9f-833f-377971f3d36d",
+  "id" : "85c0bb96-0793-407c-97df-e150009864c7",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",
@@ -67,7 +67,7 @@
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "b296b667-926b-4ab9-9078-1780807b0b0f",
+  "id" : "a653ef58-80db-444e-99b0-6255d5150a16",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -86,13 +86,13 @@
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "65b50d2e-081c-4ef7-a182-99193c3011a1",
-  "removedFromParent" : [ "fc87be5c-a13d-4772-90cd-1bf250756991", "509b7cb3-00b5-40a5-97c1-3ceddb5a6659" ]
+  "parentGroup" : "f9f3ba95-06fc-41bb-a9d3-8b9ebf9ed9a6",
+  "removedFromParent" : [ "b83ba45a-19a5-48ad-8503-1d64f2b45d41", "2db47034-2498-43f9-8c6d-8dd1221e1a44" ]
 }, {
-  "id" : "1ff4e6bc-4094-4b18-bca3-56e07f5af484",
-  "name" : "Cinema",
-  "description" : "A group for all the cinema enthusiasts",
-  "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
+  "id" : "f9f3ba95-06fc-41bb-a9d3-8b9ebf9ed9a6",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
   "backgroundImageUrl" : null,
   "scope" : {
     "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
@@ -108,7 +108,7 @@
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : null,
-  "parentGroup" : null,
-  "removedFromParent" : null
+  "parentGroup" : "c396396f-6286-45c0-a576-2f168e051c2c",
+  "removedFromParent" : [ "709acf5d-0bc2-4901-bb06-4b61f5d1171a", "694e187c-ffe4-4445-a442-178fd3ab78c9" ]
 } ]
 ----

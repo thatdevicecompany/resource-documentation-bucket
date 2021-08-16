@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/groups/8c90362e-5e8d-4fdf-98a7-28faa153819b' -i -X PUT \
+$ curl 'https://api.breezie.com/groups/59522a7f-d412-4bef-a1a6-55bc9ad48863' -i -X PUT \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
@@ -21,7 +21,7 @@ $ curl 'https://api.breezie.com/groups/8c90362e-5e8d-4fdf-98a7-28faa153819b' -i 
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "beb603ea-db82-4187-ae5e-be6d7ef093f2",
-  "removedFromParent" : [ "40890c36-58ad-4683-9525-83b55cc49468", "8d28bacb-e3b3-4ff5-bd0b-cb0ac952e77d" ]
+  "parentGroup" : "cd8ebb66-cf56-42c4-930c-f84363ed2255",
+  "removedFromParent" : [ "08bdfee6-bb97-4053-9180-19953971410e", "8d27dd62-0ea1-457c-bd73-8502cff38307" ]
 }'
 ----
