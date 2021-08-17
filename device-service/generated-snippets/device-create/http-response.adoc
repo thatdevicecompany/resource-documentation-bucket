@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 611
 
 {
-  "id" : "1252ad97-18b8-4a85-80da-2cc3f6f16e6e",
+  "id" : "70d383dc-229c-4358-bd14-01c099614568",
   "serialNumber" : "R52G5ABX32BB",
   "androidId" : "3e4dhgf5s223hggt",
   "userId" : "dft54er4-8709-9iyt-ht5r67ytg4df",

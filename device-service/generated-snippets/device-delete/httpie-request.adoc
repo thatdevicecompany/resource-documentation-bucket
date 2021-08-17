@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ http DELETE 'https://api.breezie.com/devices/59fb1b52-cb1f-4a8d-91e7-eca22aea2b77' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
+$ http DELETE 'https://api.breezie.com/devices/88ff106f-1eb6-486c-93ce-ebe7bde4e57d' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
