@@ -15,5 +15,5 @@ $ echo '{
     "regionId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
     "campusId" : "7ccae739-0817-46ef-b39c-4c695a6ec835"
   }
-}' | http PUT 'https://api.breezie.com/devices/63eef33d-84c3-425a-8979-f19729d561fc' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PUT 'https://api.breezie.com/devices/f2956b7b-f2b4-469a-a3a5-35b817f9bc40' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----
