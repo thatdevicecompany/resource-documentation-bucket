@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 630
 
 [ {
-  "id" : "ef009b31-2391-43e3-b85d-d1645fe8c3f9",
+  "id" : "13dd1685-e1ac-409f-a681-c327ddc4b69f",
   "name" : "Games",
   "description" : "A group for all the games enthusiasts",
   "imageUrl" : "www.games-group.co.uk/logo.jpg",
