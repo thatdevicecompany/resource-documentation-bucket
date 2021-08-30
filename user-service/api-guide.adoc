@@ -316,7 +316,6 @@ A `sponsorRequest` represents an invitation to someone to become the sponsor of 
 ** <<sponsor-requests-list, Listing sponsor requests>>
 ** <<sponsor-requests-create, Create Sponsor Requests>>
 ** <<sponsor-requests-update, Update Sponsor Requests>>
-** <<sponsor-requests-email, Send sponsor request email>>
 
 
 [[sponsor-requests-structure]]
@@ -365,18 +364,5 @@ include::{user-snippets}/sponsorRequest-patch/curl-request.adoc[]
 ====== Example response
 
 include::{user-snippets}/sponsorRequest-patch/http-response.adoc[]
-
-[[sponsor-requests-email]]
-===== Send Sponsor Request Email
-
-A `POST` request to `/sponsorRequests/{id}/email` will send a sponsor request email to the email previously set in the sponsor request. Any User with write access to the specified User can make this request.
-
-====== Example request
-
-include::{user-snippets}/sponsorRequest-email/curl-request.adoc[]
-
-====== Example response
-
-include::{user-snippets}/sponsorRequest-email/http-response.adoc[]
 
 
