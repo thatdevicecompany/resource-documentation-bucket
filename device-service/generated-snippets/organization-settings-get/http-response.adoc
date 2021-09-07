@@ -2,7 +2,7 @@
 ----
 HTTP/1.1 200 OK
 Content-Type: text/plain;charset=ISO-8859-1
-Content-Length: 491
+Content-Length: 490
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -15,7 +15,7 @@ X-Frame-Options: DENY
   "organizationId" : "54947df8-0e9e-4471-a2f9-9af509fb5889",
   "allowBreezieAppRemoval" : false,
   "allowDeviceAdminRemoval" : true,
-  "usbDebugging" : false,
+  "usbDebugging" : true,
   "allowFactoryReset" : false,
   "schemaUri" : "/schemas/actual_schema_breezie",
   "disableApps" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],

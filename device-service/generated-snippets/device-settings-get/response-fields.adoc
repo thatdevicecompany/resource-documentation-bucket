@@ -61,8 +61,20 @@
 |`Number`
 |integer property example
 
-|`manualTime`
-|`Object`
-|property example
+|`startScreenLogoUrl`
+|`String`
+|string property example
+
+|`startScreenWallpaperUrl`
+|`String`
+|string property example
+
+|`region`
+|`String`
+|string property example
+
+|`autoTime`
+|`Boolean`
+|boolean property example
 
 |===
