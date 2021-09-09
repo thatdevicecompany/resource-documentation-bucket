@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /groups/8627ecf0-2b73-47f4-ab80-d74a5ad2e8fd HTTP/1.1
+PUT /groups/5e27d153-af64-45a2-8dad-01743ed355f2 HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Host: api.breezie.com
@@ -24,7 +24,7 @@ Content-Length: 788
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "675df36b-b008-448b-a6a6-3c3da49e782d",
-  "removedFromParent" : [ "b7d6f167-ba30-4046-b45c-0a5fb06a1cae", "59ca0485-e999-41ca-91ea-25f1b72c6ea3" ]
+  "parentGroup" : "31aac4dd-fe7c-4a68-a0cc-1ad35269c2dd",
+  "removedFromParent" : [ "4c36c668-6bfd-490a-9821-ee5771f3e81f", "00026973-e065-48c7-b821-b88ab11f8cc4" ]
 }
 ----
