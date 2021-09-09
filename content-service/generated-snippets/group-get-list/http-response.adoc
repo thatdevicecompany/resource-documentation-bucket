@@ -12,51 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 3530
 
 [ {
-  "id" : "32bd230c-b7f9-49ce-bca6-0f3e8244d368",
-  "name" : "Entertainment",
-  "description" : "Entertainment",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
-    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null,
-  "parentGroup" : null,
-  "removedFromParent" : null
-}, {
-  "id" : "a5323067-c4d7-421d-9b5f-09690e9c4359",
-  "name" : "Games",
-  "description" : "Master the art of board games",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : null,
-    "campusId" : null,
-    "facilityId" : null,
-    "userId" : null
-  },
-  "isDefault" : false,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : false,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null,
-  "parentGroup" : null,
-  "removedFromParent" : null
-}, {
-  "id" : "4c836d5b-ab51-47b0-9880-2e88480c5144",
+  "id" : "39aabe50-b337-4122-97e6-5fb5cf250fc5",
   "name" : "Biographies",
   "description" : "Read about the life stories of famous figures throughout history",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
@@ -78,13 +34,13 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "4a27a6f0-612a-4ed6-9a92-5f70ca2ee696",
-  "name" : "Breezie",
-  "description" : "Default content for Breezie users",
-  "imageUrl" : "https://breezie.com/logo",
+  "id" : "1052800c-d650-47a1-8924-10eb25e30201",
+  "name" : "Games",
+  "description" : "Master the art of board games",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
   "backgroundImageUrl" : null,
   "scope" : {
-    "organizationId" : null,
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
@@ -100,7 +56,29 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "a9b0e96e-5d96-448c-96e9-77ce54c9d976",
+  "id" : "a502c1e8-39eb-481c-92c0-e7392fbc6504",
+  "name" : "Entertainment",
+  "description" : "Entertainment",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "campusId" : "9784ad47-ee1f-4273-8de3-f9652d865b1a",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null,
+  "parentGroup" : null,
+  "removedFromParent" : null
+}, {
+  "id" : "d947fc9e-5c4b-41db-953e-dc283c6ed04d",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -119,6 +97,28 @@ Content-Length: 3530
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#1f1f1f",
+  "parentGroup" : null,
+  "removedFromParent" : null
+}, {
+  "id" : "fb05e9bb-f26a-4c5f-b5a6-e7a2279cacd2",
+  "name" : "Breezie",
+  "description" : "Default content for Breezie users",
+  "imageUrl" : "https://breezie.com/logo",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : null,
+    "regionId" : null,
+    "campusId" : null,
+    "facilityId" : null,
+    "userId" : null
+  },
+  "isDefault" : false,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : false,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null,
   "parentGroup" : null,
   "removedFromParent" : null
 } ]

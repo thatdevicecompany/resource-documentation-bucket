@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 3094
 
 [ {
-  "id" : "12074a46-68b2-47b5-a459-237e7fd98cdf",
+  "id" : "41e51170-e7e8-444c-96d3-9c76942353e4",
   "name" : "Gardening",
   "description" : "A group for all the gardening enthusiasts",
   "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
@@ -31,10 +31,32 @@ Content-Length: 3094
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "7cb8c097-ab5f-4f41-b1d8-c09e228a9ffe",
-  "removedFromParent" : [ "68930ee7-be7b-45c7-adc5-db610a7628c6", "a05a2246-9654-467d-93ce-2f79a443f1f6" ]
+  "parentGroup" : "38f7e19a-6589-44ca-8a89-0ff8b30c7567",
+  "removedFromParent" : [ "a70111ec-e238-4850-9f95-c068352428a4", "47ec3b32-aa5e-4710-9e06-88365462af34" ]
 }, {
-  "id" : "d41a5a8d-7436-4a1a-b2fc-0f646561d83b",
+  "id" : "38f7e19a-6589-44ca-8a89-0ff8b30c7567",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null,
+  "parentGroup" : "32fb7ff4-2cb1-40df-bd16-376e99fe9f76",
+  "removedFromParent" : [ "eb3f1e63-b236-465a-9736-62e9de6c05b1", "6b318076-ed9e-410a-86b6-f093a9f20682" ]
+}, {
+  "id" : "937c5293-537f-4e07-80af-7714666fd2bc",
   "name" : "Personal",
   "description" : "Personal group",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -56,7 +78,7 @@ Content-Length: 3094
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "649b5576-2e33-4a7d-a796-68f02cbb7049",
+  "id" : "bfaadb19-249a-4d2d-acd9-221607f6ba6f",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -77,27 +99,5 @@ Content-Length: 3094
   "backgroundColor" : null,
   "parentGroup" : null,
   "removedFromParent" : null
-}, {
-  "id" : "7cb8c097-ab5f-4f41-b1d8-c09e228a9ffe",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null,
-  "parentGroup" : "6044c50b-a8ed-412c-975c-7b3937ebdba6",
-  "removedFromParent" : [ "15beb6d2-94df-4303-8f9e-9b8314ce6e10", "ac92c0bf-0593-4fd6-a2aa-4a52755e8946" ]
 } ]
 ----
