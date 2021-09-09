@@ -5,7 +5,7 @@
   "name" : "Gardening",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "ded11ac4-9955-4de4-960a-5640cd1118d0",
+  "groupId" : "60423339-1581-4144-88c1-2b1312bae748",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

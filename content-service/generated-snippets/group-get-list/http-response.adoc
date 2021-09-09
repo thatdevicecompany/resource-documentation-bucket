@@ -12,14 +12,14 @@ X-Frame-Options: DENY
 Content-Length: 3530
 
 [ {
-  "id" : "39aabe50-b337-4122-97e6-5fb5cf250fc5",
-  "name" : "Biographies",
-  "description" : "Read about the life stories of famous figures throughout history",
-  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
+  "id" : "dfa81387-cfcf-4d6b-a2f2-1a98f826c912",
+  "name" : "Breezie",
+  "description" : "Default content for Breezie users",
+  "imageUrl" : "https://breezie.com/logo",
   "backgroundImageUrl" : null,
   "scope" : {
-    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
-    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
+    "organizationId" : null,
+    "regionId" : null,
     "campusId" : null,
     "facilityId" : null,
     "userId" : null
@@ -34,7 +34,7 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "1052800c-d650-47a1-8924-10eb25e30201",
+  "id" : "a31afba1-0a0a-4453-8033-4eade18573ab",
   "name" : "Games",
   "description" : "Master the art of board games",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Games.png",
@@ -56,7 +56,7 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "a502c1e8-39eb-481c-92c0-e7392fbc6504",
+  "id" : "67f3f0b4-5385-4213-8250-225834af3abb",
   "name" : "Entertainment",
   "description" : "Entertainment",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Entertaiment.png",
@@ -78,7 +78,7 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "d947fc9e-5c4b-41db-953e-dc283c6ed04d",
+  "id" : "401b0a41-2f66-47c3-9309-b4eca66ff72d",
   "name" : "Books",
   "description" : "Discover a library of diverse books",
   "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Books.png",
@@ -100,14 +100,14 @@ Content-Length: 3530
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "fb05e9bb-f26a-4c5f-b5a6-e7a2279cacd2",
-  "name" : "Breezie",
-  "description" : "Default content for Breezie users",
-  "imageUrl" : "https://breezie.com/logo",
+  "id" : "09820214-4391-4402-b7f9-26f4e1f60d2d",
+  "name" : "Biographies",
+  "description" : "Read about the life stories of famous figures throughout history",
+  "imageUrl" : "http://static.breezie.com.s3.amazonaws.com/assets/Interest%20Icons/Icons/interest-icons_Biography.png",
   "backgroundImageUrl" : null,
   "scope" : {
-    "organizationId" : null,
-    "regionId" : null,
+    "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
+    "regionId" : "ee99aed2-acb8-4559-a1c3-e605ea3a653b",
     "campusId" : null,
     "facilityId" : null,
     "userId" : null
