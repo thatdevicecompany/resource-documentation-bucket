@@ -3,7 +3,7 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "053d0252a383c0e1adabd273aa29681fe"
+ETag: "01ae4453a0c009dcda215378dcad174b3"
 Content-Length: 304
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -11,7 +11,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "id" : "3c1c5aff-6300-444c-902b-fa11ef46fc5f",
+  "id" : "a22befa6-0075-44fa-a047-86c96a1a47f5",
   "userId" : "4809459f-3d27-46fd-8a59-b6b8204d2838",
   "email" : "mike.owen@email.com",
   "firstName" : "Mike",
