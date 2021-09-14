@@ -12,10 +12,10 @@ X-Frame-Options: DENY
 Content-Length: 921
 
 [ {
-  "id" : "7d21e76d-a685-4467-a960-e3ee688a0c5d",
+  "id" : "3247a7ed-57c2-4609-9418-59a2b4796c5c",
   "name" : "Engagement module groups",
   "description" : "Groups for all standard users in 'organization A'",
-  "groups" : [ "56ca0725-90db-4e91-b47b-482bee729427", "1141bdc3-eea9-4e5e-bd19-9367645b8b10", "f6cb713c-7e29-4ecd-bf4e-80e9371f57fe" ],
+  "groups" : [ "9ecc25c3-d47b-490c-a1fe-3f451ac61c98", "b1696e94-4671-4ca4-8555-5ba9ecca04c1", "9bea5ba6-0c0d-4746-b10b-4bf596cb45ba" ],
   "scope" : {
     "organizationId" : "9f45ebba-546d-49c7-bcbc-aa19b68a3d3f",
     "regionId" : null,
@@ -24,10 +24,10 @@ Content-Length: 921
     "userId" : null
   }
 }, {
-  "id" : "73301831-703c-4dcf-9bf5-cf9c28caa3da",
+  "id" : "f633052e-a402-42ee-9d4c-9b06abfab5b9",
   "name" : "Initial Breezie Content",
   "description" : "Basic initial content for a standard device configuration",
-  "groups" : [ "1fca9e77-7714-4ced-960c-52a6ef8dae7a", "d27b342a-9d62-4cdd-8b04-baad70ccbf02", "04b39ba1-04f0-4012-b6c4-644d37e71f44" ],
+  "groups" : [ "c7179d39-95d5-42e4-8c1f-01f5a483be1f", "8a5f5cf1-3d48-4af6-a90d-ddd73c936df1", "b32a905f-0a6d-4979-b996-3bb19d06f865" ],
   "scope" : {
     "organizationId" : null,
     "regionId" : null,
