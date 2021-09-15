@@ -18,9 +18,9 @@ $ echo '{
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "0a90dc06-79e9-4719-89f7-e4488a6316f1",
-  "removedFromParent" : [ "52138220-f338-4000-8b86-8530f28ef5ba", "18df4e89-daa7-43b0-9e33-6006b48eaf05" ]
-}' | http PUT 'https://api.breezie.com/groups/8f8a9381-2f78-45b2-ad20-4e46e50f7144' \
+  "parentGroup" : "c08c0adc-db9d-47de-8d9b-1f1be80bd276",
+  "removedFromParent" : [ "606b3f2c-79ba-423c-b9a9-72ff1c12bfb1", "8e821ade-9197-45ff-a1ff-b899b64ffaf5" ]
+}' | http PUT 'https://api.breezie.com/groups/1012a800-7c53-4b88-b8fc-077cee1e8bbb' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----

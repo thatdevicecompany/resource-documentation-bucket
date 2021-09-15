@@ -21,7 +21,7 @@ $ curl 'https://api.breezie.com/groups' -i -X POST \
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "ddf96ad2-40cd-4894-aed3-92ccb4982338",
-  "removedFromParent" : [ "0609462a-0e74-4289-9a9f-e61f805aa18a", "5b860046-d24f-40ef-a44b-7cd8ddec61d4" ]
+  "parentGroup" : "c165ffa7-b3aa-4682-b13b-7940a0278bcf",
+  "removedFromParent" : [ "6b58297b-ba36-41a6-91cd-2a86d3a9b53a", "b71741e0-591b-4290-9ad5-785dc9f9b078" ]
 }'
 ----
