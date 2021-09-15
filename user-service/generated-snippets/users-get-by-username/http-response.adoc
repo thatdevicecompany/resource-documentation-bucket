@@ -3,7 +3,7 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "0691682c038eb211621d071e353866397"
+ETag: "001af29090ad85254a4ff07ad14dc5af5"
 Content-Length: 715
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
@@ -26,7 +26,7 @@ X-Frame-Options: DENY
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "47d8457e-c30c-4fab-a893-19b567b3f597" ],
+  "sponsors" : [ "a249b283-72a0-4707-9446-a5fa1489b6e1" ],
   "sponsees" : [ ]
 }
 ----
