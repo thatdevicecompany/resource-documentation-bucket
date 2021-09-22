@@ -5,7 +5,7 @@
   "name" : "Summer Gardering",
   "imageUrl" : "www.gardening.com/image.jpg",
   "note" : "This is a bookmark about gardening",
-  "groupId" : "2145943a-b563-4e61-93b4-5840e6da95af",
+  "groupId" : "f8a82c08-a394-47ae-8dbb-b1ba6ea52e89",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

@@ -1,7 +1,7 @@
 [source,options="nowrap"]
 ----
 {
-  "id" : "953048e2-d8a5-4350-b2a9-800410e40ebd",
+  "id" : "b4ee7dee-454c-430a-a1d1-d0d12e5bdcac",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
@@ -20,7 +20,7 @@
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "14b85bb5-8a94-41f8-bba9-405ed034ff28",
+  "parentGroup" : "6dbd2412-95da-4a3b-9101-4a888d9bc7ea",
   "removedFromParent" : null
 }
 ----
