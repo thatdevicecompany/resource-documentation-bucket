@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/devices/b8abf7e7-d980-45a0-856a-0231808d0825' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/devices/6a4a8e10-4219-4a58-a660-317a5779339b' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "serialNumber" : "R52K706QYTPZ",
   "androidId" : "35121d98a70f4140",
   "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a",
