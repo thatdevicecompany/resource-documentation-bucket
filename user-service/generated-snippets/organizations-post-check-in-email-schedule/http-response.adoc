@@ -10,7 +10,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 {
-  "scheduleId" : "0beb7d2f-968c-4fbe-9558-263261e97b16",
+  "scheduleId" : "f962cb6f-714a-48a1-ab95-98655622fac6",
   "receivers" : "test1@breezie.com,test2@breezie.com",
   "hour" : 9,
   "minute" : 30,
