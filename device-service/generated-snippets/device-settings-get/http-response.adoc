@@ -2,7 +2,7 @@
 ----
 HTTP/1.1 200 OK
 Content-Type: text/plain;charset=ISO-8859-1
-Content-Length: 679
+Content-Length: 985
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -22,6 +22,9 @@ X-Frame-Options: DENY
     "timeFormat" : "YYYY-MM-DD"
   },
   "region" : "UK",
+  "startScreenLogoUrl" : "https://play-lh.googleusercontent.com/LJYTR7O6FhgmgKz8DWjdwOrjSwotEjj1cRzRXiwe-ku-iD-jvvYKAkFpoRXz40VthHg",
+  "startScreenWallpaperUrl" : "https://play-lh.googleusercontent.com/QIEQ60myiM7VZf6H7MZxxuArEeIQetJR1H-BPbOD6fRU5GUq54FVI0SSc_fLWIu0Dg=w412-h220-rw",
+  "autoTime" : true,
   "volume" : 50,
   "allowAppsUninstall" : [ "com.breezie.com.apps.startscreen", "com.breezie.apps.bookmarks", "com.breezie.apps.settings" ],
   "screenBrightness" : 7,

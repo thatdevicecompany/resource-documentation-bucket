@@ -1,8 +1,8 @@
 [source,http,options="nowrap"]
 ----
-HTTP/1.1 201 Created
+HTTP/1.1 200 OK
 Content-Type: text/plain;charset=ISO-8859-1
-Content-Length: 491
+Content-Length: 490
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -12,7 +12,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 {
-  "usbDebugging" : false,
+  "usbDebugging" : true,
   "allowFactoryReset" : false,
   "allowDeviceAdminRemoval" : true,
   "allowBreezieAppRemoval" : false,
