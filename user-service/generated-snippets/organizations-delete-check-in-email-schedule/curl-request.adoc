@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/organizations/test-organization-id/check-in-email-schedules/3695d960-9842-4edb-9f40-3107711b1d26' -i -X DELETE -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
+$ curl 'https://api.breezie.com/organizations/test-organization-id/check-in-email-schedules/3795a8fa-3e0b-42a5-9724-8b143007785d' -i -X DELETE -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
