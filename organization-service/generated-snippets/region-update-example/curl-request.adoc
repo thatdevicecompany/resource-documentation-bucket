@@ -1,8 +1,8 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/regions/d3de2817-3f8a-4d47-a923-f83ac0101e8f' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/regions/698388df-de1d-4209-8e9f-cc9c64f7651e' -i -X PUT -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{
   "name" : "Maramures",
   "country" : "Romania",
-  "organizationId" : "231c75c0-7f1e-45a3-933b-48f186f4c200"
+  "organizationId" : "2badb167-8145-4f12-868b-4143aebdacd7"
 }'
 ----
