@@ -7,7 +7,7 @@ Host: api.breezie.com
 Content-Length: 141
 
 {
-  "devices" : [ "402ab666-31f3-4fdf-bde9-b20c2ebcd762", "5f657db7-898b-4a71-ba80-6ae33526c860" ],
+  "devices" : [ "acf9b01a-2a4a-4ea0-8a6d-f51a130d2475", "9e8e20e1-8ef7-4061-ac66-158df28a4310" ],
   "messageType" : "all",
   "data" : { }
 }
