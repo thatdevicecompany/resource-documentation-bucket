@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/devices/21695147-6d4f-457e-a509-2ac29b4928d2' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
+$ curl 'https://api.breezie.com/devices/cbfdcf52-efad-4886-887b-4c316b62431a' -i -X PATCH -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' -H 'Content-Type: application/json' -d '{
   "serialNumber" : null,
   "androidId" : null,
   "userId" : null,

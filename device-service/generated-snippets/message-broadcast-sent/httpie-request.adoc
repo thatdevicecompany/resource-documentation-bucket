@@ -8,5 +8,5 @@ $ echo '{
     "className" : "com.breezie.client.notifier.FutureEvent",
     "packageName" : "app:com.breezie.apps.notifier"
   }
-}' | http POST 'https://api.breezie.com/devices/a74fa85e-ab3a-4058-9a1e-c3ab5eee667f/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
+}' | http POST 'https://api.breezie.com/devices/53670077-3be3-4b15-b422-427f0e5aac6c/messages' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json;charset=UTF-8'
 ----
