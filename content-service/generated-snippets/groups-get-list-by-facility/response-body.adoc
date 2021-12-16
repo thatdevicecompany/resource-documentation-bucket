@@ -1,7 +1,29 @@
 [source,options="nowrap"]
 ----
 [ {
-  "id" : "a099ffe5-6f9c-4910-a78b-b09789333532",
+  "id" : "1cb24a1f-129d-4f25-bf95-c03599178de5",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : "#f1f1f1",
+  "parentGroup" : "73bafa03-e310-49c2-bb16-d5bae695ecb1",
+  "removedFromParent" : [ "e1213e6e-dc82-4bd2-a200-53542f81c396", "08b02482-3ada-48f0-b099-06547ac45df0" ]
+}, {
+  "id" : "866cf875-1933-465c-b4fd-ce5393956b22",
   "name" : "Personal",
   "description" : "Personal group",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -23,51 +45,7 @@
   "parentGroup" : null,
   "removedFromParent" : null
 }, {
-  "id" : "f5f57756-a5f5-4e0e-90d4-ae09c99f9b68",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : null,
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : null,
-  "parentGroup" : "01fa73c5-d739-4025-be06-2a2f659bd3bd",
-  "removedFromParent" : [ "2728b2d5-6495-490e-beaa-88898e22fb05", "10e5afb0-9839-480f-b8b0-015118206348" ]
-}, {
-  "id" : "3115e679-f5ed-48df-9e82-ad815432e1fd",
-  "name" : "Gardening",
-  "description" : "A group for all the gardening enthusiasts",
-  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
-  "backgroundImageUrl" : "www.gardening-group.co.uk/background.png",
-  "scope" : {
-    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
-    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
-    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
-    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
-    "userId" : null
-  },
-  "isDefault" : true,
-  "promote" : false,
-  "forced" : false,
-  "hidden" : true,
-  "personal" : false,
-  "hideOnHub" : false,
-  "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "f5f57756-a5f5-4e0e-90d4-ae09c99f9b68",
-  "removedFromParent" : [ "c8915e60-1064-40bb-a261-4d5dd7bd3828", "0dbe0a5c-7780-445e-a116-580df3d08ac0" ]
-}, {
-  "id" : "0c97fdb5-3223-4e4e-b5f1-e3b692827795",
+  "id" : "323aaa67-e7e6-48c0-baa1-b53c8668848f",
   "name" : "Cinema",
   "description" : "A group for all the cinema enthusiasts",
   "imageUrl" : "www.cinema-group.co.uk/logo.jpg",
@@ -88,5 +66,27 @@
   "backgroundColor" : null,
   "parentGroup" : null,
   "removedFromParent" : null
+}, {
+  "id" : "73bafa03-e310-49c2-bb16-d5bae695ecb1",
+  "name" : "Gardening",
+  "description" : "A group for all the gardening enthusiasts",
+  "imageUrl" : "www.gardening-group.co.uk/logo.jpg",
+  "backgroundImageUrl" : null,
+  "scope" : {
+    "organizationId" : "48865325-ddb0-4dc5-ac55-d7729794b8ec",
+    "regionId" : "9105e5a5-acba-4c00-8f5d-5b8fccd80da0",
+    "campusId" : "e9f7a654-7135-4b10-afa3-c3a97319c823",
+    "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
+    "userId" : null
+  },
+  "isDefault" : true,
+  "promote" : false,
+  "forced" : false,
+  "hidden" : true,
+  "personal" : false,
+  "hideOnHub" : false,
+  "backgroundColor" : null,
+  "parentGroup" : "f7a48003-a59d-4af2-bb98-b359b87b6f32",
+  "removedFromParent" : [ "4ad68074-daca-45d6-b9a1-2ed68c14d7f3", "e3525344-8a94-47c1-b0e3-8cf18190fc4d" ]
 } ]
 ----

@@ -15,7 +15,7 @@ $ echo '{
   "backgroundColor" : null,
   "parentGroup" : null,
   "removedFromParent" : null
-}' | http PATCH 'https://api.breezie.com/groups/c71ded57-580e-4593-bfa0-4cdd93c0d145' \
+}' | http PATCH 'https://api.breezie.com/groups/623a21e8-fd13-4c61-932c-515453eb1d11' \
     'Content-Type:application/json' \
     'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42'
 ----
