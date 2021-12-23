@@ -9,5 +9,5 @@ $ echo '{
   "fcmToken" : null,
   "enabled" : false,
   "scope" : null
-}' | http PATCH 'https://api.breezie.com/devices/063f3713-d1eb-4ab6-9237-44297f85e8e8' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
+}' | http PATCH 'https://api.breezie.com/devices/25308bf0-7072-4cdd-a675-ce3102ea8bc9' 'Authorization: Bearer:0b79bab50daca910b000d4f1a2b675d604257e42' 'Content-Type:application/json'
 ----
