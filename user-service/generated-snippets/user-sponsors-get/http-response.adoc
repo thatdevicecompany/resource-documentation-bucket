@@ -3,15 +3,15 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "0e205478d3aefedce2d6797aa9b54e923"
-Content-Length: 556
+ETag: "065d56b084181134b548aa91a8976b302"
+Content-Length: 581
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "id" : "7a170cd9-8037-4d84-93f0-764a3be1e9d1",
+  "id" : "3d0e6e1f-7934-4b26-80bc-8172d33e0167",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",
@@ -25,6 +25,7 @@ X-Frame-Options: DENY
   },
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
+  "profileUser" : false,
   "roles" : [ "ROLE_S" ],
   "sponsors" : [ ],
   "sponsees" : [ "4809459f-3d27-46fd-8a59-b6b8204d2838" ]

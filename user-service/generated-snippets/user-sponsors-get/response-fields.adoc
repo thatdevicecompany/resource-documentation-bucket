@@ -29,6 +29,10 @@
 |`String`
 |Url of the profile image
 
+|`[].profileUser`
+|`Boolean`
+|Boolean to distinguish whether a user is a 'profile user' or not
+
 |`[].scope.organizationId`
 |`Null`
 |ID of the organization that the user belongs to

@@ -3,15 +3,15 @@
 HTTP/1.1 200 OK
 X-Application-Context: application:test:-1
 Content-Type: application/json;charset=UTF-8
-ETag: "0ca843951db8d0094d1da8e220e07a89a"
-Content-Length: 2372
+ETag: "0844e6844b639c1cb60d4d09c7d06b7e7"
+Content-Length: 2472
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 
 [ {
-  "id" : "9c0bd738-4e84-4036-ac5e-fb0965694438",
+  "id" : "3bbdead7-608f-4f27-9f21-fc54e9b30fa6",
   "username" : "sarah.francis@email.com",
   "firstName" : "Sarah",
   "lastName" : "Francis",
@@ -25,6 +25,7 @@ X-Frame-Options: DENY
   },
   "familiarity" : null,
   "welcomeNote" : null,
+  "profileUser" : false,
   "roles" : [ "ROLE_BW" ],
   "sponsors" : [ ],
   "sponsees" : [ ]
@@ -43,8 +44,9 @@ X-Frame-Options: DENY
   },
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
+  "profileUser" : false,
   "roles" : [ "ROLE_U" ],
-  "sponsors" : [ "08510cfa-6351-4290-9b2a-5f8957d5cf24" ],
+  "sponsors" : [ "831d1c0b-8f8a-48b6-9f72-858add4f85fe" ],
   "sponsees" : [ ]
 }, {
   "id" : "dft54er4-8709-9iyt-ht5r67ytg4df",
@@ -61,11 +63,12 @@ X-Frame-Options: DENY
   },
   "familiarity" : 2,
   "welcomeNote" : "Welcome to Breezie.",
+  "profileUser" : false,
   "roles" : [ "ROLE_U" ],
   "sponsors" : [ ],
   "sponsees" : [ ]
 }, {
-  "id" : "08510cfa-6351-4290-9b2a-5f8957d5cf24",
+  "id" : "831d1c0b-8f8a-48b6-9f72-858add4f85fe",
   "username" : "alicia.smith@email.com",
   "firstName" : "Alicia",
   "lastName" : "Smith",
@@ -79,6 +82,7 @@ X-Frame-Options: DENY
   },
   "familiarity" : 1,
   "welcomeNote" : "Welcome to Breezie.",
+  "profileUser" : false,
   "roles" : [ "ROLE_S" ],
   "sponsors" : [ ],
   "sponsees" : [ "4809459f-3d27-46fd-8a59-b6b8204d2838" ]
