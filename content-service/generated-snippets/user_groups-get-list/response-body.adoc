@@ -12,7 +12,7 @@
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "18310721-2da3-4bdf-83df-1e49d308c38a"
   },
-  "groupIds" : [ "f03bf836-a73b-4cbe-be10-835e35e3e5ca" ],
+  "groupIds" : [ "29f7cf29-f042-403b-a4fd-0a393c6646e8" ],
   "unsubscribedDefaultGroupIds" : [ ]
 }, {
   "id" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00",
@@ -26,7 +26,7 @@
     "facilityId" : "7ccae739-0817-46ef-b39c-4c695a6ec835",
     "userId" : "6v9105e5-acfccd80ba-8f5d-5b8da0-4c00"
   },
-  "groupIds" : [ "f03bf836-a73b-4cbe-be10-835e35e3e5ca" ],
+  "groupIds" : [ "29f7cf29-f042-403b-a4fd-0a393c6646e8" ],
   "unsubscribedDefaultGroupIds" : [ ]
 } ]
 ----

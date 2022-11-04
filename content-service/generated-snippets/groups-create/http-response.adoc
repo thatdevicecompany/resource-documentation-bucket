@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 763
 
 {
-  "id" : "4032236a-a028-4abc-b25d-dd8cab8fa07c",
+  "id" : "df43b932-0743-49c6-bdb6-8dfbd5f61937",
   "name" : "New group",
   "description" : "Group for testing purposes",
   "imageUrl" : "www.test-group.co.uk/logo.jpg",
@@ -31,7 +31,7 @@ Content-Length: 763
   "personal" : false,
   "hideOnHub" : false,
   "backgroundColor" : "#f1f1f1",
-  "parentGroup" : "c165ffa7-b3aa-4682-b13b-7940a0278bcf",
+  "parentGroup" : "92c48d97-9abc-40be-8d33-42cd4c006404",
   "removedFromParent" : null
 }
 ----

@@ -12,7 +12,7 @@ X-Frame-Options: DENY
 Content-Length: 679
 
 [ {
-  "id" : "4b394164-ac1b-4ea1-9ebe-d6a822f36abc",
+  "id" : "e459c8ea-431e-4eba-80c2-788d68bd2c3f",
   "name" : "Travelling",
   "description" : "A group for all the travelling enthusiasts",
   "imageUrl" : "www.travelling-group.co.uk/logo.jpg",

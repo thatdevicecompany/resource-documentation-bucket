@@ -6,7 +6,7 @@
   "productId" : "co.uk.demo.gardening",
   "iconUrl" : "https://www.gardening.com/image",
   "smallIconUrl" : "https://www.gardening.com/image/small",
-  "groupId" : "73259a8d-dec6-41e2-8f12-b8612d05267f",
+  "groupId" : "c8b4f465-a0ec-4005-88c0-9c2009956fe3",
   "forced" : false,
   "promote" : false,
   "hidden" : false,

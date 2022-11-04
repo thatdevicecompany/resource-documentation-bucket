@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'https://api.breezie.com/bookmarks/ee2fca94-d67c-49ae-b653-eccc6c95514e' -i -X PATCH \
+$ curl 'https://api.breezie.com/bookmarks/7028efaa-6896-4030-91dc-0e7ad3a62773' -i -X PATCH \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42' \
     -d '{
