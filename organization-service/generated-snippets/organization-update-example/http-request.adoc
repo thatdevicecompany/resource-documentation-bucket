@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-PUT /organizations/aa639d92-8b6b-4ba3-b6fb-c8495ef79223 HTTP/1.1
+PUT /organizations/84056c4a-f4a3-4be8-bb2b-76afbd826cf8 HTTP/1.1
 Authorization: Bearer: 0b79bab50daca910b000d4f1a2b675d604257e42
 Accept: application/json
 Content-Type: application/json
